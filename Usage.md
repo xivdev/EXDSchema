@@ -2,7 +2,7 @@
 
 ## Initial Creation
 To define a schema, you should create a file with the same name as the sheet it is defining.
-The name field must contain the name of the sheet as well. If we were to write a schema for `AozActionTransient`, we would do the following:
+The name field must contain the name of the sheet as well. If we were to write a schema for `AozActionTransient`, we would write the following in `AozActionTransient.yml`:
 
 ```yml
 name: AozActionTransient
@@ -220,7 +220,7 @@ A sheet's single column can link to multiple columns depending on another field 
 ```
 The targets array must contain all possible sheets that this field can link to.
 When defining the link, add a `condition` object with a `switch` key that defines the field to switch on the value of.
-The `cases` dictionary contains arrays of *the indexes of* sheets to resolve to when the case matches.
+The `cases` dictionary contains arrays of *the indexes of the desired sheet(s) in the target array* to resolve to when the case matches.
 
 Yes, the `case` dictionary may contain an *array*. This means that each case can be a [multi link](#multi-link) as well. Take `Item` for example:
 ```yml
@@ -259,4 +259,4 @@ Yes, the `case` dictionary may contain an *array*. This means that each case can
 The `AdditionalData` column does a lot of heavy lifting. We can assume during game execution that the use of the field is heavily based on context,
 but for research and data exploration, having the ability to define the exact sheet is very useful. Here, we can see that when `FilterGroup` is `14`,
 we can link to any of `HousingExterior`, `HousingInterior`, `HousingYardObject`, `HousingFurniture`, `HousingPreset`, or finally `HousingUnitedExterior`.
-This works because the value for `AdditionalData` are distinct ranges, even when `FilterGroup` is 14, thus allowing the definition here to behave like a multi link.
+This works because the value for `AdditionalData` are distinct ranges, even when `FilterGroup` is `14`, thus allowing the definition here to behave like a multi link.
