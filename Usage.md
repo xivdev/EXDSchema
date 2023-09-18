@@ -47,14 +47,14 @@ fields:
   - name: CauseBind
   - name: CauseDeath
 ```
-This schema is valid because it is accurate - not in name, but in structure. It defines a field for each column in the EXH file as of 6.48.
+This schema is valid because it is accurate in structure. It defines a field for each column in the EXH file as of 6.48.
 
 ### Types
 Valid types for fields in a schema are `scalar`, `array`, `icon`, `modelId`, and `color`.
 
 #### scalar
-The default type. If the `type` is omitted from a field, it will be assumed to be a scalar. Effectively does nothing except tell consumers that 
-"this field is not an array".
+The default type. If the `type` is omitted from a field, it will be assumed to be a `scalar`. Effectively does nothing except tell consumers that 
+"this field is not an `array`".
 
 #### icon : uint32
 In the above AozActionTransient example,
@@ -66,21 +66,21 @@ can become
   - name: Icon
     type: icon
 ```
-While this may seem redundant, there are many fields in column that refer to an icon within the `06`, or the `ui/` category,
-but the field itself is just a uint32. This is a hint for any consumer that attempts to display this field that the data in this column
+While this may seem redundant, there are many fields in sheets that refer to an icon within the `06`, or the `ui/` category,
+but the field itself is just a `uint32`. This is a hint for any consumer that attempts to display this field that the data in this column
 can be used to format an icon path, like generating `ui/icon/132000/132122_hr1.tex` when the field contains `132122`, without the consumer having
 to manually determine which columns contain icons.
 
 #### modelId : uint32, uint64
-Model IDs in the game are packed into either a uint32 or a uint64.
+Model IDs in the game are packed into either a `uint32` or a `uint64`.
 
-uint32 packing is like so:
+`uint32` packing is like so:
 ```
 uint16 modelId
 uint8 variantId
 uint8 stain
 ```
-uint64 packing is like so:
+`uint64` packing is like so:
 ```
 uint16 skeletonId
 uint16 modelId
@@ -211,50 +211,36 @@ A sheet's single column can link to multiple columns depending on another field 
   - name: Location
     comment: PlaceName when LocationKey is 1, ContentFinderCondition when LocationKey is 4
     link:
-      target: [PlaceName, ContentFinderCondition]
       condition:
         switch: LocationKey
         cases:
-          1: [0]
-          4: [1]
+          1: [PlaceName]
+          4: [ContentFinderCondition]
 ```
-The targets array must contain all possible sheets that this field can link to.
+The targets array is not required for conditional links.
 When defining the link, add a `condition` object with a `switch` key that defines the field to switch on the value of.
-The `cases` dictionary contains arrays of *the indexes of the desired sheet(s) in the target array* to resolve to when the case matches.
+The `cases` dictionary contains arrays of the sheet to reference when the case matches.
 
 Yes, the `case` dictionary may contain an *array*. This means that each case can be a [multi link](#multi-link) as well. Take `Item` for example:
 ```yml
   - name: AdditionalData
     link:
-      target:
-        - Stain
-        - TreasureHuntRank
-        - GardeningSeed
-        - AetherialWheel
-        - CompanyAction
-        - TripleTriadCard
-        - AirshipExplorationPart
-        - Orchestrion
-        - SubmarinePart
-        - HousingExterior
-        - HousingInterior
-        - HousingYardObject
-        - HousingFurniture
-        - HousingPreset
-        - HousingUnitedExterior
       condition:
         switch: FilterGroup
         cases:
-          14: [9, 10, 11, 12, 13, 14]
-          15: [0]
-          18: [1]
-          20: [2]
-          25: [3]
-          26: [4]
-          27: [5]
-          28: [6]
-          32: [7]
-          36: [8]
+          14: [HousingExterior, HousingInterior,
+               HousingYardObject, HousingFurniture,
+               HousingFurniture, HousingPreset, 
+               HousingUnitedExterior]
+          15: [Stain]
+          18: [TreasureHuntRank]
+          20: [GardeningSeed]
+          25: [AetherialWheel]
+          26: [CompanyAction]
+          27: [TripleTriadCard]
+          28: [AirshipExplorationPart]
+          32: [Orchestrion]
+          36: [SubmarinePart]
 ```
 The `AdditionalData` column does a lot of heavy lifting. We can assume during game execution that the use of the field is heavily based on context,
 but for research and data exploration, having the ability to define the exact sheet is very useful. Here, we can see that when `FilterGroup` is `14`,
