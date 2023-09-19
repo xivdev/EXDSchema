@@ -10,7 +10,7 @@
     <ItemGroup>
       <PackageReference Include="Lumina" Version="3.11.0" />
       <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-      <PackageReference Include="YamlDotNet" Version="13.3.1" />
+      <PackageReference Include="SharpYaml" Version="2.1.0" />
     </ItemGroup>
 
 

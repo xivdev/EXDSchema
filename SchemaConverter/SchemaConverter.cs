@@ -123,17 +123,17 @@ public class SchemaConverter
 				Name = col.Name,
 				Type = col.Type switch
 				{
-					"quad" => FieldType.modelId,
-					"icon" => FieldType.icon,
-					"color" => FieldType.color,
-					_ => FieldType.scalar,
+					"quad" => FieldType.ModelId,
+					"icon" => FieldType.Icon,
+					"color" => FieldType.Color,
+					_ => FieldType.Scalar,
 				},
 				Link = col.Link,
 			};
 			newSchema.Fields.Add(field);
 		}
 		
-		var newSchemaStr = SerializeUtil.Serialize(newSchema);
+		var newSchemaStr = SerializeUtil3.Serialize(newSchema);
 		File.WriteAllText(newSchemaPath, newSchemaStr);
 		
 		return true;
