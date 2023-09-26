@@ -157,16 +157,12 @@ fields:
         type: array
         count: 3
       - name: Quest
-        type: array
-        count: 2
-        fields:
-          - type: link
-            targets: [Quest]
+        type: link
+        targets: [Quest]
       - name: Unknown
       - name: AchievementUnlock
-        fields:
-          - type: link
-            targets: [Achievement]
+        type: link
+        targets: [Achievement]
       - name: CollectabilityCost
         type: array
         count: 3
@@ -175,7 +171,7 @@ fields:
         type: array
         count: 3
       - type: array
-        count: 3
+        count: 2
       - name: ReceiveHq
         type: array
         count: 3
@@ -202,7 +198,7 @@ struct SpecialShop
         example_type Item[2];
         example_type Category[2];
         example_type ItemCost[3];
-        example_type Quest[2];
+        example_type Quest;
         example_type Unknown;
         example_type AchievementUnlock;
         example_type CollectabilityCost[3];
