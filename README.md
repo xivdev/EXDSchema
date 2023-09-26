@@ -32,7 +32,7 @@ The schema includes the following:
 - Maps out-of-the-box to a very simple object mapping
 - JSON schema for the schema itself, providing IDE completion and error-checking
 - Example code
-  - A C# project that perform the conversion from the 
+  - A C# project that perform a partial conversion from the 
     common JSON schemas ("SC Schema") to the EXDSchema format
   - A C# project that will validate EXDSchemas against a given game installation
   - A tool for editing schemas and viewing the results of parsing on-the-fly

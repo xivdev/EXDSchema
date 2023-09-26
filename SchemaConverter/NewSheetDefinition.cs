@@ -14,6 +14,7 @@ public enum FieldType
 	Icon,
 	ModelId,
 	Color,
+	Link,
 }
 
 public class Sheet
@@ -47,24 +48,18 @@ public class Field
 	public List<Field>? Fields { get; set; }
 	
 	[YamlMember(5)]
-	public Link? Link { get; set; }
-}
-
-public class Link
-{
-	[YamlMember(0)]
 	public Condition? Condition { get; set; }
 	
-	[YamlMember(1)]
+	[YamlMember(6)]
 	[YamlStyle(YamlStyle.Flow)]
-	public List<string> Target { get; set; }
+	public List<string>? Targets { get; set; }
 }
 
 public class Condition
 {
 	[YamlMember(0)]
-	public string Switch { get; set; }
+	public string? Switch { get; set; }
 	
 	[YamlMember(1)]
-	public Dictionary<int, List<string>> Cases { get; set; } 
+	public Dictionary<int, List<string>>? Cases { get; set; } 
 }

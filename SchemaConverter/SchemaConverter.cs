@@ -1,4 +1,4 @@
-﻿using Lumina;
+using Lumina;
 using Lumina.Data.Files.Excel;
 using Lumina.Data.Structs.Excel;
 using Newtonsoft.Json;
@@ -9,7 +9,7 @@ namespace SchemaConverter;
 
 public class SchemaConverter
 {
-	private static readonly New.Link _genericReferenceLink = new() {Target = new List<string>()};
+	private static readonly List<string> _genericReferenceLink = new();
 
 	private static void EnumerateGenericReferenceTargets(string oldSchemaDir)
 	{
@@ -22,7 +22,7 @@ public class SchemaConverter
 				targets.Add(oldSchema.SheetName);
 			}
 		}
-		_genericReferenceLink.Target.AddRange(targets);
+		_genericReferenceLink.AddRange(targets);
 	}
 	
 	public static void Main(string[] args)
@@ -128,8 +128,11 @@ public class SchemaConverter
 					"color" => FieldType.Color,
 					_ => FieldType.Scalar,
 				},
-				Link = col.Link,
+				Condition = col.Condition,
+				Targets = col.Targets,
 			};
+			if (field.Condition != null || field.Targets != null)
+				field.Type = FieldType.Link;
 			newSchema.Fields.Add(field);
 		}
 		
@@ -166,7 +169,8 @@ public class SchemaConverter
 
 	private static void EmitSingle(List<ColumnInfo> infos, Old.Definition definition, bool isArray, int? arrayIndex, ref int index)
 	{
-		infos.Add(new ColumnInfo(definition, index++, isArray, arrayIndex, ConvertLink(definition.Converter)));
+		var link = ConvertLink(definition.Converter);
+		infos.Add(new ColumnInfo(definition, index++, isArray, arrayIndex, link.condition, link.targets));
 	}
 	
 	private static void EmitRepeat(List<ColumnInfo> infos, Old.Definition definition, ref int index)
@@ -199,40 +203,38 @@ public class SchemaConverter
 		}
 	}
 	
-	private static New.Link ConvertLink(Old.Converter oldLink)
+	private static (Condition? condition, List<string>? targets) ConvertLink(Old.Converter oldLink)
 	{
-		if (oldLink == null) return null;
+		if (oldLink == null) return (null, null);
 		
-		var newLink = new New.Link();
 		if (oldLink.Type == "generic")
 		{
-			return _genericReferenceLink;
+			return (null, _genericReferenceLink);
 		}
 		else if (oldLink.Type == "link")
 		{
-			newLink.Target = new List<string>() {oldLink.Target};
+			return (null, new List<string> {oldLink.Target});
 		}
 		else if (oldLink.Type == "multiref")
 		{
-			newLink.Target = oldLink.Targets;
+			return (null, oldLink.Targets);
 		}
 		else if (oldLink.Type == "complexlink")
 		{
 			if (oldLink.Links[0].Project != null)
 			{
-				return null;
+				return (null, null);
 			}
-			newLink.Condition = new Condition();
-			newLink.Condition.Switch = oldLink.Links[0].When.Key;
-			newLink.Condition.Cases = new Dictionary<int, List<string>>();
+			var condition = new Condition();
+			condition.Switch = oldLink.Links[0].When.Key;
+			condition.Cases = new Dictionary<int, List<string>>();
 			foreach (var oldLinkLink in oldLink.Links)
-				newLink.Condition.Cases.Add(oldLinkLink.When.Value, oldLinkLink.Sheets);
+				condition.Cases.Add(oldLinkLink.When.Value, oldLinkLink.LinkedSheet == null ? oldLinkLink.Sheets : new List<string> { oldLinkLink.LinkedSheet });
+			return (condition, null);
 		}
 		else
 		{
-			return null;
+			return (null, null);
 		}
-
-		return newLink;
 	}
 }

@@ -1,4 +1,5 @@
 ﻿using Lumina.Data.Structs.Excel;
+using SchemaConverter.New;
 
 namespace SchemaConverter;
 
@@ -11,11 +12,12 @@ public class ColumnInfo
 	public ExcelColumnDataType DataType { get; set; }
 	public bool IsArrayMember { get; set; }
 	public int? ArrayIndex { get; set; }
-	public New.Link? Link { get; set; }
+	public Condition? Condition { get; set; }
+	public List<string>? Targets { get; set; }
 	
 	public ColumnInfo() { }
 
-	public ColumnInfo(Old.Definition def, int index, bool isArrayMember, int? arrayIndex, New.Link link)
+	public ColumnInfo(Old.Definition def, int index, bool isArrayMember, int? arrayIndex, Condition? condition, List<string>? targets)
 	{
 		var converterType = def.Converter?.Type;
 		var nameSuffix = isArrayMember ? $"[{arrayIndex}]" : "";
@@ -24,8 +26,11 @@ public class ColumnInfo
 		Type = converterType;
 		IsArrayMember = isArrayMember;
 		ArrayIndex = arrayIndex;
-		Link = link;
+		Condition = condition;
+		Targets = targets;
 	}
+	
+	
 
 	public override string ToString() => $"{Name} ({Index}@{BitOffset / 8}&{BitOffset % 8}) {Type} {IsArrayMember} {ArrayIndex}";
 }

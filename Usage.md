@@ -50,7 +50,7 @@ fields:
 This schema is valid because it is accurate in structure. It defines a field for each column in the EXH file as of 6.48.
 
 ### Types
-Valid types for fields in a schema are `scalar`, `array`, `icon`, `modelId`, and `color`.
+Valid types for fields in a schema are `scalar`, `link`, `array`, `icon`, `modelId`, and `color`.
 
 #### scalar
 The default type. If the `type` is omitted from a field, it will be assumed to be a `scalar`. Effectively does nothing except tell consumers that 
@@ -96,7 +96,37 @@ Some fields contain an RGB value for color in the ARGB format with no alpha. Thi
 columns' fields as actual colors rather than the raw value.
 
 #### array
-Array fields provide the ability to group and repeat nested structures. For example, the notorious SpecialShop sheet:
+Array fields provide the ability to group and repeat nested structures. These are the methods of declaring an array:
+```yml
+name: ExampleSheet
+fields:
+  - name: Array of scalars
+    comment: This array is just an array of scalars
+    type: array
+    count: 2
+  - name: Erroneous array
+    comment: This array fails schema validation because it contains the fields key with no fields
+    type: array
+    count: 2
+    fields: []
+  - name: Array of single explicit column
+    comment: Schema consumers should consider this an array of scalars that are also a link
+    type: array
+    count: 2
+    fields:
+      - type: link
+        targets: [Item]
+  - name: Array of structs
+    comment: This array is a list of structs
+    type: array
+    count: 2
+    fields:
+      - type: scalar
+      - type: scalar 
+```
+The comment on each array declaration describes what the array is declaring.
+
+For a more concrete example, let's look at `SpecialShop`:
 ```yml
 name: SpecialShop
 fields:
@@ -114,17 +144,29 @@ fields:
       - name: Item
         type: array
         count: 2
+        fields:
+          - type: link
+            targets: [Item]
       - name: Category
         type: array
         count: 2
+        fields:
+          - type: link
+            targets: [SpecialShopItemCategory]
       - name: ItemCost
         type: array
         count: 3
       - name: Quest
         type: array
         count: 2
+        fields:
+          - type: link
+            targets: [Quest]
       - name: Unknown
       - name: AchievementUnlock
+        fields:
+          - type: link
+            targets: [Achievement]
       - name: CollectabilityCost
         type: array
         count: 3
@@ -138,6 +180,8 @@ fields:
         type: array
         count: 3
   - name: Quest
+    type: link
+    targets: [Quest]
   - type: scalar
   - type: scalar
   - name: CompleteText
@@ -179,29 +223,29 @@ struct SpecialShop
 };
 ```
 As you can see, the overall schema is similar to defining structures in YML but omitting the actual data type.
-This nested capability allows you to define complex structures. However, to cut down on overall parsing complexity,
-based on existing knowledge of the EXH data, **you may only nest twice.**
+This nested capability allows you to define complex structures. From experience, we have seen that
+you should not need to nest more than 2 levels deep, but schema consumers should still support this.
 
 ### Linking
 The sheets that power the game are relational in nature, so the schema supports a few different kinds of linking.
 
 #### Single Link
-To define a link, simply add a link object:
+To define a single link, set the `type` to `link` and define the `targets` array:
 ```yml
   - name: Quest
-    link:
-      target: [Quest]
+    type: link
+    targets: [Quest]
 ```
-Note that the link target is an array of strings. They must be sheet names, and there must be at least one sheet. To link to one sheet, leave a single sheet in the array.
+Note that the link targets is an array of strings. They must be sheet names, and there must be at least one sheet. To link to one sheet, leave a single sheet in the array.
 
 #### Multi Link
 A sheet's single column can link to multiple columns:
 ```yml
   - name: Requirement
-    link:
-      target: [Quest, GrandCompany]
+    type: link
+    targets: [Quest, GrandCompany]
 ```
-In this case, disparate sheet key ranges will provide the ability to determine which sheet a link should resolve to.
+In this case, disparate sheet key ranges will provide the ability for consumers to determine which sheet a link should resolve to.
 For example, if a row's `Requirement` is `2`, it will resolve to `GrandCompany`, because row `2` exists in `GrandCompany` and not in `Quest.`
 The same thing happens in the other direction: if `Requirement` is `69208`, it will link to `Quest` and not `GrandCompany` for the same reason.
 
@@ -210,14 +254,14 @@ A sheet's single column can link to multiple columns depending on another field 
 ```yml
   - name: Location
     comment: PlaceName when LocationKey is 1, ContentFinderCondition when LocationKey is 4
-    link:
-      condition:
-        switch: LocationKey
-        cases:
-          1: [PlaceName]
-          4: [ContentFinderCondition]
+    type: link
+    condition:
+      switch: LocationKey
+      cases:
+        1: [PlaceName]
+        4: [ContentFinderCondition]
 ```
-The targets array is not required for conditional links.
+The targets array is not required for conditional links, and if both are specified, the file will fail schema validation.
 When defining the link, add a `condition` object with a `switch` key that defines the field to switch on the value of.
 The `cases` dictionary contains arrays of the sheet to reference when the case matches.
 
@@ -242,7 +286,7 @@ Yes, the `case` dictionary may contain an *array*. This means that each case can
           32: [Orchestrion]
           36: [SubmarinePart]
 ```
-The `AdditionalData` column does a lot of heavy lifting. We can assume during game execution that the use of the field is heavily based on context,
-but for research and data exploration, having the ability to define the exact sheet is very useful. Here, we can see that when `FilterGroup` is `14`,
+The `AdditionalData` column in `Item` does a lot of heavy lifting. We can assume during game execution that the use of the field is heavily based on context,
+but for research and data exploration, having the ability to define the exact sheet is useful. Here, we can see that when `FilterGroup` is `14`,
 we can link to any of `HousingExterior`, `HousingInterior`, `HousingYardObject`, `HousingFurniture`, `HousingPreset`, or finally `HousingUnitedExterior`.
 This works because the value for `AdditionalData` are distinct ranges, even when `FilterGroup` is `14`, thus allowing the definition here to behave like a multi link.
