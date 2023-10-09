@@ -1,0 +1,16 @@
+name: PetAction
+displayField: Name
+fields:
+  - name: Name
+  - name: Description
+  - name: Icon
+    type: icon
+  - name: Action
+    type: link
+    targets: [Action]
+  - name: Pet
+    type: link
+    targets: [Pet]
+  - name: MasterOrder
+  - name: DisableOrder
+  - name: Unknown7

@@ -1,0 +1,20 @@
+name: SkyIsland2MissionDetail
+displayField: Objective
+fields:
+  - name: Objective
+  - name: Unknown8
+  - name: Unknown9
+  - name: Unknown10
+  - name: EObj
+    type: link
+    targets: [EObjName]
+  - name: Unknown5
+  - name: Unknown6
+  - name: Type
+    type: link
+    targets: [SkyIsland2MissionType]
+  - name: Unknown1
+  - name: Range
+    type: link
+    targets: [SkyIsland2RangeType]
+  - name: Unknown3

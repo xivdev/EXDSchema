@@ -1,0 +1,28 @@
+name: WeeklyBingoRewardData
+displayField: RewardItem1
+fields:
+  - name: RewardItem1
+  - name: RewardItem2
+    type: link
+    condition:
+      switch: RewardType2
+      cases:
+        1: [Item]
+        2: [Tomestones]
+  - name: RewardItem3
+    type: link
+    condition:
+      switch: RewardType3
+      cases:
+        1: [Item]
+        2: [Tomestones]
+  - name: RewardQuantity1
+  - name: RewardQuantity2
+  - name: RewardQuantity3
+  - name: RewardType1
+  - name: Unknown1
+  - name: RewardType2
+  - name: RewardType3
+  - name: RewardHq2
+  - name: RewardHq3
+  - name: RewardHq1

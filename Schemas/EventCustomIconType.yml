@@ -1,0 +1,17 @@
+name: EventCustomIconType
+fields:
+  - name: Icons
+    type: array
+    count: 10
+    fields:
+    - name: AnnounceQuest
+      type: icon
+    - name: AnnounceQuestLocked
+      type: icon
+    - name: MapAnnounceQuest1
+      type: icon
+    - name: MapAnnounceQuestLocked
+      type: icon
+    - name: MapAnnounceQuest2
+      type: icon
+  - name: Unknown50

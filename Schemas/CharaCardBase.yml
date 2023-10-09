@@ -1,0 +1,14 @@
+name: CharaCardBase
+displayField: Name
+fields:
+  - name: Name
+  - name: Image
+    type: icon
+  - name: UnlockCondition
+    type: link
+    targets: [BannerCondition]
+  - name: SortKey
+  - name: FontColor
+  - name: Unknown4
+  - name: Unknown2
+  - name: Unknown3

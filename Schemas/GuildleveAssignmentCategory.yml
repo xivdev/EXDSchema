@@ -1,0 +1,9 @@
+name: GuildleveAssignmentCategory
+displayField: 
+fields:
+  - name: Category
+    type: array
+    count: 8
+    fields:
+    - type: link
+      targets: [LeveAssignmentType]

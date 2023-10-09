@@ -1,0 +1,22 @@
+name: HousingFurniture
+displayField: Item
+fields:
+  - name: UsageParameter
+  - name: CustomTalk
+    type: link
+    targets: [CustomTalk]
+  - name: Item
+    type: link
+    targets: [Item]
+  - name: ModelKey
+  - name: HousingItemCategory
+  - name: UsageType
+  - name: Unknown4
+  - name: AquariumTier
+  - name: Unknown10
+  - name: Unknown11
+  - name: Unknown12
+  - name: DestroyOnRemoval
+  - name: Unknown9
+  - name: Unknown13
+  - name: Unknown14

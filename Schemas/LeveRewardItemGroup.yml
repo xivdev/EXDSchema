@@ -1,0 +1,14 @@
+name: LeveRewardItemGroup
+fields:
+  - name: Item
+    type: array
+    count: 9
+    fields:
+    - type: link
+      targets: [Item]
+  - name: Count
+    type: array
+    count: 9
+  - name: IsHQ
+    type: array
+    count: 9

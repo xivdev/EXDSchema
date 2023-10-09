@@ -1,0 +1,12 @@
+name: GroupPoseFrame
+displayField: Text
+fields:
+  - name: Text
+  - name: GridText
+  - name: Unknown4
+  - name: Unknown0
+  - name: Image
+    type: icon
+  - name: Unknown3
+  - name: Unknown6
+  - name: Unknown5

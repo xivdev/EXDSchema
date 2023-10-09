@@ -1,0 +1,10 @@
+name: MJIStockyardManagementArea
+displayField: Area
+fields:
+  - name: Area
+    type: link
+    targets: [MJIText]
+  - name: RareMaterial
+    type: link
+    targets: [MJIItemPouch]
+  - name: Unknown1

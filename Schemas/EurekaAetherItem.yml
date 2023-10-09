@@ -1,0 +1,12 @@
+name: EurekaAetherItem
+displayField: Singular
+fields:
+  - name: Singular
+  - name: Plural
+  - name: Name
+  - name: Adjective
+  - name: PossessivePronoun
+  - name: StartsWithVowel
+  - name: Unknown5
+  - name: Pronoun
+  - name: Article

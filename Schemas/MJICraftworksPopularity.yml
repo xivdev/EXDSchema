@@ -1,0 +1,8 @@
+name: MJICraftworksPopularity
+fields:
+  - name: Popularity
+    type: array
+    count: 81
+    fields:
+    - type: link
+      targets: [MJICraftworksPopularityType]

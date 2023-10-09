@@ -1,0 +1,11 @@
+name: OnlineStatus
+displayField: Name
+fields:
+  - name: Name
+  - name: Icon
+    type: icon
+  - name: Unknown5
+  - name: Priority
+  - name: Unknown0
+  - name: List
+  - name: Unknown2

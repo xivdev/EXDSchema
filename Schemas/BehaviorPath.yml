@@ -1,0 +1,8 @@
+name: BehaviorPath
+fields:
+  - name: Speed
+  - name: IsTurnTransition
+  - name: IsFadeOut
+  - name: IsFadeIn
+  - name: IsWalking
+  - name: Unknown4

@@ -1,0 +1,50 @@
+name: CraftAction
+displayField: Name
+fields:
+  - name: Name
+  - name: Description
+  - name: QuestRequirement
+    type: link
+    targets: [Quest]
+  - name: CRP
+    type: link
+    targets: [CraftAction]
+  - name: BSM
+    type: link
+    targets: [CraftAction]
+  - name: ARM
+    type: link
+    targets: [CraftAction]
+  - name: GSM
+    type: link
+    targets: [CraftAction]
+  - name: LTW
+    type: link
+    targets: [CraftAction]
+  - name: WVR
+    type: link
+    targets: [CraftAction]
+  - name: ALC
+    type: link
+    targets: [CraftAction]
+  - name: CUL
+    type: link
+    targets: [CraftAction]
+  - name: AnimationStart
+    type: link
+    targets: [ActionTimeline]
+  - name: AnimationEnd
+    type: link
+    targets: [ActionTimeline]
+  - name: Icon
+    type: icon
+  - name: Unknown10
+  - name: ClassJobCategory
+    type: link
+    targets: [ClassJobCategory]
+  - name: ClassJobLevel
+  - name: Cost
+  - name: ClassJob
+    type: link
+    targets: [ClassJob]
+  - name: Specialist

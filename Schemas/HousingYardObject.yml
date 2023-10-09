@@ -1,0 +1,22 @@
+name: HousingYardObject
+displayField: Item
+fields:
+  - name: UsageParameter
+  - name: CustomTalk
+    type: link
+    targets: [CustomTalk]
+  - name: Item
+    type: link
+    targets: [Item]
+  - name: ModelKey
+  - name: HousingItemCategory
+  - name: UsageType
+  - name: Unknown4
+  - name: Unknown10
+  - name: Unknown11
+  - name: Unknown12
+  - name: DestroyOnRemoval
+  - name: Unknown8
+  - name: Unknown9
+  - name: Unknown13
+  - name: Unknown14

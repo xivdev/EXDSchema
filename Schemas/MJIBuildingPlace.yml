@@ -1,0 +1,12 @@
+name: MJIBuildingPlace
+fields:
+  - name: Unknown0
+  - name: Name
+    type: link
+    targets: [EObjName]
+  - name: SGB
+    type: link
+    targets: [ExportedSG]
+  - name: Unknown4
+  - name: Unknown5
+  - name: Unknown3

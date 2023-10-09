@@ -1,0 +1,10 @@
+name: NotoriousMonster
+fields:
+  - name: BNpcName
+    type: link
+    targets: [BNpcName]
+  - name: BNpcBase
+    type: link
+    targets: [BNpcBase]
+  - name: Unknown3
+  - name: Rank

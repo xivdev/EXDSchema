@@ -1,0 +1,23 @@
+name: CompanyCraftSequence
+displayField: ResultItem
+fields:
+  - name: Order
+  - name: ResultItem
+    type: link
+    targets: [Item]
+  - name: Category
+  - name: CompanyCraftDraftCategory
+    type: link
+    targets: [CompanyCraftDraftCategory]
+  - name: CompanyCraftType
+    type: link
+    targets: [CompanyCraftType]
+  - name: CompanyCraftDraft
+    type: link
+    targets: [CompanyCraftDraft]
+  - name: CompanyCraftPart
+    type: array
+    count: 8
+    fields:
+    - type: link
+      targets: [CompanyCraftPart]

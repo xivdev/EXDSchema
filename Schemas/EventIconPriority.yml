@@ -1,0 +1,7 @@
+name: EventIconPriority
+fields:
+  - name: Icon
+    type: array
+    count: 29
+    fields:
+    - type: icon

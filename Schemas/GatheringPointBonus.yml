@@ -1,0 +1,14 @@
+name: GatheringPointBonus
+fields:
+  - name: ConditionValue
+  - name: Unknown7
+  - name: Unknown2
+  - name: BonusValue
+  - name: Unknown5
+  - name: Condition
+    type: link
+    targets: [GatheringCondition]
+  - name: BonusType
+    type: link
+    targets: [GatheringPointBonusType]
+  - name: Unknown6

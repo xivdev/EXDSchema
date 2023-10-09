@@ -1,48 +1,53 @@
-// using YamlDotNet.Core;
-// using YamlDotNet.Core.Events;
-// using YamlDotNet.Serialization;
-// using YamlDotNet.Serialization.EventEmitters;
-// using YamlDotNet.Serialization.NamingConventions;
-//
-// namespace SchemaConverter;
-//
-// public static class SerializeUtil
-// {
-// 	private static readonly ISerializer _serializer;
-//
-// 	static SerializeUtil()
-// 	{
-// 		_serializer = new SerializerBuilder()
-// 			.WithIndentedSequences()
-// 			.WithNamingConvention(CamelCaseNamingConvention.Instance)
-// 			.ConfigureDefaultValuesHandling(DefaultValuesHandling.OmitDefaults)
-// 			.DisableAliases()
-// 			// .WithEventEmitter(nextEmitter => new FlowEverythingEmitter(nextEmitter))
-// 			.Build();
-// 	}
-//
-// 	public static string Serialize(object o)
-// 	{
-// 		return _serializer.Serialize(o);
-// 	}
-// 	
-// 	public class FlowEverythingEmitter : ChainedEventEmitter
-// 	{
-// 		public FlowEverythingEmitter(IEventEmitter nextEmitter) : base(nextEmitter) { }
-//
-// 		public override void Emit(MappingStartEventInfo eventInfo, IEmitter emitter)
-// 		{
-// 			Console.WriteLine($"Type: {eventInfo.Source.Type} Style: {eventInfo.Source.StaticType} Value: {eventInfo.Source.Value}");
-// 			
-// 			eventInfo.Style = MappingStyle.Flow;
-// 			base.Emit(eventInfo, emitter);
-// 		}
-//
-// 		public override void Emit(SequenceStartEventInfo eventInfo, IEmitter emitter)
-// 		{
-// 			Console.WriteLine($"Type: {eventInfo.Source.Type} StaticType: {eventInfo.Source.StaticType} Value: {eventInfo.Source.Value}");
-// 			eventInfo.Style = SequenceStyle.Flow;
-// 			nextEmitter.Emit(eventInfo, emitter);
-// 		}
-// 	}
-// }
+﻿using SharpYaml;
+using SharpYaml.Events;
+using SharpYaml.Serialization;
+using SharpYaml.Serialization.Serializers;
+
+namespace SchemaConverter;
+
+public static class SerializeUtil
+{
+	private static readonly Serializer _serializer;
+
+	static SerializeUtil()
+	{
+		var settings = new SerializerSettings
+		{
+			EmitAlias = false,
+			EmitDefaultValues = false,
+			NamingConvention = new CamelCaseNamingConvention(),
+			IgnoreNulls = true,
+		};
+		settings.RegisterSerializer(typeof(Dictionary<int, List<string>>), new CustomDictionarySerializer());
+		settings.RegisterSerializer(typeof(New.FieldType), new CustomFieldTypeSerializer());
+
+		_serializer = new Serializer(settings);
+	}
+
+	public static string Serialize(object o)
+	{
+		return _serializer.Serialize(o);
+	}
+}
+
+internal class CustomDictionarySerializer : DictionarySerializer
+{
+	protected override void WriteDictionaryItem(ref ObjectContext objectContext, KeyValuePair<object, object?> keyValue, KeyValuePair<Type, Type> types)
+	{
+		objectContext.SerializerContext.WriteYaml(keyValue.Key, types.Key);
+		objectContext.SerializerContext.WriteYaml(keyValue.Value, types.Value, YamlStyle.Flow);
+	}
+}
+
+internal class CustomFieldTypeSerializer : ScalarSerializerBase
+{
+	public override object? ConvertFrom(ref ObjectContext context, Scalar fromScalar)
+	{
+		return Enum.Parse<New.FieldType>(new PascalNamingConvention().Convert(fromScalar.Value));
+	}
+	
+	public override string ConvertTo(ref ObjectContext objectContext)
+	{
+		return objectContext.Settings.NamingConvention.Convert(objectContext.Instance.ToString());
+	}
+}

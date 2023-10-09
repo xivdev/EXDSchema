@@ -1,0 +1,16 @@
+name: IndividualWeather
+displayField: Name
+fields:
+  - name: IndividualWeatherData
+    type: array
+    count: 7
+    fields:
+    - name: Quest
+      type: link
+      targets: [Quest]
+    - type: scalar
+      comment: quest progress maybe
+    - name: Weather
+      type: link
+      targets: [Weather]
+    - type: scalar

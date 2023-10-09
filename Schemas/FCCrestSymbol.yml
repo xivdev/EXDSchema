@@ -1,0 +1,5 @@
+name: FCCrestSymbol
+fields:
+  - name: Unknown2
+  - name: ColorNum
+  - name: FCRight

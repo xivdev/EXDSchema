@@ -1,0 +1,48 @@
+name: Companion
+displayField: Singular
+fields:
+  - name: Singular
+  - name: Plural
+  - name: Adjective
+  - name: PossessivePronoun
+  - name: StartsWithVowel
+  - name: Unknown5
+  - name: Pronoun
+  - name: Article
+  - name: Model
+    type: link
+    targets: [ModelChara]
+  - name: Priority
+  - name: Enemy
+  - name: Icon
+    type: icon
+  - name: Order
+  - name: HP
+  - name: SkillAngle
+  - name: Unknown36
+  - name: Scale
+  - name: InactiveIdle0
+  - name: InactiveIdle1
+  - name: InactiveBattle
+  - name: InactiveWandering
+  - name: Behavior
+    type: link
+    targets: [CompanionMove]
+  - name: Special
+  - name: WanderingWait
+  - name: Unknown29
+  - name: Cost
+  - name: Unknown32
+  - name: SkillCost
+  - name: Unknown35
+  - name: MinionRace
+    type: link
+    targets: [MinionRace]
+  - name: Unknown18
+  - name: Unknown19
+  - name: Unknown20
+  - name: Unknown21
+  - name: Unknown22
+  - name: Battle
+  - name: Roulette
+  - name: IdleAnimation

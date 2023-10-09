@@ -1,0 +1,19 @@
+name: ModelSkeleton
+fields:
+  - name: Radius
+  - name: Height
+  - name: VFXScale
+  - name: FloatHeight
+  - name: FloatDown
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown7
+  - name: Unknown8
+  - name: Unknown9
+  - name: Unknown10
+  - name: FloatUp
+  - name: Unknown14
+  - name: LoopFlySE
+  - name: MotionBlendType

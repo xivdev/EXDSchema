@@ -1,0 +1,22 @@
+name: AnimaWeapon5TradeItem
+fields:
+  - name: CrystalSand
+    type: link
+    targets: [Item]
+  - name: Item
+    type: array
+    count: 8
+    fields:
+    - type: link
+      targets: [ Item ]  
+  - name: Order
+  - name: ReceiveQuantity
+  - name: Quantity
+    type: array
+    count: 8
+  - name: Category
+    type: link
+    targets: [AnimaWeapon5PatternGroup]
+  - name: IsHQ
+    type: array
+    count: 8

@@ -1,0 +1,16 @@
+name: Relic3
+displayField: Item{Novus}
+fields:
+  - name: ItemAnimus
+    type: link
+    targets: [Item]
+  - name: ItemScroll
+    type: link
+    targets: [Item]
+  - name: ItemNovus
+    type: link
+    targets: [Item]
+  - name: Icon
+    type: icon
+  - name: MateriaLimit
+  - name: Unknown5

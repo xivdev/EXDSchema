@@ -1,0 +1,12 @@
+name: EquipRaceCategory
+fields:
+  - name: Hyur
+  - name: Elezen
+  - name: Lalafell
+  - name: Miqote
+  - name: Roegadyn
+  - name: AuRa
+  - name: Unknown6
+  - name: Unknown7
+  - name: Male
+  - name: Female

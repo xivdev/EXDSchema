@@ -1,0 +1,19 @@
+name: SpearfishingItem
+displayField: Item
+fields:
+  - name: Description
+  - name: Item
+    type: link
+    targets: [Item]
+  - name: GatheringItemLevel
+    type: link
+    targets: [GatheringItemLevelConvertTable]
+  - name: TerritoryType
+    type: link
+    targets: [TerritoryType]
+  - name: Unknown6
+  - name: FishingRecordType
+    type: link
+    targets: [FishingRecordType]
+  - name: Unknown3
+  - name: IsVisible

@@ -1,0 +1,10 @@
+name: QuestAcceptAdditionCondition
+fields:
+  - name: Requirement0
+    type: link
+    targets: [Quest]
+  - name: Requirement1
+    type: link
+    targets: [Quest]
+  - name: Unknown2
+  - name: Unknown3

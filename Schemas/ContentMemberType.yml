@@ -1,0 +1,22 @@
+name: ContentMemberType
+displayField: InstanceContent
+fields:
+  - name: Unknown1
+  - name: Unknown4
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown7
+  - name: Unknown8
+  - name: Unknown9
+  - name: TanksPerParty
+  - name: HealersPerParty
+  - name: MeleesPerParty
+  - name: RangedPerParty
+  - name: Unknown0
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown14
+  - name: Unknown15
+  - name: Unknown16
+  - name: Unknown17
+  - name: Unknown18

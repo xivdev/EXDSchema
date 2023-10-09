@@ -1,0 +1,58 @@
+name: SpecialShop
+fields:
+  - name: Name
+  - name: Item
+    type: array
+    count: 60
+    fields:
+      - name: ReceiveCount
+        type: array
+        count: 2
+      - name: CurrencyCost
+        type: array
+        count: 3
+      - name: Item
+        type: array
+        count: 2
+        fields:
+        - type: link
+          targets: [Item]
+      - name: Category
+        type: array
+        count: 2
+        fields:
+        - type: link
+          targets: [SpecialShopItemCategory]
+      - name: ItemCost
+        type: array
+        count: 3
+      - name: Quest
+        type: link
+        targets: [Quest]
+      - name: Unknown
+      - name: AchievementUnlock
+        type: link
+        targets: [Achievement]
+      - name: CollectabilityCost
+        type: array
+        count: 3
+      - name: PatchNumber
+      - name: HqCost
+        type: array
+        count: 3
+      - type: array
+        count: 2
+      - name: ReceiveHq
+        type: array
+        count: 3
+  - name: Quest
+    type: link
+    targets: [Quest]
+  - type: scalar
+  - type: scalar
+  - name: CompleteText
+  - name: NotCompleteText
+  - type: scalar
+  - name: UseCurrencyType
+  - type: scalar
+  - type: scalar

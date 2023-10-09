@@ -1,0 +1,10 @@
+name: JournalGenre
+displayField: Name
+fields:
+  - name: Name
+  - name: Icon
+    type: icon
+  - name: JournalCategory
+    type: link
+    targets: [JournalCategory]
+  - name: Unknown2

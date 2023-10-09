@@ -1,0 +1,17 @@
+name: AirshipExplorationPoint
+displayField: Name
+fields:
+  - name: Name
+  - name: NameShort
+  - name: ExpReward
+  - name: CeruleumTankReq
+  - name: SurveyDurationmin
+  - name: SurveyDistance
+  - name: X
+  - name: Y
+  - name: RankReq
+  - name: Unknown9
+  - name: Unknown11
+  - name: SurveillanceReq
+  - name: Unknown12
+  - name: Passengers

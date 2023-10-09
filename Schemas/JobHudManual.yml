@@ -1,0 +1,13 @@
+name: JobHudManual
+displayField: Action
+fields:
+  - name: Action
+    type: link
+    targets: [Action]
+  - name: Unknown4
+  - name: Guide
+    type: link
+    targets: [Guide]
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown3

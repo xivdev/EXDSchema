@@ -1,0 +1,12 @@
+name: GardeningSeed
+displayField: Item
+fields:
+  - name: Item
+    type: link
+    targets: [Item]
+  - name: Icon
+    type: icon
+  - name: ModelID
+  - name: Unknown5
+  - name: SE
+  - name: Unknown4

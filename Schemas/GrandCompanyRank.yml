@@ -1,0 +1,22 @@
+name: GrandCompanyRank
+fields:
+  - name: MaxSeals
+  - name: RequiredSeals
+  - name: IconMaelstrom
+    type: icon
+  - name: IconSerpents
+    type: icon
+  - name: IconFlames
+    type: icon
+  - name: QuestMaelstrom
+    type: link
+    targets: [Quest]
+  - name: QuestSerpents
+    type: link
+    targets: [Quest]
+  - name: QuestFlames
+    type: link
+    targets: [Quest]
+  - name: Tier
+  - name: Order
+  - name: Unknown10

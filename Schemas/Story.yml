@@ -1,0 +1,49 @@
+name: Story
+fields:
+  - name: StoryParams
+    type: array
+    count: 40
+    fields:
+      - name: Instruction
+      - name: Argument
+  - name: StoryDefine
+    type: array
+    count: 110
+    fields:
+      - name: CompletedQuest
+        type: array
+        count: 3
+        fields:
+          - type: link
+            targets: [Quest]
+      - name: AcceptedQuest
+        type: array
+        count: 3
+        fields:
+          - type: link
+            targets: [Quest]
+      - name: LayerSet
+        type: array
+        count: 2
+      - name: Sequence
+      - name: CompletedQuestOperator
+      - name: AcceptedQuestOperator
+      - name: AcceptedQuestSequence
+        type: array
+        count: 3
+  - name: StoryListener
+    type: array
+    count: 80
+    fields:
+      - name: Listener
+        type: link
+        targets: [EObjName, ENpcResident]
+      - name: SequenceBegin
+      - name: SequenceEnd
+  - name: Script
+  - name: LayerSetTerritoryType
+    type: array
+    count: 2
+    fields:
+      - type: link
+        targets: [TerritoryType]

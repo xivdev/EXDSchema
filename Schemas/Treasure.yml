@@ -1,0 +1,16 @@
+name: Treasure
+displayField: Item
+fields:
+  - name: Unknown0
+  - name: Unknown2
+  - name: Unknown1
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown7
+  - name: SGB
+    type: link
+    targets: [ExportedSG]
+  - name: Unknown9
+  - name: Unknown10

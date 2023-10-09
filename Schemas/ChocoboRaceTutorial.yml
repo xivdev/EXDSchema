@@ -1,0 +1,10 @@
+name: ChocoboRaceTutorial
+fields:
+  - name: NpcYell
+    type: array
+    count: 8
+    fields:
+    - type: link
+      targets: [NpcYell]
+  - name: Unknown8
+  - name: Unknown9

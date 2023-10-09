@@ -1,0 +1,50 @@
+name: GoldSaucerArcadeMachine
+fields:
+  - name: Unknown27
+  - name: Poor
+    type: icon
+  - name: Unknown15
+  - name: Unknown19
+  - name: Unknown23
+  - name: Unknown31
+  - name: Unknown28
+  - name: Good
+    type: icon
+  - name: Unknown16
+  - name: Unknown20
+  - name: Unknown24
+  - name: Unknown32
+  - name: Unknown29
+  - name: Great
+    type: icon
+  - name: Unknown17
+  - name: Unknown21
+  - name: Unknown25
+  - name: Unknown33
+  - name: Unknown30
+  - name: Excellent
+    type: icon
+  - name: Unknown18
+  - name: Unknown22
+  - name: Unknown26
+  - name: Unknown34
+  - name: Unknown39
+  - name: Unknown40
+  - name: Unknown41
+  - name: Unknown42
+  - name: FailImage
+    type: icon
+  - name: Unknown10
+  - name: Unknown4
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown5
+  - name: Unknown11
+  - name: Unknown7
+  - name: Unknown8
+  - name: Unknown9
+  - name: Unknown12
+  - name: Unknown13
+  - name: Unknown14

@@ -1,0 +1,38 @@
+name: Emote
+displayField: Name
+fields:
+  - name: Name
+  - name: UnlockLink
+  - name: TextCommand
+    type: link
+    targets: [TextCommand]
+  - name: ActionTimeline
+    type: array
+    count: 7
+    fields:
+    - type: link
+      targets: [ActionTimeline]
+  - name: Order
+  - name: Icon
+    type: icon
+  - name: LogMessageTargeted
+    type: link
+    targets: [LogMessage]
+  - name: LogMessageUntargeted
+    type: link
+    targets: [LogMessage]
+  - name: Unknown24
+  - name: EmoteCategory
+    type: link
+    targets: [EmoteCategory]
+  - name: EmoteMode
+    type: link
+    targets: [EmoteMode]
+  - name: Unknown8
+  - name: Unknown9
+  - name: Unknown10
+  - name: Unknown13
+  - name: Unknown14
+  - name: HasCancelEmote
+  - name: DrawsWeapon
+  - name: Unknown17

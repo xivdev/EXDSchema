@@ -1,0 +1,14 @@
+name: ENpcResident
+displayField: Singular
+fields:
+  - name: Singular
+  - name: Plural
+  - name: Title
+  - name: Adjective
+  - name: PossessivePronoun
+  - name: StartsWithVowel
+  - name: Unknown5
+  - name: Pronoun
+  - name: Article
+  - name: Map
+  - name: Unknown10

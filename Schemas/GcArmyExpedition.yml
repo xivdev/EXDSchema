@@ -1,0 +1,30 @@
+name: GcArmyExpedition
+displayField: Name
+fields:
+  - name: Name
+  - name: Description
+  - name: ExpeditionParams
+    type: array
+    count: 6
+    fields:
+    - name: RewardItem
+      type: link
+      targets: [Item]
+    - name: RequiredPhysical
+    - name: RequiredMental
+    - name: RequiredTactical
+    - name: RewardQuantity
+    - name: PercentPhysicalMet
+    - name: PercentMentalMet
+    - name: PercentTacticalMet
+    - name: PercentAllMet
+  - name: RewardExperience
+  - name: RequiredSeals
+  - name: RequiredFlag
+  - name: UnlockFlag
+  - name: RequiredLevel
+  - name: PercentBase
+  - name: Unknown6
+  - name: GcArmyExpeditionType
+    type: link
+    targets: [GcArmyExpeditionType]

@@ -1,0 +1,10 @@
+name: IKDFishParam
+displayField: Fish
+fields:
+  - name: Fish
+    type: link
+    targets: [FishParameter]
+  - name: IKDContentBonus
+    type: link
+    targets: [IKDContentBonus]
+  - name: Unknown2

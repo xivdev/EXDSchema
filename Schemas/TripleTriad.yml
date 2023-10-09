@@ -1,0 +1,54 @@
+name: TripleTriad
+fields:
+  - name: ItemPossibleReward
+    type: array
+    count: 4
+    fields:
+    - type: link
+      targets: [Item]
+  - name: PreviousQuest
+    type: array
+    count: 3
+    fields:
+    - type: link
+      targets: [Quest]
+  - name: DefaultTalkChallenge
+    type: link
+    targets: [DefaultTalk]
+  - name: DefaultTalkUnavailable
+    type: link
+    targets: [DefaultTalk]
+  - name: DefaultTalkNPCWin
+    type: link
+    targets: [DefaultTalk]
+  - name: DefaultTalkDraw
+    type: link
+    targets: [DefaultTalk]
+  - name: DefaultTalkPCWin
+    type: link
+    targets: [DefaultTalk]
+  - name: TripleTriadCardFixed
+    type: array
+    count: 5
+    fields:
+    - type: link
+      targets: [TripleTriadCard]
+    targets: [TripleTriadCard]
+  - name: TripleTriadCardVariable
+    type: array
+    count: 5
+    fields:
+    - type: link
+      targets: [TripleTriadCard]
+  - name: Fee
+  - name: StartTime
+  - name: EndTime
+  - name: TripleTriadRule
+    type: link
+    targets: [TripleTriadRule]
+  - name: TripleTriadRule
+    type: link
+    targets: [TripleTriadRule]
+  - name: PreviousQuestJoin
+  - name: UsesRegionalRules
+  - name: Unknown25

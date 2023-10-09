@@ -226,7 +226,7 @@ public class SchemaConverter
 				return (null, null);
 			}
 			var condition = new Condition();
-			condition.Switch = oldLink.Links[0].When.Key;
+			condition.Switch = Util.StripDefinitionName(oldLink.Links[0].When.Key);
 			condition.Cases = new Dictionary<int, List<string>>();
 			foreach (var oldLinkLink in oldLink.Links)
 				condition.Cases.Add(oldLinkLink.When.Value, oldLinkLink.LinkedSheet == null ? oldLinkLink.Sheets : new List<string> { oldLinkLink.LinkedSheet });

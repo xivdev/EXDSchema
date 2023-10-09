@@ -1,0 +1,96 @@
+name: InstanceContent
+fields:
+  - name: NewPlayerBonusGil
+  - name: NewPlayerBonusExp
+  - name: FinalBossExp
+  - name: Unknown22
+  - name: BossExp
+  - name: BossExp
+  - name: BossExp
+  - name: BossExp
+  - name: BossExp
+  - name: InstanceClearExp
+  - name: InstanceClearGil
+  - name: InstanceContentRewardItem
+    type: link
+    targets: [InstanceContentRewardItem]
+  - name: NewPlayerBonusA
+  - name: NewPlayerBonusB
+  - name: FinalBossCurrencyA
+  - name: FinalBossCurrencyB
+  - name: FinalBossCurrencyC
+  - name: BossCurrencyA
+  - name: BossCurrencyA
+  - name: BossCurrencyA
+  - name: BossCurrencyA
+  - name: BossCurrencyA
+  - name: BossCurrencyB
+  - name: BossCurrencyB
+  - name: BossCurrencyB
+  - name: BossCurrencyB
+  - name: BossCurrencyB
+  - name: BossCurrencyC
+  - name: BossCurrencyC
+  - name: BossCurrencyC
+  - name: BossCurrencyC
+  - name: BossCurrencyC
+  - name: Unknown49
+  - name: Cutscene
+    type: link
+    targets: [Cutscene]
+  - name: LGBEventRange
+  - name: InstanceContentTextDataBossStart
+    type: link
+    targets: [InstanceContentTextData]
+  - name: InstanceContentTextDataBossEnd
+    type: link
+    targets: [InstanceContentTextData]
+  - name: BNpcBaseBoss
+    type: link
+    targets: [BNpcBase]
+  - name: InstanceContentTextDataObjectiveStart
+    type: link
+    targets: [InstanceContentTextData]
+  - name: InstanceContentTextDataObjectiveEnd
+    type: link
+    targets: [InstanceContentTextData]
+  - name: Unknown50
+  - name: ReqInstance
+    type: link
+    targets: [InstanceContent]
+  - name: InstanceContentBuff
+    type: link
+    targets: [InstanceContentBuff]
+  - name: TimeLimitmin
+  - name: BGM
+    type: link
+    targets: [BGM]
+  - name: WinBGM
+    type: link
+    targets: [BGM]
+  - name: Order
+  - name: SortKey
+  - name: Unknown60
+  - name: Unknown61
+  - name: Unknown62
+  - name: Unknown64
+  - name: Unknown65
+  - name: Unknown67
+  - name: PartyCondition
+  - name: InstanceContentType
+    type: link
+    targets: [InstanceContentType]
+  - name: WeekRestriction
+  - name: Colosseum
+    type: link
+    targets: [Colosseum]
+  - name: Unknown55
+  - name: Unknown56
+  - name: Unknown57
+  - name: Unknown58
+  - name: Unknown63
+  - name: Unknown3
+  - name: Unknown10
+  - name: Unknown52
+  - name: Unknown59
+  - name: Unknown66

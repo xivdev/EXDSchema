@@ -1,0 +1,18 @@
+name: GatheringSubCategory
+displayField: FolkloreBook
+fields:
+  - name: FolkloreBook
+  - name: Quest
+    type: link
+    targets: [Quest]
+  - name: Item
+    type: link
+    targets: [Item]
+  - name: Division
+  - name: GatheringType
+    type: link
+    targets: [GatheringType]
+  - name: ClassJob
+    type: link
+    targets: [ClassJob]
+  - name: Unknown6

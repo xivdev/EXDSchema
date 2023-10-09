@@ -1,0 +1,5 @@
+name: WeaponTimeline
+fields:
+  - name: File
+  - name: NextWeaponTimeline
+  - name: Unknown2

@@ -1,0 +1,9 @@
+name: Omen
+displayField: Path
+fields:
+  - name: Path
+  - name: PathAlly
+  - name: Type
+  - name: Unknown5
+  - name: RestrictYScale
+  - name: LargeScale

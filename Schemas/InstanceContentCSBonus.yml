@@ -1,0 +1,11 @@
+name: InstanceContentCSBonus
+fields:
+  - name: Item
+    type: link
+    targets: [Item]
+  - name: Instance
+    type: link
+    targets: [InstanceContent]
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4

@@ -1,0 +1,31 @@
+name: DefaultTalk
+fields:
+  - name: ActionTimelinePose
+    type: link
+    targets: [ActionTimeline]
+  - name: Unknown11
+  - name: Unknown2
+  - name: Unknown8
+  - name: Unknown14
+  - name: Unknown17
+  - name: ActionTimelinePose
+    type: link
+    targets: [ActionTimeline]
+  - name: Unknown12
+  - name: Unknown3
+  - name: Unknown9
+  - name: Unknown15
+  - name: Unknown18
+  - name: ActionTimelinePose
+    type: link
+    targets: [ActionTimeline]
+  - name: Unknown13
+  - name: Unknown4
+  - name: Unknown10
+  - name: Unknown16
+  - name: Unknown19
+  - name: Text
+    type: array
+    count: 3
+  - name: Unknown0
+  - name: Unknown1

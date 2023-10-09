@@ -1,0 +1,13 @@
+name: GCRankLimsaMaleText
+displayField: Singular
+fields:
+  - name: Singular
+  - name: Plural
+  - name: NameRank
+  - name: Unknown9
+  - name: Adjective
+  - name: PossessivePronoun
+  - name: StartsWithVowel
+  - name: Unknown5
+  - name: Pronoun
+  - name: Article

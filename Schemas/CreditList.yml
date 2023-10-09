@@ -1,0 +1,13 @@
+name: CreditList
+fields:
+  - name: Icon
+    type: icon
+  - name: Font
+    type: link
+    targets: [CreditFont]
+  - name: Cast
+    type: link
+    targets: [CreditListText]
+  - name: Scale
+  - name: Unknown3
+  - name: Unknown4

@@ -1,0 +1,14 @@
+name: GatheringLeveRoute
+fields:
+  - name: GatheringPoint
+    type: array
+    count: 12
+    fields:
+    - type: link
+      targets: [GatheringPoint]
+  - name: PopRange
+    type: array
+    count: 12
+    fields:
+    - type: link
+      targets: [Level]

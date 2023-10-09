@@ -1,0 +1,8 @@
+name: LogMessage
+displayField: Text
+fields:
+  - name: Text
+  - name: LogKind
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
