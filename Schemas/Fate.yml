@@ -27,11 +27,11 @@ fields:
   - name: EventItem
     type: link
     targets: [EventItem]
-  - name: ObjectiveIcon
+  - name: Icon
     type: icon
   - name: MapIcon
     type: icon
-  - name: IconInactiveMap
+  - name: InactiveMapIcon
     type: icon
   - name: LGBGuardNPCLocation
   - name: RequiredQuest

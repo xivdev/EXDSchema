@@ -9,7 +9,7 @@ fields:
   - name: RootFollowingGame
   - name: RootFollowingCutScene
   - name: ConfigSwitch
-  - name: ConfigSwitch
-  - name: ConfigSwitch
+    type: array
+    count: 3
   - name: ResetByLookAt
   - name: ForceAttractByPhysicsOff

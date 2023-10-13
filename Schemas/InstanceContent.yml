@@ -5,10 +5,8 @@ fields:
   - name: FinalBossExp
   - name: Unknown22
   - name: BossExp
-  - name: BossExp
-  - name: BossExp
-  - name: BossExp
-  - name: BossExp
+    type: array
+    count: 5
   - name: InstanceClearExp
   - name: InstanceClearGil
   - name: InstanceContentRewardItem
@@ -20,20 +18,14 @@ fields:
   - name: FinalBossCurrencyB
   - name: FinalBossCurrencyC
   - name: BossCurrencyA
-  - name: BossCurrencyA
-  - name: BossCurrencyA
-  - name: BossCurrencyA
-  - name: BossCurrencyA
+    type: array
+    count: 5
   - name: BossCurrencyB
-  - name: BossCurrencyB
-  - name: BossCurrencyB
-  - name: BossCurrencyB
-  - name: BossCurrencyB
+    type: array
+    count: 5
   - name: BossCurrencyC
-  - name: BossCurrencyC
-  - name: BossCurrencyC
-  - name: BossCurrencyC
-  - name: BossCurrencyC
+    type: array
+    count: 5
   - name: Unknown49
   - name: Cutscene
     type: link

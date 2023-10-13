@@ -40,7 +40,8 @@ fields:
       - name: HqCost
         type: array
         count: 3
-      - type: array
+      - name: Unknown1
+        type: array
         count: 2
       - name: ReceiveHq
         type: array
@@ -48,11 +49,11 @@ fields:
   - name: Quest
     type: link
     targets: [Quest]
-  - type: scalar
-  - type: scalar
+  - name: Unknown2
+  - name: Unknown3
   - name: CompleteText
   - name: NotCompleteText
-  - type: scalar
+  - name: Unknown4
   - name: UseCurrencyType
-  - type: scalar
-  - type: scalar
+  - name: Unknown5
+  - name: Unknown6

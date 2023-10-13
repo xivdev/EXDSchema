@@ -30,7 +30,7 @@ fields:
       targets: [HWDCrafterSupplyReward]
     - name: Level
     - name: LevelMax
-    - type: scalar
+    - name: Unknown1
     - name: TermName
       type: link
       targets: [HWDCrafterSupplyTerm]

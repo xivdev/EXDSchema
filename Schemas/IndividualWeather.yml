@@ -8,9 +8,9 @@ fields:
     - name: Quest
       type: link
       targets: [Quest]
-    - type: scalar
+    - name: Unknown1
       comment: quest progress maybe
     - name: Weather
       type: link
       targets: [Weather]
-    - type: scalar
+    - name: Unknown2

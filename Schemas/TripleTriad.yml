@@ -44,11 +44,11 @@ fields:
   - name: StartTime
   - name: EndTime
   - name: TripleTriadRule
-    type: link
-    targets: [TripleTriadRule]
-  - name: TripleTriadRule
-    type: link
-    targets: [TripleTriadRule]
+    type: array
+    count: 2
+    fields:
+    - type: link
+      targets: [TripleTriadRule]
   - name: PreviousQuestJoin
   - name: UsesRegionalRules
   - name: Unknown25

@@ -12,13 +12,8 @@ fields:
     - name: Unknown41
     - name: Unknown65
   - name: EventNPC
-  - name: EventNPC1
-  - name: EventNPC1
-  - name: EventNPC1
-  - name: EventNPC1
-  - name: EventNPC1
-  - name: EventNPC1
-  - name: EventNPC1
+    type: array
+    count: 8
   - name: Unknown89
   - name: Unknown81
   - name: Unknown85

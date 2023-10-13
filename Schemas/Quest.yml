@@ -133,11 +133,10 @@ fields:
   - name: Id
   - name: PreviousQuest
     type: array
-    count: 2
+    count: 3
     fields:
       - type: link
         targets: [Quest]
-  - name: Unknown12
   - name: QuestLock
     type: array
     count: 2
@@ -197,9 +196,7 @@ fields:
     type: link
     targets: [ClassJobCategory]
   - name: PreviousQuestJoin
-  - name: PreviousQuest
-    type: link
-    targets: [Quest]
+  - name: Unknown10
   - name: QuestLockJoin
   - name: Unknown17
   - name: Unknown18
