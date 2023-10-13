@@ -43,9 +43,11 @@ public class SchemaValidator
 			new MultiLinkRefValidator(gameData, testDict),
 			new ConditionValidator(gameData),
 			new ConditionRefValidator(gameData, testDict),
+			new DuplicateFieldNameValidator(gameData),
 		};
 
-		// var exl = gameData.GetFile<ExcelListFile>("exd/root.exl");
+		var exl = gameData.GetFile<ExcelListFile>("exd/root.exl");
+		var existingSheets = exl.ExdMap.Select(s => s.Key).ToHashSet();
 		var results = new ValidationResults();
 		
 		foreach (var schemaPath in Directory.GetFiles(schemaDir, "*.yml"))
@@ -54,8 +56,7 @@ public class SchemaValidator
 			var exh = gameData.GetFile<ExcelHeaderFile>($"exd/{sheetName}.exh");
 			if (exh == null)
 			{
-				Console.Error.WriteLine($"Sheet {sheetName} does not exist!");
-				continue;
+				results.Add(ValidationResult.Error(sheetName, "SheetExistsValidator", "Schema exists but sheet does not!"));
 			}
 
 			Sheet sheet;
@@ -81,7 +82,16 @@ public class SchemaValidator
 			
 			foreach (var validator in validators)
 				results.Add(validator.Validate(exh, sheet));
+			existingSheets.Remove(sheetName);
 		}
+
+		foreach (var sheet in existingSheets)
+		{
+			if (sheet.Contains('/')) continue;
+			results.Add(ValidationResult.Error(sheet, "SchemaDefinedValidator", "Sheet exists but has no schema!"));
+		}
+		
+		// ---
 		
 		foreach (var result in results.Results.Where(r => r.Status == ValidationStatus.Warning))
 		{

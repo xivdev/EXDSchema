@@ -103,18 +103,4 @@ public static class SchemaUtil
 		}
 		return 1;
 	}
-	
-	public static Field GetFieldByIndex(Sheet schema, int index)
-	{
-		foreach (var field in schema.Fields)
-		{
-			
-		}
-		return null;
-	}
-
-	public static Field GetFieldByIndex(Field field, int index, int baseIndex)
-	{
-		return null;
-	}
 }
