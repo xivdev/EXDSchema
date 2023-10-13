@@ -1,4 +1,4 @@
-using Lumina;
+﻿using Lumina;
 using Lumina.Data.Files.Excel;
 using Lumina.Data.Structs.Excel;
 using Newtonsoft.Json;
@@ -55,7 +55,7 @@ public class SchemaConverter
 			}
 			var result = Convert(exh, oldSchemaPath, newSchemaPath);
 			var strResult = result ? "succeeded!" : "failed...";
-			Console.WriteLine($"Conversion of {sheetName} {strResult}");
+			// Console.WriteLine($"Conversion of {sheetName} {strResult}");
 		}
 	}
 
@@ -70,7 +70,7 @@ public class SchemaConverter
 		}
 		if (oldSchema.Definitions.Count == 0)
 		{
-			Console.WriteLine($"{exh.FilePath.Path} has no column definitions in old schema!");
+			// Console.WriteLine($"{exh.FilePath.Path} has no column definitions in old schema!");
 		}
 
 		// Load and parse the old schema to supplement exh information
@@ -97,7 +97,7 @@ public class SchemaConverter
 					{
 						Name = $"Unknown{i}",
 						Index = i,
-						Type = definition.Type == ExcelColumnDataType.Int64 ? null : "quad",
+						Type = definition.Type == ExcelColumnDataType.Int64 ? "quad" : "null",
 						DataType = definition.IsBoolType ? ExcelColumnDataType.Bool : definition.Type,
 						BitOffset = Util.GetBitOffset(definition.Offset, definition.Type)
 					});
@@ -105,6 +105,19 @@ public class SchemaConverter
 		}
 
 		columnInfos.Sort((c1, c2) => c1.BitOffset.CompareTo(c2.BitOffset));
+		
+		var columnCountsByName = new Dictionary<string, int>();
+		for (int i = 0; i < columnInfos.Count; i++)
+		{
+			if (columnCountsByName.TryGetValue(columnInfos[i].Name, out var count))
+				columnCountsByName[columnInfos[i].Name] = count + 1;
+			else
+				columnCountsByName[columnInfos[i].Name] = 1;
+		}
+		if (columnCountsByName.Any(c => c.Value > 1))
+		{
+			Console.WriteLine($"{oldSchema.SheetName} is a shitty fucking stupid sheet!");
+		}
 
 		var name = oldSchema?.SheetName;
 		if (name == null)
@@ -135,13 +148,35 @@ public class SchemaConverter
 				field.Type = FieldType.Link;
 			newSchema.Fields.Add(field);
 		}
+
+		// PlaceArray(newSchema);
 		
-		var newSchemaStr = SerializeUtil3.Serialize(newSchema);
+		var newSchemaStr = SerializeUtil.Serialize(newSchema);
 		File.WriteAllText(newSchemaPath, newSchemaStr);
+		// Console.WriteLine(newSchemaStr);
 		
 		return true;
 	}
 
+	// private static void PlaceArray(New.Sheet sheet)
+	// {
+	// 	var seenColumns = new Dictionary<string, int>();
+	// 	
+	// 	for (int i = 0; i < sheet.Fields.Count; i++)
+	// 	{
+	// 		var field = sheet.Fields[i];
+	// 		
+	// 		// How many times does it occur?
+	// 		var occurrences = sheet.Fields.Count(f => f.Name == field.Name);
+	// 		
+	// 		// When does it occur?
+	// 		var firstOccurrence = seenColumns.
+	// 		var distance = sheet.Fields.FindIndex(i + 1, f => f.Name == field.Name) - i;
+	// 		
+	// 		
+	// 	}
+	// }
+	
 	private static void Emit(List<ColumnInfo> infos, Old.Sheet sheet)
 	{
 		var index = 0;
@@ -153,7 +188,7 @@ public class SchemaConverter
 				{
 					infos.Add(new ColumnInfo {Name = $"Unknown{i}", Index = i });
 				}
-				Console.WriteLine($"{sheet.SheetName}: skipped and generated {definition.Index - index} columns from {index} to {definition.Index}");
+				// Console.WriteLine($"{sheet.SheetName}: skipped and generated {definition.Index - index} columns from {index} to {definition.Index}");
 			}
 			index = (int)definition.Index;
 			if (definition.Type == null)

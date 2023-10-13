@@ -30,7 +30,5 @@ public class ColumnInfo
 		Targets = targets;
 	}
 	
-	
-
 	public override string ToString() => $"{Name} ({Index}@{BitOffset / 8}&{BitOffset % 8}) {Type} {IsArrayMember} {ArrayIndex}";
 }
