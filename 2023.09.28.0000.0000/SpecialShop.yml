@@ -35,7 +35,7 @@ fields:
       - name: AchievementUnlock
         type: link
         targets: [Achievement]
-      - name: Unknown2;
+      - name: Unknown2
       - name: CollectabilityCost
         type: array
         count: 3
