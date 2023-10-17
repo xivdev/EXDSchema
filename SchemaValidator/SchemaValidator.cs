@@ -36,6 +36,7 @@ public class SchemaValidator
 			new ColumnCountValidator(gameData),
 			new IconTypeValidator(gameData),
 			new NamedInnerNamedOuterValidator(gameData),
+			new FieldNameValidator(gameData),
 			new ModelIdTypeValidator(gameData),
 			new ColorTypeValidator(gameData),
 			new IconPathExistsValidator(gameData),
