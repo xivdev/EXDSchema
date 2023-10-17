@@ -1,0 +1,10 @@
+name: TomestonesItem
+displayField: Item
+fields:
+  - name: Item
+    type: link
+    targets: [Item]
+  - name: Tomestones
+    type: link
+    targets: [Tomestones]
+  - name: Unknown1

@@ -1,0 +1,33 @@
+name: MoveTimeline
+displayField: Idle
+fields:
+  - name: Idle
+    type: link
+    targets: [ActionTimeline]
+  - name: MoveForward
+    type: link
+    targets: [ActionTimeline]
+  - name: MoveBack
+    type: link
+    targets: [ActionTimeline]
+  - name: MoveLeft
+    type: link
+    targets: [ActionTimeline]
+  - name: MoveRight
+    type: link
+    targets: [ActionTimeline]
+  - name: MoveUp
+    type: link
+    targets: [ActionTimeline]
+  - name: MoveDown
+    type: link
+    targets: [ActionTimeline]
+  - name: MoveTurnLeft
+    type: link
+    targets: [ActionTimeline]
+  - name: MoveTurnRight
+    type: link
+    targets: [ActionTimeline]
+  - name: Extra
+    type: link
+    targets: [ActionTimeline]

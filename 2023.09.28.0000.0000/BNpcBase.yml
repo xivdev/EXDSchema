@@ -1,0 +1,40 @@
+name: BNpcBase
+fields:
+  - name: Scale
+  - name: ArrayEventHandler
+    type: link
+    targets: [ArrayEventHandler]
+  - name: Behavior
+    type: link
+    targets: [Behavior]
+  - name: ModelChara
+    type: link
+    targets: [ModelChara]
+  - name: BNpcCustomize
+    type: link
+    targets: [BNpcCustomize]
+  - name: NpcEquip
+    type: link
+    targets: [NpcEquip]
+  - name: Special
+  - name: Battalion
+    type: link
+    targets: [Battalion]
+  - name: LinkRace
+    type: link
+    targets: [LinkRace]
+  - name: Rank
+  - name: SEPack
+  - name: Unknown12
+  - name: BNpcParts
+    type: link
+    targets: [BNpcParts]
+  - name: Unknown14
+  - name: Unknown19
+  - name: Unknown20
+  - name: Unknown21
+  - name: Unknown10
+  - name: Unknown15
+  - name: IsTargetLine
+  - name: IsDisplayLevel
+  - name: Unknown18

@@ -1,0 +1,29 @@
+name: GatheringLeve
+fields:
+  - name: Route
+    type: array
+    count: 4
+    fields:
+    - type: link
+      targets: [GatheringLeveRoute]
+  - name: RequiredItem
+    type: array
+    count: 4
+    fields:
+    - type: link
+      targets: [EventItem]
+  - name: Rule
+    type: link
+    targets: [GatheringLeveRule]
+  - name: BNpcEntry
+    type: link
+    targets: [GatheringLeveBNpcEntry]
+  - name: Objective
+    type: array
+    count: 2
+  - name: RequiredItemQuantity
+    type: array
+    count: 4
+  - name: ItemNumber
+  - name: Varient
+  - name: UseSecondaryTool

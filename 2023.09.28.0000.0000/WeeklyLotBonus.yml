@@ -1,0 +1,11 @@
+name: WeeklyLotBonus
+fields:
+  - name: WeeklyLotBonusParam
+    type: array
+    count: 32
+    fields:
+    - name: Unknown32
+    - name: WeeklyLotBonusThreshold
+      type: link
+      targets: [WeeklyLotBonusThreshold]
+    - name: Unknown64

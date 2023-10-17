@@ -1,0 +1,6 @@
+name: MacroIcon
+displayField: Icon
+fields:
+  - name: Icon
+    type: icon
+  - name: Unknown1

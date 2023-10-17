@@ -1,0 +1,14 @@
+name: PvPAction
+displayField: Action
+fields:
+  - name: Action
+    type: link
+    targets: [Action]
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown1
+  - name: Unknown8
+  - name: GrandCompany
+    type: array
+    count: 3

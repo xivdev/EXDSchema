@@ -1,0 +1,15 @@
+name: MJILandmarkPlace
+fields:
+  - name: Unknown0
+  - name: Name
+    type: link
+    targets: [EObjName]
+  - name: SGB
+    type: array
+    count: 2
+    fields:
+    - type: link
+      targets: [ExportedSG]
+  - name: Unknown4
+  - name: Unknown5
+  - name: Unknown3

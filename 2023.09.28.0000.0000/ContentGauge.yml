@@ -1,0 +1,16 @@
+name: ContentGauge
+fields:
+  - name: Name
+  - name: TextString
+  - name: Unknown5
+  - name: Unknown8
+  - name: Unknown11
+  - name: Unknown0
+  - name: Color
+    type: link
+    targets: [ContentGaugeColor]
+  - name: Unknown7
+  - name: Unknown10
+  - name: Unknown6
+  - name: Unknown9
+  - name: Unknown3

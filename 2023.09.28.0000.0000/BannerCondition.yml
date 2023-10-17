@@ -1,0 +1,59 @@
+name: BannerCondition
+fields:
+  - name: UnlockCriteria1
+    type: array
+    count: 6
+    fields:
+    - type: link
+      condition:
+        switch: UnlockType1
+        cases:
+          1: [Quest]
+          4: [ContentFinderCondition]
+          5: [Emote]
+          6: [Companion]
+  - name: UnlockCriteria2
+    type: link
+    condition:
+      switch: UnlockType2
+      cases:
+        2: [Quest]
+        4: [ENpcResident]
+        5: [Item]
+        6: [Item]
+        7: [Item]
+        8: [Item]
+        11: [Achievement]
+        12: [Item]
+        13: [ENpcBase]
+        21: [ENpcBase]
+  - name: UnlockCriteria3
+    type: link
+    condition:
+      switch: UnlockType2
+      cases:
+        4: [Level]
+        13: [Level]
+        21: [Level]
+  - name: UnlockCriteria4
+    type: link
+    condition:
+      switch: UnlockType2
+      cases:
+        4: [Item]
+        21: [Item]
+  - name: Prerequisite
+    type: link
+    condition:
+      switch: PrerequisiteType
+      cases:
+        1: [Quest]
+        3: [ContentFinderCondition]
+        4: [ContentFinderCondition]
+  - name: UnlockType1
+  - name: UnlockType2
+  - name: PrerequisiteType
+  - name: UnlockHint
+    type: link
+    targets: [BannerObtainHintType]
+  - name: Unknown14

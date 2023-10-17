@@ -1,0 +1,7 @@
+name: PartyContentCutscene
+displayField: Name
+fields:
+  - name: Cutscene
+    type: link
+    targets: [Cutscene]
+  - name: Unknown1

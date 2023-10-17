@@ -1,0 +1,12 @@
+name: TripleTriadCard
+displayField: Name
+fields:
+  - name: Name
+  - name: Unknown2
+  - name: Description
+  - name: Unknown1
+  - name: Unknown3
+  - name: StartsWithVowel
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown7

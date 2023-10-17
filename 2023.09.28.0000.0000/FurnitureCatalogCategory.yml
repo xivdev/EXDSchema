@@ -1,0 +1,6 @@
+name: FurnitureCatalogCategory
+displayField: Category
+fields:
+  - name: Category
+  - name: Unknown1
+  - name: Unknown2

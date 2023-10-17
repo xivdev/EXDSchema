@@ -1,0 +1,41 @@
+name: HugeCraftworksNpc
+displayField: ENpcResident
+fields:
+  - name: HugeCraftworksTurnInParam
+    type: array
+    count: 6
+    fields:
+    - name: RequestedItem
+      type: link
+      targets: [Item]
+    - name: Unknown39
+    - name: RequestedQuantity
+    - name: Unknown21
+    - name: Unknown27
+    - name: Unknown33
+    - name: Unknown45
+    - name: Unknown51
+    - name: Unknown15
+  - name: HugeCraftworksRewardParam
+    type: array
+    count: 6
+    fields:
+    - name: RewardItem
+      type: array
+      count: 2
+      fields:
+      - type: link
+        targets: [Item]
+    - name: RewardQuantity
+      type: array
+      count: 2
+    - name: RewardHQ
+      type: array
+      count: 2
+  - name: Transient
+  - name: EventNpc
+    type: link
+    targets: [ENpcResident]
+  - name: ClassJobCategory
+    type: link
+    targets: [ClassJobCategory]

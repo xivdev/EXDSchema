@@ -1,0 +1,24 @@
+name: IKDRoute
+displayField: Name
+fields:
+  - name: Name
+  - name: Spot
+    type: array
+    count: 3
+    fields:
+    - type: link
+      targets: [IKDSpot]
+  - name: Image
+    type: icon
+  - name: Unknown7
+  - name: Unknown8
+  - name: TerritoryType
+    type: link
+    targets: [TerritoryType]
+  - name: Unknown10
+  - name: Time
+    type: array
+    count: 3
+    fields:
+    - type: link
+      targets: [IKDTimeDefine]

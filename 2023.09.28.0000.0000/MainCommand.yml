@@ -1,0 +1,13 @@
+name: MainCommand
+displayField: Name
+fields:
+  - name: Name
+  - name: Description
+  - name: Icon
+    type: icon
+  - name: Category
+  - name: MainCommandCategory
+    type: link
+    targets: [MainCommandCategory]
+  - name: Unknown4
+  - name: SortID

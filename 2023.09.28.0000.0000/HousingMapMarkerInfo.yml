@@ -1,0 +1,9 @@
+name: HousingMapMarkerInfo
+fields:
+  - name: X
+  - name: Y
+  - name: Z
+  - name: Unknown3
+  - name: Map
+    type: link
+    targets: [Map]

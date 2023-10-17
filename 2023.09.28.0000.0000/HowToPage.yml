@@ -1,0 +1,11 @@
+name: HowToPage
+displayField: Image
+fields:
+  - name: Text
+    type: array
+    count: 3
+  - name: Image
+    type: icon
+  - name: Type
+  - name: IconType
+  - name: TextType

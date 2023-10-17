@@ -1,0 +1,41 @@
+name: RelicItem
+fields:
+  - name: GladiatorItem
+    type: link
+    targets: [Item]
+  - name: PugilistItem
+    type: link
+    targets: [Item]
+  - name: MarauderItem
+    type: link
+    targets: [Item]
+  - name: LancerItem
+    type: link
+    targets: [Item]
+  - name: ArcherItem
+    type: link
+    targets: [Item]
+  - name: ConjurerItem
+    type: link
+    targets: [Item]
+  - name: ThaumaturgeItem
+    type: link
+    targets: [Item]
+  - name: ArcanistSMNItem
+    type: link
+    targets: [Item]
+  - name: ArcanistSCHItem
+    type: link
+    targets: [Item]
+  - name: ShieldItem
+    type: link
+    targets: [Item]
+  - name: RogueItem
+    type: link
+    targets: [Item]
+  - name: Unknown12
+  - name: Unknown13
+  - name: Unknown14
+  - name: Unknown15
+  - name: Unknown16
+  - name: Unknown0

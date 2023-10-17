@@ -1,0 +1,21 @@
+name: LotteryExchangeShop
+fields:
+  - name: Name
+  - name: LotteryExchangeParams
+    type: array
+    count: 32
+    fields:
+    - name: AmountAccepted
+    - name: ItemAccepted
+      type: link
+      targets: [Item]
+    - name: Unknown65
+    - name: Unknown97
+  - name: Script
+  - name: LogMessage
+    type: array
+    count: 3
+    fields:
+    - type: link
+      targets: [LogMessage]
+  - name: Unknown133

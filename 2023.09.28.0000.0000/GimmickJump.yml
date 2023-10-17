@@ -1,0 +1,14 @@
+name: GimmickJump
+fields:
+  - name: LoopMotion
+    type: link
+    targets: [ActionTimeline]
+  - name: EndMotion
+    type: link
+    targets: [ActionTimeline]
+  - name: FallDamage
+  - name: Height
+  - name: Unknown1
+  - name: Unknown2
+  - name: StartClient
+  - name: Unknown5

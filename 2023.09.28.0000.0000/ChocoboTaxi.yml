@@ -1,0 +1,10 @@
+name: ChocoboTaxi
+displayField: Location
+fields:
+  - name: Location
+    type: link
+    targets: [ChocoboTaxiStand]
+  - name: TimeRequired
+  - name: Unknown3
+  - name: Fare
+  - name: Unknown4

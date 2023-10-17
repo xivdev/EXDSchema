@@ -1,0 +1,20 @@
+name: PresetCamera
+fields:
+  - name: PosX
+  - name: PosY
+  - name: PosZ
+  - name: Elezen
+  - name: Lalafell
+  - name: Miqote
+  - name: Roe
+  - name: Hrothgar
+  - name: Viera
+  - name: Unknown10
+  - name: Hyur_F
+  - name: Elezen_F
+  - name: Lalafell_F
+  - name: Miqote_F
+  - name: Roe_F
+  - name: Hrothgar_F
+  - name: Viera_F
+  - name: EID

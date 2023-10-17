@@ -1,0 +1,7 @@
+name: MJIKeyItem
+displayField: Item
+fields:
+  - name: Item
+    type: link
+    targets: [Item]
+  - name: Unknown1

@@ -1,0 +1,11 @@
+name: SatisfactionArbitration
+displayField: Quest
+fields:
+  - name: Quest
+    type: link
+    targets: [Quest]
+  - name: SatisfactionLevel
+  - name: SatisfactionNpc
+    type: link
+    targets: [SatisfactionNpc]
+  - name: Unknown3

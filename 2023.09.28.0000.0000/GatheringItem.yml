@@ -1,0 +1,18 @@
+name: GatheringItem
+displayField: Item
+fields:
+  - name: Unknown4
+  - name: Unknown6
+  - name: Item
+    type: link
+    targets: [Item, EventItem]
+  - name: GatheringItemLevel
+    type: link
+    targets: [GatheringItemLevelConvertTable]
+  - name: Quest
+    type: link
+    targets: [Quest]
+  - name: Unknown8
+  - name: Unknown7
+  - name: Unknown2
+  - name: IsHidden

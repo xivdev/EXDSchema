@@ -1,0 +1,4 @@
+name: HowToCategory
+displayField: Category
+fields:
+  - name: Category

@@ -1,0 +1,13 @@
+name: ResistanceWeaponAdjust
+fields:
+  - name: Image
+    type: icon
+  - name: MaxTotalStats
+  - name: MaxEachStat
+  - name: BaseParam
+    type: array
+    count: 4
+    fields:
+    - type: link
+      targets: [BaseParam]
+  - name: Unknown7

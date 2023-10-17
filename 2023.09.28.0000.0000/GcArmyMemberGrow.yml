@@ -1,0 +1,22 @@
+name: GcArmyMemberGrow
+fields:
+  - name: MemberParams
+    type: array
+    count: 60
+    fields:
+    - name: EquipPreset
+      type: link
+      targets: [GcArmyEquipPreset]
+    - name: Physical
+    - name: Mental
+    - name: Tactical
+  - name: Unknown62
+  - name: Unknown123
+  - name: Unknown184
+  - name: Unknown245
+  - name: ClassBook
+    type: link
+    targets: [Item]
+  - name: ClassJob
+    type: link
+    targets: [ClassJob]

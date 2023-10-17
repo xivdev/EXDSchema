@@ -1,0 +1,13 @@
+name: YKW
+fields:
+  - name: Unknown8
+  - name: Item
+    type: link
+    targets: [Item]
+  - name: Unknown0
+  - name: Location
+    type: array
+    count: 6
+    fields:
+    - type: link
+      targets: [TerritoryType]

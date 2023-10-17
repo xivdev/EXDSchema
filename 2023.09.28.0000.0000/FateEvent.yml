@@ -1,0 +1,16 @@
+name: FateEvent
+fields:
+  - name: EventParameters
+    type: array
+    count: 8
+    fields:
+    - name: Gesture
+    - name: LipSync
+    - name: Facial
+    - name: Shape
+    - name: Turn
+    - name: WidgetType
+    - name: IsAutoShake
+  - name: Text
+    type: array
+    count: 8

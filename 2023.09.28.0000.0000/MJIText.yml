@@ -1,0 +1,4 @@
+name: MJIText
+displayField: Text
+fields:
+  - name: Text

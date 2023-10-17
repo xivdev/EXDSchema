@@ -1,0 +1,6 @@
+name: MJIVillageAppearanceUI
+fields:
+  - name: Floor
+    type: icon
+  - name: Unknown1
+  - name: Unknown2

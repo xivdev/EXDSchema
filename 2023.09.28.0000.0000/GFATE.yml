@@ -1,0 +1,26 @@
+name: GFATE
+fields:
+  - name: GFATEParams
+    type: array
+    count: 15
+    fields:
+    - name: LGBPopRange
+      type: link
+      targets: [Level]
+    - name: Icon
+      type: icon
+    - name: Unknown39
+    - name: Unknown55
+    - name: Unknown71
+  - name: Unknown22
+  - name: Unknown38
+  - name: Unknown54
+  - name: Unknown70
+  - name: Unknown86
+  - name: Unknown2
+  - name: Unknown6
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5
+  - name: Unknown0
+  - name: Unknown1

@@ -1,0 +1,7 @@
+name: LeveAssignmentType
+displayField: Name
+fields:
+  - name: Name
+  - name: Icon
+    type: icon
+  - name: IsFaction

@@ -1,0 +1,33 @@
+name: Race
+displayField: Feminine
+fields:
+  - name: Masculine
+  - name: Feminine
+  - name: RSEMBody
+    type: link
+    targets: [Item]
+  - name: RSEFBody
+    type: link
+    targets: [Item]
+  - name: RSEMHands
+    type: link
+    targets: [Item]
+  - name: RSEFHands
+    type: link
+    targets: [Item]
+  - name: RSEMLegs
+    type: link
+    targets: [Item]
+  - name: RSEFLegs
+    type: link
+    targets: [Item]
+  - name: RSEMFeet
+    type: link
+    targets: [Item]
+  - name: RSEFFeet
+    type: link
+    targets: [Item]
+  - name: Unknown10
+  - name: ExPac
+    type: link
+    targets: [ExVersion]

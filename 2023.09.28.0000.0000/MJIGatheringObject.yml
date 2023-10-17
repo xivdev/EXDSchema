@@ -1,0 +1,13 @@
+name: MJIGatheringObject
+displayField: Name
+fields:
+  - name: MapIcon
+    type: icon
+  - name: Unknown2
+  - name: Name
+    type: link
+    targets: [EObjName]
+  - name: SGB
+    type: link
+    targets: [ExportedSG]
+  - name: Unknown4

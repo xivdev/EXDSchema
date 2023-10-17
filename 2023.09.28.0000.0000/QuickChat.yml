@@ -1,0 +1,13 @@
+name: QuickChat
+displayField: Text
+fields:
+  - name: NameAction
+  - name: Icon
+    type: icon
+  - name: Addon
+    type: link
+    targets: [Addon]
+  - name: Unknown4
+  - name: QuickChatTransient
+    type: link
+    targets: [QuickChatTransient]

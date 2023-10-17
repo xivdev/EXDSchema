@@ -1,0 +1,19 @@
+name: GuildleveAssignment
+fields:
+  - name: Type
+  - name: AssignmentTalk
+    type: link
+    targets: [GuildleveAssignmentTalk]
+  - name: Quest
+    type: array
+    count: 2
+    fields:
+    - type: link
+      targets: [Quest]
+  - name: Unknown1
+  - name: Unknown10
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown7
+  - name: Unknown8
+  - name: Unknown9

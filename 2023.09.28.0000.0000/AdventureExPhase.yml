@@ -1,0 +1,15 @@
+name: AdventureExPhase
+fields:
+  - name: Quest
+    type: link
+    targets: [Quest]
+  - name: AdventureBegin
+    type: link
+    targets: [Adventure]
+  - name: AdventureEnd
+    type: link
+    targets: [Adventure]
+  - name: Unknown4
+  - name: Expansion
+    type: link
+    targets: [ExVersion]

@@ -1,0 +1,23 @@
+name: QuestRedoChapterUI
+displayField: Quest
+fields:
+  - name: ChapterName
+  - name: ChapterPart
+  - name: Transient
+  - name: Quest
+    type: link
+    targets: [Quest]
+  - name: Unknown1
+  - name: QuestRedoUISmall
+    type: icon
+  - name: QuestRedoUILarge
+    type: icon
+  - name: QuestRedoUIWide
+    type: icon
+  - name: UITab
+    type: link
+    targets: [QuestRedoChapterUITab]
+  - name: Category
+    type: link
+    targets: [QuestRedoChapterUICategory]
+  - name: Unknown4

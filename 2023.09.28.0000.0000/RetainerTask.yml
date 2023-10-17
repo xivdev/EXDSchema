@@ -1,0 +1,22 @@
+name: RetainerTask
+fields:
+  - name: Experience
+  - name: Unknown3
+  - name: RetainerTaskParameter
+    type: link
+    targets: [RetainerTaskParameter]
+  - name: VentureCost
+  - name: MaxTimemin
+  - name: RequiredItemLevel
+  - name: RequiredGathering
+  - name: Unknown12
+  - name: Task
+    type: link
+    targets: [RetainerTaskNormal, RetainerTaskRandom]
+  - name: ClassJobCategory
+    type: link
+    targets: [ClassJobCategory]
+  - name: RetainerLevel
+  - name: ConditionParam0
+  - name: ConditionParam1
+  - name: IsRandom

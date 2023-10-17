@@ -1,0 +1,28 @@
+name: MiniGameRA
+fields:
+  - name: Unknown7
+  - name: Unknown0
+  - name: Icon
+    type: icon
+  - name: Image
+    type: icon
+  - name: BGM
+    type: link
+    targets: [BGM]
+  - name: Unknown4
+  - name: Unknown11
+  - name: Unknown12
+  - name: Unknown13
+  - name: Unknown14
+  - name: Unknown15
+  - name: Unknown16
+  - name: Unknown17
+  - name: Unknown18
+  - name: Unknown19
+  - name: Unknown20
+  - name: Unknown21
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown8
+  - name: Unknown9
+  - name: Unknown10

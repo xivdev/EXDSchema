@@ -1,0 +1,9 @@
+name: BuddyItem
+fields:
+  - name: Item
+    type: link
+    targets: [Item]
+  - name: Status
+  - name: UseField
+  - name: UseTraining
+  - name: Unknown3

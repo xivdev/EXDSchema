@@ -1,0 +1,27 @@
+name: ActionTimeline
+displayField: Key
+fields:
+  - name: Key
+  - name: KillUpper
+  - name: Type
+  - name: Priority
+  - name: Stance
+  - name: Slot
+  - name: LookAtMode
+  - name: ActionTimelineIDMode
+  - name: WeaponTimeline
+    type: link
+    targets: [WeaponTimeline]
+  - name: LoadType
+  - name: StartAttach
+  - name: ResidentPap
+  - name: IsLoop
+  - name: Unknown20
+  - name: Unknown21
+  - name: Pause
+  - name: Resident
+  - name: IsMotionCanceledByMoving
+  - name: Unknown15
+  - name: Unknown17
+  - name: Unknown18
+  - name: Unknown19

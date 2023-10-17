@@ -1,0 +1,11 @@
+name: MJIName
+displayField: Name
+fields:
+  - name: Singular
+  - name: Plural
+  - name: Adjective
+  - name: PossessivePronoun
+  - name: StartsWithVowel
+  - name: Unknown5
+  - name: Pronoun
+  - name: Article

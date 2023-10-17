@@ -1,0 +1,15 @@
+name: DeepDungeonMagicStone
+displayField: Name
+fields:
+  - name: Singular
+  - name: Plural
+  - name: Name
+  - name: Tooltip
+  - name: Adjective
+  - name: PossessivePronoun
+  - name: StartsWithVowel
+  - name: Unknown6
+  - name: Pronoun
+  - name: Article
+  - name: Icon
+    type: icon

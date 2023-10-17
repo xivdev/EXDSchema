@@ -1,0 +1,32 @@
+name: CustomTalk
+displayField: Name
+fields:
+  - name: Script
+    type: array
+    count: 30
+    fields:
+      - name: ScriptInstruction
+      - name: ScriptArg
+  - name: MainOption
+  - name: SubOption
+  - name: Name
+  - name: IconActor
+    type: icon
+  - name: IconMap
+    type: icon
+  - name: SpecialLinks
+    type: link
+    targets: [CollectablesShop, ContentEntry, SpecialShop, CustomTalkNestHandlers]
+  - name: Unknown76
+  - name: Unknown77
+  - name: Unknown63
+  - name: Unknown66
+  - name: Unknown67
+  - name: Unknown68
+  - name: Unknown69
+  - name: Unknown70
+  - name: Unknown71
+  - name: Unknown72
+  - name: Unknown73
+  - name: Unknown74
+  - name: Unknown78

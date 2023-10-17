@@ -1,0 +1,12 @@
+name: ItemSearchCategory
+displayField: Name
+fields:
+  - name: Name
+  - name: Icon
+    type: icon
+  - name: Category
+  - name: Order
+  - name: ClassJob
+    type: link
+    targets: [ClassJob]
+  - name: Unknown5

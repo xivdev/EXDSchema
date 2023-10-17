@@ -1,0 +1,72 @@
+name: TerritoryType
+displayField: Name
+fields:
+  - name: Name
+  - name: Bg
+  - name: ArrayEventHandler
+    type: link
+    targets: [ArrayEventHandler]
+  - name: PlaceNameRegionIcon
+    type: icon
+  - name: PlaceNameIcon
+    type: icon
+  - name: Aetheryte
+    type: link
+    targets: [Aetheryte]
+  - name: FixedTime
+  - name: PlaceNameRegion
+    type: link
+    targets: [PlaceName]
+  - name: PlaceNameZone
+    type: link
+    targets: [PlaceName]
+  - name: PlaceName
+    type: link
+    targets: [PlaceName]
+  - name: Map
+    type: link
+    targets: [Map]
+  - name: ContentFinderCondition
+    type: link
+    targets: [ContentFinderCondition]
+  - name: BGM
+    type: link
+    targets: [BGM, BGMSituation]
+  - name: QuestBattle
+    type: link
+    targets: [QuestBattle]
+  - name: Resident
+  - name: Unknown42
+  - name: BattalionMode
+  - name: LoadingImage
+    type: link
+    targets: [LoadingImage]
+  - name: ExclusiveType
+  - name: TerritoryIntendedUse
+  - name: WeatherRate
+  - name: Unknown14
+  - name: ExVersion
+    type: link
+    targets: [ExVersion]
+  - name: Unknown30
+  - name: Unknown31
+  - name: Unknown32
+  - name: MountSpeed
+    type: link
+    targets: [MountSpeed]
+  - name: Unknown36
+  - name: AchievementIndex
+  - name: Unknown11
+  - name: Unknown13
+  - name: PCSearch
+  - name: Stealth
+  - name: Mount
+  - name: Unknown18
+  - name: IsPvpZone
+  - name: Unknown34
+  - name: Unknown35
+  - name: Unknown37
+  - name: Unknown38
+  - name: Unknown39
+  - name: Unknown40
+  - name: Unknown41

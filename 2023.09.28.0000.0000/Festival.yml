@@ -1,0 +1,5 @@
+name: Festival
+displayField: Name
+fields:
+  - name: Name
+  - name: Unknown1

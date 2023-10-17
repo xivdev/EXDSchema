@@ -1,0 +1,21 @@
+name: SpearfishingNotebook
+displayField: PlaceName
+fields:
+  - name: TerritoryType
+    type: link
+    targets: [TerritoryType]
+  - name: Radius
+  - name: PlaceName
+    type: link
+    targets: [PlaceName]
+  - name: GatheringPointBase
+    type: link
+    targets: [GatheringPointBase]
+  - name: Unknown10
+  - name: Unknown11
+  - name: X
+  - name: Y
+  - name: GatheringLevel
+  - name: Unknown6
+  - name: Unknown8
+  - name: IsShadowNode

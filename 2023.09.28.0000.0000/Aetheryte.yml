@@ -1,0 +1,40 @@
+name: Aetheryte
+displayField: PlaceName
+fields:
+  - name: Singular
+  - name: Plural
+  - name: Adjective
+  - name: PossessivePronoun
+  - name: StartsWithVowel
+  - name: Unknown5
+  - name: Pronoun
+  - name: Article
+  - name: Unknown16
+  - name: Level
+    type: array
+    count: 4
+    fields:
+    - type: link
+      targets: [Level]
+  - name: RequiredQuest
+    type: link
+    targets: [Quest]
+  - name: PlaceName
+    type: link
+    targets: [PlaceName]
+  - name: AethernetName
+    type: link
+    targets: [PlaceName]
+  - name: Territory
+    type: link
+    targets: [TerritoryType]
+  - name: Map
+    type: link
+    targets: [Map]
+  - name: AetherstreamX
+  - name: AetherstreamY
+  - name: AethernetGroup
+  - name: Order
+  - name: Unknown1
+  - name: IsAetheryte
+  - name: Invisible

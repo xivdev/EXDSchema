@@ -1,0 +1,10 @@
+name: RPParameter
+displayField: BNpcName
+fields:
+  - name: BNpcName
+    type: link
+    targets: [BNpcName]
+  - name: ClassJob
+    type: link
+    targets: [ClassJob]
+  - name: Unknown2

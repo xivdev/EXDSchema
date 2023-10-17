@@ -1,0 +1,30 @@
+name: Perform
+displayField: Name
+fields:
+  - name: AnimationPlay01
+    type: link
+    targets: [ActionTimeline]
+  - name: AnimationPlay02
+    type: link
+    targets: [ActionTimeline]
+  - name: Instrument
+  - name: ModelKey
+  - name: Name
+  - name: StopAnimation
+    type: link
+    targets: [ActionTimeline]
+  - name: Order
+  - name: AnimationStart
+    type: link
+    targets: [ActionTimeline]
+  - name: AnimationEnd
+    type: link
+    targets: [ActionTimeline]
+  - name: AnimationIdle
+    type: link
+    targets: [ActionTimeline]
+  - name: Transient
+    type: link
+    targets: [PerformTransient]
+  - name: Unknown12
+  - name: Unknown1

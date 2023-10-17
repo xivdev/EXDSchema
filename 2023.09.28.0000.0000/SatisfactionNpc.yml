@@ -1,0 +1,53 @@
+name: SatisfactionNpc
+displayField: Npc
+fields:
+  - name: SatisfactionNpcParams
+    type: array
+    count: 6
+    fields:
+    - name: SupplyIndex
+    - name: Item
+      type: array
+      count: 3
+      fields:
+      - type: link
+        targets: [Item]
+    - name: SatisfactionRequired
+    - name: ItemCount
+      type: array
+      count: 3
+    - name: IsHQ
+      type: array
+      count: 3
+  # some kind of quest stuff here maybe
+  - name: Unknown70
+  - name: Unknown76
+  - name: Unknown82
+  - name: Unknown71
+  - name: Unknown77
+  - name: Unknown83
+  - name: Unknown72
+  - name: Unknown78
+  - name: Unknown84
+  - name: Unknown73
+  - name: Unknown79
+  - name: Unknown85
+  - name: Unknown74
+  - name: Unknown80
+  - name: Unknown86
+  - name: Unknown75
+  - name: Unknown81
+  - name: Unknown87
+  - name: Npc
+    type: link
+    targets: [ENpcResident]
+  - name: QuestRequired
+    type: link
+    targets: [Quest]
+  - name: Icon
+    type: icon
+  - name: LevelUnlock
+  - name: DeliveriesPerWeek
+  - name: Unknown89
+  - name: Unknown90
+  - name: Unknown91
