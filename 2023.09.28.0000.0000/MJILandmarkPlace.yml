@@ -5,6 +5,7 @@ fields:
     type: link
     targets: [EObjName]
   - name: SGB
+    count: 2
     type: array
     fields:
     - type: link
