@@ -13,16 +13,16 @@ fields:
   - name: TurnInEventItem
     type: link
     targets: [EventItem]
-  - name: Unknown40
-  - name: Unknown41
-  - name: Unknown42
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
   - name: ObjectiveIcon
     type: array
     count: 8
     fields:
-    - type: icon
-  - name: Unknown51
-  - name: Unknown52
+      - type: icon
+  - name: Unknown3
+  - name: Unknown4
   - name: Location
   - name: EventItem
     type: link
@@ -41,7 +41,7 @@ fields:
   - name: ArrayIndex
     type: link
     targets: [ArrayEventHandler]
-  - name: Unknown37
+  - name: Unknown5
   - name: Music
     type: link
     targets: [BGM]
@@ -60,8 +60,8 @@ fields:
   - name: GivenStatus
     type: link
     targets: [Status]
-  - name: Unknown29
-  - name: Unknown35
+  - name: Unknown6
+  - name: Unknown7
   - name: EurekaFate
   - name: Rule
   - name: ClassJobLevel
@@ -69,10 +69,10 @@ fields:
   - name: StatusValue
     type: array
     count: 3
-  - name: Unknown24
-  - name: Unknown34
+  - name: Unknown8
+  - name: Unknown9
   - name: SpecialFate
-  - name: Unknown27
+  - name: Unknown10
   - name: AdventEvent
   - name: MoonFaireEvent
-  - name: Unknown32
+  - name: Unknown11

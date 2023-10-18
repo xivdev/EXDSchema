@@ -9,6 +9,6 @@ fields:
   - name: ClassJobCategory
     type: link
     targets: [ClassJobCategory]
-  - name: Unknown1
+  - name: Unknown0
   - name: AmountRequired
   - name: ItemHQ

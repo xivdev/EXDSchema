@@ -17,7 +17,7 @@ fields:
     type: link
     targets: [Action]
   - name: Bullet
-  - name: Unknown5
-  - name: Unknown6
+  - name: Unknown0
+  - name: Unknown1
   - name: Near
   - name: Far

@@ -7,4 +7,4 @@ fields:
   - name: JournalSection
     type: link
     targets: [JournalSection]
-  - name: Unknown4
+  - name: Unknown0

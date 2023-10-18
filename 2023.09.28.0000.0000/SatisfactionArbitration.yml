@@ -8,4 +8,4 @@ fields:
   - name: SatisfactionNpc
     type: link
     targets: [SatisfactionNpc]
-  - name: Unknown3
+  - name: Unknown0

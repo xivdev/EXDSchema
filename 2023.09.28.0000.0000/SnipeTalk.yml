@@ -1,10 +1,10 @@
 name: SnipeTalk
 fields:
   - name: Text
-  - name: Unknown4
-  - name: Unknown5
+  - name: Unknown0
+  - name: Unknown1
   - name: Name
     type: link
     targets: [SnipeTalkName]
-  - name: Unknown0
-  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3

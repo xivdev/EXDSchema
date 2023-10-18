@@ -2,4 +2,4 @@ name: WeaponTimeline
 fields:
   - name: File
   - name: NextWeaponTimeline
-  - name: Unknown2
+  - name: Unknown0

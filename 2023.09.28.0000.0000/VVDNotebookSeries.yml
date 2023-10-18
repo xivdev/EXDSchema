@@ -5,6 +5,6 @@ fields:
   - name: Contents
     type: array
     count: 12
-    fields:      
-    - type: link
-      targets: [VVDNotebookContents]
+    fields:
+      - type: link
+        targets: [VVDNotebookContents]

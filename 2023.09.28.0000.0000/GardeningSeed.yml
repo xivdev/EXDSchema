@@ -7,6 +7,6 @@ fields:
   - name: Icon
     type: icon
   - name: ModelID
-  - name: Unknown5
+  - name: Unknown0
   - name: SE
-  - name: Unknown4
+  - name: Unknown1

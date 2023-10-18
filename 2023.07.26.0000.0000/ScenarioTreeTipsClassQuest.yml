@@ -11,5 +11,5 @@ fields:
   - name: RequiredExpansion
     type: link
     targets: [ExVersion]
-  - name: Unknown4
-  - name: Unknown5
+  - name: Unknown0
+  - name: Unknown1

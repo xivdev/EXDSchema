@@ -19,10 +19,10 @@ fields:
   - name: Image
     type: icon
   - name: TimeLimit
-  - name: Unknown32
+  - name: Unknown0
   - name: ContentFinderCondition
     type: link
     targets: [ContentFinderCondition]
   - name: Key
-  - name: Unknown35
+  - name: Unknown1
   - name: Name

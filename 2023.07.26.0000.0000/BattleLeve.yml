@@ -7,25 +7,25 @@ fields:
     type: array
     count: 8
     fields:
-    - name: BNpcName
-      type: link
-      targets: [BNpcName]
-    - name: ToDoNumberInvolved
-    - name: ToDoParam
-      type: array
-      count: 5
-    - name: BaseID
-      type: link
-      targets: [EventItem, BNpcBase]
-    - name: ItemsInvolved
-      type: link
-      targets: [EventItem]
-    - name: EnemyLevel
-    - name: ItemsInvolvedQty
-    - name: ItemDropRate
-    - name: NumOfAppearance
-      type: array
-      count: 8
+      - name: BNpcName
+        type: link
+        targets: [BNpcName]
+      - name: ToDoNumberInvolved
+      - name: ToDoParam
+        type: array
+        count: 5
+      - name: BaseID
+        type: link
+        targets: [EventItem, BNpcBase]
+      - name: ItemsInvolved
+        type: link
+        targets: [EventItem]
+      - name: EnemyLevel
+      - name: ItemsInvolvedQty
+      - name: ItemDropRate
+      - name: NumOfAppearance
+        type: array
+        count: 8
   - name: ToDoSequence
     type: array
     count: 8
@@ -36,8 +36,8 @@ fields:
     type: array
     count: 3
     fields:
-    - type: link
-      targets: [LeveString]
+      - type: link
+        targets: [LeveString]
   - name: Help
     type: array
     count: 2

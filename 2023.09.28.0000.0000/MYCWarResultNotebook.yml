@@ -7,7 +7,7 @@ fields:
   - name: Quest
     type: link
     targets: [Quest]
-  - name: Unknown4
+  - name: Unknown0
   - name: Icon
     type: icon
   - name: Image

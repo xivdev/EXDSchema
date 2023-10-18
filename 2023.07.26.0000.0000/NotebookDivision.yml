@@ -10,7 +10,7 @@ fields:
     targets: [NotebookDivisionCategory]
   - name: CraftOpeningLevel
   - name: GatheringOpeningLevel
-  - name: Unknown5
+  - name: Unknown0
   - name: CRPCraft
   - name: BSMCraft
   - name: ARMCraft
@@ -19,4 +19,4 @@ fields:
   - name: WVRCraft
   - name: ALCCraft
   - name: CULCraft
-  - name: Unknown6
+  - name: Unknown1

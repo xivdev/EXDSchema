@@ -1,21 +1,21 @@
 name: Behavior
 fields:
   - name: ContentArgument0
-  - name: Unknown15
-  - name: Unknown4
-  - name: Unknown6
-  - name: Unknown7
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
   - name: Balloon
     type: link
     targets: [Balloon]
-  - name: Unknown16
+  - name: Unknown4
   - name: Unknown5
-  - name: Unknown0
-  - name: Unknown1
+  - name: Unknown6
+  - name: Unknown7
   - name: Condition0Target
   - name: Condition0Type
   - name: Condition1Target
   - name: Condition1Type
   - name: ContentArgument1
-  - name: Unknown13
-  - name: Unknown14
+  - name: Unknown8
+  - name: Unknown9

@@ -17,16 +17,16 @@ fields:
   - name: SpecialLinks
     type: link
     targets: [CollectablesShop, ContentEntry, SpecialShop, CustomTalkNestHandlers]
-  - name: Unknown76
-  - name: Unknown77
-  - name: Unknown63
-  - name: Unknown66
-  - name: Unknown67
-  - name: Unknown68
-  - name: Unknown69
-  - name: Unknown70
-  - name: Unknown71
-  - name: Unknown72
-  - name: Unknown73
-  - name: Unknown74
-  - name: Unknown78
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown7
+  - name: Unknown8
+  - name: Unknown9
+  - name: Unknown10
+  - name: Unknown11
+  - name: Unknown12

@@ -4,14 +4,14 @@ fields:
     type: array
     count: 6
     fields:
-    - type: link
-      condition:
-        switch: UnlockType1
-        cases:
-          1: [Quest]
-          4: [ContentFinderCondition]
-          5: [Emote]
-          6: [Companion]
+      - type: link
+        condition:
+          switch: UnlockType1
+          cases:
+            1: [Quest]
+            4: [ContentFinderCondition]
+            5: [Emote]
+            6: [Companion]
   - name: UnlockCriteria2
     type: link
     condition:
@@ -56,4 +56,4 @@ fields:
   - name: UnlockHint
     type: link
     targets: [BannerObtainHintType]
-  - name: Unknown14
+  - name: Unknown0

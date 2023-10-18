@@ -20,7 +20,7 @@ fields:
   - name: RewardQuantity2
   - name: RewardQuantity3
   - name: RewardType1
-  - name: Unknown1
+  - name: Unknown0
   - name: RewardType2
   - name: RewardType3
   - name: RewardHq2

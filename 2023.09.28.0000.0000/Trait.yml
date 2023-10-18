@@ -15,4 +15,4 @@ fields:
   - name: ClassJobCategory
     type: link
     targets: [ClassJobCategory]
-  - name: Unknown7
+  - name: Unknown0

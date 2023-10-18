@@ -4,6 +4,6 @@ fields:
     type: array
     count: 160
     fields:
-    - type: link
-      targets: [Recipe]
+      - type: link
+        targets: [Recipe]
   - name: Count

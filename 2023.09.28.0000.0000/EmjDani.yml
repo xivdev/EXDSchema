@@ -2,8 +2,10 @@ name: EmjDani
 fields:
   - name: Icon
     type: icon
+  - name: Unknown0
   - name: Unknown1
   - name: Unknown2
+  - name: Unknown3
   - name: Unknown4
   - name: Unknown5
   - name: Unknown6
@@ -11,5 +13,3 @@ fields:
   - name: Unknown8
   - name: Unknown9
   - name: Unknown10
-  - name: Unknown11
-  - name: Unknown3

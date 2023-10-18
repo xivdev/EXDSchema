@@ -6,6 +6,6 @@ fields:
   - name: Instance
     type: link
     targets: [InstanceContent]
+  - name: Unknown0
+  - name: Unknown1
   - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4

@@ -5,10 +5,10 @@ fields:
   - name: BalloonTime
   - name: Unknown0
   - name: OutputType
-  - name: Unknown8
-  - name: Unknown9
   - name: Unknown1
   - name: Unknown2
   - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5
   - name: IsBalloonSlow
   - name: BattleTalkTime

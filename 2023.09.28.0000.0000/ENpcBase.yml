@@ -4,8 +4,8 @@ fields:
     type: array
     count: 32
     fields:
-    - type: link
-      targets: [ChocoboTaxiStand, CraftLeve, CustomTalk, DefaultTalk, FccShop, GCShop, GilShop, GuildleveAssignment, GuildOrderGuide, GuildOrderOfficer, Quest, SpecialShop, Story, SwitchTalk, TopicSelect, TripleTriad, Warp]
+      - type: link
+        targets: [ChocoboTaxiStand, CraftLeve, CustomTalk, DefaultTalk, FccShop, GCShop, GilShop, GuildleveAssignment, GuildOrderGuide, GuildOrderOfficer, Quest, SpecialShop, Story, SwitchTalk, TopicSelect, TripleTriad, Warp]
   - name: ModelMainHand
   - name: ModelOffHand
   - name: Scale
@@ -62,7 +62,7 @@ fields:
   - name: ExtraFeature2OrBust
   - name: FacePaint
   - name: FacePaintColor
-  - name: Unknown62
+  - name: Unknown0
   - name: DyeMainHand
     type: link
     targets: [Stain]
@@ -101,7 +101,7 @@ fields:
     targets: [Stain]
   - name: Invisibility
   - name: DefaultBalloon
-  - name: Unknown94
+  - name: Unknown1
   - name: Important
   - name: Visor
   - name: NotRewriteHeight

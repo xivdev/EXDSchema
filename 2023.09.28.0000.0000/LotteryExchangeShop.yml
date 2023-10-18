@@ -5,17 +5,17 @@ fields:
     type: array
     count: 32
     fields:
-    - name: AmountAccepted
-    - name: ItemAccepted
-      type: link
-      targets: [Item]
-    - name: Unknown65
-    - name: Unknown97
+      - name: AmountAccepted
+      - name: ItemAccepted
+        type: link
+        targets: [Item]
+      - name: Unknown0
+      - name: Unknown1
   - name: Script
   - name: LogMessage
     type: array
     count: 3
     fields:
-    - type: link
-      targets: [LogMessage]
-  - name: Unknown133
+      - type: link
+        targets: [LogMessage]
+  - name: Unknown0

@@ -8,6 +8,6 @@ fields:
   - name: ItemReceived
     type: link
     targets: [Item]
-  - name: Unknown5
+  - name: Unknown0
   - name: Unknown1
-  - name: Unknown3
+  - name: Unknown2

@@ -4,14 +4,14 @@ fields:
     type: array
     count: 4
     fields:
-    - type: link
-      targets: [Item]
+      - type: link
+        targets: [Item]
   - name: PreviousQuest
     type: array
     count: 3
     fields:
-    - type: link
-      targets: [Quest]
+      - type: link
+        targets: [Quest]
   - name: DefaultTalkChallenge
     type: link
     targets: [DefaultTalk]
@@ -31,15 +31,15 @@ fields:
     type: array
     count: 5
     fields:
-    - type: link
-      targets: [TripleTriadCard]
+      - type: link
+        targets: [TripleTriadCard]
     targets: [TripleTriadCard]
   - name: TripleTriadCardVariable
     type: array
     count: 5
     fields:
-    - type: link
-      targets: [TripleTriadCard]
+      - type: link
+        targets: [TripleTriadCard]
   - name: Fee
   - name: StartTime
   - name: EndTime
@@ -47,8 +47,8 @@ fields:
     type: array
     count: 2
     fields:
-    - type: link
-      targets: [TripleTriadRule]
+      - type: link
+        targets: [TripleTriadRule]
   - name: PreviousQuestJoin
   - name: UsesRegionalRules
-  - name: Unknown25
+  - name: Unknown0

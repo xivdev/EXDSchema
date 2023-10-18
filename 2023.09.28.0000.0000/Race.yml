@@ -27,7 +27,7 @@ fields:
   - name: RSEFFeet
     type: link
     targets: [Item]
-  - name: Unknown10
+  - name: Unknown0
   - name: ExPac
     type: link
     targets: [ExVersion]

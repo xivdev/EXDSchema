@@ -38,7 +38,7 @@ fields:
     targets: [ActionTimeline]
   - name: Icon
     type: icon
-  - name: Unknown10
+  - name: Unknown0
   - name: ClassJobCategory
     type: link
     targets: [ClassJobCategory]

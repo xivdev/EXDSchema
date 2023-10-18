@@ -33,9 +33,9 @@ fields:
   - name: RogueItem
     type: link
     targets: [Item]
-  - name: Unknown12
-  - name: Unknown13
-  - name: Unknown14
-  - name: Unknown15
-  - name: Unknown16
   - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5

@@ -6,7 +6,7 @@ fields:
   - name: Adjective
   - name: PossessivePronoun
   - name: StartsWithVowel
-  - name: Unknown5
+  - name: Unknown0
   - name: Pronoun
   - name: Article
   - name: Model
@@ -19,7 +19,7 @@ fields:
   - name: Order
   - name: HP
   - name: SkillAngle
-  - name: Unknown36
+  - name: Unknown1
   - name: Scale
   - name: InactiveIdle0
   - name: InactiveIdle1
@@ -30,19 +30,19 @@ fields:
     targets: [CompanionMove]
   - name: Special
   - name: WanderingWait
-  - name: Unknown29
+  - name: Unknown2
   - name: Cost
-  - name: Unknown32
+  - name: Unknown3
   - name: SkillCost
-  - name: Unknown35
+  - name: Unknown4
   - name: MinionRace
     type: link
     targets: [MinionRace]
-  - name: Unknown18
-  - name: Unknown19
-  - name: Unknown20
-  - name: Unknown21
-  - name: Unknown22
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown7
+  - name: Unknown8
+  - name: Unknown9
   - name: Battle
   - name: Roulette
   - name: IdleAnimation

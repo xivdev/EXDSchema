@@ -4,7 +4,7 @@ fields:
     type: array
     count: 8
     fields:
-    - type: link
-      targets: [NpcYell]
-  - name: Unknown8
-  - name: Unknown9
+      - type: link
+        targets: [NpcYell]
+  - name: Unknown0
+  - name: Unknown1

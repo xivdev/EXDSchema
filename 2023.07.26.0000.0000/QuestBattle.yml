@@ -4,8 +4,8 @@ fields:
     type: array
     count: 200
     fields:
-    - name: ScriptInstruction
-    - name: ScriptValue
+      - name: ScriptInstruction
+      - name: ScriptValue
   - name: Quest
     type: link
     targets: [ArrayEventHandler, Quest]

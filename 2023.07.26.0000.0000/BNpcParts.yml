@@ -5,25 +5,25 @@ fields:
   - name: X3
   - name: X4
   - name: X5
-  - name: Unknown61
+  - name: Unknown0
   - name: Y1
   - name: Y2
   - name: Y3
   - name: Y4
   - name: Y5
-  - name: Unknown62
+  - name: Unknown1
   - name: Z1
   - name: Z2
   - name: Z3
   - name: Z4
   - name: Z5
-  - name: Unknown63
+  - name: Unknown2
   - name: Scale1
   - name: Scale2
-  - name: Unknown32
+  - name: Unknown3
   - name: Scale4
   - name: Scale5
-  - name: Unknown65
+  - name: Unknown4
   - name: BNpcBase1
     type: link
     targets: [BNpcBase]
@@ -39,40 +39,40 @@ fields:
   - name: BNpcBase5
     type: link
     targets: [BNpcBase]
-  - name: Unknown55
-  - name: Unknown9
-  - name: Unknown20
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown7
   - name: Scale3
-  - name: Unknown42
-  - name: Unknown53
-  - name: Unknown64
+  - name: Unknown8
+  - name: Unknown9
+  - name: Unknown10
   - name: PartSlot1
   - name: PartSlot2
   - name: PartSlot3
   - name: PartSlot4
   - name: PartSlot5
-  - name: Unknown56
-  - name: Unknown2
+  - name: Unknown11
+  - name: Unknown12
   - name: Unknown13
-  - name: Unknown24
-  - name: Unknown35
-  - name: Unknown46
-  - name: Unknown57
-  - name: Unknown3
   - name: Unknown14
-  - name: Unknown25
-  - name: Unknown36
-  - name: Unknown47
-  - name: Unknown58
-  - name: Unknown4
   - name: Unknown15
-  - name: Unknown26
-  - name: Unknown37
-  - name: Unknown48
-  - name: Unknown59
-  - name: Unknown5
   - name: Unknown16
+  - name: Unknown17
+  - name: Unknown18
+  - name: Unknown19
+  - name: Unknown20
+  - name: Unknown21
+  - name: Unknown22
+  - name: Unknown23
+  - name: Unknown24
+  - name: Unknown25
+  - name: Unknown26
   - name: Unknown27
-  - name: Unknown38
-  - name: Unknown49
-  - name: Unknown60
+  - name: Unknown28
+  - name: Unknown29
+  - name: Unknown30
+  - name: Unknown31
+  - name: Unknown32
+  - name: Unknown33
+  - name: Unknown34
+  - name: Unknown35

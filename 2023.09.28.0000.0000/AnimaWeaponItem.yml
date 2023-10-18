@@ -4,5 +4,5 @@ fields:
     type: array
     count: 14
     fields:
-    - type: link
-      targets: [Item]
+      - type: link
+        targets: [Item]

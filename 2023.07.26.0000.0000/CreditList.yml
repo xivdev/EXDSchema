@@ -9,5 +9,5 @@ fields:
     type: link
     targets: [CreditListText]
   - name: Scale
-  - name: Unknown3
-  - name: Unknown4
+  - name: Unknown0
+  - name: Unknown1

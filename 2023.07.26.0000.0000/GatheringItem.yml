@@ -1,8 +1,8 @@
 name: GatheringItem
 displayField: Item
 fields:
-  - name: Unknown4
-  - name: Unknown6
+  - name: Unknown0
+  - name: Unknown1
   - name: Item
     type: link
     targets: [Item, EventItem]
@@ -12,7 +12,7 @@ fields:
   - name: Quest
     type: link
     targets: [Quest]
-  - name: Unknown8
-  - name: Unknown7
   - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
   - name: IsHidden

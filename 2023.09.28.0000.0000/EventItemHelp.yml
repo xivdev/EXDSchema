@@ -2,4 +2,4 @@ name: EventItemHelp
 displayField: Description
 fields:
   - name: Description
-  - name: Unknown1
+  - name: Unknown0

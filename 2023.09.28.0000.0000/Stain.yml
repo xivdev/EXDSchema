@@ -2,10 +2,10 @@ name: Stain
 displayField: Name
 fields:
   - name: Name
-  - name: Unknown4
+  - name: Unknown0
   - name: Color
     type: color
   - name: Shade
   - name: SubOrder
-  - name: Unknown5
-  - name: Unknown6
+  - name: Unknown1
+  - name: Unknown2

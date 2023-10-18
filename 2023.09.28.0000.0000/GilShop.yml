@@ -13,6 +13,6 @@ fields:
   - name: FailTalk
     type: link
     targets: [DefaultTalk]
-  - name: Unknown6
-  - name: Unknown5
+  - name: Unknown0
   - name: Unknown1
+  - name: Unknown2

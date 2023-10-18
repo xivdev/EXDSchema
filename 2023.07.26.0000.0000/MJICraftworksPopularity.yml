@@ -4,5 +4,5 @@ fields:
     type: array
     count: 81
     fields:
-    - type: link
-      targets: [MJICraftworksPopularityType]
+      - type: link
+        targets: [MJICraftworksPopularityType]

@@ -6,12 +6,12 @@ fields:
   - name: ShortAlias
   - name: Command
   - name: ShortCommand
-  - name: Unknown11
+  - name: Unknown0
   - name: Param
     type: link
     targets: [TextCommandParam]
-  - name: Unknown0
   - name: Unknown1
   - name: Unknown2
   - name: Unknown3
   - name: Unknown4
+  - name: Unknown5

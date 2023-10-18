@@ -6,16 +6,16 @@ fields:
   - name: Adjective
   - name: PossessivePronoun
   - name: StartsWithVowel
-  - name: Unknown5
+  - name: Unknown0
   - name: Pronoun
   - name: Article
-  - name: Unknown16
+  - name: Unknown1
   - name: Level
     type: array
     count: 4
     fields:
-    - type: link
-      targets: [Level]
+      - type: link
+        targets: [Level]
   - name: RequiredQuest
     type: link
     targets: [Quest]
@@ -35,6 +35,6 @@ fields:
   - name: AetherstreamY
   - name: AethernetGroup
   - name: Order
-  - name: Unknown1
+  - name: Unknown2
   - name: IsAetheryte
   - name: Invisible

@@ -4,14 +4,14 @@ fields:
     type: array
     count: 32
     fields:
-    - name: LevelRewardItem
-      type: array
-      count: 2
-      fields:
-      - type: link
-        targets: [Item]
-    - name: Unknown129
-    - name: LevelRewardCount
-      type: array
-      count: 2
+      - name: LevelRewardItem
+        type: array
+        count: 2
+        fields:
+          - type: link
+            targets: [Item]
+      - name: Unknown0
+      - name: LevelRewardCount
+        type: array
+        count: 2
   - name: Unknown0

@@ -3,10 +3,10 @@ displayField: Text
 fields:
   - name: Text
   - name: GridText
-  - name: Unknown4
   - name: Unknown0
+  - name: Unknown1
   - name: Image
     type: icon
+  - name: Unknown2
   - name: Unknown3
-  - name: Unknown6
-  - name: Unknown5
+  - name: Unknown4

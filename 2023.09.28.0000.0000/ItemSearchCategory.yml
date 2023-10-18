@@ -9,4 +9,4 @@ fields:
   - name: ClassJob
     type: link
     targets: [ClassJob]
-  - name: Unknown5
+  - name: Unknown0

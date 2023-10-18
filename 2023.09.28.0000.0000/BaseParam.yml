@@ -19,15 +19,15 @@ fields:
   - name: UnderArmorPercent
   - name: ChestHeadPercent
   - name: ChestHeadLegsFeetPercent
-  - name: Unknown20
+  - name: Unknown0
   - name: LegsFeetPercent
   - name: HeadChestHandsLegsFeetPercent
   - name: ChestLegsGlovesPercent
   - name: ChestLegsFeetPercent
-  - name: Unknown25
+  - name: Unknown1
   - name: OrderPriority
   - name: MeldParam
     type: array
     count: 13
   - name: PacketIndex
-  - name: Unknown39
+  - name: Unknown2

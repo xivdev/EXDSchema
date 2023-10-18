@@ -2,4 +2,4 @@ name: AOZContentBriefingObject
 fields:
   - name: Icon
     type: icon
-  - name: Unknown1
+  - name: Unknown0

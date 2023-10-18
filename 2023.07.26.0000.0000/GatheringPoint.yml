@@ -7,8 +7,8 @@ fields:
     type: array
     count: 2
     fields:
-    - type: link
-      targets: [GatheringPointBonus]
+      - type: link
+        targets: [GatheringPointBonus]
   - name: TerritoryType
     type: link
     targets: [TerritoryType]
@@ -19,5 +19,5 @@ fields:
     type: link
     targets: [GatheringSubCategory]
   - name: Type
-  - name: Unknown1
+  - name: Unknown0
   - name: Count

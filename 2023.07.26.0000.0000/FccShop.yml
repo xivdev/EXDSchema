@@ -6,10 +6,10 @@ fields:
     type: array
     count: 10
     fields:
-    - name: Item
-      type: link
-      targets: [Item]
-    - name: Cost
-    - name: FCRankRequired
-      type: link
-      targets: [FCRank]
+      - name: Item
+        type: link
+        targets: [Item]
+      - name: Cost
+      - name: FCRankRequired
+        type: link
+        targets: [FCRank]

@@ -5,39 +5,38 @@ fields:
     type: array
     count: 6
     fields:
-    - name: SupplyIndex
-    - name: Item
-      type: array
-      count: 3
-      fields:
-      - type: link
-        targets: [Item]
-    - name: SatisfactionRequired
-    - name: ItemCount
-      type: array
-      count: 3
-    - name: IsHQ
-      type: array
-      count: 3
-  # some kind of quest stuff here maybe
-  - name: Unknown70
-  - name: Unknown76
-  - name: Unknown82
-  - name: Unknown71
-  - name: Unknown77
-  - name: Unknown83
-  - name: Unknown72
-  - name: Unknown78
-  - name: Unknown84
-  - name: Unknown73
-  - name: Unknown79
-  - name: Unknown85
-  - name: Unknown74
-  - name: Unknown80
-  - name: Unknown86
-  - name: Unknown75
-  - name: Unknown81
-  - name: Unknown87
+      - name: SupplyIndex
+      - name: Item
+        type: array
+        count: 3
+        fields:
+          - type: link
+            targets: [Item]
+      - name: SatisfactionRequired
+      - name: ItemCount
+        type: array
+        count: 3
+      - name: IsHQ
+        type: array
+        count: 3
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown7
+  - name: Unknown8
+  - name: Unknown9
+  - name: Unknown10
+  - name: Unknown11
+  - name: Unknown12
+  - name: Unknown13
+  - name: Unknown14
+  - name: Unknown15
+  - name: Unknown16
+  - name: Unknown17
   - name: Npc
     type: link
     targets: [ENpcResident]
@@ -48,6 +47,6 @@ fields:
     type: icon
   - name: LevelUnlock
   - name: DeliveriesPerWeek
-  - name: Unknown89
-  - name: Unknown90
-  - name: Unknown91
+  - name: Unknown18
+  - name: Unknown19
+  - name: Unknown20

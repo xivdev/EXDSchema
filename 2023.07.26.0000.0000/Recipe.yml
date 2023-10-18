@@ -16,8 +16,8 @@ fields:
     type: array
     count: 10
     fields:
-    - type: link
-      targets: [Item]
+      - type: link
+        targets: [Item]
   - name: StatusRequired
     type: link
     targets: [Status]
@@ -40,14 +40,14 @@ fields:
   - name: SecretRecipeBook
     type: link
     targets: [SecretRecipeBook]
-  - name: Unknown46
+  - name: Unknown0
   - name: PatchNumber
   - name: AmountResult
   - name: AmountIngredient
     type: array
     count: 10
   - name: MaterialQualityFactor
-  - name: Unknown45
+  - name: Unknown1
   - name: IsSecondary
   - name: CanQuickSynth
   - name: CanHq

@@ -6,15 +6,15 @@ fields:
   - name: Adjective
   - name: PossessivePronoun
   - name: StartsWithVowel
-  - name: Unknown13
+  - name: Unknown0
   - name: Pronoun
   - name: Article
   - name: Model
-  - name: Unknown4
+  - name: Unknown1
   - name: Icon
     type: icon
   - name: Transient
   - name: Order
-  - name: Unknown1
   - name: Unknown2
   - name: Unknown3
+  - name: Unknown4

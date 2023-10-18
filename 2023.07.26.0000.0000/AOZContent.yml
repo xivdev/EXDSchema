@@ -29,9 +29,9 @@ fields:
       cases:
         1: [AOZArrangement]
         2: [AOZBoss]
-  - name: Unknown5
-  - name: Unknown9
-  - name: Unknown13
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
   - name: Act1FightType
   - name: Act2FightType
   - name: Act3FightType

@@ -27,16 +27,16 @@ fields:
     type: array
     count: 8
     fields:
-    - type: link
-      condition:
-        switch: Type
-        cases:
-          2: [Achievement]
-          6: [Quest]
-          9: [Quest]
-          15: [BeastReputationRank]
-          20: [AetherCurrentCompFlgSet]
-          24: [ClassJob, Quest]
+      - type: link
+        condition:
+          switch: Type
+          cases:
+            2: [Achievement]
+            6: [Quest]
+            9: [Quest]
+            15: [BeastReputationRank]
+            20: [AetherCurrentCompFlgSet]
+            24: [ClassJob, Quest]
   - name: Title
     type: link
     targets: [Title]
@@ -49,14 +49,14 @@ fields:
   - name: AchievementTarget
     type: link
     targets: [AchievementTarget]
-  - name: Unknown4
+  - name: Unknown0
   - name: Points
-  - name: Unknown8
-  - name: Unknown9
-  - name: Unknown10
-  - name: Unknown12
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
   - name: Type
-  - name: Unknown24
+  - name: Unknown5
   - name: AchievementHideCondition
     type: link
     targets: [AchievementHideCondition]

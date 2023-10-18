@@ -8,7 +8,7 @@ fields:
   - name: ShopItems
     type: array
     count: 11
-    fields: 
-    - type: link
-      targets: [CollectablesShopItem]
+    fields:
+      - type: link
+        targets: [CollectablesShopItem]
   - name: RewardType

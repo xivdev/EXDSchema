@@ -10,8 +10,8 @@ fields:
   - name: Reward
     type: link
     targets: [SatisfactionSupplyReward]
-  - name: Unknown8
-  - name: Unknown9
+  - name: Unknown0
+  - name: Unknown1
   - name: Slot
   - name: ProbabilityPercent
-  - name: Unknown7
+  - name: Unknown2

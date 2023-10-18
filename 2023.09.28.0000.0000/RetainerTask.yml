@@ -1,7 +1,7 @@
 name: RetainerTask
 fields:
   - name: Experience
-  - name: Unknown3
+  - name: Unknown0
   - name: RetainerTaskParameter
     type: link
     targets: [RetainerTaskParameter]
@@ -9,7 +9,7 @@ fields:
   - name: MaxTimemin
   - name: RequiredItemLevel
   - name: RequiredGathering
-  - name: Unknown12
+  - name: Unknown1
   - name: Task
     type: link
     targets: [RetainerTaskNormal, RetainerTaskRandom]

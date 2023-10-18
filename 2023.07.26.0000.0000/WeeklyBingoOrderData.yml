@@ -9,8 +9,8 @@ fields:
         0: [InstanceContent]
   - name: Icon
     type: icon
-  - name: Unknown2
+  - name: Unknown0
   - name: Text
     type: link
     targets: [WeeklyBingoText]
-  - name: Unknown5
+  - name: Unknown1

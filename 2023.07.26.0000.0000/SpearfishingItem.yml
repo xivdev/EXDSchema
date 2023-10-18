@@ -11,9 +11,9 @@ fields:
   - name: TerritoryType
     type: link
     targets: [TerritoryType]
-  - name: Unknown6
+  - name: Unknown0
   - name: FishingRecordType
     type: link
     targets: [FishingRecordType]
-  - name: Unknown3
+  - name: Unknown1
   - name: IsVisible

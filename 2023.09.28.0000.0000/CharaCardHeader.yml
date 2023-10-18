@@ -10,8 +10,8 @@ fields:
     type: link
     targets: [BannerCondition]
   - name: FontColor
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown5
+  - name: Unknown0
   - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
   - name: SortKey

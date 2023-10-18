@@ -8,7 +8,7 @@ fields:
   - name: Adjective
   - name: PossessivePronoun
   - name: StartsWithVowel
-  - name: Unknown6
+  - name: Unknown0
   - name: Pronoun
   - name: Article
   - name: Icon

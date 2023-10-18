@@ -10,8 +10,8 @@ fields:
   - name: X
   - name: Y
   - name: RankReq
-  - name: Unknown9
-  - name: Unknown11
+  - name: Unknown0
+  - name: Unknown1
   - name: SurveillanceReq
-  - name: Unknown12
+  - name: Unknown2
   - name: Passengers

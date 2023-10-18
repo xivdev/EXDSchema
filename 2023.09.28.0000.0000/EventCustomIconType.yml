@@ -4,14 +4,14 @@ fields:
     type: array
     count: 10
     fields:
-    - name: AnnounceQuest
-      type: icon
-    - name: AnnounceQuestLocked
-      type: icon
-    - name: MapAnnounceQuest1
-      type: icon
-    - name: MapAnnounceQuestLocked
-      type: icon
-    - name: MapAnnounceQuest2
-      type: icon
-  - name: Unknown50
+      - name: AnnounceQuest
+        type: icon
+      - name: AnnounceQuestLocked
+        type: icon
+      - name: MapAnnounceQuest1
+        type: icon
+      - name: MapAnnounceQuestLocked
+        type: icon
+      - name: MapAnnounceQuest2
+        type: icon
+  - name: Unknown0

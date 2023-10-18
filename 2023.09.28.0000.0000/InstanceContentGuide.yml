@@ -3,4 +3,4 @@ fields:
   - name: Instance
     type: link
     targets: [InstanceContent]
-  - name: Unknown1
+  - name: Unknown0

@@ -10,14 +10,14 @@ fields:
     type: array
     count: 3
     fields:
-    - type: link
-      targets: [PlaceName]
+      - type: link
+        targets: [PlaceName]
   - name: PlaceNameLocation
     type: array
     count: 3
     fields:
-    - type: link
-      targets: [PlaceName]
+      - type: link
+        targets: [PlaceName]
   - name: Town
     type: link
     targets: [Town]

@@ -16,5 +16,5 @@ fields:
   - name: DenyMessage
     type: link
     targets: [DefaultTalk]
-  - name: Unknown6
-  - name: Unknown7
+  - name: Unknown1
+  - name: Unknown2

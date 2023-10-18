@@ -4,14 +4,14 @@ fields:
     type: array
     count: 3
     fields:
-    - name: EmptyIcon
-      type: icon
-    - name: MaelstromIcon
-      type: icon
-    - name: TwinAdderIcon
-      type: icon
-    - name: ImmortalFlamesIcon
-      type: icon
-    - name: Unknown0
-    - name: Unknown3
-    - name: Unknown6
+      - name: EmptyIcon
+        type: icon
+      - name: MaelstromIcon
+        type: icon
+      - name: TwinAdderIcon
+        type: icon
+      - name: ImmortalFlamesIcon
+        type: icon
+      - name: Unknown0
+      - name: Unknown1
+      - name: Unknown2

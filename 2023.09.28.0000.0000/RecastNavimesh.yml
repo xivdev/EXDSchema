@@ -15,23 +15,23 @@ fields:
   - name: VertsPerPoly
   - name: DetailMeshSampleDistance
   - name: DetailMeshMaxSampleError
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown7
+  - name: Unknown8
+  - name: Unknown9
+  - name: Unknown10
+  - name: Unknown11
+  - name: Unknown12
+  - name: Unknown13
+  - name: Unknown14
+  - name: Unknown15
+  - name: Unknown16
   - name: Unknown17
   - name: Unknown18
   - name: Unknown19
   - name: Unknown20
-  - name: Unknown21
-  - name: Unknown22
-  - name: Unknown23
-  - name: Unknown24
-  - name: Unknown25
-  - name: Unknown26
-  - name: Unknown27
-  - name: Unknown28
-  - name: Unknown29
-  - name: Unknown31
-  - name: Unknown32
-  - name: Unknown33
-  - name: Unknown8
-  - name: Unknown11
-  - name: Unknown30
-  - name: Unknown34

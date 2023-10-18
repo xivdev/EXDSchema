@@ -22,5 +22,5 @@ fields:
     targets: [MapMarkerRegion]
   - name: Type
   - name: DataType
-  - name: Unknown9
-  - name: Unknown10
+  - name: Unknown0
+  - name: Unknown1

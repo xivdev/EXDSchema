@@ -7,13 +7,13 @@ fields:
     type: array
     count: 11
     fields:
-    - type: icon
+      - type: icon
   - name: Text
     type: array
     count: 11
     fields:
-    - type: link
-      targets: [DescriptionString]
-  - name: Unknown25
+      - type: link
+        targets: [DescriptionString]
   - name: Unknown0
+  - name: Unknown1
   - name: Unknown2

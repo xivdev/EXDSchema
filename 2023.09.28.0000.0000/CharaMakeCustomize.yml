@@ -11,5 +11,5 @@ fields:
     targets: [Item]
   - name: Data
   - name: FeatureID
-  - name: Unknown6
+  - name: Unknown0
   - name: IsPurchasable

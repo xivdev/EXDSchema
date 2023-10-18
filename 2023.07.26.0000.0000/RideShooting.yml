@@ -4,29 +4,29 @@ fields:
     type: array
     count: 8
     fields:
-    - name: Unknown6
-    - name: PopRange
-    - name: ENpc
-      type: link
-      targets: [ENpcBase]
-    - name: Unknown38
-    - name: Unknown54
-    - name: Unknown70
-    - name: Unknown86
-    - name: Unknown102
-    - name: ENpcScale
-    - name: Unknown46
-    - name: Unknown62
-    - name: Unknown78
-    - name: Unknown94
-    - name: Unknown110
+      - name: Unknown0
+      - name: PopRange
+      - name: ENpc
+        type: link
+        targets: [ENpcBase]
+      - name: Unknown1
+      - name: Unknown2
+      - name: Unknown3
+      - name: Unknown4
+      - name: Unknown5
+      - name: ENpcScale
+      - name: Unknown6
+      - name: Unknown7
+      - name: Unknown8
+      - name: Unknown9
+      - name: Unknown10
   - name: GFateRideShooting
     type: link
     targets: [GFateRideShooting]
-  - name: Unknown3
-  - name: Unknown4
+  - name: Unknown0
+  - name: Unknown1
   - name: StartText
     type: link
     targets: [RideShootingTextData]
-  - name: Unknown1
   - name: Unknown2
+  - name: Unknown3

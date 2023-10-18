@@ -3,8 +3,8 @@ fields:
   - name: TestAction
     type: link
     targets: [ActionTimeline]
+  - name: Unknown0
   - name: Unknown1
-  - name: Unknown5
+  - name: Unknown2
   - name: Unknown3
-  - name: Unknown4
   - name: Param

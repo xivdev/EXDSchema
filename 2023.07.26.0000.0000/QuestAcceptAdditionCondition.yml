@@ -6,5 +6,5 @@ fields:
   - name: Requirement1
     type: link
     targets: [Quest]
-  - name: Unknown2
-  - name: Unknown3
+  - name: Unknown0
+  - name: Unknown1

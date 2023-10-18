@@ -3,6 +3,6 @@ fields:
   - name: Name
     type: link
     targets: [Action]
-  - name: Unknown1
+  - name: Unknown0
   - name: Charges
-  - name: Unknown3
+  - name: Unknown1

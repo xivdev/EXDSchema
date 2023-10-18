@@ -4,4 +4,4 @@ fields:
   - name: ItemPouch
     type: link
     targets: [MJIItemPouch]
-  - name: Unknown1
+  - name: Unknown0

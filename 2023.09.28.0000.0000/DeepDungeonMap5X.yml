@@ -4,5 +4,5 @@ fields:
     type: array
     count: 5
     fields:
-    - type: link
-      targets: [DeepDungeonRoom]
+      - type: link
+        targets: [DeepDungeonRoom]

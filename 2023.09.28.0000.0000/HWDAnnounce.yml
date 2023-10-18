@@ -5,5 +5,5 @@ fields:
   - name: ENPC
     type: link
     targets: [ENpcResident]
-  - name: Unknown2
-  - name: Unknown3
+  - name: Unknown0
+  - name: Unknown1

@@ -4,21 +4,21 @@ fields:
     type: array
     count: 28
     fields:
-    - name: Menu
-      type: link
-      targets: [Lobby]
-    - name: SubMenuMask
-    - name: Customize
-    - name: SubMenuParam
-      type: array
-      count: 100
-    - name: InitVal
-    - name: SubMenuType
-    - name: SubMenuNum
-    - name: LookAt
-    - name: SubMenuGraphic
-      type: array
-      count: 10
+      - name: Menu
+        type: link
+        targets: [Lobby]
+      - name: SubMenuMask
+      - name: Customize
+      - name: SubMenuParam
+        type: array
+        count: 100
+      - name: InitVal
+      - name: SubMenuType
+      - name: SubMenuNum
+      - name: LookAt
+      - name: SubMenuGraphic
+        type: array
+        count: 10
   - name: VoiceStruct
     type: array
     count: 12
@@ -26,22 +26,22 @@ fields:
     type: array
     count: 8
     fields:
-    - name: Options
-      type: array
-      count: 7
-      fields:
-      - type: icon
+      - name: Options
+        type: array
+        count: 7
+        fields:
+          - type: icon
   - name: Equipment
     type: array
     count: 3
     fields:
-    - name: Helmet
-    - name: Top
-    - name: Gloves
-    - name: Legs
-    - name: Shoes
-    - name: Weapon
-    - name: SubWeapon
+      - name: Helmet
+      - name: Top
+      - name: Gloves
+      - name: Legs
+      - name: Shoes
+      - name: Weapon
+      - name: SubWeapon
   - name: Race
     type: link
     targets: [Race]

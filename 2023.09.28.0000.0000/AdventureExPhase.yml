@@ -9,7 +9,7 @@ fields:
   - name: AdventureEnd
     type: link
     targets: [Adventure]
-  - name: Unknown4
+  - name: Unknown0
   - name: Expansion
     type: link
     targets: [ExVersion]

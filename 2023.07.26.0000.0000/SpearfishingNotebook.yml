@@ -11,11 +11,11 @@ fields:
   - name: GatheringPointBase
     type: link
     targets: [GatheringPointBase]
-  - name: Unknown10
-  - name: Unknown11
+  - name: Unknown0
+  - name: Unknown1
   - name: X
   - name: Y
   - name: GatheringLevel
-  - name: Unknown6
-  - name: Unknown8
+  - name: Unknown2
+  - name: Unknown3
   - name: IsShadowNode

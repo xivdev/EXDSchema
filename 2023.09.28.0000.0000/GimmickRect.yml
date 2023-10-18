@@ -2,12 +2,12 @@ name: GimmickRect
 fields:
   - name: LayoutID
   - name: Param0
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
+  - name: Param1
   - name: Unknown3
   - name: Unknown4
   - name: Unknown5
-  - name: Param1
-  - name: Unknown8
-  - name: Unknown9
-  - name: Unknown10
   - name: TriggerIn
   - name: TriggerOut

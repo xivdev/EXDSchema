@@ -4,10 +4,10 @@ fields:
     type: array
     count: 3
     fields:
-    - type: link
-      targets: [CompanyCraftProcess]
-  - name: Unknown5
+      - type: link
+        targets: [CompanyCraftProcess]
   - name: Unknown0
+  - name: Unknown1
   - name: CompanyCraftType
     type: link
     targets: [CompanyCraftType]

@@ -6,10 +6,10 @@ fields:
     type: array
     count: 4
     fields:
-    - type: link
-      targets: [Action]
-  - name: Unknown6
-  - name: Unknown7
-  - name: Unknown8
+      - type: link
+        targets: [Action]
+  - name: Unknown0
   - name: Unknown1
-  - name: Unknown9
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4

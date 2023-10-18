@@ -4,14 +4,14 @@ fields:
   - name: LoopTimeline
   - name: Idle
   - name: Slot
-  - name: Unknown3
+  - name: Unknown0
   - name: Attribute0
   - name: Attribute1
   - name: Attribute2
-  - name: Unknown12
+  - name: Unknown1
   - name: OverRay
   - name: Unknown2
   - name: AttributeFlag0
   - name: AttributeFlag1
   - name: AttributeFlag2
-  - name: Unknown14
+  - name: Unknown3

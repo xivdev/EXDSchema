@@ -8,7 +8,6 @@ fields:
   - name: PopType
   - name: Invisibility
   - name: EventHighAddition
-  - name: Unknown17
   - name: Unknown0
   - name: Unknown1
   - name: Unknown2
@@ -17,9 +16,10 @@ fields:
   - name: Unknown5
   - name: Unknown6
   - name: Unknown7
+  - name: Unknown8
   - name: EyeCollision
   - name: DirectorControl
   - name: Target
-  - name: Unknown16
+  - name: Unknown9
   - name: AddedIn53
-  - name: Unknown19
+  - name: Unknown10

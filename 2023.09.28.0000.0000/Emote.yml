@@ -10,8 +10,8 @@ fields:
     type: array
     count: 7
     fields:
-    - type: link
-      targets: [ActionTimeline]
+      - type: link
+        targets: [ActionTimeline]
   - name: Order
   - name: Icon
     type: icon
@@ -21,18 +21,18 @@ fields:
   - name: LogMessageUntargeted
     type: link
     targets: [LogMessage]
-  - name: Unknown24
+  - name: Unknown0
   - name: EmoteCategory
     type: link
     targets: [EmoteCategory]
   - name: EmoteMode
     type: link
     targets: [EmoteMode]
-  - name: Unknown8
-  - name: Unknown9
-  - name: Unknown10
-  - name: Unknown13
-  - name: Unknown14
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5
   - name: HasCancelEmote
   - name: DrawsWeapon
-  - name: Unknown17
+  - name: Unknown6

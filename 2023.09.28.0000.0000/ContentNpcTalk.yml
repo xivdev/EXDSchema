@@ -4,6 +4,6 @@ fields:
     type: array
     count: 8
     fields:
-    - type: link
-      targets: [ContentTalk]
+      - type: link
+        targets: [ContentTalk]
   - name: Type

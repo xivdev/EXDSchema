@@ -4,10 +4,10 @@ fields:
     type: array
     count: 2
     fields:
-    - name: RewardCurrency
-    - name: QuantityLow
-    - name: QuantityMid
-    - name: QuantityHigh
+      - name: RewardCurrency
+      - name: QuantityLow
+      - name: QuantityMid
+      - name: QuantityHigh
   - name: SatisfactionLow
   - name: SatisfactionMid
   - name: SatisfactionHigh
@@ -15,4 +15,4 @@ fields:
   - name: GilMid
   - name: GilHigh
   - name: Unknown0
-  - name: Unknown9
+  - name: Unknown1

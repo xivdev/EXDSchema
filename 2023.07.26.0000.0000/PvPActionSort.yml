@@ -1,7 +1,7 @@
 name: PvPActionSort
 displayField: Name
 fields:
-  - name: Unknown4
+  - name: Unknown0
   - name: Action
     type: link
     condition:
@@ -10,5 +10,5 @@ fields:
         1: [Action]
         2: [ActionComboRoute]
   - name: ActionType
+  - name: Unknown1
   - name: Unknown2
-  - name: Unknown3

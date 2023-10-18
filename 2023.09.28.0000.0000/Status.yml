@@ -10,7 +10,7 @@ fields:
     targets: [StatusLoopVFX]
   - name: Log
   - name: ParamModifier
-  - name: Unknown3
+  - name: Unknown0
   - name: MaxStacks
   - name: ClassJobCategory
     type: link
@@ -24,10 +24,10 @@ fields:
   - name: ParamEffect
   - name: TargetType
   - name: Flags
-  - name: Unknown31
-  - name: Unknown27
+  - name: Unknown1
+  - name: Unknown2
   - name: LockMovement
-  - name: Unknown10
+  - name: Unknown3
   - name: LockActions
   - name: LockControl
   - name: Transfiguration
@@ -35,9 +35,9 @@ fields:
   - name: CanDispel
   - name: InflictedByActor
   - name: IsPermanent
-  - name: Unknown20
-  - name: Unknown21
+  - name: Unknown4
+  - name: Unknown5
   - name: CanStatusOff
   - name: IsFcBuff
   - name: Invisibility
-  - name: Unknown32
+  - name: Unknown6

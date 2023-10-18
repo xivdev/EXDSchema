@@ -2,9 +2,9 @@ name: BenchmarkOverrideEquipment
 fields:
   - name: ModelMainHand
   - name: ModelOffHand
-  - name: Unknown8
   - name: Unknown0
   - name: Unknown1
+  - name: Unknown2
   - name: ModelHead
   - name: ModelBody
   - name: ModelHands
@@ -15,14 +15,14 @@ fields:
   - name: ModelWrists
   - name: ModelLeftRing
   - name: ModelRightRing
-  - name: Unknown2
+  - name: Unknown3
   - name: DyeMainHand
     type: link
     targets: [Stain]
   - name: DyeOffHand
     type: link
     targets: [Stain]
-  - name: Unknown9
+  - name: Unknown4
   - name: DyeHead
     type: link
     targets: [Stain]
@@ -53,4 +53,4 @@ fields:
   - name: DyeRightRing
     type: link
     targets: [Stain]
-  - name: Unknown3
+  - name: Unknown5

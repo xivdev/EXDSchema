@@ -34,6 +34,6 @@ fields:
   - name: HrothgarMaleCameraHeight
   - name: VieraMaleCameraHeight
   - name: VieraFemaleCameraHeight
-  - name: Unknown35
-  - name: Unknown36
   - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2

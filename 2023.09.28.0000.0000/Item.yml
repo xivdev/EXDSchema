@@ -8,7 +8,7 @@ fields:
   - name: Adjective
   - name: PossessivePronoun
   - name: StartsWithVowel
-  - name: Unknown5
+  - name: Unknown0
   - name: Pronoun
   - name: Article
   - name: ModelMain
@@ -27,7 +27,7 @@ fields:
     type: array
     count: 6
   - name: LevelEquip
-  - name: Unknown41
+  - name: Unknown1
   - name: EquipRestriction
   - name: ClassJobCategory
     type: link
@@ -42,14 +42,14 @@ fields:
   - name: ClassJobUse
     type: link
     targets: [ClassJob]
-  - name: Unknown50
-  - name: Unknown54
+  - name: Unknown2
+  - name: Unknown3
   - name: BaseParam
     type: array
     count: 6
     fields:
-    - type: link
-      targets: [BaseParam]
+      - type: link
+        targets: [BaseParam]
   - name: ItemSpecialBonus
     type: link
     targets: [ItemSpecialBonus]
@@ -58,8 +58,8 @@ fields:
     type: array
     count: 6
     fields:
-    - type: link
-      targets: [BaseParam]
+      - type: link
+        targets: [BaseParam]
   - name: MaterializeType
   - name: MateriaSlotCount
   - name: SubStatCategory
@@ -95,7 +95,7 @@ fields:
   - name: LevelItem
     type: link
     targets: [ItemLevel]
-  - name: Unknown19
+  - name: Unknown4
   - name: ItemAction
     type: link
     targets: [ItemAction]

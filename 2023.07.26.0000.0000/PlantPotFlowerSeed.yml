@@ -4,4 +4,4 @@ fields:
     type: array
     count: 9
     fields:
-    - type: icon
+      - type: icon

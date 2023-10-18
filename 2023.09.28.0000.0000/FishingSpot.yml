@@ -7,8 +7,8 @@ fields:
     type: array
     count: 10
     fields:
-    - type: link
-      targets: [Item]
+      - type: link
+        targets: [Item]
   - name: TerritoryType
     type: link
     targets: [TerritoryType]
@@ -27,5 +27,5 @@ fields:
   - name: Z
   - name: GatheringLevel
   - name: FishingSpotCategory
-  - name: Unknown11
+  - name: Unknown0
   - name: Rare

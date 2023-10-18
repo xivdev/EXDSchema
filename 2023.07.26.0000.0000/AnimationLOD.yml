@@ -4,5 +4,5 @@ fields:
   - name: SampleInterval
   - name: BoneLOD
   - name: AnimationEnable
-    type: array
     count: 8
+    type: array

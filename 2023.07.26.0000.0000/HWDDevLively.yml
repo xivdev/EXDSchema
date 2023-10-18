@@ -4,5 +4,5 @@ fields:
   - name: ENPC
     type: link
     targets: [ENpcBase]
+  - name: Unknown0
   - name: Unknown1
-  - name: Unknown2

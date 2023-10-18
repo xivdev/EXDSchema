@@ -10,13 +10,13 @@ fields:
   - name: ItemPouch
     type: link
     targets: [MJIItemPouch]
-  - name: Unknown3
+  - name: Unknown0
   - name: Material
     type: array
     count: 5
     fields:
-    - type: link
-      targets: [MJIRecipeMaterial]
+      - type: link
+        targets: [MJIRecipeMaterial]
   - name: Amount
     type: array
     count: 5

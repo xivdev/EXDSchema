@@ -9,5 +9,5 @@ fields:
   - name: TargetMap
     type: link
     targets: [Map]
-  - name: Unknown3
-  - name: Unknown4
+  - name: Unknown0
+  - name: Unknown1

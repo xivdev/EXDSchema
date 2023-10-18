@@ -4,7 +4,7 @@ fields:
   - name: Item
     type: link
     targets: [Item]
-  - name: Unknown3
+  - name: Unknown0
   - name: LevelMin
   - name: LevelMax
   - name: CollectablesShopRefine

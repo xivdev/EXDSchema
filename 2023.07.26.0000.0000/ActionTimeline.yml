@@ -16,12 +16,12 @@ fields:
   - name: StartAttach
   - name: ResidentPap
   - name: IsLoop
-  - name: Unknown20
-  - name: Unknown21
+  - name: Unknown0
+  - name: Unknown1
   - name: Pause
   - name: Resident
   - name: IsMotionCanceledByMoving
-  - name: Unknown15
-  - name: Unknown17
-  - name: Unknown18
-  - name: Unknown19
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5

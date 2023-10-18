@@ -2,4 +2,4 @@ name: LogKind
 fields:
   - name: Format
   - name: Unknown0
-  - name: Unknown2
+  - name: Unknown1

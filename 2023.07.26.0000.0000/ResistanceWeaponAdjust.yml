@@ -8,6 +8,6 @@ fields:
     type: array
     count: 4
     fields:
-    - type: link
-      targets: [BaseParam]
-  - name: Unknown7
+      - type: link
+        targets: [BaseParam]
+  - name: Unknown0

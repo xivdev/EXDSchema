@@ -4,17 +4,17 @@ fields:
   - name: Item
     type: link
     targets: [Item]
-  - name: Unknown2
+  - name: Unknown0
   - name: QuestRequired
     type: array
     count: 2
     fields:
-    - type: link
-      targets: [Quest]
+      - type: link
+        targets: [Quest]
   - name: AchievementRequired
     type: link
     targets: [Achievement]
   - name: StateRequired
   - name: Patch
-  - name: Unknown6
   - name: Unknown1
+  - name: Unknown2

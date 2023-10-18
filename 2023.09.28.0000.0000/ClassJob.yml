@@ -3,7 +3,7 @@ displayField: Name
 fields:
   - name: Name
   - name: Abbreviation
-  - name: Unknown2
+  - name: Unknown0
   - name: CanQueueForDuty
   - name: NameEnglish
   - name: ItemSoulCrystal
@@ -21,7 +21,7 @@ fields:
   - name: ItemStartingWeapon
     type: link
     targets: [Item]
-  - name: Unknown29
+  - name: Unknown1
   - name: ModifierHitPoints
   - name: ModifierManaPoints
   - name: ModifierStrength
@@ -30,12 +30,12 @@ fields:
   - name: ModifierIntelligence
   - name: ModifierMind
   - name: ModifierPiety
-  - name: Unknown17
-  - name: Unknown18
-  - name: Unknown19
-  - name: Unknown20
-  - name: Unknown21
-  - name: Unknown22
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown7
   - name: LimitBreak1
     type: link
     targets: [Action]
@@ -48,11 +48,11 @@ fields:
   - name: ClassJobCategory
     type: link
     targets: [ClassJobCategory]
-  - name: Unknown6
+  - name: Unknown8
   - name: JobIndex
-  - name: Unknown23
+  - name: Unknown9
   - name: PvPActionSortRow
-  - name: Unknown25
+  - name: Unknown10
   - name: ClassJobParent
     type: link
     targets: [ClassJob]
@@ -64,7 +64,7 @@ fields:
   - name: UIPriority
   - name: StartingLevel
   - name: PartyBonus
-  - name: Unknown44
+  - name: Unknown11
   - name: ExpArrayIndex
   - name: BattleClassIndex
   - name: DohDolJobIndex

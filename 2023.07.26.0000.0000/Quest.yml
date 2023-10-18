@@ -120,13 +120,13 @@ fields:
   - name: TomestoneReward
   - name: TomestoneCountReward
   - name: ReputationReward
-  - name: Unknown1465
-  - name: Unknown1466
-  - name: Unknown1467
-  - name: Unknown1468
-  - name: Unknown1469
-  - name: Unknown1470
-  - name: Unknown1471
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5
+  - name: Unknown6
   - name: OptionalItemIsHQReward
     type: array
     count: 5
@@ -196,10 +196,10 @@ fields:
     type: link
     targets: [ClassJobCategory]
   - name: PreviousQuestJoin
-  - name: Unknown10
+  - name: Unknown7
   - name: QuestLockJoin
-  - name: Unknown17
-  - name: Unknown18
+  - name: Unknown8
+  - name: Unknown9
   - name: ClassJobUnlock
     type: link
     targets: [ClassJob]
@@ -240,15 +240,15 @@ fields:
   - name: QuestRewardOtherDisplay
     type: link
     targets: [QuestRewardOther]
-  - name: Unknown1514
+  - name: Unknown10
   - name: EventIconType
     type: link
     targets: [EventIconType]
-  - name: Unknown1520
+  - name: Unknown11
   - name: IsHouseRequired
   - name: IsRepeatable
   - name: CanCancel
   - name: Introduction
   - name: HideOfferIcon
-  - name: Unknown1522
-  - name: Unknown1523
+  - name: Unknown12
+  - name: Unknown13

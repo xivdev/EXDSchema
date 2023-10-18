@@ -5,5 +5,5 @@ fields:
     type: array
     count: 8
     fields:
-    - type: link
-      targets: [LeveAssignmentType]
+      - type: link
+        targets: [LeveAssignmentType]

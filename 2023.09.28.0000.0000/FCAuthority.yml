@@ -5,4 +5,4 @@ fields:
   - name: FCAuthorityCategory
     type: link
     targets: [FCAuthorityCategory]
-  - name: Unknown2
+  - name: Unknown0

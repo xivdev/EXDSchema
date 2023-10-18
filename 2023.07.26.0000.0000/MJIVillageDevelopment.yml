@@ -3,21 +3,21 @@ fields:
   - name: ENPC
     type: link
     targets: [ENpcResident]
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
   - name: Unknown4
-  - name: Unknown6
-  - name: Unknown8
-  - name: Unknown10
-  - name: Unknown12
   - name: Behavior0
     type: link
     targets: [Behavior]
   - name: Behavior1
     type: link
     targets: [Behavior]
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
   - name: Unknown5
+  - name: Unknown6
   - name: Unknown7
-  - name: Unknown13
-  - name: Unknown14
+  - name: Unknown8
+  - name: Unknown9
+  - name: Unknown10
+  - name: Unknown11

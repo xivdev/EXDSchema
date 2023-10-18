@@ -10,4 +10,4 @@ fields:
   - name: DefaultTalk
     type: link
     targets: [DefaultTalk]
-  - name: Unknown2
+  - name: Unknown0

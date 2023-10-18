@@ -11,17 +11,19 @@ fields:
   - name: ModelHands
   - name: ModelLegs
   - name: ModelFeet
-  - name: Unknown51
-  - name: Unknown53
-  - name: Unknown55
-  - name: Unknown57
-  - name: Unknown59
-  - name: Unknown8
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5
+  - name: Unknown6
   - name: Behavior
     type: link
     targets: [Behavior]
+  - name: Unknown7
+  - name: Unknown8
+  - name: Unknown9
   - name: Unknown10
-  - name: Unknown6
   - name: Unknown11
   - name: Unknown12
   - name: Unknown13
@@ -46,8 +48,6 @@ fields:
   - name: Unknown32
   - name: Unknown33
   - name: Unknown34
-  - name: Unknown35
-  - name: Unknown36
   - name: DyeMainHand
     type: link
     targets: [Stain]
@@ -69,13 +69,13 @@ fields:
   - name: DyeFeet
     type: link
     targets: [Stain]
-  - name: Unknown52
-  - name: Unknown54
-  - name: Unknown56
-  - name: Unknown58
-  - name: Unknown60
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown5
+  - name: Unknown35
+  - name: Unknown36
+  - name: Unknown37
+  - name: Unknown38
+  - name: Unknown39
+  - name: Unknown40
+  - name: Unknown41
+  - name: Unknown42
+  - name: Unknown43
+  - name: Unknown44

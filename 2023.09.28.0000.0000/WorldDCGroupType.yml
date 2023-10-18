@@ -3,4 +3,4 @@ displayField: Name
 fields:
   - name: Name
   - name: Region
-  - name: Unknown1
+  - name: Unknown0

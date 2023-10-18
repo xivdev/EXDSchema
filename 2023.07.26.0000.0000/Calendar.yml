@@ -4,5 +4,5 @@ fields:
     type: array
     count: 32
     fields:
-    - name: Month
-    - name: Day
+      - name: Month
+      - name: Day

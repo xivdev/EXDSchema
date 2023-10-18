@@ -2,4 +2,4 @@ name: ScenarioType
 displayField: Type
 fields:
   - name: Type
-  - name: Unknown1
+  - name: Unknown0

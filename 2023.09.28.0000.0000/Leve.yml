@@ -34,7 +34,7 @@ fields:
   - name: PlaceNameIssued
     type: link
     targets: [PlaceName]
-  - name: Unknown17
+  - name: Unknown0
   - name: PlaceNameStartZone
     type: link
     targets: [PlaceName]
@@ -52,10 +52,10 @@ fields:
   - name: BGM
     type: link
     targets: [BGM]
-  - name: Unknown3
+  - name: Unknown1
   - name: TimeLimit
   - name: AllowanceCost
-  - name: Unknown13
+  - name: Unknown2
   - name: ClassJobCategory
     type: link
     targets: [ClassJobCategory]
@@ -66,6 +66,6 @@ fields:
   - name: LeveVfxFrame
     type: link
     targets: [LeveVfx]
-  - name: Unknown14
+  - name: Unknown3
   - name: CanCancel
   - name: LockedLeve

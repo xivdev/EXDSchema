@@ -6,19 +6,19 @@ fields:
     type: array
     count: 3
     fields:
-    - type: link
-      targets: [IKDSpot]
+      - type: link
+        targets: [IKDSpot]
   - name: Image
     type: icon
-  - name: Unknown7
-  - name: Unknown8
+  - name: Unknown0
+  - name: Unknown1
   - name: TerritoryType
     type: link
     targets: [TerritoryType]
-  - name: Unknown10
+  - name: Unknown2
   - name: Time
     type: array
     count: 3
     fields:
-    - type: link
-      targets: [IKDTimeDefine]
+      - type: link
+        targets: [IKDTimeDefine]

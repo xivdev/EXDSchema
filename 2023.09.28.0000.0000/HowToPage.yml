@@ -2,8 +2,8 @@ name: HowToPage
 displayField: Image
 fields:
   - name: Text
-    type: array
     count: 3
+    type: array
   - name: Image
     type: icon
   - name: Type

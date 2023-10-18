@@ -5,14 +5,14 @@ fields:
     type: array
     count: 16
     fields:
-    - type: link
-      targets: [DeepDungeonItem]
+      - type: link
+        targets: [DeepDungeonItem]
   - name: MagiciteSlot
     type: array
     count: 4
     fields:
-    - type: link
-      targets: [DeepDungeonMagicStone]
+      - type: link
+        targets: [DeepDungeonMagicStone]
   - name: Name
   - name: ContentFinderConditionStart
     type: link
@@ -23,5 +23,5 @@ fields:
   - name: AetherpoolArmor
     type: link
     targets: [DeepDungeonEquipment]
-  - name: Unknown18
-  - name: Unknown25
+  - name: Unknown0
+  - name: Unknown1

@@ -6,14 +6,14 @@ fields:
     type: array
     count: 5
     fields:
-    - type: link
-      targets: [HowToPage]
+      - type: link
+        targets: [HowToPage]
   - name: HowToPageController
     type: array
     count: 5
     fields:
-    - type: link
-      targets: [HowToPage]
+      - type: link
+        targets: [HowToPage]
   - name: Sort
   - name: Category
     type: link

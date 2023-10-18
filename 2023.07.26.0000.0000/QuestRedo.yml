@@ -5,15 +5,15 @@ fields:
     type: array
     count: 32
     fields:
-    - name: Quest
-      type: link
-      targets: [Quest]
-    - name: UnknownParam
+      - name: Quest
+        type: link
+        targets: [Quest]
+      - name: UnknownParam
   - name: FinalQuest
     type: link
     targets: [Quest]
-  - name: Unknown1
+  - name: Unknown0
   - name: Chapter
     type: link
     targets: [QuestRedoChapter]
-  - name: Unknown2
+  - name: Unknown1

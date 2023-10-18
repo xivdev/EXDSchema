@@ -4,16 +4,16 @@ fields:
     type: array
     count: 60
     fields:
-    - name: EquipPreset
-      type: link
-      targets: [GcArmyEquipPreset]
-    - name: Physical
-    - name: Mental
-    - name: Tactical
-  - name: Unknown62
-  - name: Unknown123
-  - name: Unknown184
-  - name: Unknown245
+      - name: EquipPreset
+        type: link
+        targets: [GcArmyEquipPreset]
+      - name: Physical
+      - name: Mental
+      - name: Tactical
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
   - name: ClassBook
     type: link
     targets: [Item]

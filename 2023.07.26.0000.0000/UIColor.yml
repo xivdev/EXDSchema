@@ -3,5 +3,5 @@ displayField: UIForeground
 fields:
   - name: UIForeground
   - name: UIGlow
-  - name: Unknown2
-  - name: Unknown3
+  - name: Unknown0
+  - name: Unknown1

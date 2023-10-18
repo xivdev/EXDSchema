@@ -6,5 +6,5 @@ fields:
   - name: BNpcBase
     type: link
     targets: [BNpcBase]
-  - name: Unknown3
+  - name: Unknown0
   - name: Rank

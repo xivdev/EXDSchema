@@ -1,8 +1,8 @@
 name: GatheringRarePopTimeTable
 fields:
   - name: StartTime
-    type: array
     count: 3
+    type: array
   - name: Duration
-    type: array
     count: 3
+    type: array

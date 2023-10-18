@@ -6,12 +6,12 @@ fields:
   - name: Adjective
   - name: PossessivePronoun
   - name: StartsWithVowel
-  - name: Unknown5
+  - name: Unknown0
   - name: Pronoun
   - name: Article
-  - name: Unknown18
-  - name: Unknown19
-  - name: Unknown20
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
   - name: ModelChara
     type: link
     targets: [ModelChara]
@@ -19,7 +19,7 @@ fields:
   - name: EquipBody
   - name: EquipLeg
   - name: EquipFoot
-  - name: Unknown9
+  - name: Unknown4
   - name: RideBGM
     type: link
     targets: [BGM]
@@ -33,11 +33,11 @@ fields:
   - name: FlyingCondition
     type: link
     targets: [MountFlyingCondition]
-  - name: Unknown11
-  - name: Unknown12
-  - name: Unknown13
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown7
   - name: IsFlying
-  - name: Unknown15
+  - name: Unknown8
   - name: MountCustomize
     type: link
     targets: [MountCustomize]
@@ -46,16 +46,16 @@ fields:
   - name: RadiusRate
   - name: BaseMotionSpeed_Run
   - name: BaseMotionSpeed_Walk
-  - name: Unknown35
+  - name: Unknown9
   - name: ExtraSeats
-  - name: Unknown43
-  - name: Unknown44
-  - name: Unknown23
+  - name: Unknown10
+  - name: Unknown11
+  - name: Unknown12
   - name: IsEmote
   - name: IsAirborne
   - name: ExHotbarEnableConfig
   - name: UseEP
-  - name: Unknown41
+  - name: Unknown13
   - name: IsImmobile
-  - name: Unknown45
-  - name: Unknown46
+  - name: Unknown14
+  - name: Unknown15

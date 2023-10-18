@@ -4,10 +4,10 @@ fields:
   - name: Singular
   - name: Plural
   - name: NameRank
-  - name: Unknown9
+  - name: Unknown0
   - name: Adjective
   - name: PossessivePronoun
   - name: StartsWithVowel
-  - name: Unknown5
+  - name: Unknown1
   - name: Pronoun
   - name: Article

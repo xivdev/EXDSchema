@@ -12,8 +12,8 @@ fields:
   - name: InstanceMap
     type: link
     targets: [EventItem]
-  - name: Unknown7
   - name: Unknown0
+  - name: Unknown1
   - name: MaxPartySize
   - name: TreasureHuntTexture
-  - name: Unknown8
+  - name: Unknown2

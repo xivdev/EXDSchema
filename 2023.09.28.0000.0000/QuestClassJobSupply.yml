@@ -6,11 +6,11 @@ fields:
   - name: Item
     type: link
     targets: [Item]
+  - name: Unknown1
   - name: Unknown2
-  - name: Unknown3
   - name: ClassJobCategory
     type: link
     targets: [ClassJobCategory]
-  - name: Unknown1
+  - name: Unknown0
   - name: AmountRequired
   - name: ItemHQ

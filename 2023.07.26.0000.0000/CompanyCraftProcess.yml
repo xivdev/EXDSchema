@@ -4,8 +4,8 @@ fields:
     type: array
     count: 12
     fields:
-    - type: link
-      targets: [CompanyCraftSupplyItem]
+      - type: link
+        targets: [CompanyCraftSupplyItem]
   - name: SetQuantity
     type: array
     count: 12

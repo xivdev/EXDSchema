@@ -2,9 +2,9 @@ name: ConfigKey
 fields:
   - name: Text
   - name: Label
-  - name: Unknown5
+  - name: Unknown0
   - name: Param
   - name: Platform
   - name: Category
-  - name: Unknown6
+  - name: Unknown1
   - name: Required

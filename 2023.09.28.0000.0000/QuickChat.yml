@@ -7,7 +7,7 @@ fields:
   - name: Addon
     type: link
     targets: [Addon]
-  - name: Unknown4
+  - name: Unknown0
   - name: QuickChatTransient
     type: link
     targets: [QuickChatTransient]

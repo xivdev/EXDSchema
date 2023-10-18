@@ -3,8 +3,8 @@ fields:
   - name: NextPoint
   - name: CurrentPoint
   - name: Rights
-  - name: Unknown3
-  - name: Unknown4
+  - name: Unknown0
+  - name: Unknown1
   - name: FCActionActiveNum
   - name: FCActionStockNum
   - name: FCChestCompartments

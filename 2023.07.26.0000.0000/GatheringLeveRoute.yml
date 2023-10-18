@@ -4,11 +4,11 @@ fields:
     type: array
     count: 12
     fields:
-    - type: link
-      targets: [GatheringPoint]
+      - type: link
+        targets: [GatheringPoint]
   - name: PopRange
     type: array
     count: 12
     fields:
-    - type: link
-      targets: [Level]
+      - type: link
+        targets: [Level]

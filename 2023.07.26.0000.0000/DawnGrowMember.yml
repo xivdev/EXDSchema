@@ -5,12 +5,12 @@ fields:
     type: array
     count: 3
     fields:
-    - type: icon
+      - type: icon
   - name: PortraitImage
     type: array
     count: 3
     fields:
-    - type: icon
+      - type: icon
   - name: Class
     type: link
     targets: [DawnMemberUIParam]

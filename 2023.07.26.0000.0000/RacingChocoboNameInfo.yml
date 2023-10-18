@@ -4,12 +4,12 @@ fields:
     type: array
     count: 3
     fields:
-    - type: link
-      targets: [RacingChocoboName]
+      - type: link
+        targets: [RacingChocoboName]
   - name: RacingChocoboNameCategory
     type: link
     targets: [RacingChocoboNameCategory]
+  - name: Unknown0
   - name: Unknown1
   - name: Unknown2
   - name: Unknown3
-  - name: Unknown4

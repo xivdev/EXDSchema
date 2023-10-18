@@ -2,6 +2,8 @@ name: ContentCloseCycle
 fields:
   - name: Unixtime
   - name: TimeSeconds
+  - name: Unknown0
+  - name: Unknown1
   - name: Unknown2
   - name: Unknown3
   - name: Unknown4
@@ -11,5 +13,3 @@ fields:
   - name: Unknown8
   - name: Unknown9
   - name: Unknown10
-  - name: Unknown11
-  - name: Unknown12

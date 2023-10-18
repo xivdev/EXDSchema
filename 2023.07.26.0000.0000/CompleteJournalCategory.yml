@@ -6,4 +6,4 @@ fields:
   - name: LastQuest
     type: link
     targets: [CompleteJournal]
-  - name: Unknown2
+  - name: Unknown0

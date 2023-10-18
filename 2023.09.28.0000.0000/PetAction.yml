@@ -13,4 +13,4 @@ fields:
     targets: [Pet]
   - name: MasterOrder
   - name: DisableOrder
-  - name: Unknown7
+  - name: Unknown0

@@ -29,9 +29,9 @@ fields:
       - name: Quest
         type: link
         targets: [Quest]
-      - name: Unknown
-        type: array
-        count: 4
+      - name: Unknown0
+      	type: array
+      	count: 4
       - name: AchievementUnlock
         type: link
         targets: [Achievement]
@@ -52,12 +52,12 @@ fields:
   - name: Quest
     type: link
     targets: [Quest]
-  - name: Unknown2
-  - name: Unknown3
+  - name: Unknown0
+  - name: Unknown1
   - name: CompleteText
   - name: NotCompleteText
-  - name: Unknown4
-  - name: Unknown7
-  - name: UseCurrencyType
+  - name: Unknown2
   - name: Unknown5
-  - name: Unknown6
+  - name: UseCurrencyType
+  - name: Unknown3
+  - name: Unknown4

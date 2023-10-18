@@ -4,7 +4,7 @@ fields:
     type: array
     count: 4
     fields:
-    - name: UnknownParam
-    - name: SGB
-      type: link
-      targets: [ExportedSG]
+      - name: UnknownParam
+      - name: SGB
+        type: link
+        targets: [ExportedSG]

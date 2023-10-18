@@ -9,5 +9,5 @@ fields:
     targets: [BannerCondition]
   - name: SortKey
   - name: Category
+  - name: Unknown0
   - name: Unknown1
-  - name: Unknown3

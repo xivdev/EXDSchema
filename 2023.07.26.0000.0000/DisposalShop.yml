@@ -2,20 +2,20 @@ name: DisposalShop
 displayField: ShopName
 fields:
   - name: ShopName
+  - name: Unknown0
   - name: Unknown1
-  - name: Unknown9
   - name: Unknown2
-  - name: Unknown10
   - name: Unknown3
-  - name: Unknown11
   - name: Unknown4
-  - name: Unknown12
   - name: Unknown5
-  - name: Unknown13
   - name: Unknown6
-  - name: Unknown14
   - name: Unknown7
-  - name: Unknown15
   - name: Unknown8
+  - name: Unknown9
+  - name: Unknown10
+  - name: Unknown11
+  - name: Unknown12
+  - name: Unknown13
+  - name: Unknown14
+  - name: Unknown15
   - name: Unknown16
-  - name: Unknown17

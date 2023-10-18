@@ -2,4 +2,4 @@ name: GuideTitle
 displayField: Title
 fields:
   - name: Title
-  - name: Unknown1
+  - name: Unknown0

@@ -3,7 +3,7 @@ fields:
   - name: NewPlayerBonusGil
   - name: NewPlayerBonusExp
   - name: FinalBossExp
-  - name: Unknown22
+  - name: Unknown0
   - name: BossExp
     type: array
     count: 5
@@ -26,7 +26,7 @@ fields:
   - name: BossCurrencyC
     type: array
     count: 5
-  - name: Unknown49
+  - name: Unknown1
   - name: Cutscene
     type: link
     targets: [Cutscene]
@@ -46,7 +46,7 @@ fields:
   - name: InstanceContentTextDataObjectiveEnd
     type: link
     targets: [InstanceContentTextData]
-  - name: Unknown50
+  - name: Unknown2
   - name: ReqInstance
     type: link
     targets: [InstanceContent]
@@ -62,12 +62,12 @@ fields:
     targets: [BGM]
   - name: Order
   - name: SortKey
-  - name: Unknown60
-  - name: Unknown61
-  - name: Unknown62
-  - name: Unknown64
-  - name: Unknown65
-  - name: Unknown67
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown7
+  - name: Unknown8
   - name: PartyCondition
   - name: InstanceContentType
     type: link
@@ -76,14 +76,14 @@ fields:
   - name: Colosseum
     type: link
     targets: [Colosseum]
-  - name: Unknown55
-  - name: Unknown56
-  - name: Unknown57
-  - name: Unknown58
-  - name: Unknown69
-  - name: Unknown63
-  - name: Unknown3
+  - name: Unknown9
   - name: Unknown10
-  - name: Unknown52
-  - name: Unknown59
-  - name: Unknown66
+  - name: Unknown11
+  - name: Unknown12
+  - name: Unknown19
+  - name: Unknown13
+  - name: Unknown14
+  - name: Unknown15
+  - name: Unknown16
+  - name: Unknown17
+  - name: Unknown18

@@ -2,7 +2,7 @@ name: WebGuidance
 displayField: Name
 fields:
   - name: Name
-  - name: Unknown3
+  - name: Unknown0
   - name: Description
   - name: Image
     type: icon

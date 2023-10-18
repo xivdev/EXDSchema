@@ -7,7 +7,7 @@ fields:
   - name: Quest
     type: link
     targets: [Quest]
-  - name: Unknown1
+  - name: Unknown0
   - name: QuestRedoUISmall
     type: icon
   - name: QuestRedoUILarge
@@ -20,4 +20,4 @@ fields:
   - name: Category
     type: link
     targets: [QuestRedoChapterUICategory]
-  - name: Unknown4
+  - name: Unknown1

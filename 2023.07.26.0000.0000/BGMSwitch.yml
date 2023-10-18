@@ -9,4 +9,4 @@ fields:
   - name: BGMSystemDefine
     type: link
     targets: [BGMSystemDefine]
-  - name: Unknown2
+  - name: Unknown0

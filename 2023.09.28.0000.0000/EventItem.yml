@@ -7,10 +7,10 @@ fields:
   - name: Adjective
   - name: PossessivePronoun
   - name: StartsWithVowel
-  - name: Unknown5
+  - name: Unknown0
   - name: Pronoun
   - name: Article
-  - name: Unknown8
+  - name: Unknown1
   - name: Quest
     type: link
     targets: [Quest]
@@ -20,7 +20,7 @@ fields:
     type: link
     targets: [Action]
   - name: StackSize
-  - name: Unknown13
+  - name: Unknown2
   - name: CastTime
   - name: CastTimeline
     type: link

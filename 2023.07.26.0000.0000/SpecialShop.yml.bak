@@ -29,7 +29,7 @@ fields:
       - name: Quest
         type: link
         targets: [Quest]
-      - name: Unknown0
+      - name: Unknown
       - name: AchievementUnlock
         type: link
         targets: [Achievement]
@@ -40,7 +40,7 @@ fields:
       - name: HqCost
         type: array
         count: 3
-      - name: Unknown1
+      - name: Unknown0
         type: array
         count: 2
       - name: ReceiveHq

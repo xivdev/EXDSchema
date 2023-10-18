@@ -4,12 +4,12 @@ fields:
   - name: Item
     type: link
     targets: [Item]
-  - name: Unknown5
+  - name: Unknown0
   - name: RewardLow
   - name: RewardMid
   - name: RewardHigh
-  - name: Unknown7
-  - name: Unknown8
-  - name: Unknown9
   - name: Unknown1
-  - name: Unknown6
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5

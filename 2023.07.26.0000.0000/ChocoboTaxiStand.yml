@@ -6,5 +6,5 @@ fields:
     type: array
     count: 8
     fields:
-    - type: link
-      targets: [ChocoboTaxi]
+      - type: link
+        targets: [ChocoboTaxi]

@@ -2,4 +2,4 @@ name: HugeCraftworksRank
 fields:
   - name: ExpRewardPerItem
   - name: CrafterLevel
-  - name: Unknown2
+  - name: Unknown0

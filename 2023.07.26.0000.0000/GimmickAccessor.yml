@@ -3,10 +3,10 @@ fields:
   - name: Param1
   - name: Param2
   - name: Type
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
+  - name: Param0
+  - name: Unknown3
   - name: Unknown4
   - name: Unknown5
-  - name: Unknown6
-  - name: Param0
-  - name: Unknown7
-  - name: Unknown8
-  - name: Unknown9

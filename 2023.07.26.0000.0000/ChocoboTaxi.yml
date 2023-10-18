@@ -5,6 +5,6 @@ fields:
     type: link
     targets: [ChocoboTaxiStand]
   - name: TimeRequired
-  - name: Unknown3
+  - name: Unknown0
   - name: Fare
-  - name: Unknown4
+  - name: Unknown1

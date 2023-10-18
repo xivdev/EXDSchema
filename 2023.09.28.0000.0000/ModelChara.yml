@@ -1,23 +1,23 @@
 name: ModelChara
 fields:
-  - name: Unknown18
-  - name: Unknown19
+  - name: Unknown0
+  - name: Unknown1
   - name: Model
   - name: SEPack
   - name: Type
   - name: Base
   - name: Variant
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
   - name: Unknown5
-  - name: Unknown8
-  - name: Unknown15
-  - name: Unknown17
-  - name: Unknown20
-  - name: Unknown9
+  - name: Unknown14
   - name: Unknown6
+  - name: Unknown7
   - name: PapVariation
+  - name: Unknown8
+  - name: Unknown9
   - name: Unknown10
   - name: Unknown11
   - name: Unknown12
   - name: Unknown13
-  - name: Unknown14
-  - name: Unknown16

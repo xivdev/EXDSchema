@@ -9,5 +9,5 @@ fields:
   - name: MainCommandCategory
     type: link
     targets: [MainCommandCategory]
-  - name: Unknown4
+  - name: Unknown0
   - name: SortID

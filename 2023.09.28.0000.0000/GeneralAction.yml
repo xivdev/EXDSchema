@@ -9,7 +9,7 @@ fields:
     type: link
     targets: [Action]
   - name: UnlockLink
-  - name: Unknown2
+  - name: Unknown0
   - name: Recast
   - name: UIPriority
-  - name: Unknown8
+  - name: Unknown1
