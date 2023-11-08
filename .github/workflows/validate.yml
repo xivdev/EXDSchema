@@ -86,6 +86,7 @@ jobs:
           repository: "xivdev/EXDTools"
           latest: true
           fileName: "SchemaValidator-linux-x64"
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       # Fetch Schema.json from xivdev/EXDTools latest releases
       - name: Download Schema.json
@@ -94,6 +95,7 @@ jobs:
           repository: "xivdev/EXDTools"
           latest: true
           fileName: "Schema.json"
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Run SchemaValidator
         run: |
