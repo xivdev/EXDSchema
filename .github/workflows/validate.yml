@@ -86,7 +86,7 @@ jobs:
           repository: "xivdev/EXDTools"
           latest: true
           fileName: "SchemaValidator-linux-x64"
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.xtoken }} # TODO: Remove this when the repo is public
 
       # Fetch Schema.json from xivdev/EXDTools latest releases
       - name: Download Schema.json
@@ -95,7 +95,7 @@ jobs:
           repository: "xivdev/EXDTools"
           latest: true
           fileName: "Schema.json"
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.xtoken }} # TODO: Remove this when the repo is public
 
       - name: Run SchemaValidator
         run: |
