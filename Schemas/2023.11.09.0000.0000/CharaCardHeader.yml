@@ -1,0 +1,17 @@
+name: CharaCardHeader
+displayField: Name
+fields:
+  - name: Name
+  - name: TopImage
+    type: icon
+  - name: BottomImage
+    type: icon
+  - name: UnlockCondition
+    type: link
+    targets: [BannerCondition]
+  - name: FontColor
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
+  - name: SortKey
