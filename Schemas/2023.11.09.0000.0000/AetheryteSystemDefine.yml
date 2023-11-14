@@ -1,0 +1,5 @@
+name: AetheryteSystemDefine
+displayField: Text
+fields:
+  - name: Text
+  - name: DefineValue

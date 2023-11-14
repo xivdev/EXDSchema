@@ -1,0 +1,131 @@
+name: Item
+displayField: Name
+fields:
+  - name: Singular
+  - name: Plural
+  - name: Description
+  - name: Name
+  - name: Adjective
+  - name: PossessivePronoun
+  - name: StartsWithVowel
+  - name: Unknown0
+  - name: Pronoun
+  - name: Article
+  - name: ModelMain
+  - name: ModelSub
+  - name: DamagePhys
+  - name: DamageMag
+  - name: Delayms
+  - name: BlockRate
+  - name: Block
+  - name: DefensePhys
+  - name: DefenseMag
+  - name: BaseParamValue
+    type: array
+    count: 6
+  - name: BaseParamValueSpecial
+    type: array
+    count: 6
+  - name: LevelEquip
+  - name: Unknown1
+  - name: EquipRestriction
+  - name: ClassJobCategory
+    type: link
+    targets: [ClassJobCategory]
+  - name: GrandCompany
+    type: link
+    targets: [GrandCompany]
+  - name: ItemSeries
+    type: link
+    targets: [ItemSeries]
+  - name: BaseParamModifier
+  - name: ClassJobUse
+    type: link
+    targets: [ClassJob]
+  - name: Unknown2
+  - name: Unknown3
+  - name: BaseParam
+    type: array
+    count: 6
+    fields:
+      - type: link
+        targets: [BaseParam]
+  - name: ItemSpecialBonus
+    type: link
+    targets: [ItemSpecialBonus]
+  - name: ItemSpecialBonusParam
+  - name: BaseParamSpecial
+    type: array
+    count: 6
+    fields:
+      - type: link
+        targets: [BaseParam]
+  - name: MaterializeType
+  - name: MateriaSlotCount
+  - name: SubStatCategory
+  - name: IsAdvancedMeldingPermitted
+  - name: IsPvP
+  - name: IsGlamorous
+  - name: AdditionalData
+    type: link
+    condition:
+      switch: FilterGroup
+      cases:
+        14: [HousingExterior, HousingInterior, HousingYardObject, HousingFurniture, HousingPreset, HousingUnitedExterior]
+        15: [Stain]
+        18: [TreasureHuntRank]
+        20: [GardeningSeed]
+        25: [AetherialWheel]
+        26: [CompanyAction]
+        27: [TripleTriadCard]
+        28: [AirshipExplorationPart]
+        32: [Orchestrion]
+        36: [SubmarinePart]
+  - name: StackSize
+  - name: PriceMid
+  - name: PriceLow
+  - name: ItemRepair
+    type: link
+    targets: [ItemRepairResource]
+  - name: ItemGlamour
+    type: link
+    targets: [Item]
+  - name: Icon
+    type: icon
+  - name: LevelItem
+    type: link
+    targets: [ItemLevel]
+  - name: Unknown4
+  - name: ItemAction
+    type: link
+    targets: [ItemAction]
+  - name: Cooldowns
+  - name: Desynth
+  - name: AetherialReduce
+  - name: Rarity
+  - name: FilterGroup
+  - name: ItemUICategory
+    type: link
+    targets: [ItemUICategory]
+  - name: ItemSearchCategory
+    type: link
+    targets: [ItemSearchCategory]
+  - name: EquipSlotCategory
+    type: link
+    targets: [EquipSlotCategory]
+  - name: ItemSortCategory
+    type: link
+    targets: [ItemSortCategory]
+  - name: CastTimes
+  - name: ClassJobRepair
+    type: link
+    targets: [ClassJob]
+  - name: IsUnique
+  - name: IsUntradable
+  - name: IsIndisposable
+  - name: Lot
+  - name: CanBeHq
+  - name: IsDyeable
+  - name: IsCrestWorthy
+  - name: IsCollectable
+  - name: AlwaysCollectable
