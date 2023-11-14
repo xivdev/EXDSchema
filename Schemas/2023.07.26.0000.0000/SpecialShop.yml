@@ -42,10 +42,10 @@ fields:
         count: 3
       - name: Unknown1
         type: array
-        count: 2
+        count: 3
       - name: ReceiveHq
         type: array
-        count: 3
+        count: 2
   - name: Quest
     type: link
     targets: [Quest]
