@@ -171,10 +171,10 @@ fields:
         type: array
         count: 3
       - type: array
-        count: 2
+        count: 3
       - name: ReceiveHq
         type: array
-        count: 3
+        count: 2
   - name: Quest
     type: link
     targets: [Quest]
@@ -204,8 +204,8 @@ struct SpecialShop
         example_type CollectabilityCost[3];
         example_type PatchNumber;
         example_type HqCost[3];
-        example_type Unknown2[2];
-        example_type ReceiveHq[3];
+        example_type Unknown2[3];
+        example_type ReceiveHq[2];
     } Items[60];
     example_type Quest;
     example_type Unknown;
