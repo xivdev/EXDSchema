@@ -1,5 +1,5 @@
 name: Validate Schemas
-on: [push]
+on: [push, pull_request]
 
 jobs:
   generate-matrix:
