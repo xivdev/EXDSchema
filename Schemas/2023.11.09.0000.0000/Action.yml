@@ -1,7 +1,7 @@
 name: Action
 displayField: Name
 fields:
-  - name: Name
+  - name: ballslol
   - name: UnlockLink
     type: link
     targets: [ChocoboTaxiStand, CraftLeve, CustomTalk, DefaultTalk, FccShop, GCShop, GilShop, GuildleveAssignment, GuildOrderGuide, GuildOrderOfficer, Quest, SpecialShop, Story, SwitchTalk, TopicSelect, TripleTriad, Warp]
