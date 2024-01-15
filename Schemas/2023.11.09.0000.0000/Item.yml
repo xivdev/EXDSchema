@@ -27,7 +27,7 @@ fields:
     type: array
     count: 6
   - name: LevelEquip
-  - name: Unknown1
+  - name: RequiredPvpRank
   - name: EquipRestriction
   - name: ClassJobCategory
     type: link
