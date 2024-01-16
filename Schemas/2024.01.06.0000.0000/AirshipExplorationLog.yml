@@ -1,0 +1,4 @@
+name: AirshipExplorationLog
+displayField: Text
+fields:
+  - name: Text
