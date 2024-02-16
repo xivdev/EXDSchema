@@ -1,0 +1,16 @@
+name: QuestClassJobSupply
+fields:
+  - name: ENpcResident
+    type: link
+    targets: [ENpcResident]
+  - name: Item
+    type: link
+    targets: [Item]
+  - name: Unknown1
+  - name: Unknown2
+  - name: ClassJobCategory
+    type: link
+    targets: [ClassJobCategory]
+  - name: Unknown0
+  - name: AmountRequired
+  - name: ItemHQ
