@@ -1,0 +1,8 @@
+name: Completion
+displayField: Text
+fields:
+  - name: Text
+  - name: GroupTitle
+  - name: LookupTable
+  - name: Group
+  - name: Key

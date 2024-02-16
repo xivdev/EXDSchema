@@ -1,0 +1,27 @@
+name: DeepDungeon
+displayField: Name
+fields:
+  - name: PomanderSlot
+    type: array
+    count: 16
+    fields:
+      - type: link
+        targets: [DeepDungeonItem]
+  - name: MagiciteSlot
+    type: array
+    count: 4
+    fields:
+      - type: link
+        targets: [DeepDungeonMagicStone]
+  - name: Name
+  - name: ContentFinderConditionStart
+    type: link
+    targets: [ContentFinderCondition]
+  - name: AetherpoolArm
+    type: link
+    targets: [DeepDungeonEquipment]
+  - name: AetherpoolArmor
+    type: link
+    targets: [DeepDungeonEquipment]
+  - name: Unknown0
+  - name: Unknown1

@@ -1,0 +1,9 @@
+name: GcArmyTraining
+displayField: Name
+fields:
+  - name: Name
+  - name: Description
+  - name: Experience
+  - name: PhysicalBonus
+  - name: MentalBonus
+  - name: TacticalBonus
