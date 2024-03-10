@@ -31,11 +31,17 @@ The schema includes the following:
 - Comment support on any schema object
 - Maps out-of-the-box to a very simple object mapping
 - JSON schema for the schema itself, providing IDE completion and error-checking
-- Example code
-  - A C# project that perform a partial conversion from the 
-    common JSON schemas ("SC Schema") to the EXDSchema format
-  - A C# project that will validate EXDSchemas against a given game installation
-  - A tool for editing schemas and viewing the results of parsing on-the-fly
+
+This repository hosts the schema files for each game version. Each change produces a new release of every known game version's schema and removes the old release.
+Due to the structure of this repository, any change to a given game version is meant to supercede all others.
+
+## Code
+EXD tooling is planned but not in progress at this time. PRs are welcome. The associated repository [EXDTools](https://github.com/xivdev/EXDTools) contains most, if not all EXD tooling related to EXDSchema.
+
+Still planned are:
+  - A tool for editing schemas and viewing the results of parsing on-the-fly [not started]
+  - A tool that automatically determines updates to be made to a previous set of schemas
+    to bring them into a valid state for a new game version [\[EXDTools/updater\], unfinished](https://github.com/xivdev/EXDTools/tree/updater)
 
 ## Usage
 See Usage.md.
