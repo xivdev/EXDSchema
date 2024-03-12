@@ -2,14 +2,24 @@ name: Pet
 displayField: Name
 fields:
   - name: Name
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown5
-  - name: Unknown6
-  - name: Unknown7
+  - name: Ability1
+    type: link
+    targets: [Action]
+  - name: Ability1
+    type: link
+    targets: [Action]
+  - name: Ability2
+    type: link
+    targets: [Action]
+  - name: Ability3
+    type: link
+    targets: [Action]
+  - name: AutoAction
+    type: link
+    targets: [Action]
+  - name: SmallScalePercentage
+  - name: MediumScalePercentage
+  - name: LargeScalePercentage
   - name: Unknown8
   - name: Unknown9
   - name: Unknown10
