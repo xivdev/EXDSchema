@@ -5,13 +5,13 @@ fields:
   - name: Ability1
     type: link
     targets: [Action]
-  - name: Ability1
-    type: link
-    targets: [Action]
   - name: Ability2
     type: link
     targets: [Action]
   - name: Ability3
+    type: link
+    targets: [Action]
+  - name: Ability4
     type: link
     targets: [Action]
   - name: AutoAction
