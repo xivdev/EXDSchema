@@ -1,0 +1,12 @@
+name: SpearfishingRecordPage
+fields:
+  - name: PlaceName
+    type: link
+    targets: [PlaceName]
+  - name: Image
+    type: icon
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
