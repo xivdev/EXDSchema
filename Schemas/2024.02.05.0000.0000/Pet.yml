@@ -2,18 +2,12 @@ name: Pet
 displayField: Name
 fields:
   - name: Name
-  - name: Ability1
-    type: link
-    targets: [Action]
-  - name: Ability2
-    type: link
-    targets: [Action]
-  - name: Ability3
-    type: link
-    targets: [Action]
-  - name: Ability4
-    type: link
-    targets: [Action]
+  - name: Abilities
+    type: array
+    count: 4
+    fields:
+    - type: link
+      targets: [Action]
   - name: AutoAction
     type: link
     targets: [Action]

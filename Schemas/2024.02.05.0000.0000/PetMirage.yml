@@ -63,6 +63,6 @@ fields:
   - name: Unknown58
   - name: Unknown59
   - name: Scale
-  - name: ModelCharacterId
+  - name: ModelChara
     type: link
     targets: [ModelChara]
