@@ -1,0 +1,6 @@
+name: DeliveryQuest
+displayField: Quest
+fields:
+  - name: Quest
+    type: link
+    targets: [Quest]
