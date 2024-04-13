@@ -1,0 +1,5 @@
+name: GFateClimbing2Content
+fields:
+  - name: PublicContentTextData
+    type: link
+    targets: [PublicContentTextData]

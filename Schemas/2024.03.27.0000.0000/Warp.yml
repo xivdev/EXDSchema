@@ -1,0 +1,32 @@
+name: Warp
+fields:
+  - name: Name
+  - name: Question
+  - name: PopRange
+    type: link
+    targets: [Level]
+  - name: ConditionSuccessEvent
+    type: link
+    targets: [DefaultTalk]
+  - name: ConditionFailEvent
+    type: link
+    targets: [DefaultTalk]
+  - name: ConfirmEvent
+    type: link
+    targets: [DefaultTalk]
+  - name: TerritoryType
+    type: link
+    targets: [TerritoryType]
+  - name: WarpCondition
+    type: link
+    targets: [WarpCondition]
+  - name: WarpLogic
+    type: link
+    targets: [WarpLogic]
+  - name: StartCutscene
+    type: link
+    targets: [Cutscene]
+  - name: EndCutscene
+    type: link
+    targets: [Cutscene]
+  - name: CanSkipCutscene
