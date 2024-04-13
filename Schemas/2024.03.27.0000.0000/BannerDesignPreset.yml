@@ -1,0 +1,14 @@
+name: BannerDesignPreset
+displayField: Name
+fields:
+  - name: Name
+  - name: Background
+    type: link
+    targets: [BannerBg]
+  - name: Frame
+    type: link
+    targets: [BannerFrame]
+  - name: Decoration
+    type: link
+    targets: [BannerDecoration]
+  - name: SortKey

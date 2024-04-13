@@ -1,0 +1,9 @@
+name: RecipeNotebookList
+fields:
+  - name: Recipe
+    type: array
+    count: 160
+    fields:
+      - type: link
+        targets: [Recipe]
+  - name: Count

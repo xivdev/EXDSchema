@@ -1,0 +1,31 @@
+name: QuestClassJobReward
+fields:
+  - name: RewardItem
+    type: array
+    count: 4
+    fields:
+      - type: link
+        targets: [Item]
+  - name: RequiredItem
+    type: array
+    count: 4
+    fields:
+      - type: link
+        targets: [Item]
+  - name: ClassJobCategory
+    type: link
+    targets: [ClassJobCategory]
+  - name: RewardAmount
+    type: array
+    count: 4
+  - name: RequiredAmount
+    type: array
+    count: 4
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown7
