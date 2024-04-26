@@ -4,4 +4,4 @@ fields:
     type: link
     targets: [Item]
   - name: Amount
-  - name: Unknown0
+  - name: Unknown2
