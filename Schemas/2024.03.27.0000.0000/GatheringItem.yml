@@ -11,9 +11,7 @@ fields:
   - name: GatheringItemLevel
     type: link
     targets: [GatheringItemLevelConvertTable]
-  - name: Quest
-    type: link
-    targets: [Quest]
+  - name: PerceptionReq
   - name: Unknown2
   - name: Unknown3
   - name: Unknown4
