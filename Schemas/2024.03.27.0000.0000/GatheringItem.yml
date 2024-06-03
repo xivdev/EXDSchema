@@ -2,7 +2,9 @@ name: GatheringItem
 displayField: Item
 fields:
   - name: Unknown0
-  - name: Unknown1
+  - name: SublimeVariant
+    type: link
+    targets: [GatheringItem]
   - name: Item
     type: link
     targets: [Item, EventItem]
