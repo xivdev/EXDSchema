@@ -24,7 +24,8 @@ fields:
   - name: ParamEffect
   - name: TargetType
   - name: Flags
-  - name: Unknown1
+    comment: actually an index of the flag
+  - name: Flag2
   - name: Unknown2
   - name: LockMovement
   - name: Unknown3
@@ -35,7 +36,7 @@ fields:
   - name: CanDispel
   - name: InflictedByActor
   - name: IsPermanent
-  - name: Unknown4
+  - name: NoLogVfx
   - name: Unknown5
   - name: CanStatusOff
   - name: IsFcBuff

@@ -52,7 +52,7 @@ fields:
   - name: XAxisModifier
   - name: PrimaryCostType
   - name: SecondaryCostType
-  - name: Unknown3
+  - name: ExtraCastTime100ms
   - name: CooldownGroup
   - name: AdditionalCooldownGroup
   - name: MaxCharges
@@ -79,12 +79,13 @@ fields:
   - name: CanTargetSelf
   - name: CanTargetParty
   - name: CanTargetFriendly
+    comment: should be CanTargetAlliance instead
   - name: CanTargetHostile
-  - name: Unknown9
+  - name: CanTargetAlly
   - name: Unknown10
   - name: TargetArea
-  - name: Unknown11
-  - name: Unknown12
+  - name: CanTargetOwnPet
+  - name: CanTargetPartyPet
   - name: CanTargetDead
   - name: Unknown13
   - name: Unknown14
@@ -93,10 +94,10 @@ fields:
   - name: AffectsPosition
   - name: IsPvP
   - name: Unknown16
-  - name: Unknown17
+  - name: LogCastMessage
   - name: Unknown18
-  - name: Unknown19
-  - name: Unknown20
+  - name: LogMissMessage
+  - name: LogActionMessage
   - name: Unknown21
   - name: Unknown22
   - name: Unknown23
