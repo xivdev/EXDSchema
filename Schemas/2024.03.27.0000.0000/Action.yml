@@ -70,7 +70,8 @@ fields:
     type: link
     targets: [ClassJob]
   - name: Range
-  - name: Unknown7
+  - name: DeadTargetBehaviour
+    comment: 0 = can not target dead, 1 = can only target dead players (+ some other conditions), 2 = ???
   - name: AttackType
     type: link
     targets: [AttackType]
@@ -87,7 +88,8 @@ fields:
   - name: CanTargetOwnPet
   - name: CanTargetPartyPet
   - name: CanTargetDead
-  - name: Unknown13
+    comment: name is incorrect, should be RequiresLineOfSight
+  - name: NeedToFaceTarget
   - name: Unknown14
   - name: PreservesCombo
   - name: Unknown15
