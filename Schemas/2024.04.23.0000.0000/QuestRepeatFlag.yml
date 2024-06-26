@@ -1,0 +1,6 @@
+name: QuestRepeatFlag
+displayField: Quest
+fields:
+  - name: Quest
+    type: link
+    targets: [ArrayEventHandler, Quest]

@@ -1,0 +1,11 @@
+name: TelepoRelay
+fields:
+  - name: RelayStruct
+    fields:
+    - name: EnterTerritory
+      type: link
+      targets: [TerritoryType]
+    - name: ExitTerritory
+      type: link
+      targets: [TerritoryType]
+    - name: Cost

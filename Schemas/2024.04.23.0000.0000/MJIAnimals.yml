@@ -1,0 +1,16 @@
+name: MJIAnimals
+fields:
+  - name: BNpcBase
+    type: link
+    targets: [BNpcBase]
+  - name: Reward
+    type: array
+    count: 2
+    fields:
+      - type: link
+        targets: [Item]
+  - name: Icon
+    type: icon
+  - name: Size
+  - name: Unknown0
+  - name: Unknown1

@@ -1,0 +1,254 @@
+name: Quest
+displayField: Name
+fields:
+  - name: Name
+  - name: QuestParams
+    type: array
+    count: 50
+    fields:
+      - name: ScriptInstruction
+      - name: ScriptArg
+  - name: QuestListenerParams
+    type: array
+    count: 64
+    fields:
+      - name: Listener
+      - name: ConditionValue
+      - name: Behavior
+      - name: ActorSpawnSeq
+      - name: ActorDespawnSeq
+      - name: QuestUInt8A
+      - name: ConditionType
+      - name: ConditionOperator
+      - name: VisibleBool
+      - name: ConditionBool
+      - name: ItemBool
+      - name: AnnounceBool
+      - name: BehaviorBool
+      - name: AcceptBool
+      - name: QualifiedBool
+      - name: CanTargetBool
+  - name: TodoParams
+    type: array
+    count: 24
+    fields:
+      - name: ToDoLocation
+        type: array
+        count: 8
+        fields:
+          - type: link
+            targets: [Level]
+      - name: ToDoCompleteSeq
+      - name: ToDoQty
+      - name: CountableNum
+  - name: GilReward
+  - name: CurrencyReward
+    type: link
+    targets: [Item]
+  - name: CurrencyRewardCount
+  - name: Reward
+    type: array
+    count: 7
+    fields:
+      - type: link
+        condition:
+          switch: ItemRewardType
+          cases:
+            1: [Item]
+            3: [Item]
+            5: [Item]
+            6: [QuestClassJobReward]
+            7: [BeastRankBonus]
+  - name: OptionalItemReward
+    type: array
+    count: 5
+    fields:
+      - type: link
+        targets: [Item]
+  - name: InstanceContentUnlock
+    type: link
+    targets: [InstanceContent]
+  - name: ExpFactor
+  - name: EmoteReward
+    type: link
+    targets: [Emote]
+  - name: ActionReward
+    type: link
+    targets: [Action]
+  - name: SystemReward
+    type: array
+    count: 2
+  - name: GCTypeReward
+  - name: ItemCatalyst
+    type: array
+    count: 3
+    fields:
+      - type: link
+        targets: [Item]
+  - name: ItemCountCatalyst
+    type: array
+    count: 3
+  - name: ItemRewardType
+  - name: ItemCountReward
+    type: array
+    count: 7
+  - name: RewardStain
+    type: array
+    count: 7
+    fields:
+      - type: link
+        targets: [Stain]
+  - name: OptionalItemCountReward
+    type: array
+    count: 5
+  - name: OptionalItemStainReward
+    type: array
+    count: 5
+    fields:
+      - type: link
+        targets: [Stain]
+  - name: GeneralActionReward
+    type: array
+    count: 2
+    fields:
+      - type: link
+        targets: [GeneralAction]
+  - name: OtherReward
+    type: link
+    targets: [QuestRewardOther]
+  - name: Tomestone
+  - name: TomestoneReward
+  - name: TomestoneCountReward
+  - name: ReputationReward
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5
+  - name: Unknown6
+  - name: OptionalItemIsHQReward
+    type: array
+    count: 5
+  - name: Id
+  - name: PreviousQuest
+    type: array
+    count: 3
+    fields:
+      - type: link
+        targets: [Quest]
+  - name: QuestLock
+    type: array
+    count: 2
+    fields:
+      - type: link
+        targets: [Quest]
+  - name: InstanceContent
+    type: array
+    count: 3
+    fields:
+      - type: link
+        targets: [InstanceContent]
+  - name: IssuerStart
+    type: link
+    targets: [EObjName, ENpcResident]
+  - name: IssuerLocation
+    type: link
+    targets: [Level]
+  - name: TargetEnd
+    type: link
+    targets: [EObjName, ENpcResident]
+  - name: JournalGenre
+    type: link
+    targets: [JournalGenre]
+  - name: Icon
+    type: icon
+  - name: IconSpecial
+    type: icon
+  - name: MountRequired
+    type: link
+    targets: [Mount]
+  - name: ClassJobLevel
+    type: array
+    count: 2
+  - name: Header
+  - name: BellStart
+  - name: BellEnd
+  - name: BeastReputationValue
+  - name: ClientBehavior
+    type: link
+    targets: [Behavior]
+  - name: QuestClassJobSupply
+    type: link
+    targets: [QuestClassJobSupply]
+  - name: PlaceName
+    type: link
+    targets: [PlaceName]
+  - name: SortKey
+  - name: Expansion
+    type: link
+    targets: [ExVersion]
+  - name: ClassJobCategory0
+    type: link
+    targets: [ClassJobCategory]
+  - name: QuestLevelOffset
+  - name: ClassJobCategory1
+    type: link
+    targets: [ClassJobCategory]
+  - name: PreviousQuestJoin
+  - name: Unknown7
+  - name: QuestLockJoin
+  - name: Unknown8
+  - name: Unknown9
+  - name: ClassJobUnlock
+    type: link
+    targets: [ClassJob]
+  - name: GrandCompany
+    type: link
+    targets: [GrandCompany]
+  - name: GrandCompanyRank
+    type: link
+    targets: [GrandCompanyRank]
+  - name: InstanceContentJoin
+  - name: Festival
+    type: link
+    targets: [Festival]
+  - name: FestivalBegin
+  - name: FestivalEnd
+  - name: BeastTribe
+    type: link
+    targets: [BeastTribe]
+  - name: BeastReputationRank
+    type: link
+    targets: [BeastReputationRank]
+  - name: SatisfactionNpc
+    type: link
+    targets: [SatisfactionNpc]
+  - name: SatisfactionLevel
+  - name: DeliveryQuest
+    type: link
+    targets: [DeliveryQuest]
+  - name: RepeatIntervalType
+  - name: QuestRepeatFlag
+    type: link
+    targets: [QuestRepeatFlag]
+  - name: Type
+  - name: LevelMax
+  - name: ClassJobRequired
+    type: link
+    targets: [ClassJob]
+  - name: QuestRewardOtherDisplay
+    type: link
+    targets: [QuestRewardOther]
+  - name: Unknown10
+  - name: EventIconType
+    type: link
+    targets: [EventIconType]
+  - name: Unknown11
+  - name: IsHouseRequired
+  - name: IsRepeatable
+  - name: CanCancel
+  - name: Introduction
+  - name: HideOfferIcon
+  - name: Unknown12
+  - name: Unknown13
