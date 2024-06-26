@@ -1,0 +1,12 @@
+name: ActionComboRoute
+displayField: Name
+fields:
+  - name: Name
+  - name: Action
+    type: array
+    count: 7
+    fields:
+      - type: link
+        targets: [Action]
+  - name: Unknown3
+  - name: Unknown4
