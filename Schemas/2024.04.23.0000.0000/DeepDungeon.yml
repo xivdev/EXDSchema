@@ -13,10 +13,10 @@ fields:
     fields:
       - type: link
         condition:
-        switch: DeepDungeonType
-        cases:
-          1: [DeepDungeonMagicStone]
-          2: [DeepDungeonDemiclone]
+          switch: DeepDungeonType
+          cases:
+            1: [DeepDungeonMagicStone]
+            2: [DeepDungeonDemiclone]
   - name: Name
   - name: ContentFinderConditionStart
     type: link
