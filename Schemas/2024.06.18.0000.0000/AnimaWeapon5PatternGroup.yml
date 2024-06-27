@@ -1,0 +1,4 @@
+name: AnimaWeapon5PatternGroup
+displayField: Name
+fields:
+  - name: Name

@@ -1,0 +1,17 @@
+name: SatisfactionSupply
+displayField: Item
+fields:
+  - name: Item
+    type: link
+    targets: [Item]
+  - name: CollectabilityLow
+  - name: CollectabilityMid
+  - name: CollectabilityHigh
+  - name: Reward
+    type: link
+    targets: [SatisfactionSupplyReward]
+  - name: Unknown0
+  - name: Unknown1
+  - name: Slot
+  - name: ProbabilityPercent
+  - name: Unknown2

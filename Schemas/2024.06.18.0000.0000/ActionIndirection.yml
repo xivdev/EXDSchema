@@ -1,0 +1,12 @@
+name: ActionIndirection
+displayField: Name
+fields:
+  - name: Name
+    type: link
+    targets: [Action]
+  - name: PreviousComboAction
+    type: link
+    targets: [Action]
+  - name: ClassJob
+    type: link
+    targets: [ClassJob]
