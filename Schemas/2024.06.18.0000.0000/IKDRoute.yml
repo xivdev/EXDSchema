@@ -1,0 +1,24 @@
+name: IKDRoute
+displayField: Name
+fields:
+  - name: Name
+  - name: Spot
+    type: array
+    count: 3
+    fields:
+      - type: link
+        targets: [IKDSpot]
+  - name: Image
+    type: icon
+  - name: Unknown0
+  - name: Unknown1
+  - name: Instance
+    type: link
+    targets: [ContentFinderCondition]
+  - name: Unknown2
+  - name: Time
+    type: array
+    count: 3
+    fields:
+      - type: link
+        targets: [IKDTimeDefine]

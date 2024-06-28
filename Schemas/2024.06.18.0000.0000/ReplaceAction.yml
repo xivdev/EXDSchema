@@ -1,0 +1,49 @@
+name: ReplaceAction
+fields:
+  - name: Action
+    type: link
+    targets: [Action]
+  - name: ReplaceActions
+    type: array
+    count: 3
+    fields:
+      - type: link
+        targets: [Action]
+  - name: Param1
+    type: link
+    condition:
+      switch: Type1
+      cases:
+        2: [Status]
+        3: [Trait]
+        4: [Status]
+        7: [Status]
+        12: [Status]
+        13: [Status]
+  - name: Param2
+    type: link
+    condition:
+      switch: Type1
+      cases:
+        2: [Status]
+        3: [Trait]
+        4: [Status]
+        7: [Status]
+        12: [Status]
+        13: [Status]
+  - name: Param3
+    type: link
+    condition:
+      switch: Type1
+      cases:
+        2: [Status]
+        3: [Trait]
+        4: [Status]
+        7: [Status]
+        12: [Status]
+        13: [Status]
+  - name: Type1
+  - name: Type2
+  - name: Type3
+  - name: ReplaceSettable
+  - name: Unknown_70

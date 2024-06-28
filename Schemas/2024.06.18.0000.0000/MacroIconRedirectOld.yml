@@ -1,0 +1,6 @@
+name: MacroIconRedirectOld
+fields:
+  - name: IconOld
+    type: icon
+  - name: IconNew
+    type: icon

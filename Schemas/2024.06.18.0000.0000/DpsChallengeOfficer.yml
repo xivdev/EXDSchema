@@ -1,0 +1,11 @@
+name: DpsChallengeOfficer
+fields:
+  - name: ChallengeName
+    type: array
+    count: 25
+    fields:
+      - type: link
+        targets: [DpsChallenge]
+  - name: UnlockQuest
+    type: link
+    targets: [Quest]

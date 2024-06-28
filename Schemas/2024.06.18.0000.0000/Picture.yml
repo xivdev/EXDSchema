@@ -1,0 +1,6 @@
+name: Picture
+displayField: Item
+fields:
+  - name: Image
+    type: icon
+  - name: Signature

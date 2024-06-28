@@ -1,0 +1,8 @@
+name: ContentExAction
+fields:
+  - name: Name
+    type: link
+    targets: [Action]
+  - name: Unknown0
+  - name: Charges
+  - name: Unknown1

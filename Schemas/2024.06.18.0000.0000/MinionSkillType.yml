@@ -1,0 +1,4 @@
+name: MinionSkillType
+displayField: Name
+fields:
+  - name: Name

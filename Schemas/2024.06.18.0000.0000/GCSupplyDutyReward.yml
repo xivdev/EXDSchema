@@ -1,0 +1,7 @@
+name: GCSupplyDutyReward
+fields:
+  - name: ExperienceSupply
+  - name: ExperienceProvisioning
+  - name: SealsExpertDelivery
+  - name: SealsSupply
+  - name: SealsProvisioning

@@ -1,0 +1,10 @@
+name: TraitRecast
+displayField: Trait
+fields:
+  - name: Trait
+    type: link
+    targets: [Trait]
+  - name: Action
+    type: link
+    targets: [Action]
+  - name: Timeds

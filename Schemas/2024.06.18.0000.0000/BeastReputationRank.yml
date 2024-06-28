@@ -1,0 +1,9 @@
+name: BeastReputationRank
+displayField: Name
+fields:
+  - name: Name
+  - name: AlliedNames
+  - name: Color
+    type: link
+    targets: [UIColor]
+  - name: RequiredReputation

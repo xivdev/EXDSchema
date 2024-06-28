@@ -1,0 +1,9 @@
+name: IKDContentBonus
+displayField: Objective
+fields:
+  - name: Objective
+  - name: Requirement
+  - name: Image
+    type: icon
+  - name: Unknown0
+  - name: Order

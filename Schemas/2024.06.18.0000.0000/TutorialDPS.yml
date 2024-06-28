@@ -1,0 +1,5 @@
+name: TutorialDPS
+fields:
+  - name: Objective
+    type: link
+    targets: [Tutorial]

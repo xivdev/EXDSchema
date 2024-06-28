@@ -1,0 +1,8 @@
+name: MotionTimelineBlendTable
+fields:
+  - name: DestBlendGroup
+  - name: SrcBlendGroup
+  - name: BlendFrame_PC
+  - name: BlendFram_TypeA
+  - name: BlendFram_TypeB
+  - name: BlendFram_TypeC

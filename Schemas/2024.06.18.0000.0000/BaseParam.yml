@@ -1,0 +1,33 @@
+name: BaseParam
+displayField: Name
+fields:
+  - name: Name
+  - name: Description
+  - name: OneHandWeaponPercent
+  - name: OffHandPercent
+  - name: HeadPercent
+  - name: ChestPercent
+  - name: HandsPercent
+  - name: WaistPercent
+  - name: LegsPercent
+  - name: FeetPercent
+  - name: EarringPercent
+  - name: NecklacePercent
+  - name: BraceletPercent
+  - name: RingPercent
+  - name: TwoHandWeaponPercent
+  - name: UnderArmorPercent
+  - name: ChestHeadPercent
+  - name: ChestHeadLegsFeetPercent
+  - name: Unknown0
+  - name: LegsFeetPercent
+  - name: HeadChestHandsLegsFeetPercent
+  - name: ChestLegsGlovesPercent
+  - name: ChestLegsFeetPercent
+  - name: Unknown1
+  - name: OrderPriority
+  - name: MeldParam
+    type: array
+    count: 13
+  - name: PacketIndex
+  - name: Unknown2

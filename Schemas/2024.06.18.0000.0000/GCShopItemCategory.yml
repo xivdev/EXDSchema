@@ -1,0 +1,4 @@
+name: GCShopItemCategory
+displayField: Name
+fields:
+  - name: Name

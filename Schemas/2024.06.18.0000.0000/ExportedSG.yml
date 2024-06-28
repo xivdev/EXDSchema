@@ -1,0 +1,4 @@
+name: ExportedSG
+displayField: SgbPath
+fields:
+  - name: SgbPath

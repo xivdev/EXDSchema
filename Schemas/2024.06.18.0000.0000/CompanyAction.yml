@@ -1,0 +1,13 @@
+name: CompanyAction
+displayField: Name
+fields:
+  - name: Name
+  - name: Description
+  - name: Cost
+  - name: Icon
+    type: icon
+  - name: FCRank
+    type: link
+    targets: [FCRank]
+  - name: Order
+  - name: Purchasable

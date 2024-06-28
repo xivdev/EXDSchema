@@ -1,0 +1,6 @@
+name: AnimaWeaponFUITalk
+displayField: Dialogue
+fields:
+  - name: Dialogue
+    type: link
+    targets: [AnimaWeaponFUITalkParam]

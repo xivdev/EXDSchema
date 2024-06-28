@@ -1,0 +1,14 @@
+name: DailySupplyItem
+fields:
+  - name: Item
+    type: array
+    count: 8
+    fields:
+      - type: link
+        targets: [Item]
+  - name: Quantity
+    type: array
+    count: 8
+  - name: RecipeLevel
+    type: array
+    count: 8

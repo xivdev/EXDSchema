@@ -1,0 +1,56 @@
+name: HousingPreset
+fields:
+  - name: Singular
+  - name: Plural
+  - name: Adjective
+  - name: PossessivePronoun
+  - name: StartsWithVowel
+  - name: Unknown0
+  - name: Pronoun
+  - name: Article
+  - name: ExteriorRoof
+    type: link
+    targets: [Item]
+  - name: ExteriorWall
+    type: link
+    targets: [Item]
+  - name: ExteriorWindow
+    type: link
+    targets: [Item]
+  - name: ExteriorDoor
+    type: link
+    targets: [Item]
+  - name: InteriorWall
+    type: link
+    targets: [Item]
+  - name: InteriorFlooring
+    type: link
+    targets: [Item]
+  - name: InteriorLighting
+    type: link
+    targets: [Item]
+  - name: OtherFloorWall
+    type: link
+    targets: [Item]
+  - name: OtherFloorFlooring
+    type: link
+    targets: [Item]
+  - name: OtherFloorLighting
+    type: link
+    targets: [Item]
+  - name: BasementWall
+    type: link
+    targets: [Item]
+  - name: BasementFlooring
+    type: link
+    targets: [Item]
+  - name: BasementLighting
+    type: link
+    targets: [Item]
+  - name: MansionLighting
+    type: link
+    targets: [Item]
+  - name: PlaceName
+    type: link
+    targets: [PlaceName]
+  - name: HousingSize

@@ -1,0 +1,4 @@
+name: MovieSubtitle
+fields:
+  - name: StartTime
+  - name: EndTime

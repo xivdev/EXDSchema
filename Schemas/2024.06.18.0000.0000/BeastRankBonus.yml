@@ -1,0 +1,16 @@
+name: BeastRankBonus
+fields:
+  - name: Item
+    type: link
+    targets: [Item]
+  - name: Neutral
+  - name: Recognized
+  - name: Friendly
+  - name: Trusted
+  - name: Respected
+  - name: Honored
+  - name: Sworn
+  - name: AlliedBloodsworn
+  - name: ItemQuantity
+    type: array
+    count: 8

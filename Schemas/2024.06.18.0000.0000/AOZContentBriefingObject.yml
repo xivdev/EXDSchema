@@ -1,0 +1,5 @@
+name: AOZContentBriefingObject
+fields:
+  - name: Icon
+    type: icon
+  - name: Unknown0

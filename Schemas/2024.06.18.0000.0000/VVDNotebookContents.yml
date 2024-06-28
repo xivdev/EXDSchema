@@ -1,0 +1,9 @@
+name: VVDNotebookContents
+displayField: Name
+fields:
+  - name: Name
+  - name: Description
+  - name: Icon
+    type: icon
+  - name: Image
+    type: icon

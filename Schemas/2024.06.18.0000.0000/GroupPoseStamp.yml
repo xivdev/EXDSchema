@@ -1,0 +1,17 @@
+name: GroupPoseStamp
+displayField: Name
+fields:
+  - name: Name
+  - name: Unknown0
+  - name: StampIcon
+    type: icon
+  - name: Unknown1
+  - name: Category
+    type: link
+    targets: [GroupPoseStampCategory]
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown7

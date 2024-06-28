@@ -1,0 +1,4 @@
+name: MJIDisposalShopUICategory
+displayField: Category
+fields:
+  - name: Category

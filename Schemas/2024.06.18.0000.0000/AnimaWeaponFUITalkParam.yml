@@ -1,0 +1,5 @@
+name: AnimaWeaponFUITalkParam
+displayField: Prologue
+fields:
+  - name: Prologue
+  - name: Epilogue

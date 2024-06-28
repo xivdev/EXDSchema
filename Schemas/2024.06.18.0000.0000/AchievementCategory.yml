@@ -1,0 +1,10 @@
+name: AchievementCategory
+displayField: Name
+fields:
+  - name: Name
+  - name: AchievementKind
+    type: link
+    targets: [AchievementKind]
+  - name: Order
+  - name: ShowComplete
+  - name: HideCategory

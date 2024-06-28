@@ -1,0 +1,13 @@
+name: RecipeLevelTable
+fields:
+  - name: Quality
+  - name: SuggestedCraftsmanship
+  - name: Difficulty
+  - name: Durability
+  - name: ConditionsFlag
+  - name: ClassJobLevel
+  - name: Stars
+  - name: ProgressDivider
+  - name: QualityDivider
+  - name: ProgressModifier
+  - name: QualityModifier

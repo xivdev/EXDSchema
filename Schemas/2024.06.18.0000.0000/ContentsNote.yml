@@ -1,0 +1,23 @@
+name: ContentsNote
+fields:
+  - name: Name
+  - name: Description
+  - name: ReqUnlock
+    type: link
+    targets: [Quest]
+  - name: Icon
+    type: icon
+  - name: RequiredAmount
+  - name: ExpMultiplier
+  - name: GilRward
+  - name: ExpCap
+  - name: LevelUnlock
+  - name: HowTo
+    type: link
+    targets: [HowTo]
+  - name: ContentType
+    type: link
+    targets: [ContentsNoteCategory]
+  - name: MenuOrder
+  - name: Reward0
+  - name: Reward1

@@ -1,0 +1,6 @@
+name: VVDVariantAction
+displayField: Action
+fields:
+  - name: Action
+    type: link
+    targets: [Action]

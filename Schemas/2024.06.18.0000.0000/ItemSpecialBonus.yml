@@ -1,0 +1,4 @@
+name: ItemSpecialBonus
+displayField: Name
+fields:
+  - name: Name

@@ -1,0 +1,15 @@
+name: DeepDungeonDemiclone
+displayField: TitleCase
+fields:
+  - name: Singular
+  - name: Plural
+  - name: TitleCase
+  - name: Description
+  - name: Unknown4
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown7
+  - name: Unknown8
+  - name: Unknown9
+  - name: Icon
+    type: icon

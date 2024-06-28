@@ -1,0 +1,13 @@
+name: ItemAction
+fields:
+  - name: Type
+  - name: Data
+    count: 9
+    type: array
+  - name: DataHQ
+    count: 9
+    type: array
+  - name: CondLv
+  - name: CondBattle
+  - name: CondPVP
+  - name: CondPVPOnly

@@ -1,0 +1,4 @@
+name: GatheringCondition
+displayField: Text
+fields:
+  - name: Text

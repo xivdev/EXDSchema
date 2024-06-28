@@ -1,0 +1,14 @@
+name: CollectablesShop
+displayField: Name
+fields:
+  - name: Name
+  - name: Quest
+    type: link
+    targets: [Quest]
+  - name: ShopItems
+    type: array
+    count: 11
+    fields:
+      - type: link
+        targets: [CollectablesShopItem]
+  - name: RewardType

@@ -1,0 +1,11 @@
+name: EurekaMagiciteItem
+fields:
+  - name: Item
+    type: link
+    targets: [Item]
+  - name: EurekaMagiciteItemType
+    type: link
+    targets: [EurekaMagiciteItemType]
+  - name: ClassJobCategory
+    type: link
+    targets: [ClassJobCategory]

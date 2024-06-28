@@ -1,0 +1,12 @@
+name: OpenContent
+fields:
+  - name: OpenContentData
+    type: array
+    count: 16
+    fields:
+      - name: CandidateName
+        type: link
+        targets: [OpenContentCandidateName]
+      - name: Content
+        type: link
+        targets: [ContentFinderCondition]

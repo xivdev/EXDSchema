@@ -1,0 +1,6 @@
+name: BGMFadeType
+fields:
+  - name: FadeOutTime
+  - name: FadeInTime
+  - name: FadeInStartTime
+  - name: ResumeFadeInTime

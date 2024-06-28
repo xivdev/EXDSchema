@@ -1,0 +1,8 @@
+name: AnimaWeaponItem
+fields:
+  - name: Item
+    type: array
+    count: 14
+    fields:
+      - type: link
+        targets: [Item]

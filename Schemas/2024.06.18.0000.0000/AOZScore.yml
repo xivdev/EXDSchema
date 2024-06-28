@@ -1,0 +1,7 @@
+name: AOZScore
+displayField: Name
+fields:
+  - name: Name
+  - name: Description
+  - name: Score
+  - name: IsHidden

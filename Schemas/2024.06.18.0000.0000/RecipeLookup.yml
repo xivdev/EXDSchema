@@ -1,0 +1,26 @@
+name: RecipeLookup
+fields:
+  - name: CRP
+    type: link
+    targets: [Recipe]
+  - name: BSM
+    type: link
+    targets: [Recipe]
+  - name: ARM
+    type: link
+    targets: [Recipe]
+  - name: GSM
+    type: link
+    targets: [Recipe]
+  - name: LTW
+    type: link
+    targets: [Recipe]
+  - name: WVR
+    type: link
+    targets: [Recipe]
+  - name: ALC
+    type: link
+    targets: [Recipe]
+  - name: CUL
+    type: link
+    targets: [Recipe]

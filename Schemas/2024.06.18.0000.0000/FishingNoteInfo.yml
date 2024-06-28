@@ -1,0 +1,14 @@
+name: FishingNoteInfo
+displayField: Item
+fields:
+  - name: Item
+    type: link
+    targets: [EventItem, Item]
+  - name: Size
+  - name: AquariumWater
+    type: link
+    targets: [AquariumWater]
+  - name: WeatherRestriction
+  - name: TimeRestriction
+  - name: SpecialConditions
+  - name: IsCollectable

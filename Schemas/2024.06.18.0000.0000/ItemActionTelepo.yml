@@ -1,0 +1,9 @@
+name: ItemActionTelepo
+displayField: Requirement
+fields:
+  - name: Requirement
+    type: link
+    targets: [Quest, GrandCompany]
+  - name: DenyMessage
+    type: link
+    targets: [LogMessage]

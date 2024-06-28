@@ -1,0 +1,6 @@
+name: ENpcDressUp
+fields:
+  - name: Unknown0
+  - name: ENpcDressUpDress
+    type: link
+    targets: [ENpcDressUpDress]

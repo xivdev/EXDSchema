@@ -1,0 +1,8 @@
+name: PhysicsWind
+fields:
+  - name: Threshold
+  - name: Amplitude
+  - name: AmplitudeFrequency
+  - name: PowerMin
+  - name: PowerMax
+  - name: PowerFrequency

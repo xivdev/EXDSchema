@@ -1,0 +1,6 @@
+name: AnimaWeapon5SpiritTalk
+displayField: Dialogue
+fields:
+  - name: Dialogue
+    type: link
+    targets: [AnimaWeapon5SpiritTalkParam]

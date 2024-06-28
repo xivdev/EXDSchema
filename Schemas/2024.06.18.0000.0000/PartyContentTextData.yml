@@ -1,0 +1,4 @@
+name: PartyContentTextData
+displayField: Data
+fields:
+  - name: Data

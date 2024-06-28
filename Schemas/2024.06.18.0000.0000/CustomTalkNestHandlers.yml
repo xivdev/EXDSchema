@@ -1,0 +1,5 @@
+name: CustomTalkNestHandlers
+fields:
+  - name: NestHandler
+    type: link
+    targets: [GilShop, SpecialShop, DisposalShop, ContentEntry]

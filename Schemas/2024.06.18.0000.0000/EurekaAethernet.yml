@@ -1,0 +1,6 @@
+name: EurekaAethernet
+displayField: Location
+fields:
+  - name: Location
+    type: link
+    targets: [PlaceName]

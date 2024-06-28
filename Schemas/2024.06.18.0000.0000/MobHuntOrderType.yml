@@ -1,0 +1,13 @@
+name: MobHuntOrderType
+fields:
+  - name: Quest
+    type: link
+    targets: [Quest]
+  - name: EventItem
+    type: link
+    targets: [EventItem]
+  - name: OrderStart
+    type: link
+    targets: [MobHuntOrder]
+  - name: Type
+  - name: OrderAmount

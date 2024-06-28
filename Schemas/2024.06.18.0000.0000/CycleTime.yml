@@ -1,0 +1,4 @@
+name: CycleTime
+fields:
+  - name: FirstCycle
+  - name: Cycle

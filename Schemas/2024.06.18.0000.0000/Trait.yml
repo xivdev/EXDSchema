@@ -1,0 +1,19 @@
+name: Trait
+displayField: Name
+fields:
+  - name: Name
+  - name: Quest
+    type: link
+    targets: [Quest]
+  - name: Icon
+    type: icon
+  - name: Value
+  - name: ClassJob
+    type: link
+    targets: [ClassJob]
+  - name: Unknown_70
+  - name: Level
+  - name: ClassJobCategory
+    type: link
+    targets: [ClassJobCategory]
+  - name: Unknown0

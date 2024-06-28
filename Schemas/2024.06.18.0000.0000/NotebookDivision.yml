@@ -1,0 +1,22 @@
+name: NotebookDivision
+displayField: Name
+fields:
+  - name: Name
+  - name: QuestUnlock
+    type: link
+    targets: [Quest]
+  - name: NotebookDivisionCategory
+    type: link
+    targets: [NotebookDivisionCategory]
+  - name: CraftOpeningLevel
+  - name: GatheringOpeningLevel
+  - name: Unknown0
+  - name: CRPCraft
+  - name: BSMCraft
+  - name: ARMCraft
+  - name: GSMCraft
+  - name: LTWCraft
+  - name: WVRCraft
+  - name: ALCCraft
+  - name: CULCraft
+  - name: Unknown1

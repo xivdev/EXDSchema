@@ -1,0 +1,4 @@
+name: SkyIsland2MissionType
+displayField: Type
+fields:
+  - name: Type

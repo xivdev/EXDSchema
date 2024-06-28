@@ -1,0 +1,6 @@
+name: GatheringItemPoint
+displayField: GatheringPoint
+fields:
+  - name: GatheringPoint
+    type: link
+    targets: [GatheringPoint]

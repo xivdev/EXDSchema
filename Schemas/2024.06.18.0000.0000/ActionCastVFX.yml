@@ -1,0 +1,6 @@
+name: ActionCastVFX
+displayField: VFX
+fields:
+  - name: VFX
+    type: link
+    targets: [VFX]

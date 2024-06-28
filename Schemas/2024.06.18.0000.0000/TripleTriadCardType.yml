@@ -1,0 +1,4 @@
+name: TripleTriadCardType
+displayField: Name
+fields:
+  - name: Name

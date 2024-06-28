@@ -1,0 +1,4 @@
+name: RideShootingTextData
+displayField: String
+fields:
+  - name: String

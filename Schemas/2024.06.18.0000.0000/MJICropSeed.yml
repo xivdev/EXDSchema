@@ -1,0 +1,12 @@
+name: MJICropSeed
+displayField: Item
+fields:
+  - name: Item
+    type: link
+    targets: [Item]
+  - name: Name
+    type: link
+    targets: [EObjName]
+  - name: SGB
+    type: link
+    targets: [ExportedSG]

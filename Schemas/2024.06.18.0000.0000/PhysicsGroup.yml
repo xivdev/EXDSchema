@@ -1,0 +1,15 @@
+name: PhysicsGroup
+fields:
+  - name: SimulationTime
+    count: 6
+    type: array
+  - name: PS3SimulationTime
+    count: 6
+    type: array
+  - name: RootFollowingGame
+  - name: RootFollowingCutScene
+  - name: ConfigSwitch
+    count: 3
+    type: array
+  - name: ResetByLookAt
+  - name: ForceAttractByPhysicsOff

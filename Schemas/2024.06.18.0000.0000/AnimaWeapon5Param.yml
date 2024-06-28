@@ -1,0 +1,7 @@
+name: AnimaWeapon5Param
+displayField: BaseParam
+fields:
+  - name: Name
+  - name: BaseParam
+    type: link
+    targets: [BaseParam]

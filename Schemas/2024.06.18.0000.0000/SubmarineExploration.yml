@@ -1,0 +1,18 @@
+name: SubmarineExploration
+displayField: Destination
+fields:
+  - name: Destination
+  - name: Location
+  - name: ExpReward
+  - name: SurveyDurationmin
+  - name: X
+  - name: Y
+  - name: Z
+  - name: Map
+    type: link
+    targets: [SubmarineMap]
+  - name: Stars
+  - name: RankReq
+  - name: CeruleumTankReq
+  - name: SurveyDistance
+  - name: StartingPoint

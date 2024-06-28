@@ -1,0 +1,6 @@
+name: HWDLevelChangeDeception
+displayField: Image
+fields:
+  - name: Image
+    type: link
+    targets: [ScreenImage]

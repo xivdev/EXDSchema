@@ -1,0 +1,4 @@
+name: LeveClient
+displayField: Name
+fields:
+  - name: Name

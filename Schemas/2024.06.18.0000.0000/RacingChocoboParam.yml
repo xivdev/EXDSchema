@@ -1,0 +1,4 @@
+name: RacingChocoboParam
+displayField: Name
+fields:
+  - name: Name

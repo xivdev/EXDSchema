@@ -1,0 +1,4 @@
+name: MinionRace
+displayField: Name
+fields:
+  - name: Name

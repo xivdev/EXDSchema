@@ -1,0 +1,6 @@
+name: ActionProcStatus
+displayField: Status
+fields:
+  - name: Status
+    type: link
+    targets: [Status]

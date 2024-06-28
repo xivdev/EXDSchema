@@ -1,0 +1,4 @@
+name: EurekaGrowData
+displayField: BaseElementalPower
+fields:
+  - name: BaseResistance

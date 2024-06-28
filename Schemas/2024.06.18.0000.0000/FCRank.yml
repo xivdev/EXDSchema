@@ -1,0 +1,10 @@
+name: FCRank
+fields:
+  - name: NextPoint
+  - name: CurrentPoint
+  - name: Rights
+  - name: Unknown0
+  - name: Unknown1
+  - name: FCActionActiveNum
+  - name: FCActionStockNum
+  - name: FCChestCompartments

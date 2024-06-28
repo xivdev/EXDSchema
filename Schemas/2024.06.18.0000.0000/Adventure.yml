@@ -1,0 +1,26 @@
+name: Adventure
+displayField: Name
+fields:
+  - name: Name
+  - name: Impression
+  - name: Description
+  - name: Level
+    type: link
+    targets: [Level]
+  - name: MinLevel
+  - name: PlaceName
+    type: link
+    targets: [PlaceName]
+  - name: IconList
+    type: icon
+  - name: IconDiscovered
+    type: icon
+  - name: IconUndiscovered
+    type: icon
+  - name: Emote
+    type: link
+    targets: [Emote]
+  - name: MinTime
+  - name: MaxTime
+  - name: MaxLevel
+  - name: IsInitial

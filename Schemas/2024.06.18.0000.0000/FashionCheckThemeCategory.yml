@@ -1,0 +1,4 @@
+name: FashionCheckThemeCategory
+displayField: Name
+fields:
+  - name: Name

@@ -1,0 +1,11 @@
+name: InclusionShop
+fields:
+  - name: Unknown0
+  - name: Category
+    type: array
+    count: 30
+    fields:
+      - type: link
+        targets: [InclusionShopCategory]
+  - name: Unknown1
+  - name: Unknown2

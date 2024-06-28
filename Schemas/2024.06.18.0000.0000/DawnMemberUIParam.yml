@@ -1,0 +1,7 @@
+name: DawnMemberUIParam
+displayField: Class{Singular}
+fields:
+  - name: Unknown0
+  - name: ClassPlural
+  - name: VoiceLine
+  - name: ClassSingular

@@ -1,0 +1,11 @@
+name: EObjName
+displayField: Singular
+fields:
+  - name: Singular
+  - name: Plural
+  - name: Adjective
+  - name: PossessivePronoun
+  - name: StartsWithVowel
+  - name: Unknown0
+  - name: Pronoun
+  - name: Article

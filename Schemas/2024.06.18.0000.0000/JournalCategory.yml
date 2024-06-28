@@ -1,0 +1,10 @@
+name: JournalCategory
+displayField: Name
+fields:
+  - name: Name
+  - name: SeparateType
+  - name: DataType
+  - name: JournalSection
+    type: link
+    targets: [JournalSection]
+  - name: Unknown0

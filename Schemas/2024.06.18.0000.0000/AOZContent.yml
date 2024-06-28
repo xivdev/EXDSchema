@@ -1,0 +1,44 @@
+name: AOZContent
+fields:
+  - name: GilReward
+  - name: AlliedSealsReward
+  - name: TomestonesReward
+  - name: ContentEntry
+    type: link
+    targets: [ContentEntry]
+  - name: StandardFinishTime
+  - name: IdealFinishTime
+  - name: Act1
+    type: link
+    condition:
+      switch: Act1FightType
+      cases:
+        1: [AOZArrangement]
+        2: [AOZBoss]
+        3: [AOZBoss]
+  - name: Act2
+    type: link
+    condition:
+      switch: Act2FightType
+      cases:
+        1: [AOZArrangement]
+        2: [AOZBoss]
+        3: [AOZBoss]
+  - name: Act3
+    type: link
+    condition:
+      switch: Act3FightType
+      cases:
+        1: [AOZArrangement]
+        2: [AOZBoss]
+        3: [AOZBoss]
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
+  - name: Act1FightType
+  - name: Act2FightType
+  - name: Act3FightType
+  - name: ArenaType1
+  - name: ArenaType2
+  - name: ArenaType3
+  - name: Order

@@ -1,0 +1,11 @@
+name: LogFilter
+displayField: Name
+fields:
+  - name: Name
+  - name: Example
+  - name: Caster
+  - name: Target
+  - name: LogKind
+  - name: Category
+  - name: DisplayOrder
+  - name: Preset

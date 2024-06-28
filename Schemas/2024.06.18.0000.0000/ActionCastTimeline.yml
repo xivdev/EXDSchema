@@ -1,0 +1,9 @@
+name: ActionCastTimeline
+displayField: Name
+fields:
+  - name: Name
+    type: link
+    targets: [ActionTimeline]
+  - name: VFX
+    type: link
+    targets: [VFX]

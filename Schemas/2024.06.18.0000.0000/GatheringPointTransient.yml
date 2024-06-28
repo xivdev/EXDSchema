@@ -1,0 +1,7 @@
+name: GatheringPointTransient
+fields:
+  - name: GatheringRarePopTimeTable
+    type: link
+    targets: [GatheringRarePopTimeTable]
+  - name: EphemeralStartTime
+  - name: EphemeralEndTime

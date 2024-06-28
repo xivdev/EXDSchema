@@ -1,0 +1,9 @@
+name: ContentNpcTalk
+fields:
+  - name: ContentTalk
+    type: array
+    count: 8
+    fields:
+      - type: link
+        targets: [ContentTalk]
+  - name: Type

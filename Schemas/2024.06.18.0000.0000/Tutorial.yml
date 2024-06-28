@@ -1,0 +1,21 @@
+name: Tutorial
+displayField: Objective
+fields:
+  - name: Exp
+  - name: Gil
+  - name: RewardTank
+    type: link
+    targets: [Item]
+  - name: RewardMelee
+    type: link
+    targets: [Item]
+  - name: RewardRanged
+    type: link
+    targets: [Item]
+  - name: Objective
+    type: link
+    targets: [InstanceContentTextData]
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3

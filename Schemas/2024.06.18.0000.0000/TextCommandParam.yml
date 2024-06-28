@@ -1,0 +1,4 @@
+name: TextCommandParam
+displayField: Param
+fields:
+  - name: Param

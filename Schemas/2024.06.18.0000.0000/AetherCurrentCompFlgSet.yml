@@ -1,0 +1,11 @@
+name: AetherCurrentCompFlgSet
+fields:
+  - name: Territory
+    type: link
+    targets: [TerritoryType]
+  - name: AetherCurrents
+    type: array
+    count: 15
+    fields:
+      - type: link
+        targets: [AetherCurrent]

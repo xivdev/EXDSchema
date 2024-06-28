@@ -1,0 +1,8 @@
+name: DynamicEventSingleBattle
+fields:
+  - name: Text
+  - name: Icon
+    type: icon
+  - name: BNpcName
+    type: link
+    targets: [BNpcName]

@@ -1,0 +1,11 @@
+name: RecommendContents
+displayField: Level
+fields:
+  - name: Level
+    type: link
+    targets: [Level]
+  - name: ClassJob
+    type: link
+    targets: [ClassJob]
+  - name: MinLevel
+  - name: MaxLevel

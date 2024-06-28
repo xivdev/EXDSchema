@@ -1,0 +1,11 @@
+name: DeepDungeonStatus
+fields:
+  - name: ScreenImage
+    type: link
+    targets: [ScreenImage]
+  - name: LogMessage
+    type: link
+    targets: [LogMessage]
+  - name: Name
+    type: link
+    targets: [DeepDungeonFloorEffectUI]

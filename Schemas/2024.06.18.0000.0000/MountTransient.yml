@@ -1,0 +1,5 @@
+name: MountTransient
+fields:
+  - name: Description
+  - name: DescriptionEnhanced
+  - name: Tooltip

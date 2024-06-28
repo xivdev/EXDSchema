@@ -1,0 +1,9 @@
+name: ScreenImage
+fields:
+  - name: Image
+    type: icon
+  - name: Jingle
+    type: link
+    targets: [Jingle]
+  - name: Type
+  - name: Lang

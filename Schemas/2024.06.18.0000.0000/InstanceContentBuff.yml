@@ -1,0 +1,4 @@
+name: InstanceContentBuff
+fields:
+  - name: EchoStart
+  - name: EchoDeath

@@ -1,0 +1,11 @@
+name: FateProgressUI
+displayField: Name
+fields:
+  - name: Location
+    type: link
+    targets: [TerritoryType]
+  - name: ReqFatesToRank2
+  - name: ReqFatesToRank3
+  - name: ReqFatesToRank4
+  - name: DisplayOrder
+  - name: Unknown0

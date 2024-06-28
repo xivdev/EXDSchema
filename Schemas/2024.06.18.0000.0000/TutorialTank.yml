@@ -1,0 +1,5 @@
+name: TutorialTank
+fields:
+  - name: Objective
+    type: link
+    targets: [Tutorial]

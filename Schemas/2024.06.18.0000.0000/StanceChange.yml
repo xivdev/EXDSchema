@@ -1,0 +1,11 @@
+name: StanceChange
+fields:
+  - name: Unknown0
+  - name: Unknown1
+  - name: Action
+    type: array
+    count: 2
+    fields:
+      - type: link
+        targets: [Action]
+  - name: Unknown2

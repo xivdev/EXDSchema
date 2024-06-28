@@ -1,0 +1,17 @@
+name: BGMSituation
+fields:
+  - name: DaytimeID
+    type: link
+    targets: [BGM]
+  - name: NightID
+    type: link
+    targets: [BGM]
+  - name: BattleID
+    type: link
+    targets: [BGM]
+  - name: DaybreakID
+    type: link
+    targets: [BGM]
+  - name: TwilightID
+    type: link
+    targets: [BGM]

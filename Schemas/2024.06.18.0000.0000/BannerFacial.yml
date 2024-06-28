@@ -1,0 +1,11 @@
+name: BannerFacial
+fields:
+  - name: Emote
+    type: link
+    targets: [Emote]
+  - name: UnlockCondition
+    type: link
+    targets: [BannerCondition]
+  - name: Unknown_70_1
+  - name: Unknown_70_2
+  - name: SortKey

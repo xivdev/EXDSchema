@@ -1,0 +1,10 @@
+name: BGM
+displayField: File
+fields:
+  - name: File
+  - name: DisableRestartResetTime
+  - name: Priority
+  - name: SpecialMode
+  - name: DisableRestartTimeOut
+  - name: DisableRestart
+  - name: PassEnd

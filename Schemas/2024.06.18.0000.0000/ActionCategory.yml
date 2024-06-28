@@ -1,0 +1,4 @@
+name: ActionCategory
+displayField: Name
+fields:
+  - name: Name

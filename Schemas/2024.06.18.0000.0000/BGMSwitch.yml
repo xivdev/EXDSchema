@@ -1,0 +1,12 @@
+name: BGMSwitch
+fields:
+  - name: Quest
+    type: link
+    targets: [Quest]
+  - name: BGM
+    type: link
+    targets: [BGM, BGMSituation]
+  - name: BGMSystemDefine
+    type: link
+    targets: [BGMSystemDefine]
+  - name: Unknown0

@@ -1,0 +1,4 @@
+name: EurekaSphereElementAdjust
+displayField: PowerModifier
+fields:
+  - name: PowerModifier

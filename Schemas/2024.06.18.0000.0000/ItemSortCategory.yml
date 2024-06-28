@@ -1,0 +1,4 @@
+name: ItemSortCategory
+displayField: Param
+fields:
+  - name: Param

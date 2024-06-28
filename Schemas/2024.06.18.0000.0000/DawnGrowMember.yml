@@ -1,0 +1,16 @@
+name: DawnGrowMember
+displayField: Member
+fields:
+  - name: SelectImage
+    type: array
+    count: 4
+    fields:
+      - type: icon
+  - name: PortraitImage
+    type: array
+    count: 4
+    fields:
+      - type: icon
+  - name: Class
+    type: link
+    targets: [DawnMemberUIParam]

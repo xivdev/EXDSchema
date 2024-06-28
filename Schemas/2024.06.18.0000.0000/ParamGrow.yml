@@ -1,0 +1,17 @@
+name: ParamGrow
+fields:
+  - name: ExpToNext
+  - name: MpModifier
+  - name: BaseSpeed
+  - name: LevelModifier
+  - name: HuntingLogExpReward
+  - name: MonsterNoteSeals
+  - name: ScaledQuestXP
+  - name: HpModifier
+  - name: ItemLevelSync
+  - name: ProperDungeon
+  - name: ProperGuildOrder
+  - name: CraftingLevel
+  - name: AdditionalActions
+  - name: ApplyAction
+  - name: QuestExpModifier

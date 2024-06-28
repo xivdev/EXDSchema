@@ -1,0 +1,8 @@
+name: Condition
+fields:
+  - name: LogMessage
+    type: link
+    targets: [LogMessage]
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2

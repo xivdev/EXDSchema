@@ -1,0 +1,4 @@
+name: WebURL
+displayField: URL
+fields:
+  - name: URL

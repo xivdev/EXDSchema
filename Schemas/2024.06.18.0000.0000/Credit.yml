@@ -1,0 +1,33 @@
+name: Credit
+fields:
+  - name: Roles1
+    type: link
+    targets: [CreditCast]
+  - name: JapaneseCast1
+    type: link
+    targets: [CreditCast]
+  - name: EnglishCast1
+    type: link
+    targets: [CreditCast]
+  - name: FrenchCast1
+    type: link
+    targets: [CreditCast]
+  - name: GermanCast1
+    type: link
+    targets: [CreditCast]
+  - name: Roles2
+    type: link
+    targets: [CreditCast]
+  - name: JapaneseCast2
+    type: link
+    targets: [CreditCast]
+  - name: EnglishCast2
+    type: link
+    targets: [CreditCast]
+  - name: FrenchCast2
+    type: link
+    targets: [CreditCast]
+  - name: GermanCast2
+    type: link
+    targets: [CreditCast]
+  - name: Unknown0

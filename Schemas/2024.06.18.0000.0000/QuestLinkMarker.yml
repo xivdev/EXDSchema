@@ -1,0 +1,13 @@
+name: QuestLinkMarker
+fields:
+  - name: SourceMap
+    type: link
+    targets: [Map]
+  - name: Level
+    type: link
+    targets: [Level]
+  - name: TargetMap
+    type: link
+    targets: [Map]
+  - name: Unknown0
+  - name: Unknown1

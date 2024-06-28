@@ -1,0 +1,36 @@
+name: HWDCrafterSupply
+fields:
+  - name: HWDCrafterSupplyParams
+    type: array
+    count: 23
+    fields:
+      - name: ItemTradeIn
+        type: link
+        targets: [Item]
+      - name: BaseCollectableRating
+      - name: MidCollectableRating
+      - name: HighCollectableRating
+      - name: BaseCollectableReward
+        type: link
+        targets: [HWDCrafterSupplyReward]
+      - name: MidCollectableReward
+        type: link
+        targets: [HWDCrafterSupplyReward]
+      - name: HighCollectableReward
+        type: link
+        targets: [HWDCrafterSupplyReward]
+      - name: BaseCollectableRewardPostPhase
+        type: link
+        targets: [HWDCrafterSupplyReward]
+      - name: MidCollectableRewardPostPhase
+        type: link
+        targets: [HWDCrafterSupplyReward]
+      - name: HighCollectableRewardPostPhase
+        type: link
+        targets: [HWDCrafterSupplyReward]
+      - name: Level
+      - name: LevelMax
+      - name: Unknown0
+      - name: TermName
+        type: link
+        targets: [HWDCrafterSupplyTerm]

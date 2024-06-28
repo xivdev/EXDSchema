@@ -1,0 +1,14 @@
+name: HousingLandSet
+displayField: 
+fields:
+  - name: LandSet
+    type: array
+    count: 60
+    fields:
+      - name: UnknownRange1
+      - name: PlacardId
+      - name: UnknownRange2
+      - name: InitialPrice
+      - name: PlotSize
+  - name: UnknownRange1
+  - name: UnknownRange2

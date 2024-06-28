@@ -1,0 +1,6 @@
+name: AOZArrangement
+fields:
+  - name: AOZContentBriefingBNpc
+    type: link
+    targets: [AOZContentBriefingBNpc]
+  - name: Position

@@ -1,0 +1,5 @@
+name: DpsChallengeTransient
+fields:
+  - name: InstanceContent
+    type: link
+    targets: [InstanceContent]

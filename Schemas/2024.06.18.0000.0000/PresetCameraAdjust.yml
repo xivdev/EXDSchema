@@ -1,0 +1,18 @@
+name: PresetCameraAdjust
+fields:
+  - name: Hyur_M
+  - name: Hyur_F
+  - name: Elezen_M
+  - name: Elezen_F
+  - name: Lalafell_M
+  - name: Lalafell_F
+  - name: Miqote_M
+  - name: Miqote_F
+  - name: Roe_M
+  - name: Roe_F
+  - name: Hrothgar_M
+  - name: Hrothgar_F
+  - name: Viera_M
+  - name: Viera_F
+  - name: Unknown_70
+  - name: Unknown0

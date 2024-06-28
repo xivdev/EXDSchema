@@ -1,0 +1,4 @@
+name: HousingEmploymentNpcRace
+displayField: Race
+fields:
+  - name: Race

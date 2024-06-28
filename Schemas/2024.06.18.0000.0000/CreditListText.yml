@@ -1,0 +1,4 @@
+name: CreditListText
+displayField: Name
+fields:
+  - name: Name

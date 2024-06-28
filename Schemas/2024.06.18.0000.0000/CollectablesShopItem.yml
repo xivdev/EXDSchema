@@ -1,0 +1,22 @@
+name: CollectablesShopItem
+displayField: Item
+fields:
+  - name: Item
+    type: link
+    targets: [Item]
+  - name: RequiredQuest
+    type: link
+    targets: [Quest]
+  - name: LevelMin
+  - name: LevelMax
+  - name: CollectablesShopRefine
+    type: link
+    targets: [CollectablesShopRefine]
+  - name: CollectablesShopRewardScrip
+    type: link
+    targets: [CollectablesShopRewardScrip]
+  - name: CollectablesShopItemGroup
+    type: link
+    targets: [CollectablesShopItemGroup]
+  - name: Stars
+  - name: Key

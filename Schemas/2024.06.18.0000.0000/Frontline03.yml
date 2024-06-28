@@ -1,0 +1,17 @@
+name: Frontline03
+fields:
+  - name: OvooData
+    type: array
+    count: 3
+    fields:
+      - name: EmptyIcon
+        type: icon
+      - name: MaelstromIcon
+        type: icon
+      - name: TwinAdderIcon
+        type: icon
+      - name: ImmortalFlamesIcon
+        type: icon
+      - name: Unknown0
+      - name: Unknown1
+      - name: Unknown2

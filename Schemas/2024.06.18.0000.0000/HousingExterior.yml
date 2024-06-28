@@ -1,0 +1,9 @@
+name: HousingExterior
+fields:
+  - name: Model
+  - name: PlaceName
+    type: link
+    targets: [PlaceName]
+  - name: Unknown0
+  - name: Unknown1
+  - name: HousingSize

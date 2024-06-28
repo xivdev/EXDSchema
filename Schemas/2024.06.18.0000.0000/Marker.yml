@@ -1,0 +1,6 @@
+name: Marker
+fields:
+  - name: Name
+  - name: Icon
+    type: icon
+  - name: Unknown0

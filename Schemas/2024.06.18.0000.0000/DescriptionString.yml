@@ -1,0 +1,4 @@
+name: DescriptionString
+displayField: Text
+fields:
+  - name: Text

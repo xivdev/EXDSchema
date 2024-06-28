@@ -1,0 +1,5 @@
+name: GroupPoseStampCategory
+displayField: Name
+fields:
+  - name: Name
+  - name: Unknown0

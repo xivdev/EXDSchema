@@ -1,0 +1,4 @@
+name: DynamicEventEnemyType
+displayField: Name
+fields:
+  - name: Name

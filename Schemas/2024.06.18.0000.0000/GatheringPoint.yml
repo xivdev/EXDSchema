@@ -1,0 +1,23 @@
+name: GatheringPoint
+fields:
+  - name: GatheringPointBase
+    type: link
+    targets: [GatheringPointBase]
+  - name: GatheringPointBonus
+    type: array
+    count: 2
+    fields:
+      - type: link
+        targets: [GatheringPointBonus]
+  - name: TerritoryType
+    type: link
+    targets: [TerritoryType]
+  - name: PlaceName
+    type: link
+    targets: [PlaceName]
+  - name: GatheringSubCategory
+    type: link
+    targets: [GatheringSubCategory]
+  - name: Type
+  - name: Unknown0
+  - name: Count

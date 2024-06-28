@@ -1,0 +1,4 @@
+name: TreasureModel
+displayField: Path
+fields:
+  - name: Path

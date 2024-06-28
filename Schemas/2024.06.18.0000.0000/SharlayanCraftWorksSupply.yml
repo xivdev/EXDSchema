@@ -1,0 +1,17 @@
+name: SharlayanCraftWorksSupply
+fields:
+  - name: Item
+    type: array
+    count: 4
+    fields:
+      - name: Id
+      - name: XPReward
+      - name: CollectabilityMid
+      - name: CollectabilityHigh
+      - name: GilReward
+      - name: Level
+      - name: HighXPMultiplier
+      - name: HighGilMultiplier
+      - name: Unknown8
+      - name: ScripReward
+      - name: HighScripMultiplier

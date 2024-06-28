@@ -1,0 +1,11 @@
+name: GCScripShopItem
+displayField: Item
+fields:
+  - name: CostGCSeals
+  - name: Item
+    type: link
+    targets: [Item]
+  - name: RequiredGrandCompanyRank
+    type: link
+    targets: [GrandCompanyRank]
+  - name: SortKey

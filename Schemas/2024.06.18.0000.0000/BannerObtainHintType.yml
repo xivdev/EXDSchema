@@ -1,0 +1,4 @@
+name: BannerObtainHintType
+displayField: Text
+fields:
+  - name: Text

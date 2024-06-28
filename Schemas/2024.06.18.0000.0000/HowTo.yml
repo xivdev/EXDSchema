@@ -1,0 +1,21 @@
+name: HowTo
+displayField: Name
+fields:
+  - name: Name
+  - name: HowToPagePC
+    type: array
+    count: 5
+    fields:
+      - type: link
+        targets: [HowToPage]
+  - name: HowToPageController
+    type: array
+    count: 5
+    fields:
+      - type: link
+        targets: [HowToPage]
+  - name: Sort
+  - name: Category
+    type: link
+    targets: [HowToCategory]
+  - name: Announce

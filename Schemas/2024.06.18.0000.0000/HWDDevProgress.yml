@@ -1,0 +1,4 @@
+name: HWDDevProgress
+displayField: CanGoNext
+fields:
+  - name: CanGoNext

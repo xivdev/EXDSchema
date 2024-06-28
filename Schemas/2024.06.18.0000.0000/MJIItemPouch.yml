@@ -1,0 +1,13 @@
+name: MJIItemPouch
+displayField: Item
+fields:
+  - name: Item
+    type: link
+    targets: [Item]
+  - name: Category
+    type: link
+    targets: [MJIItemCategory]
+  - name: Crop
+    type: link
+    targets: [MJICropSeed]
+  - name: Unknown0

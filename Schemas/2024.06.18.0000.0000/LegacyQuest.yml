@@ -1,0 +1,7 @@
+name: LegacyQuest
+fields:
+  - name: Text
+  - name: String
+  - name: Genre
+  - name: LegacyQuestID
+  - name: SortKey

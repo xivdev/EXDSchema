@@ -1,0 +1,10 @@
+name: ChocoboTaxiStand
+displayField: PlaceName
+fields:
+  - name: PlaceName
+  - name: TargetLocations
+    type: array
+    count: 8
+    fields:
+      - type: link
+        targets: [ChocoboTaxi]

@@ -1,0 +1,13 @@
+name: Tribe
+displayField: Feminine
+fields:
+  - name: Masculine
+  - name: Feminine
+  - name: Hp
+  - name: Mp
+  - name: STR
+  - name: VIT
+  - name: DEX
+  - name: INT
+  - name: MND
+  - name: PIE

@@ -1,0 +1,23 @@
+name: CSBonusContent
+displayField: Content{0}
+fields:
+  - name: Score1
+  - name: Score2
+  - name: Score3
+  - name: Score4
+  - name: Score5
+  - name: Content0
+    type: link
+    targets: [CSBonusContentIdentifier]
+  - name: Content1
+    type: link
+    targets: [CSBonusContentIdentifier]
+  - name: Score0
+  - name: ContentType
+    type: link
+    targets: [CSBonusContentType]
+  - name: RewardCount0
+  - name: RewardCount1
+  - name: RewardCount2
+  - name: RewardCount3
+  - name: RewardCount4

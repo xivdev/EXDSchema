@@ -1,0 +1,8 @@
+name: MobHuntReward
+fields:
+  - name: ExpReward
+  - name: GilReward
+  - name: CurrencyReward
+  - name: Expansion
+    type: link
+    targets: [ExVersion]

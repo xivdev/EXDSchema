@@ -1,0 +1,5 @@
+name: RetainerTaskRandom
+displayField: Name
+fields:
+  - name: Name
+  - name: Requirement

@@ -1,0 +1,12 @@
+name: AnimaWeaponIcon
+fields:
+  - name: Hyperconductive
+    type: icon
+  - name: Reborn
+    type: icon
+  - name: Sharpened
+    type: icon
+  - name: Zodiac
+    type: icon
+  - name: ZodiacLux
+    type: icon

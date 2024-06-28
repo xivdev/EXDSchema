@@ -1,0 +1,4 @@
+name: TripleTriadCompetition
+displayField: Name
+fields:
+  - name: Name

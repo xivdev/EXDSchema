@@ -1,0 +1,13 @@
+name: TopicSelect
+displayField: Name
+fields:
+  - name: Name
+  - name: Shop
+    type: array
+    count: 10
+    fields:
+      - type: link
+        targets: [SpecialShop, GilShop, PreHandler]
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
