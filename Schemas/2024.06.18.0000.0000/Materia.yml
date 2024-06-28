@@ -8,13 +8,7 @@ fields:
         targets: [Item]
   - name: Value
     type: array
-    count: 10
-  - name: Unknown6
-  - name: Unknown7
-  - name: Unknown8
-  - name: Unknown9
-  - name: Unknown10
-  - name: Unknown11
+    count: 16
   - name: BaseParam
     type: link
     targets: [BaseParam]
