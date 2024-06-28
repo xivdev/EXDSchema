@@ -3,9 +3,9 @@ displayField: Name
 fields:
   - name: Name
   - name: Description
-  - name: ParamModifier
   - name: Icon
     type: icon
+  - name: ParamModifier
   - name: VFX
     type: link
     targets: [StatusLoopVFX]
