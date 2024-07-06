@@ -1,0 +1,34 @@
+name: AozActionTransient
+displayField: Action
+fields:
+  - name: Stats
+  - name: Description
+  - name: Icon
+    type: icon
+  - name: RequiredForQuest
+    type: link
+    targets: [Quest]
+  - name: PreviousQuest
+    type: link
+    targets: [Quest]
+  - name: Location
+    type: link
+    condition:
+      switch: LocationKey
+      cases:
+        1: [PlaceName]
+        4: [ContentFinderCondition]
+  - name: Number
+  - name: LocationKey
+  - name: TargetsEnemy
+  - name: TargetsSelfOrAlly
+  - name: CauseSlow
+  - name: CausePetrify
+  - name: CauseParalysis
+  - name: CauseInterrupt
+  - name: CauseBlind
+  - name: CauseStun
+  - name: CauseSleep
+  - name: CauseBind
+  - name: CauseHeavy
+  - name: CauseDeath

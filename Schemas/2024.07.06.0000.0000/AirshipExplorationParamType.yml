@@ -1,0 +1,4 @@
+name: AirshipExplorationParamType
+displayField: Name
+fields:
+  - name: Name

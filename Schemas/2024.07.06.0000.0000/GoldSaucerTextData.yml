@@ -1,0 +1,4 @@
+name: GoldSaucerTextData
+displayField: Text
+fields:
+  - name: Text

@@ -1,0 +1,8 @@
+name: AnimationLOD
+fields:
+  - name: CameraDistance
+  - name: SampleInterval
+  - name: BoneLOD
+  - name: AnimationEnable
+    count: 8
+    type: array
