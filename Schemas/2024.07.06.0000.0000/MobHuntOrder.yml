@@ -1,0 +1,11 @@
+name: MobHuntOrder
+fields:
+  - name: Target
+    type: link
+    targets: [MobHuntTarget]
+  - name: NeededKills
+  - name: Type
+  - name: Rank
+  - name: MobHuntReward
+    type: link
+    targets: [MobHuntReward]

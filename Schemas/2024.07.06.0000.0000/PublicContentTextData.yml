@@ -1,0 +1,4 @@
+name: PublicContentTextData
+displayField: TextData
+fields:
+  - name: TextData

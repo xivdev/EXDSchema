@@ -1,0 +1,4 @@
+name: HWDGathereInspectTerm
+displayField: Name
+fields:
+  - name: Name

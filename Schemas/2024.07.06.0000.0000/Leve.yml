@@ -1,0 +1,68 @@
+name: Leve
+displayField: Name
+fields:
+  - name: Name
+  - name: Description
+  - name: ExpFactor
+  - name: ExpReward
+  - name: GilReward
+  - name: LeveRewardItem
+    type: link
+    targets: [LeveRewardItem]
+  - name: JournalGenre
+    type: link
+    targets: [JournalGenre]
+  - name: LevelLevemete
+    type: link
+    targets: [Level]
+  - name: LevelStart
+    type: link
+    targets: [Level]
+  - name: LeveClient
+    type: link
+    targets: [LeveClient]
+  - name: LeveAssignmentType
+    type: link
+    targets: [LeveAssignmentType]
+  - name: Town
+    type: link
+    targets: [Town]
+  - name: PlaceNameStart
+    type: link
+    targets: [PlaceName]
+  - name: PlaceNameIssued
+    type: link
+    targets: [PlaceName]
+  - name: PlaceNameStartZone
+    type: link
+    targets: [PlaceName]
+  - name: IconCityState
+    type: icon
+  - name: DataId
+    type: link
+    targets: [CraftLeve, CompanyLeve, GatheringLeve, BattleLeve]
+  - name: IconIssuer
+    type: icon
+  - name: ClassJobLevel
+  - name: FishingSpot
+    type: link
+    targets: [FishingSpot]
+  - name: BGM
+    type: link
+    targets: [BGM]
+  - name: Unknown1
+  - name: TimeLimit
+  - name: AllowanceCost
+  - name: Unknown2
+  - name: ClassJobCategory
+    type: link
+    targets: [ClassJobCategory]
+  - name: MaxDifficulty
+  - name: LeveVfx
+    type: link
+    targets: [LeveVfx]
+  - name: LeveVfxFrame
+    type: link
+    targets: [LeveVfx]
+  - name: CanCancel
+  - name: LockedLeve
