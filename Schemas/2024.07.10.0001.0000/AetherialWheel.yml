@@ -1,0 +1,10 @@
+name: AetherialWheel
+fields:
+  - name: ItemUnprimed
+    type: link
+    targets: [Item]
+  - name: ItemPrimed
+    type: link
+    targets: [Item]
+  - name: Grade
+  - name: HoursRequired

@@ -1,0 +1,8 @@
+name: DeepDungeonMap5X
+fields:
+  - name: DeepDungeonRoom
+    type: array
+    count: 5
+    fields:
+      - type: link
+        targets: [DeepDungeonRoom]

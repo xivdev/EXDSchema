@@ -1,0 +1,8 @@
+name: MapCondition
+displayField: Quest
+fields:
+  - name: Quest
+    type: link
+    targets: [Quest]
+  - name: Unknown0
+  - name: Unknown1
