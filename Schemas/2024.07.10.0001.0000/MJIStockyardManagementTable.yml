@@ -1,0 +1,6 @@
+name: MJIStockyardManagementTable
+displayField: Material
+fields:
+  - name: Material
+    type: link
+    targets: [MJIItemPouch]

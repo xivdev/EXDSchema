@@ -1,0 +1,7 @@
+name: HWDInfoBoardArticleTransient
+displayField: Text
+fields:
+  - name: Text
+  - name: NpcName
+  - name: Image
+    type: icon

@@ -1,0 +1,15 @@
+name: ScenarioTreeTipsClassQuest
+displayField: Quest
+fields:
+  - name: Quest
+    type: link
+    targets: [Quest]
+  - name: RequiredQuest
+    type: link
+    targets: [Quest]
+  - name: RequiredLevel
+  - name: RequiredExpansion
+    type: link
+    targets: [ExVersion]
+  - name: Unknown0
+  - name: Unknown1

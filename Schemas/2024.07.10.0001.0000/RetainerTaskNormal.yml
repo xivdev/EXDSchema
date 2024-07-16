@@ -1,0 +1,15 @@
+name: RetainerTaskNormal
+displayField: Item
+fields:
+  - name: Item
+    type: link
+    targets: [Item]
+  - name: GatheringLog
+    type: link
+    targets: [GatheringItem]
+  - name: FishingLog
+    type: link
+    targets: [SpearfishingItem, FishParameter]
+  - name: Quantity
+    type: array
+    count: 5

@@ -1,0 +1,13 @@
+name: BuddySkill
+fields:
+  - name: Defender
+    type: link
+    targets: [Trait, Action]
+  - name: Attacker
+    type: link
+    targets: [Trait, Action]
+  - name: Healer
+    type: link
+    targets: [Trait, Action]
+  - name: BuddyLevel
+  - name: IsActive
