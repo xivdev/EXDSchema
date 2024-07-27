@@ -26,6 +26,9 @@ fields:
       - name: ItemCost
         type: array
         count: 3
+        fields:
+        - type: link
+          targets: [Item]
       - name: Quest
         type: link
         targets: [Quest]
@@ -46,6 +49,16 @@ fields:
       - name: ReceiveHq
         type: array
         count: 2
+    relations:
+      ReceiveItems:
+        - Item
+        - ReceiveCount
+        - ReceiveHq
+      ItemCosts:
+        - ItemCost
+        - CurrencyCost
+        - HqCost
+        - CollectabilityCost
   - name: Quest
     type: link
     targets: [Quest]
