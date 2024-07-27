@@ -50,7 +50,7 @@ fields:
         2: [HWDCrafterSupply]
         3: [SatisfactionSupply]
         4: [SharlayanCraftWorksSupply]
-        # 6: [BankaCraftWorksSupply] (This value correlates to the RecipeMetadataKey of an item, not the row id)
+        6: [CollectablesRefine] # For Wachumeqimeqi (Banka) deliveries
   - name: PatchNumber
   - name: AmountResult
   - name: AmountIngredient

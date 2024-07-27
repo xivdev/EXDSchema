@@ -8,7 +8,9 @@ fields:
         type: link
         targets: [Item]
       - name: XPReward
-      - name: RecipeMetadataKey
+      - name: Collectability
+        type: link
+        targets: [CollectablesRefine]
       - name: GilReward
       - name: Level
       - name: HighXPMultiplier
