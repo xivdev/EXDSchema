@@ -1,0 +1,6 @@
+name: FateTokenType
+displayField: Currency
+fields:
+  - name: Currency
+    type: link
+    targets: [Item]

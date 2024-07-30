@@ -1,0 +1,18 @@
+name: GatheringItem
+displayField: Item
+fields:
+  - name: Unknown0
+  - name: SublimeVariant
+    type: link
+    targets: [GatheringItem]
+  - name: Item
+    type: link
+    targets: [Item, EventItem]
+  - name: GatheringItemLevel
+    type: link
+    targets: [GatheringItemLevelConvertTable]
+  - name: PerceptionReq
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
+  - name: IsHidden
