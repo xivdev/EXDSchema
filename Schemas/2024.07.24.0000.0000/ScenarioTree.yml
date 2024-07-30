@@ -1,0 +1,16 @@
+name: ScenarioTree
+displayField: Name
+fields:
+  - name: Name
+  - name: Addon
+    type: link
+    targets: [Addon]
+  - name: QuestChapter
+    type: link
+    targets: [QuestChapter]
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
+  - name: Type
+    type: link
+    targets: [ScenarioType]

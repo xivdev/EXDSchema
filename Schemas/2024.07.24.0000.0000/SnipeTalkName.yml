@@ -1,0 +1,4 @@
+name: SnipeTalkName
+displayField: Name
+fields:
+  - name: Name

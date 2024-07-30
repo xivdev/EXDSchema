@@ -1,0 +1,26 @@
+name: Pet
+displayField: Name
+fields:
+  - name: Name
+  - name: Abilities
+    type: array
+    count: 4
+    fields:
+    - type: link
+      targets: [Action]
+  - name: AutoAction
+    type: link
+    targets: [Action]
+  - name: SmallScalePercentage
+  - name: MediumScalePercentage
+  - name: LargeScalePercentage
+  - name: Unknown8
+  - name: Unknown9
+  - name: Unknown10
+  - name: Unknown11
+  - name: Unknown12
+  - name: Unknown13
+  - name: Unknown14
+  - name: Unknown15
+  - name: NonCombatSummon
+  - name: Unknown17
