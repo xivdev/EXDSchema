@@ -1,1 +1,0 @@
- Get-ChildItem Schemas | ? {$_.PSIsContainer} | ForEach-Object { git apply relations.patch --directory "Schemas/$($_.Name)" }

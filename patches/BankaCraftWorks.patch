@@ -1,0 +1,13 @@
+diff --git a/BankaCraftWorks.yml b/BankaCraftWorks.yml
+--- a/BankaCraftWorks.yml
++++ b/BankaCraftWorks.yml
+@@ -1,5 +1,7 @@
+ name: BankaCraftWorks
+ fields:
+-  - name: Unknown0
+-  - name: Unknown1
++  - name: Description
++  - name: Questgiver
++    type: link
++    targets: [Level]
+   - name: Unknown2

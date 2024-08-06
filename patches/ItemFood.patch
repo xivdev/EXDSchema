@@ -1,0 +1,16 @@
+diff --git a/ItemFood.yml b/ItemFood.yml
+--- a/ItemFood.yml
++++ b/ItemFood.yml
+@@ -22,3 +22,11 @@ fields:
+   - name: IsRelative
+     type: array
+     count: 3
++relations:
++  Params:
++    - BaseParam
++    - IsRelative
++    - Value
++    - Max
++    - ValueHQ
++    - MaxHQ
+\ No newline at end of file
