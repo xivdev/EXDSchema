@@ -1,0 +1,4 @@
+name: GatheringPointBonusType
+displayField: Text
+fields:
+  - name: Text

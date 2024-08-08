@@ -1,0 +1,6 @@
+name: JournalSection
+displayField: Name
+fields:
+  - name: Name
+  - name: Unknown0
+  - name: Unknown1

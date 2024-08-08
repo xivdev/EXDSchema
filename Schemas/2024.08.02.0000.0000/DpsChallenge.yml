@@ -1,0 +1,14 @@
+name: DpsChallenge
+displayField: Name
+fields:
+  - name: Name
+  - name: Description
+  - name: Icon
+    type: icon
+  - name: PlayerLevel
+  - name: Unknown0
+  - name: PlaceName
+    type: link
+    targets: [PlaceName]
+  - name: Order
+  - name: Unknown1

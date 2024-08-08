@@ -1,0 +1,7 @@
+name: BGMScene
+fields:
+  - name: EnableDisableRestart
+  - name: Resume
+  - name: EnablePassEnd
+  - name: ForceAutoReset
+  - name: IgnoreBattle
