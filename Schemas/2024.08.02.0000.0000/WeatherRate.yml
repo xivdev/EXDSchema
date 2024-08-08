@@ -1,0 +1,12 @@
+name: WeatherRate
+displayField: Name
+fields:
+  - name: Weather
+    type: array
+    count: 8
+    fields:
+      - type: link
+        targets: [Weather]
+  - name: Rate
+    type: array
+    count: 8

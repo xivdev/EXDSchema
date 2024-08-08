@@ -1,0 +1,17 @@
+name: WarpLogic
+displayField: WarpName
+fields:
+  - name: WarpParams
+    type: array
+    count: 10
+    fields:
+      - name: Function
+      - name: Argument
+        type: link
+        targets: [HowTo, Item, Quest]
+  - name: Question
+  - name: ResponseYes
+  - name: ResponseNo
+  - name: WarpName
+  - name: Unknown0
+  - name: CanSkipCutscene

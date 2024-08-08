@@ -1,0 +1,13 @@
+name: AnimaWeapon5
+fields:
+  - name: Item
+    type: link
+    targets: [Item]
+  - name: Unknown0
+  - name: SecondaryStatTotal
+  - name: Parameter
+    type: array
+    count: 5
+    fields:
+      - type: link
+        targets: [AnimaWeapon5Param]

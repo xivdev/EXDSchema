@@ -1,0 +1,8 @@
+name: Calendar
+fields:
+  - name: CalendarStruct
+    type: array
+    count: 32
+    fields:
+      - name: Month
+      - name: Day

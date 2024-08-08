@@ -1,0 +1,4 @@
+name: MJICraftworksPopularityType
+displayField: Ratio
+fields:
+  - name: Ratio

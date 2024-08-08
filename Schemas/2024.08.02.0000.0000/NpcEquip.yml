@@ -1,0 +1,89 @@
+name: NpcEquip
+fields:
+  - name: ModelMainHand
+  - name: ModelOffHand
+  - name: ModelHead
+  - name: ModelBody
+  - name: ModelHands
+  - name: ModelLegs
+  - name: ModelFeet
+  - name: ModelEars
+  - name: ModelNeck
+  - name: ModelWrists
+  - name: ModelLeftRing
+  - name: ModelRightRing
+  - name: Unknown_70_1
+  - name: Unknown_70_2
+  - name: DyeMainHand
+    type: link
+    targets: [Stain]
+  - name: Dye2MainHand
+    type: link
+    targets: [Stain]
+  - name: DyeOffHand
+    type: link
+    targets: [Stain]
+  - name: Dye2OffHand
+    type: link
+    targets: [ Stain ]
+  - name: DyeHead
+    type: link
+    targets: [Stain]
+  - name: DyeBody
+    type: link
+    targets: [Stain]
+  - name: DyeHands
+    type: link
+    targets: [Stain]
+  - name: DyeLegs
+    type: link
+    targets: [Stain]
+  - name: DyeFeet
+    type: link
+    targets: [Stain]
+  - name: DyeEars
+    type: link
+    targets: [Stain]
+  - name: DyeNeck
+    type: link
+    targets: [Stain]
+  - name: DyeWrists
+    type: link
+    targets: [Stain]
+  - name: DyeLeftRing
+    type: link
+    targets: [Stain]
+  - name: DyeRightRing
+    type: link
+    targets: [Stain]
+  - name: Dye2Head
+    type: link
+    targets: [Stain]
+  - name: Dye2Body
+    type: link
+    targets: [Stain]
+  - name: Dye2Hands
+    type: link
+    targets: [Stain]
+  - name: Dye2Legs
+    type: link
+    targets: [Stain]
+  - name: Dye2Feet
+    type: link
+    targets: [Stain]
+  - name: Dye2Ears
+    type: link
+    targets: [Stain]
+  - name: Dye2Neck
+    type: link
+    targets: [Stain]
+  - name: Dye2Wrists
+    type: link
+    targets: [Stain]
+  - name: Dye2LeftRing
+    type: link
+    targets: [Stain]
+  - name: Dye2RightRing
+    type: link
+    targets: [Stain]
+  - name: Visor
