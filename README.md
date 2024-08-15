@@ -31,6 +31,7 @@ The schema includes the following:
 - Comment support on any schema object
 - Maps out-of-the-box to a very simple object mapping
 - JSON schema for the schema itself, providing IDE completion and error-checking
+- Relations to group similarly sized arrays together
 
 This repository hosts the schema files for each game version. Each change produces a new release of every known game version's schema and removes the old release.
 Due to the structure of this repository, any change to a given game version is meant to supercede all others.

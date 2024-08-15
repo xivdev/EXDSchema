@@ -286,3 +286,51 @@ The `AdditionalData` column in `Item` does a lot of heavy lifting. We can assume
 but for research and data exploration, having the ability to define the exact sheet is useful. Here, we can see that when `FilterGroup` is `14`,
 we can link to any of `HousingExterior`, `HousingInterior`, `HousingYardObject`, `HousingFurniture`, `HousingPreset`, or finally `HousingUnitedExterior`.
 This works because the value for `AdditionalData` are distinct ranges, even when `FilterGroup` is `14`, thus allowing the definition here to behave like a multi link.
+
+## Relations
+Relations are used to group different arrays together of the same size. They are supported on every sheet and in every array declaration with more than one field.
+
+To best explain relations, here's an example with `ItemFood`:
+```yml
+name: ItemFood
+fields:
+  - name: Max
+    type: array
+    count: 3
+  - name: MaxHQ
+    type: array
+    count: 3
+  - name: EXPBonusPercent
+  - name: BaseParam
+    type: array
+    count: 3
+    fields:
+      - type: link
+        targets: [BaseParam]
+  - name: Value
+    type: array
+    count: 3
+  - name: ValueHQ
+    type: array
+    count: 3
+  - name: IsRelative
+    type: array
+    count: 3
+```
+Here, `ItemFood` contains several arrays of size 3. Each index has one `BaseParam` and its accompanying `Max`, `MaxHQ`, `Value`, `ValueHQ`, and `IsRelative` values.
+These should all be related to one another, but they're instead spread out across 6 different arrays. This is a perfect example of the downsides of
+[Structs of Arrays](https://en.wikipedia.org/wiki/AoS_and_SoA), since our data is best formatted using Arrays of Structs.
+
+Using relations, we can circumvent this issue by explicitly grouping these 6 arrays together into one array with 3 structs.
+To do so, we can add the following to the end of the schema file:
+```yml
+relations:
+  Params:
+    - BaseParam
+    - IsRelative
+    - Value
+    - Max
+    - ValueHQ
+    - MaxHQ
+```
+Now, instead of accessing each array individually, `Params` is the only available field, where every element of `Params` contains all the related columns.
