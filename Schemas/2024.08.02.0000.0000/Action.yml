@@ -65,7 +65,8 @@ fields:
     type: link
     targets: [ClassJobCategory]
   - name: Unknown5
-  - name: Unknown6
+  - name: EquivalenceGroup
+    comment: set for eg crafting actions, when different jobs have different rows, but they need to be considered interchangeable
   - name: Unknown_70
   - name: ClassJob
     type: link
