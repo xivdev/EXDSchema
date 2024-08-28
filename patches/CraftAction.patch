@@ -1,0 +1,13 @@
+diff --git a/CraftAction.yml b/CraftAction.yml
+--- a/CraftAction.yml
++++ b/CraftAction.yml
+@@ -38,7 +38,8 @@ fields:
+     targets: [ActionTimeline]
+   - name: Icon
+     type: icon
+-  - name: Unknown0
++  - name: RequiredStatus
++    targets: [Status]
+   - name: ClassJobCategory
+     type: link
+     targets: [ClassJobCategory]

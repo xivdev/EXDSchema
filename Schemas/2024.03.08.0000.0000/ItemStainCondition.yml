@@ -1,3 +1,5 @@
 name: ItemStainCondition
 fields:
-  - name: Unknown0
+  - name: UnlockQuest
+    type: link
+    targets: [Quest]

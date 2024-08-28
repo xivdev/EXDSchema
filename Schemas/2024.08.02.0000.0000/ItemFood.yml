@@ -22,3 +22,11 @@ fields:
   - name: IsRelative
     type: array
     count: 3
+relations:
+  Params:
+    - BaseParam
+    - IsRelative
+    - Value
+    - Max
+    - ValueHQ
+    - MaxHQ
