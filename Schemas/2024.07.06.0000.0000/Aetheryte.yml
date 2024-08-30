@@ -33,8 +33,8 @@ fields:
     targets: [Map]
   - name: AetherstreamX
   - name: AetherstreamY
+  - name: Unknown2
   - name: AethernetGroup
   - name: Order
-  - name: Unknown2
   - name: IsAetheryte
   - name: Invisible
