@@ -14,5 +14,6 @@ fields:
   - name: GilLow
   - name: GilMid
   - name: GilHigh
-  - name: Unknown0
-  - name: Unknown1
+  - name: BonusMultiplier
+  - name: MinLevelForSecondReward
+    comment: 0 == current cap

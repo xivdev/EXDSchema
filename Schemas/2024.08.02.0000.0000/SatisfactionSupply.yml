@@ -10,8 +10,8 @@ fields:
   - name: Reward
     type: link
     targets: [SatisfactionSupplyReward]
-  - name: Unknown0
-  - name: Unknown1
+  - name: FishingSpotId
+  - name: SpearFishingSpotId
   - name: Slot
   - name: ProbabilityPercent
-  - name: Unknown2
+  - name: IsBonus
