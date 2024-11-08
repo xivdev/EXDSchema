@@ -9,6 +9,7 @@ fields:
     targets: [BannerCondition]
   - name: SortKey
   - name: FontColor
+  - name: Unknown3
   - name: Unknown0
   - name: Unknown1
   - name: Unknown2

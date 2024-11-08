@@ -9,6 +9,7 @@ fields:
   - name: GatheringItemLevel
     type: link
     targets: [GatheringItemLevelConvertTable]
+  - name: Unknown1
   - name: FishingSpot
     type: link
     targets: [FishingSpot]

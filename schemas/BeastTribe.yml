@@ -14,6 +14,7 @@ fields:
     type: icon
   - name: Icon
     type: icon
+  - name: Unknown1
   - name: CurrencyItem
     type: link
     targets: [Item]

@@ -15,14 +15,14 @@ fields:
         type: array
         count: 2
         fields:
-          - type: link
-            targets: [Item]
+        - type: link
+          targets: [Item]
       - name: Category
         type: array
         count: 2
         fields:
-          - type: link
-            targets: [SpecialShopItemCategory]
+        - type: link
+          targets: [SpecialShopItemCategory]
       - name: ItemCost
         type: array
         count: 3
@@ -33,9 +33,12 @@ fields:
         type: link
         targets: [Quest]
       - name: Unknown0
+        type: array
+        count: 4
       - name: AchievementUnlock
         type: link
         targets: [Achievement]
+      - name: Unknown2
       - name: CollectabilityCost
         type: array
         count: 3
@@ -45,7 +48,7 @@ fields:
         count: 3
       - name: Unknown1
         type: array
-        count: 3
+        count: 6
       - name: ReceiveHq
         type: array
         count: 2
@@ -67,6 +70,7 @@ fields:
   - name: CompleteText
   - name: NotCompleteText
   - name: Unknown2
+  - name: Unknown5
   - name: UseCurrencyType
   - name: Unknown3
   - name: Unknown4
