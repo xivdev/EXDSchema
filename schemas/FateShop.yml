@@ -1,0 +1,14 @@
+name: FateShop
+fields:
+  - name: SpecialShop
+    type: array
+    count: 2
+    fields:
+      - type: link
+        targets: [SpecialShop]
+  - name: DefaultTalk
+    type: array
+    count: 8
+    fields:
+      - type: link
+        targets: [DefaultTalk]
