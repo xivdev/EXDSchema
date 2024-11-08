@@ -40,14 +40,22 @@ fields:
   - name: SecretRecipeBook
     type: link
     targets: [SecretRecipeBook]
-  - name: Unknown0
+  - name: CollectableMetadata
+    type: link
+    condition:
+      switch: CollectableMetadataKey
+      cases:
+        1: [CollectablesShopRefine]
+        2: [HWDCrafterSupply]
+        3: [SatisfactionSupply]
+        4: [SharlayanCraftWorksSupply]
   - name: PatchNumber
   - name: AmountResult
   - name: AmountIngredient
     type: array
     count: 10
   - name: MaterialQualityFactor
-  - name: Unknown1
+  - name: CollectableMetadataKey
   - name: IsSecondary
   - name: CanQuickSynth
   - name: CanHq
