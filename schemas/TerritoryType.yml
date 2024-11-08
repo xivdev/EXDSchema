@@ -36,7 +36,9 @@ fields:
     type: link
     targets: [QuestBattle]
   - name: Resident
-  - name: Unknown0
+  - name: NotoriousMonsterTerritory
+    type: link
+    targets: [NotoriousMonsterTerritory]
   - name: BattalionMode
   - name: LoadingImage
     type: link
