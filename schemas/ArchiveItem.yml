@@ -1,7 +1,5 @@
 name: ArchiveItem
 fields:
-  - name: Item
-    type: link
-    targets: [Item]
-  - name: Amount
+  - name: Unknown0
+  - name: Unknown1
   - name: Unknown2

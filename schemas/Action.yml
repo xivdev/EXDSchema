@@ -52,7 +52,7 @@ fields:
   - name: XAxisModifier
   - name: PrimaryCostType
   - name: SecondaryCostType
-  - name: Unknown3
+  - name: ExtraCastTime100ms
   - name: CooldownGroup
   - name: AdditionalCooldownGroup
   - name: MaxCharges
@@ -70,7 +70,8 @@ fields:
     type: link
     targets: [ClassJob]
   - name: Range
-  - name: Unknown7
+  - name: DeadTargetBehaviour
+    comment: 0 = can not target dead, 1 = can only target dead players (+ some other conditions), 2 = ???
   - name: AttackType
     type: link
     targets: [AttackType]
@@ -78,25 +79,25 @@ fields:
   - name: IsRoleAction
   - name: CanTargetSelf
   - name: CanTargetParty
-  - name: CanTargetFriendly
+  - name: CanTargetAlliance
   - name: CanTargetHostile
-  - name: Unknown9
+  - name: CanTargetAlly
   - name: Unknown10
   - name: TargetArea
-  - name: Unknown11
-  - name: Unknown12
-  - name: CanTargetDead
-  - name: Unknown13
+  - name: CanTargetOwnPet
+  - name: CanTargetPartyPet
+  - name: RequiresLineOfSight
+  - name: NeedToFaceTarget
   - name: Unknown14
   - name: PreservesCombo
   - name: Unknown15
   - name: AffectsPosition
   - name: IsPvP
   - name: Unknown16
-  - name: Unknown17
+  - name: LogCastMessage
   - name: Unknown18
-  - name: Unknown19
-  - name: Unknown20
+  - name: LogMissMessage
+  - name: LogActionMessage
   - name: Unknown21
   - name: Unknown22
   - name: Unknown23

@@ -1,16 +1,23 @@
 name: CSBonusContent
+displayField: Content{0}
 fields:
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown5
-  - name: Unknown6
-  - name: Unknown7
-  - name: Unknown8
-  - name: Unknown9
-  - name: Unknown10
-  - name: Unknown11
-  - name: Unknown12
-  - name: Unknown13
+  - name: Score1
+  - name: Score2
+  - name: Score3
+  - name: Score4
+  - name: Score5
+  - name: Content0
+    type: link
+    targets: [CSBonusContentIdentifier]
+  - name: Content1
+    type: link
+    targets: [CSBonusContentIdentifier]
+  - name: Score0
+  - name: ContentType
+    type: link
+    targets: [CSBonusContentType]
+  - name: RewardCount0
+  - name: RewardCount1
+  - name: RewardCount2
+  - name: RewardCount3
+  - name: RewardCount4

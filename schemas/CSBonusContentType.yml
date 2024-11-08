@@ -1,15 +1,33 @@
 name: CSBonusContentType
+displayField: ContentType
 fields:
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown5
-  - name: Unknown6
-  - name: Unknown7
-  - name: Unknown8
-  - name: Unknown9
-  - name: Unknown10
+  - name: Text0
+    type: link
+    targets: [Addon]
+  - name: Text1
+    type: link
+    targets: [Addon]
+  - name: Text2
+    type: link
+    targets: [Addon]
+  - name: Text3
+    type: link
+    targets: [Addon]
+  - name: Image
+    type: icon
+  - name: UnlockQuest0
+    type: link
+    targets: [Quest]
+  - name: UnlockQuest1
+    type: link
+    targets: [Quest]
+  - name: UnlockQuest2
+    type: link
+    targets: [Quest]
   - name: Unknown11
   - name: Unknown12
+  - name: ContentType
+    type: link
+    targets: [ContentType]
+  - name: Unknown6
+  - name: Unknown7
