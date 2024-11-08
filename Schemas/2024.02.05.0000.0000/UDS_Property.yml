@@ -1,5 +1,0 @@
-name: UDS_Property
-displayField: Text
-fields:
-  - name: Text
-  - name: Type

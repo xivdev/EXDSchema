@@ -1,7 +1,0 @@
-name: BankaCraftWorks
-fields:
-  - name: Description
-  - name: Questgiver
-    type: link
-    targets: [Level]
-  - name: Unknown2

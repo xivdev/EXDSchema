@@ -1,5 +1,0 @@
-name: RacingChocoboNameCategory
-displayField: Name
-fields:
-  - name: Name
-  - name: SortKey

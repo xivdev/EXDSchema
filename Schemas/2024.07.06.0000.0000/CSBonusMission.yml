@@ -1,8 +1,0 @@
-name: CSBonusMission
-fields:
-  - name: Content0
-    type: link
-    targets: [CSBonusContent]
-  - name: Content1
-    type: link
-    targets: [CSBonusContent]

@@ -1,8 +1,0 @@
-name: GcArmyExpeditionMemberBonus
-fields:
-  - name: Race
-    type: link
-    targets: [Race]
-  - name: ClassJob
-    type: link
-    targets: [ClassJob]

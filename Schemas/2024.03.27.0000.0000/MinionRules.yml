@@ -1,5 +1,0 @@
-name: MinionRules
-displayField: Rule
-fields:
-  - name: Rule
-  - name: Description

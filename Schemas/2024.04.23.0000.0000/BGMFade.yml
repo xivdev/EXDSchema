@@ -1,7 +1,0 @@
-name: BGMFade
-fields:
-  - name: SceneOut
-  - name: SceneIn
-  - name: BGMFadeType
-    type: link
-    targets: [BGMFadeType]

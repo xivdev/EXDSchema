@@ -1,4 +1,0 @@
-name: ContentFinderConditionTransient
-displayField: Description
-fields:
-  - name: Description

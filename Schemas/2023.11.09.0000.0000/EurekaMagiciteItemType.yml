@@ -1,4 +1,0 @@
-name: EurekaMagiciteItemType
-displayField: Type
-fields:
-  - name: Type

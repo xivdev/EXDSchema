@@ -1,4 +1,0 @@
-name: GatheringItemLevelConvertTable
-fields:
-  - name: GatheringItemLevel
-  - name: Stars

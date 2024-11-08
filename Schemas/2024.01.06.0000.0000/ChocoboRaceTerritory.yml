@@ -1,8 +1,0 @@
-name: ChocoboRaceTerritory
-displayField: Name
-fields:
-  - name: Icon
-    type: icon
-  - name: Name
-    type: link
-    targets: [GoldSaucerTextData]

@@ -1,7 +1,0 @@
-name: GCScripShopCategory
-fields:
-  - name: GrandCompany
-    type: link
-    targets: [GrandCompany]
-  - name: Tier
-  - name: SubCategory

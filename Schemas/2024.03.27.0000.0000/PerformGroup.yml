@@ -1,8 +1,0 @@
-name: PerformGroup
-fields:
-  - name: Perform
-    type: array
-    count: 5
-    fields:
-      - type: link
-        targets: [Perform]

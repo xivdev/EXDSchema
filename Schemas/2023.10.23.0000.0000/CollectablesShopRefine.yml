@@ -1,5 +1,0 @@
-name: CollectablesShopRefine
-fields:
-  - name: LowCollectability
-  - name: MidCollectability
-  - name: HighCollectability

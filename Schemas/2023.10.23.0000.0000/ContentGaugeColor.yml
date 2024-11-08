@@ -1,5 +1,0 @@
-name: ContentGaugeColor
-fields:
-  - name: AndroidColor1
-  - name: AndroidColor2
-  - name: AndroidColor3

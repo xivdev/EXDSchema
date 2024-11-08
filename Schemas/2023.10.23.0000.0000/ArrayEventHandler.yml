@@ -1,8 +1,0 @@
-name: ArrayEventHandler
-fields:
-  - name: Data
-    type: array
-    count: 16
-    fields:
-      - type: link
-        targets: [InstanceContentGuide, Story, Opening, CustomTalk, DefaultTalk, GilShop, Warp, Quest]

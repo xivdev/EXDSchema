@@ -1,7 +1,0 @@
-name: ContentTalk
-displayField: Text
-fields:
-  - name: Text
-  - name: ContentTalkParam
-    type: link
-    targets: [ContentTalkParam]

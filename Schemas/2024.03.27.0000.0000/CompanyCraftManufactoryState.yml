@@ -1,4 +1,0 @@
-name: CompanyCraftManufactoryState
-displayField: Name
-fields:
-  - name: Name

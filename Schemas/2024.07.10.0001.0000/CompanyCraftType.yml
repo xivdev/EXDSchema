@@ -1,4 +1,0 @@
-name: CompanyCraftType
-displayField: Name
-fields:
-  - name: Name
