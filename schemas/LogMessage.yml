@@ -5,4 +5,5 @@ fields:
   - name: LogKind
   - name: Unknown0
   - name: Unknown1
+  - name: Unknown_70
   - name: Unknown2

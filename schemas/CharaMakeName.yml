@@ -47,3 +47,6 @@ fields:
   - name: VieraFirstName
   - name: VieraRavaLastName
   - name: VieraVeenaLastName
+  - name: Unknown_70_1
+  - name: Unknown_70_2
+  - name: Unknown_70_3

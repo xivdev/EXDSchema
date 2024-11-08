@@ -1,27 +1,15 @@
 name: CSBonusContentType
 displayField: ContentType
 fields:
-  - name: Text0
-    type: link
-    targets: [Addon]
-  - name: Text1
-    type: link
-    targets: [Addon]
-  - name: Text2
-    type: link
-    targets: [Addon]
-  - name: Text3
-    type: link
-    targets: [Addon]
+  - name: Dialogue
+    type: array
+    count: 4
+    fields:
+      - type: link
+        targets: [Addon]
   - name: Image
     type: icon
-  - name: UnlockQuest0
-    type: link
-    targets: [Quest]
-  - name: UnlockQuest1
-    type: link
-    targets: [Quest]
-  - name: UnlockQuest2
+  - name: UnlockQuest
     type: link
     targets: [Quest]
   - name: Unknown11
@@ -30,4 +18,3 @@ fields:
     type: link
     targets: [ContentType]
   - name: Unknown6
-  - name: Unknown7

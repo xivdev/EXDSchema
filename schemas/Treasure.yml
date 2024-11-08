@@ -12,5 +12,6 @@ fields:
   - name: SGB
     type: link
     targets: [ExportedSG]
+  - name: Unknown_70
   - name: Unknown8
   - name: Unknown9

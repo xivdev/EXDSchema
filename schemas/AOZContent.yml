@@ -15,6 +15,7 @@ fields:
       cases:
         1: [AOZArrangement]
         2: [AOZBoss]
+        3: [AOZBoss]
   - name: Act2
     type: link
     condition:
@@ -22,6 +23,7 @@ fields:
       cases:
         1: [AOZArrangement]
         2: [AOZBoss]
+        3: [AOZBoss]
   - name: Act3
     type: link
     condition:
@@ -29,6 +31,7 @@ fields:
       cases:
         1: [AOZArrangement]
         2: [AOZBoss]
+        3: [AOZBoss]
   - name: Unknown0
   - name: Unknown1
   - name: Unknown2

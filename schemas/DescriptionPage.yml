@@ -3,6 +3,7 @@ fields:
   - name: Quest
     type: link
     targets: [Quest]
+  - name: Unknown2
   - name: Image
     type: array
     count: 11
@@ -16,4 +17,3 @@ fields:
         targets: [DescriptionString]
   - name: Unknown0
   - name: Unknown1
-  - name: Unknown2

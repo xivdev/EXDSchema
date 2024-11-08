@@ -2,7 +2,7 @@ name: QuestBattle
 fields:
   - name: QuestBattleParams
     type: array
-    count: 200
+    count: 220
     fields:
       - name: ScriptInstruction
       - name: ScriptValue

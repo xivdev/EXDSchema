@@ -9,6 +9,8 @@ fields:
   - name: UnlockCondition
     type: link
     targets: [BannerCondition]
+  - name: Unknown_70_1
+  - name: Unknown_70_2
   - name: FontColor
   - name: Unknown0
   - name: Unknown1

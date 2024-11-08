@@ -2,6 +2,9 @@ name: FishParameter
 displayField: Item
 fields:
   - name: Text
+  - name: Unknown_70_1
+  - name: Unknown_70_2
+  - name: Unknown_70_3
   - name: AchievementCredit
   - name: Item
     type: link

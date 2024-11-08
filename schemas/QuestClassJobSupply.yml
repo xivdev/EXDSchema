@@ -1,11 +1,14 @@
 name: QuestClassJobSupply
 fields:
+  - name: Unknown_70_1
   - name: ENpcResident
     type: link
     targets: [ENpcResident]
   - name: Item
     type: link
     targets: [Item]
+  - name: Unknown_70_2
+  - name: Unknown_70_3
   - name: Unknown1
   - name: Unknown2
   - name: ClassJobCategory

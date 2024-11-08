@@ -27,14 +27,12 @@ fields:
   - name: Town
     type: link
     targets: [Town]
-  - name: Evaluation
   - name: PlaceNameStart
     type: link
     targets: [PlaceName]
   - name: PlaceNameIssued
     type: link
     targets: [PlaceName]
-  - name: Unknown0
   - name: PlaceNameStartZone
     type: link
     targets: [PlaceName]
@@ -66,6 +64,5 @@ fields:
   - name: LeveVfxFrame
     type: link
     targets: [LeveVfx]
-  - name: Unknown3
   - name: CanCancel
   - name: LockedLeve

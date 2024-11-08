@@ -29,6 +29,8 @@ fields:
   - name: MountAction
     type: link
     targets: [MountAction]
+  - name: Unknown_70_1
+  - name: Unknown_70_2
   - name: Order
   - name: FlyingCondition
     type: link
