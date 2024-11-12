@@ -1,8 +1,0 @@
-name: TreasureSpot
-displayField: Location
-fields:
-  - name: MapOffsetX
-  - name: MapOffsetY
-  - name: Location
-    type: link
-    targets: [Level]

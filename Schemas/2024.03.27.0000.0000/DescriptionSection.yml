@@ -1,9 +1,0 @@
-name: DescriptionSection
-displayField: String
-fields:
-  - name: String
-    type: link
-    targets: [DescriptionString]
-  - name: Page
-    type: link
-    targets: [DescriptionPage]

@@ -1,9 +1,0 @@
-name: RacingChocoboItem
-displayField: Item
-fields:
-  - name: Item
-    type: link
-    targets: [Item]
-  - name: Category
-  - name: Unknown0
-  - name: Unknown1

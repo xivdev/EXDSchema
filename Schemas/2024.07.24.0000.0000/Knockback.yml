@@ -1,9 +1,0 @@
-name: Knockback
-fields:
-  - name: Distance
-  - name: Speed
-  - name: NearDistance
-  - name: Direction
-  - name: DirectionArg
-  - name: Motion
-  - name: CancelMove

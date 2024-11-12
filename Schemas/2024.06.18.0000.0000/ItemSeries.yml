@@ -1,4 +1,0 @@
-name: ItemSeries
-displayField: Name
-fields:
-  - name: Name

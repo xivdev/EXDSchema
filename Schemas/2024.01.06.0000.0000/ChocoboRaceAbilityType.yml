@@ -1,4 +1,0 @@
-name: ChocoboRaceAbilityType
-displayField: IsActive
-fields:
-  - name: IsActive

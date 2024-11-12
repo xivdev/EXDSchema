@@ -1,7 +1,0 @@
-name: ChocoboRaceStatus
-displayField: Status
-fields:
-  - name: Status
-    type: link
-    targets: [Status]
-  - name: Unknown0

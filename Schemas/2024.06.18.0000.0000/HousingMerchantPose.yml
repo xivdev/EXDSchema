@@ -1,7 +1,0 @@
-name: HousingMerchantPose
-displayField: Pose
-fields:
-  - name: Pose
-  - name: ActionTimeline
-    type: link
-    targets: [ActionTimeline]

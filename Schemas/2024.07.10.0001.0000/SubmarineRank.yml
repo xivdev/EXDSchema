@@ -1,9 +1,0 @@
-name: SubmarineRank
-fields:
-  - name: ExpToNext
-  - name: Capacity
-  - name: SurveillanceBonus
-  - name: RetrievalBonus
-  - name: SpeedBonus
-  - name: RangeBonus
-  - name: FavorBonus

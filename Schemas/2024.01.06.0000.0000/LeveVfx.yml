@@ -1,6 +1,0 @@
-name: LeveVfx
-displayField: Icon
-fields:
-  - name: Effect
-  - name: Icon
-    type: icon

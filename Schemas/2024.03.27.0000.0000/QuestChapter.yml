@@ -1,9 +1,0 @@
-name: QuestChapter
-displayField: Quest
-fields:
-  - name: Quest
-    type: link
-    targets: [Quest]
-  - name: Redo
-    type: link
-    targets: [QuestRedoChapter]

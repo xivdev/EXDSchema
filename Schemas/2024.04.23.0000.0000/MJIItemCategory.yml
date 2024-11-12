@@ -1,5 +1,0 @@
-name: MJIItemCategory
-displayField: Singular
-fields:
-  - name: Singular
-  - name: Plural

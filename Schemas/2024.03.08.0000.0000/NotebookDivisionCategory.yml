@@ -1,5 +1,0 @@
-name: NotebookDivisionCategory
-displayField: Name
-fields:
-  - name: Name
-  - name: Index
