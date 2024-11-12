@@ -28,14 +28,15 @@ fields:
       - name: Quest
         type: link
         targets: [Quest]
+  - name: Icon
+    type: icon
   - name: Npc
     type: link
     targets: [ENpcResident]
   - name: QuestRequired
     type: link
     targets: [Quest]
-  - name: Icon
-    type: icon
+  - name: Unknown0
   - name: LevelUnlock
   - name: DeliveriesPerWeek
   - name: GlamourIndex
