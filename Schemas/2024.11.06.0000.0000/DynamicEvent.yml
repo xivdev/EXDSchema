@@ -1,0 +1,30 @@
+name: DynamicEvent
+displayField: Name
+fields:
+  - name: Name
+  - name: Description
+  - name: LGBEventObject
+  - name: LGBMapRange
+  - name: Quest
+    type: link
+    targets: [Quest]
+  - name: Announce
+    type: link
+    targets: [LogMessage]
+  - name: Unknown6
+  - name: Unknown7
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
+  - name: EventType
+    type: link
+    targets: [DynamicEventType]
+  - name: EnemyType
+    type: link
+    targets: [DynamicEventEnemyType]
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5
+  - name: SingleBattle
+    type: link
+    targets: [DynamicEventSingleBattle]

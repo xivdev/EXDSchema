@@ -1,0 +1,7 @@
+name: HousingRenovation
+displayField: Name
+fields:
+  - name: Name
+  - name: Description
+  - name: Unknown0
+  - name: Unknown1

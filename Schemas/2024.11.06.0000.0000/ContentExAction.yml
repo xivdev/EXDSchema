@@ -1,0 +1,11 @@
+name: ContentExAction
+fields:
+  - name: Name
+    type: array
+    count: 2
+    fields:
+      - type: link
+        targets: [Action]
+  - name: Charges
+    type: array
+    count: 2

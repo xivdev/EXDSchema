@@ -1,0 +1,19 @@
+name: SatisfactionSupplyReward
+fields:
+  - name: SatisfactionSupplyRewardData
+    type: array
+    count: 2
+    fields:
+      - name: RewardCurrency
+      - name: QuantityLow
+      - name: QuantityMid
+      - name: QuantityHigh
+  - name: SatisfactionLow
+  - name: SatisfactionMid
+  - name: SatisfactionHigh
+  - name: GilLow
+  - name: GilMid
+  - name: GilHigh
+  - name: BonusMultiplier
+  - name: MinLevelForSecondReward
+    comment: 0 == current cap

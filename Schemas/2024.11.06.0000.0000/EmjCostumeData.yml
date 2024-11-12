@@ -1,0 +1,4 @@
+name: EmjCostumeData
+displayField: Name
+fields:
+  - name: Name

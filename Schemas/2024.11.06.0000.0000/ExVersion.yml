@@ -1,0 +1,12 @@
+name: ExVersion
+displayField: Name
+fields:
+  - name: Name
+  - name: MenuScreen
+    comment: Equivalent to the last quest in column 6 of ScenarioTree
+  - name: AcceptJingle
+    type: link
+    targets: [ScreenImage]
+  - name: CompleteJingle
+    type: link
+    targets: [ScreenImage]

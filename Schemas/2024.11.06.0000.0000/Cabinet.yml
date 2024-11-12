@@ -1,0 +1,13 @@
+name: Cabinet
+displayField: Item
+fields:
+  - name: Item
+    type: link
+    targets: [Item]
+  - name: Order
+  - name: Category
+    type: link
+    targets: [CabinetCategory]
+  - name: SubCategory
+    type: link
+    targets: [CabinetSubCategory]

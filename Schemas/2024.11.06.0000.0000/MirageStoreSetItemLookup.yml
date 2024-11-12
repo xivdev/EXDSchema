@@ -1,0 +1,8 @@
+name: MirageStoreSetItemLookup
+fields:
+  - name: Item
+    type: array
+    count: 5
+    fields:
+      - type: link
+        targets: [Item]
