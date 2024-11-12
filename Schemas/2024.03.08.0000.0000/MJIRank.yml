@@ -1,0 +1,10 @@
+name: MJIRank
+fields:
+  - name: ExpToNext
+  - name: LogMessage
+    type: array
+    count: 3
+    fields:
+      - type: link
+        targets: [LogMessage]
+  - name: Unknown0

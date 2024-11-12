@@ -1,0 +1,74 @@
+name: Transformation
+fields:
+  - name: Speed
+  - name: Scale
+  - name: Action6
+    type: link
+    targets: [Action]
+  - name: BNpcCustomize
+    type: link
+    targets: [BNpcCustomize]
+  - name: NpcEquip
+    type: link
+    targets: [NpcEquip]
+  - name: BNpcName
+    type: link
+    targets: [BNpcName]
+  - name: Action0
+    type: link
+    targets: [Action]
+  - name: Action1
+    type: link
+    targets: [Action]
+  - name: Action2
+    type: link
+    targets: [Action]
+  - name: Action3
+    type: link
+    targets: [Action]
+  - name: Action4
+    type: link
+    targets: [Action]
+  - name: Action5
+    type: link
+    targets: [Action]
+  - name: RPParameter
+    type: link
+    targets: [RPParameter]
+  - name: RemoveAction
+    type: link
+    targets: [Action]
+  - name: StartVFX
+    type: link
+    targets: [VFX]
+  - name: EndVFX
+    type: link
+    targets: [VFX]
+  - name: Action7
+    type: link
+    targets: [Action]
+  - name: Model
+    type: link
+    targets: [ModelChara]
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
+  - name: ExHotbarEnableConfig
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown7
+  - name: Unknown8
+  - name: Unknown9
+  - name: Unknown10
+  - name: Unknown11
+  - name: Unknown12
+  - name: Unknown13
+  - name: IsPvP
+  - name: IsEvent
+  - name: PlayerCamera
+  - name: Unknown14
+  - name: Unknown15
+  - name: Unknown16
+  - name: Unknown17

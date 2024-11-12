@@ -1,0 +1,10 @@
+name: CompanyLeveRule
+displayField: Type
+fields:
+  - name: Type
+  - name: Objective
+    type: link
+    targets: [LeveString]
+  - name: Help
+    type: link
+    targets: [LeveString]

@@ -1,0 +1,12 @@
+name: HousingAethernet
+fields:
+  - name: Level
+    type: link
+    targets: [Level]
+  - name: TerritoryType
+    type: link
+    targets: [TerritoryType]
+  - name: PlaceName
+    type: link
+    targets: [PlaceName]
+  - name: Order

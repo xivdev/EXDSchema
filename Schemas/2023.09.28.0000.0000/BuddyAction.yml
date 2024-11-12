@@ -1,0 +1,11 @@
+name: BuddyAction
+displayField: Name
+fields:
+  - name: Name
+  - name: Description
+  - name: Icon
+    type: icon
+  - name: IconStatus
+    type: icon
+  - name: Reward
+  - name: Sort

@@ -1,0 +1,11 @@
+name: WebGuidance
+displayField: Name
+fields:
+  - name: Name
+  - name: Unknown0
+  - name: Description
+  - name: Image
+    type: icon
+  - name: Url
+    type: link
+    targets: [WebURL]

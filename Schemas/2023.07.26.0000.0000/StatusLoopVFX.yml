@@ -1,0 +1,19 @@
+name: StatusLoopVFX
+displayField: VFX
+fields:
+  - name: VFX
+    type: link
+    targets: [VFX]
+  - name: VFX2
+    type: link
+    targets: [VFX]
+  - name: VFX3
+    type: link
+    targets: [VFX]
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5
+  - name: Unknown6

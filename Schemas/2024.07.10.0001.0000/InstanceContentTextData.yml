@@ -1,0 +1,4 @@
+name: InstanceContentTextData
+displayField: Text
+fields:
+  - name: Text

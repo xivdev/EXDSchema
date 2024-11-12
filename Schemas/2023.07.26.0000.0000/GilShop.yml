@@ -1,0 +1,17 @@
+name: GilShop
+displayField: Name
+fields:
+  - name: Name
+  - name: Icon
+    type: icon
+  - name: Quest
+    type: link
+    targets: [Quest]
+  - name: AcceptTalk
+    type: link
+    targets: [DefaultTalk]
+  - name: FailTalk
+    type: link
+    targets: [DefaultTalk]
+  - name: Unknown0
+  - name: Unknown1

@@ -1,0 +1,11 @@
+name: FieldMarker
+displayField: Name
+fields:
+  - name: Name
+  - name: VFX
+    type: link
+    targets: [VFX]
+  - name: UiIcon
+    type: icon
+  - name: MapIcon
+    type: icon

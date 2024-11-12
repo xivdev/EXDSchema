@@ -1,0 +1,14 @@
+name: CompanyCraftProcess
+fields:
+  - name: SupplyItem
+    type: array
+    count: 12
+    fields:
+      - type: link
+        targets: [CompanyCraftSupplyItem]
+  - name: SetQuantity
+    type: array
+    count: 12
+  - name: SetsRequired
+    type: array
+    count: 12

@@ -1,0 +1,37 @@
+name: CSBonusContentIdentifier
+displayField: Content
+fields:
+  - name: Content
+    type: link
+    condition:
+      switch: ContentLinkType
+      cases:
+        1: [InstanceContent]
+        2: [GoldSaucerContent]
+        3: [TerritoryType]
+        4: [MobHuntOrderType]
+        5: [TreasureHuntRank]
+        6: [FishParameter]
+        7: [ENpcResident]
+  - name: UnlockQuest0
+    type: link
+    targets: [Quest]
+  - name: UnlockQuest1
+    type: link
+    targets: [Quest]
+  - name: UnlockQuest2
+    type: link
+    targets: [Quest]
+  - name: Unknown6
+  - name: Map
+    type: link
+    condition:
+      switch: ContentLinkType
+      cases:
+        1: [Level]
+        2: [Level]
+        3: [Fate]
+        4: [Level]
+        7: [Level]
+  - name: ContentLinkType
+  - name: Unknown2

@@ -1,0 +1,11 @@
+name: ItemBarterCheck
+fields:
+  - name: Question
+    type: link
+    targets: [LogMessage, Addon]
+  - name: Confirm
+    type: link
+    targets: [Addon]
+  - name: Category
+    type: link
+    targets: [AddonTransient]

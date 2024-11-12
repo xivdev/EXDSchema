@@ -1,0 +1,4 @@
+name: FashionCheckWeeklyTheme
+displayField: Name
+fields:
+  - name: Name

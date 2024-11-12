@@ -1,0 +1,6 @@
+name: InstanceContentGuide
+fields:
+  - name: Instance
+    type: link
+    targets: [InstanceContent]
+  - name: Unknown0

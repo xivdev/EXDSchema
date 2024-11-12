@@ -1,0 +1,7 @@
+name: Attract
+fields:
+  - name: MaxDistance
+  - name: Speed
+  - name: MinRemainingDistance
+  - name: Direction
+  - name: UseDistanceBetweenHitboxes

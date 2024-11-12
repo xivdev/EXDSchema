@@ -1,0 +1,4 @@
+name: HWDCrafterSupplyTerm
+displayField: Name
+fields:
+  - name: Name

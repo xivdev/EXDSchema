@@ -1,0 +1,32 @@
+name: RideShooting
+fields:
+  - name: RideShootingParams
+    type: array
+    count: 8
+    fields:
+      - name: Unknown0
+      - name: PopRange
+      - name: ENpc
+        type: link
+        targets: [ENpcBase]
+      - name: Unknown1
+      - name: Unknown2
+      - name: Unknown3
+      - name: Unknown4
+      - name: Unknown5
+      - name: ENpcScale
+      - name: Unknown6
+      - name: Unknown7
+      - name: Unknown8
+      - name: Unknown9
+      - name: Unknown10
+  - name: GFateRideShooting
+    type: link
+    targets: [GFateRideShooting]
+  - name: Unknown0
+  - name: Unknown1
+  - name: StartText
+    type: link
+    targets: [RideShootingTextData]
+  - name: Unknown2
+  - name: Unknown3

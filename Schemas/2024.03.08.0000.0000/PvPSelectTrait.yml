@@ -1,0 +1,6 @@
+name: PvPSelectTrait
+fields:
+  - name: Effect
+  - name: Icon
+    type: icon
+  - name: Value

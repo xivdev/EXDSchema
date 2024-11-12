@@ -1,0 +1,15 @@
+name: GCSupplyDuty
+fields:
+  - name: SupplyData
+    type: array
+    count: 11
+    fields:
+      - name: Item
+        type: array
+        count: 3
+        fields:
+          - type: link
+            targets: [Item]
+      - name: ItemCount
+        type: array
+        count: 3

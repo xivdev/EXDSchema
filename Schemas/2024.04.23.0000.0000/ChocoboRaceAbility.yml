@@ -1,0 +1,11 @@
+name: ChocoboRaceAbility
+displayField: Name
+fields:
+  - name: Name
+  - name: Description
+  - name: Icon
+    type: icon
+  - name: Value
+  - name: ChocoboRaceAbilityType
+    type: link
+    targets: [ChocoboRaceAbilityType]

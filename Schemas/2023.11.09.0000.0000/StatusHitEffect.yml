@@ -1,0 +1,6 @@
+name: StatusHitEffect
+displayField: Location
+fields:
+  - name: Location
+    type: link
+    targets: [VFX]

@@ -1,0 +1,4 @@
+name: TraitTransient
+displayField: Description
+fields:
+  - name: Description

@@ -1,0 +1,23 @@
+name: ManeuversArmor
+fields:
+  - name: Name
+  - name: Description
+  - name: FalconName
+    type: link
+    targets: [BNpcName]
+  - name: RavenName
+    type: link
+    targets: [BNpcName]
+  - name: NeutralMapIcon
+    type: icon
+  - name: FalconImage
+    type: icon
+  - name: RavenImage
+    type: icon
+  - name: FalconMapImage
+    type: icon
+  - name: RavenMapImage
+    type: icon
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2

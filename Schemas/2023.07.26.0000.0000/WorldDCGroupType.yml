@@ -1,0 +1,5 @@
+name: WorldDCGroupType
+displayField: Name
+fields:
+  - name: Name
+  - name: Region

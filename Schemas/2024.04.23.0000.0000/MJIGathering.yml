@@ -1,0 +1,6 @@
+name: MJIGathering
+displayField: GatheringObject
+fields:
+  - name: GatheringObject
+    type: link
+    targets: [MJIGatheringObject]

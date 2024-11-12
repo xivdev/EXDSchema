@@ -1,0 +1,25 @@
+name: EObj
+displayField: Singular
+fields:
+  - name: Data
+  - name: SgbPath
+    type: link
+    targets: [ExportedSG]
+  - name: PopType
+  - name: Invisibility
+  - name: EventHighAddition
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown7
+  - name: Unknown8
+  - name: EyeCollision
+  - name: DirectorControl
+  - name: Target
+  - name: Unknown9
+  - name: AddedIn53
+  - name: Unknown10

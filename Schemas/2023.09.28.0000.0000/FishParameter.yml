@@ -1,0 +1,24 @@
+name: FishParameter
+displayField: Item
+fields:
+  - name: Text
+  - name: AchievementCredit
+  - name: Item
+    type: link
+    targets: [EventItem, Item]
+  - name: GatheringItemLevel
+    type: link
+    targets: [GatheringItemLevelConvertTable]
+  - name: Unknown1
+  - name: FishingSpot
+    type: link
+    targets: [FishingSpot]
+  - name: GatheringSubCategory
+    type: link
+    targets: [GatheringSubCategory]
+  - name: OceanStars
+  - name: FishingRecordType
+    type: link
+    targets: [FishingRecordType]
+  - name: IsHidden
+  - name: IsInLog

@@ -1,0 +1,5 @@
+name: FCChestName
+displayField: Name
+fields:
+  - name: Name
+  - name: Unknown0

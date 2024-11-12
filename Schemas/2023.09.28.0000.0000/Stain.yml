@@ -1,0 +1,11 @@
+name: Stain
+displayField: Name
+fields:
+  - name: Name
+  - name: Unknown0
+  - name: Color
+    type: color
+  - name: Shade
+  - name: SubOrder
+  - name: Unknown1
+  - name: Unknown2

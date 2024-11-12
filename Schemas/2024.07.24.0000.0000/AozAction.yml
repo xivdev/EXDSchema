@@ -1,0 +1,7 @@
+name: AozAction
+displayField: Action
+fields:
+  - name: Action
+    type: link
+    targets: [Action]
+  - name: Rank

@@ -1,0 +1,12 @@
+name: MJIGatheringItem
+displayField: Item
+fields:
+  - name: Radius
+  - name: X
+  - name: Y
+  - name: Unknown0
+  - name: Unknown1
+  - name: Item
+    type: link
+    targets: [Item]
+  - name: Sort

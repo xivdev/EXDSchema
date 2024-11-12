@@ -1,0 +1,63 @@
+name: Mount
+displayField: Singular
+fields:
+  - name: Singular
+  - name: Plural
+  - name: Adjective
+  - name: PossessivePronoun
+  - name: StartsWithVowel
+  - name: Unknown0
+  - name: Pronoun
+  - name: Article
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
+  - name: ModelChara
+    type: link
+    targets: [ModelChara]
+  - name: EquipHead
+  - name: EquipBody
+  - name: EquipLeg
+  - name: EquipFoot
+  - name: Unknown4
+  - name: RideBGM
+    type: link
+    targets: [BGM]
+  - name: Icon
+    type: icon
+  - name: UIPriority
+  - name: MountAction
+    type: link
+    targets: [MountAction]
+  - name: Unknown_70_1
+  - name: Unknown_70_2
+  - name: Order
+  - name: FlyingCondition
+    type: link
+    targets: [MountFlyingCondition]
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown7
+  - name: IsFlying
+  - name: Unknown8
+  - name: MountCustomize
+    type: link
+    targets: [MountCustomize]
+  - name: ExitMoveDist
+  - name: ExitMoveSpeed
+  - name: RadiusRate
+  - name: BaseMotionSpeed_Run
+  - name: BaseMotionSpeed_Walk
+  - name: Unknown9
+  - name: ExtraSeats
+  - name: Unknown10
+  - name: Unknown11
+  - name: Unknown12
+  - name: IsEmote
+  - name: IsAirborne
+  - name: ExHotbarEnableConfig
+  - name: UseEP
+  - name: Unknown13
+  - name: IsImmobile
+  - name: Unknown14
+  - name: Unknown15

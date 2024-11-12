@@ -1,0 +1,8 @@
+name: FCAuthority
+displayField: Name
+fields:
+  - name: Name
+  - name: FCAuthorityCategory
+    type: link
+    targets: [FCAuthorityCategory]
+  - name: Unknown0

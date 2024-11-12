@@ -1,0 +1,11 @@
+name: ChocoboRaceRank
+displayField: Name
+fields:
+  - name: Icon
+    type: icon
+  - name: RatingMin
+  - name: RatingMax
+  - name: Name
+    type: link
+    targets: [GoldSaucerTextData]
+  - name: Fee
