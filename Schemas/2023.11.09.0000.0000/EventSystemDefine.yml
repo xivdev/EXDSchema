@@ -1,0 +1,5 @@
+name: EventSystemDefine
+displayField: Text
+fields:
+  - name: Text
+  - name: DefineValue

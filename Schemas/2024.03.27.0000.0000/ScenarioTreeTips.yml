@@ -1,0 +1,9 @@
+name: ScenarioTreeTips
+displayField: Type
+fields:
+  - name: Tips1
+  - name: Tips2
+    type: link
+    targets: [ScenarioTree]
+  - name: Unknown0
+  - name: Unknown1

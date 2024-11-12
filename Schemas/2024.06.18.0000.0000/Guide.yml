@@ -1,0 +1,8 @@
+name: Guide
+fields:
+  - name: GuideTitle
+    type: link
+    targets: [GuideTitle]
+  - name: GuidePage
+    type: link
+    targets: [GuidePage]

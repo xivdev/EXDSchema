@@ -1,0 +1,7 @@
+name: HousingAppeal
+displayField: Tag
+fields:
+  - name: Tag
+  - name: Icon
+    type: icon
+  - name: Order

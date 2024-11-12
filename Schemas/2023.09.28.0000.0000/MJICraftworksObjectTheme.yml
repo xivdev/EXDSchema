@@ -1,0 +1,4 @@
+name: MJICraftworksObjectTheme
+displayField: Name
+fields:
+  - name: Name

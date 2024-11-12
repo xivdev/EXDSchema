@@ -1,0 +1,16 @@
+name: CompleteJournal
+displayField: Name
+fields:
+  - name: Name
+  - name: Unknown0
+  - name: Unknown1
+  - name: Icon
+    type: icon
+  - name: Cutscene
+    type: array
+    count: 24
+    fields:
+      - type: link
+        targets: [Cutscene]
+  - name: RequiredLevel
+  - name: Unknown2

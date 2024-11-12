@@ -1,0 +1,13 @@
+name: GCRankGridaniaFemaleText
+displayField: Singular
+fields:
+  - name: Singular
+  - name: Plural
+  - name: NameRank
+  - name: Unknown0
+  - name: Adjective
+  - name: PossessivePronoun
+  - name: StartsWithVowel
+  - name: Unknown1
+  - name: Pronoun
+  - name: Article

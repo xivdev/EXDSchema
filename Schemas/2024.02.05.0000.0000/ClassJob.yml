@@ -1,0 +1,74 @@
+name: ClassJob
+displayField: Name
+fields:
+  - name: Name
+  - name: Abbreviation
+  - name: Unknown0
+  - name: CanQueueForDuty
+  - name: NameEnglish
+  - name: ItemSoulCrystal
+    type: link
+    targets: [Item]
+  - name: UnlockQuest
+    type: link
+    targets: [Quest]
+  - name: RelicQuest
+    type: link
+    targets: [Quest]
+  - name: Prerequisite
+    type: link
+    targets: [Quest]
+  - name: ItemStartingWeapon
+    type: link
+    targets: [Item]
+  - name: Unknown1
+  - name: ModifierHitPoints
+  - name: ModifierManaPoints
+  - name: ModifierStrength
+  - name: ModifierVitality
+  - name: ModifierDexterity
+  - name: ModifierIntelligence
+  - name: ModifierMind
+  - name: ModifierPiety
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown7
+  - name: LimitBreak1
+    type: link
+    targets: [Action]
+  - name: LimitBreak2
+    type: link
+    targets: [Action]
+  - name: LimitBreak3
+    type: link
+    targets: [Action]
+  - name: ClassJobCategory
+    type: link
+    targets: [ClassJobCategory]
+  - name: Unknown8
+  - name: JobIndex
+  - name: Unknown9
+  - name: PvPActionSortRow
+  - name: Unknown10
+  - name: ClassJobParent
+    type: link
+    targets: [ClassJob]
+  - name: Role
+  - name: StartingTown
+    type: link
+    targets: [Town]
+  - name: PrimaryStat
+  - name: UIPriority
+  - name: StartingLevel
+  - name: PartyBonus
+  - name: Unknown11
+  - name: ExpArrayIndex
+  - name: BattleClassIndex
+  - name: DohDolJobIndex
+  - name: MonsterNote
+    type: link
+    targets: [MonsterNote]
+  - name: IsLimitedJob

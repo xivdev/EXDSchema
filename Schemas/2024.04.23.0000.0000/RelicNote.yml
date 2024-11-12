@@ -1,0 +1,40 @@
+name: RelicNote
+displayField: Name
+fields:
+  - name: EventItem
+    type: link
+    targets: [EventItem]
+  - name: MonsterNoteTargetCommon
+    type: array
+    count: 10
+    fields:
+      - type: link
+        targets: [MonsterNoteTarget]
+  - name: MonsterNoteTargetNM
+    type: array
+    count: 3
+    fields:
+      - type: link
+        targets: [MonsterNoteTarget]
+  - name: Unknown0
+  - name: Fate
+    type: array
+    count: 3
+    fields:
+      - type: link
+        targets: [Fate]
+  - name: PlaceNameFate
+    type: array
+    count: 3
+    fields:
+      - type: link
+        targets: [PlaceName]
+  - name: Leve
+    type: array
+    count: 3
+    fields:
+      - type: link
+        targets: [Leve]
+  - name: MonsterCount
+    type: array
+    count: 10

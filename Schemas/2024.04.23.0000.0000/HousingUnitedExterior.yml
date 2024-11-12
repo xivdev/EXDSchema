@@ -1,0 +1,27 @@
+name: HousingUnitedExterior
+fields:
+  - name: Roof
+    type: link
+    targets: [HousingExterior]
+  - name: Walls
+    type: link
+    targets: [HousingExterior]
+  - name: Windows
+    type: link
+    targets: [HousingExterior]
+  - name: Door
+    type: link
+    targets: [HousingExterior]
+  - name: OptionalRoof
+    type: link
+    targets: [HousingExterior]
+  - name: OptionalWall
+    type: link
+    targets: [HousingExterior]
+  - name: OptionalSignboard
+    type: link
+    targets: [HousingExterior]
+  - name: Fence
+    type: link
+    targets: [HousingExterior]
+  - name: PlotSize

@@ -1,0 +1,12 @@
+name: BannerFrame
+displayField: Name
+fields:
+  - name: Name
+  - name: Image
+    type: icon
+  - name: Icon
+    type: icon
+  - name: UnlockCondition
+    type: link
+    targets: [BannerCondition]
+  - name: SortKey

@@ -1,0 +1,5 @@
+name: FCActivityCategory
+displayField: Name
+fields:
+  - name: Name
+  - name: Priority

@@ -1,0 +1,6 @@
+name: ItemRepairResource
+displayField: Name
+fields:
+  - name: Item
+    type: link
+    targets: [Item]

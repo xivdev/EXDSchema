@@ -1,0 +1,10 @@
+name: InclusionShopCategory
+displayField: Name
+fields:
+  - name: Name
+  - name: InclusionShopSeries
+    type: link
+    targets: [InclusionShopSeries]
+  - name: ClassJobCategory
+    type: link
+    targets: [ClassJobCategory]

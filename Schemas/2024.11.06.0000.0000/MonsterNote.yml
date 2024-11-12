@@ -1,0 +1,14 @@
+name: MonsterNote
+displayField: Name
+fields:
+  - name: Name
+  - name: Reward
+  - name: MonsterNoteTarget
+    type: array
+    count: 4
+    fields:
+      - type: link
+        targets: [MonsterNoteTarget]
+  - name: Count
+    type: array
+    count: 4

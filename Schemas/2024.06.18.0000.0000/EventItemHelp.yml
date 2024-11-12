@@ -1,0 +1,5 @@
+name: EventItemHelp
+displayField: Description
+fields:
+  - name: Description
+  - name: Unknown0

@@ -1,0 +1,11 @@
+name: Resident
+fields:
+  - name: Model
+  - name: NpcYell
+    type: link
+    targets: [NpcYell]
+  - name: Unknown0
+  - name: Unknown1
+  - name: ResidentMotionType
+    type: link
+    targets: [ResidentMotionType]

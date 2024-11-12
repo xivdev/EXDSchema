@@ -1,0 +1,5 @@
+name: ItemStainCondition
+fields:
+  - name: UnlockQuest
+    type: link
+    targets: [Quest]

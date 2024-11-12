@@ -1,0 +1,13 @@
+name: MYCTemporaryItem
+displayField: Action
+fields:
+  - name: Action
+    type: link
+    targets: [Action]
+  - name: Category
+    type: link
+    targets: [MYCTemporaryItemUICategory]
+  - name: Type
+  - name: Max
+  - name: Weight
+  - name: Order

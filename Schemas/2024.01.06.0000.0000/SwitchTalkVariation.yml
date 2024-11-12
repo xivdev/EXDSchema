@@ -1,0 +1,13 @@
+name: SwitchTalkVariation
+displayField: Quest
+fields:
+  - name: Quest0
+    type: link
+    targets: [Quest]
+  - name: Quest1
+    type: link
+    targets: [Quest]
+  - name: DefaultTalk
+    type: link
+    targets: [DefaultTalk]
+  - name: Unknown0

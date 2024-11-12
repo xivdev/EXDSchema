@@ -1,0 +1,10 @@
+name: CabinetCategory
+displayField: Category
+fields:
+  - name: Icon
+    type: icon
+  - name: Category
+    type: link
+    targets: [Addon]
+  - name: MenuOrder
+  - name: HideOrder

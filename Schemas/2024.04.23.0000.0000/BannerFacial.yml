@@ -1,0 +1,9 @@
+name: BannerFacial
+fields:
+  - name: Emote
+    type: link
+    targets: [Emote]
+  - name: UnlockCondition
+    type: link
+    targets: [BannerCondition]
+  - name: SortKey

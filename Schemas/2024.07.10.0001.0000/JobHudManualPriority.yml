@@ -1,0 +1,8 @@
+name: JobHudManualPriority
+fields:
+  - name: JobHudManual
+    type: array
+    count: 8
+    fields:
+      - type: link
+        targets: [JobHudManual]

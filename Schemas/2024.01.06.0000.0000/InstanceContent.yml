@@ -1,0 +1,89 @@
+name: InstanceContent
+fields:
+  - name: NewPlayerBonusGil
+  - name: NewPlayerBonusExp
+  - name: FinalBossExp
+  - name: Unknown0
+  - name: BossExp
+    type: array
+    count: 5
+  - name: InstanceClearExp
+  - name: InstanceClearGil
+  - name: InstanceContentRewardItem
+    type: link
+    targets: [InstanceContentRewardItem]
+  - name: NewPlayerBonusA
+  - name: NewPlayerBonusB
+  - name: FinalBossCurrencyA
+  - name: FinalBossCurrencyB
+  - name: FinalBossCurrencyC
+  - name: BossCurrencyA
+    type: array
+    count: 5
+  - name: BossCurrencyB
+    type: array
+    count: 5
+  - name: BossCurrencyC
+    type: array
+    count: 5
+  - name: Unknown1
+  - name: Cutscene
+    type: link
+    targets: [Cutscene]
+  - name: LGBEventRange
+  - name: InstanceContentTextDataBossStart
+    type: link
+    targets: [InstanceContentTextData]
+  - name: InstanceContentTextDataBossEnd
+    type: link
+    targets: [InstanceContentTextData]
+  - name: BNpcBaseBoss
+    type: link
+    targets: [BNpcBase]
+  - name: InstanceContentTextDataObjectiveStart
+    type: link
+    targets: [InstanceContentTextData]
+  - name: InstanceContentTextDataObjectiveEnd
+    type: link
+    targets: [InstanceContentTextData]
+  - name: Unknown2
+  - name: ReqInstance
+    type: link
+    targets: [InstanceContent]
+  - name: InstanceContentBuff
+    type: link
+    targets: [InstanceContentBuff]
+  - name: TimeLimitmin
+  - name: BGM
+    type: link
+    targets: [BGM]
+  - name: WinBGM
+    type: link
+    targets: [BGM]
+  - name: Order
+  - name: SortKey
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown7
+  - name: Unknown8
+  - name: PartyCondition
+  - name: InstanceContentType
+    type: link
+    targets: [InstanceContentType]
+  - name: WeekRestriction
+  - name: Colosseum
+    type: link
+    targets: [Colosseum]
+  - name: Unknown9
+  - name: Unknown10
+  - name: Unknown11
+  - name: Unknown12
+  - name: Unknown19
+  - name: Unknown13
+  - name: Unknown14
+  - name: Unknown15
+  - name: Unknown16
+  - name: Unknown17
+  - name: Unknown18

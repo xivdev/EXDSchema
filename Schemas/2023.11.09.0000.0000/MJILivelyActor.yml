@@ -1,0 +1,12 @@
+name: MJILivelyActor
+fields:
+  - name: X
+  - name: Y
+  - name: Z
+  - name: Rot
+  - name: ENPC
+    type: link
+    targets: [ENpcResident]
+  - name: Behavior
+    type: link
+    targets: [Behavior]

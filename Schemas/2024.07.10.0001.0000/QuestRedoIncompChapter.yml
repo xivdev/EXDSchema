@@ -1,0 +1,6 @@
+name: QuestRedoIncompChapter
+displayField: Chapter
+fields:
+  - name: Chapter
+    type: link
+    targets: [QuestRedoChapter]

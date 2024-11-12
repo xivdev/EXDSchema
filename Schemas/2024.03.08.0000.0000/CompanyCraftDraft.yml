@@ -1,0 +1,17 @@
+name: CompanyCraftDraft
+displayField: Name
+fields:
+  - name: Name
+  - name: Order
+  - name: RequiredItem
+    type: array
+    count: 3
+    fields:
+      - type: link
+        targets: [Item]
+  - name: CompanyCraftDraftCategory
+    type: link
+    targets: [CompanyCraftDraftCategory]
+  - name: RequiredItemCount
+    type: array
+    count: 3

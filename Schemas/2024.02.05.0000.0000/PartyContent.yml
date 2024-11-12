@@ -1,0 +1,28 @@
+name: PartyContent
+displayField: ContentFinderCondition
+fields:
+  - name: LGBEventObject
+    type: array
+    count: 9
+  - name: LGBEventRange
+    type: array
+    count: 9
+  - name: LGBEventObject2
+    type: array
+    count: 9
+  - name: TextDataStart
+    type: link
+    targets: [PartyContentTextData]
+  - name: TextDataEnd
+    type: link
+    targets: [PartyContentTextData]
+  - name: Image
+    type: icon
+  - name: TimeLimit
+  - name: Unknown0
+  - name: ContentFinderCondition
+    type: link
+    targets: [ContentFinderCondition]
+  - name: Key
+  - name: Unknown1
+  - name: Name

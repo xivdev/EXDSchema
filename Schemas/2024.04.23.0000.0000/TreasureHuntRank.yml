@@ -1,0 +1,19 @@
+name: TreasureHuntRank
+displayField: Name
+fields:
+  - name: Icon
+    type: icon
+  - name: ItemName
+    type: link
+    targets: [Item]
+  - name: KeyItemName
+    type: link
+    targets: [EventItem]
+  - name: InstanceMap
+    type: link
+    targets: [EventItem]
+  - name: Unknown0
+  - name: Unknown1
+  - name: MaxPartySize
+  - name: TreasureHuntTexture
+  - name: Unknown2

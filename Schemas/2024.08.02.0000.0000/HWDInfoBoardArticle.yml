@@ -1,0 +1,10 @@
+name: HWDInfoBoardArticle
+displayField: Text
+fields:
+  - name: Text
+  - name: Unknown0
+  - name: Type
+    type: link
+    targets: [HWDInfoBoardArticleType]
+  - name: Unknown1
+  - name: Unknown2

@@ -1,0 +1,11 @@
+name: ContentsTutorial
+displayField: Name
+fields:
+  - name: Name
+  - name: Description
+  - name: Page
+    type: array
+    count: 8
+    fields:
+      - type: link
+        targets: [ContentsTutorialPage]

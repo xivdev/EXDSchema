@@ -1,0 +1,11 @@
+name: HousingEmploymentNpcList
+fields:
+  - name: MaleENpcBase
+    type: link
+    targets: [ENpcBase]
+  - name: FemaleENpcBase
+    type: link
+    targets: [ENpcBase]
+  - name: Race
+    type: link
+    targets: [HousingEmploymentNpcRace]

@@ -1,0 +1,4 @@
+name: AttackType
+displayField: Name
+fields:
+  - name: Name

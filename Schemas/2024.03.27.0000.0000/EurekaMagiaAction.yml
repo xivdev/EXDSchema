@@ -1,0 +1,6 @@
+name: EurekaMagiaAction
+fields:
+  - name: Action
+    type: link
+    targets: [Action]
+  - name: MaxUses

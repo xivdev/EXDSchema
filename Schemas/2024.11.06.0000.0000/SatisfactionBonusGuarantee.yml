@@ -1,0 +1,11 @@
+name: SatisfactionBonusGuarantee
+fields:
+  - name: BonusDoH
+    type: array
+    count: 2
+  - name: BonusDoL
+    type: array
+    count: 2
+  - name: BonusFisher
+    type: array
+    count: 2

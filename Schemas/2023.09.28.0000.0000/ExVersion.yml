@@ -1,0 +1,10 @@
+name: ExVersion
+displayField: Name
+fields:
+  - name: Name
+  - name: AcceptJingle
+    type: link
+    targets: [ScreenImage]
+  - name: CompleteJingle
+    type: link
+    targets: [ScreenImage]

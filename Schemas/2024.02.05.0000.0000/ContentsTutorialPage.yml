@@ -1,0 +1,5 @@
+name: ContentsTutorialPage
+fields:
+  - name: Description
+  - name: Image
+    type: icon

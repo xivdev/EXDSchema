@@ -1,0 +1,16 @@
+name: EquipSlotCategory
+fields:
+  - name: MainHand
+  - name: OffHand
+  - name: Head
+  - name: Body
+  - name: Gloves
+  - name: Waist
+  - name: Legs
+  - name: Feet
+  - name: Ears
+  - name: Neck
+  - name: Wrists
+  - name: FingerL
+  - name: FingerR
+  - name: SoulCrystal

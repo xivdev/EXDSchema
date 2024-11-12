@@ -1,0 +1,128 @@
+name: ContentFinderCondition
+displayField: Name
+fields:
+  - name: Name
+  - name: NameShort
+  - name: LevelingRoulette
+  - name: HighLevelRoulette
+  - name: MSQRoulette
+  - name: GuildHestRoulette
+  - name: ExpertRoulette
+  - name: TrialRoulette
+  - name: DailyFrontlineChallenge
+  - name: LevelCapRoulette
+  - name: MentorRoulette
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
+  - name: AllianceRoulette
+  - name: FeastTeamRoulette
+  - name: NormalRaidRoulette
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown7
+  - name: Unknown8
+  - name: Unknown9
+  - name: Unknown10
+  - name: Unknown11
+  - name: Unknown12
+  - name: Unknown13
+  - name: Unknown14
+  - name: Unknown15
+  - name: Unknown16
+  - name: Unknown17
+  - name: Unknown18
+  - name: Unknown19
+  - name: Unknown20
+  - name: Unknown21
+  - name: Unknown22
+  - name: Unknown23
+  - name: Unknown24
+  - name: Unknown25
+  - name: Unknown26
+  - name: Unknown27
+  - name: Unknown28
+  - name: ShortCode
+  - name: Unknown29
+  - name: Unknown30
+  - name: UnlockQuest
+    type: link
+    targets: [Quest]
+  - name: Unknown31
+  - name: Unknown_70_1
+  - name: Transient
+    type: link
+    condition:
+      switch: ContentUICategory
+      cases:
+        6: [ContentFinderConditionTransient]
+        7: [ContentFinderConditionTransient]
+  - name: Image
+    type: icon
+  - name: Icon
+    type: icon
+  - name: Unknown32
+  - name: TerritoryType
+    type: link
+    targets: [TerritoryType]
+  - name: Content
+    type: link
+    condition:
+      switch: ContentLinkType
+      cases:
+        1: [InstanceContent]
+        2: [PartyContent]
+        3: [PublicContent]
+        4: [GoldSaucerContent]
+        5: [QuestBattle]
+  - name: ItemLevelRequired
+  - name: ItemLevelSync
+  - name: SortKey
+  - name: ContentLinkType
+  - name: Unknown33
+  - name: AcceptClassJobCategory
+    type: link
+    targets: [ClassJobCategory]
+  - name: ContentMemberType
+    type: link
+    targets: [ContentMemberType]
+  - name: Unknown34
+  - name: Unknown35
+  - name: Unknown36
+  - name: Unknown37
+  - name: ClassJobLevelRequired
+  - name: ClassJobLevelSync
+  - name: Unknown38
+  - name: Unknown39
+  - name: ContentType
+    type: link
+    targets: [ContentType]
+  - name: ContentUICategory
+    type: link
+    targets: [ContentUICategory]
+  - name: Unknown40
+  - name: Unknown41
+  - name: PvP
+  - name: Unknown_70_2
+  - name: Unknown42
+  - name: AllowUndersized
+  - name: Unknown43
+  - name: AllowReplacement
+  - name: Unknown44
+  - name: AllowExplorerMode
+  - name: Unknown45
+  - name: Unknown46
+  - name: Unknown47
+  - name: Unknown48
+  - name: HighEndDuty
+  - name: Unknown49
+  - name: Unknown50
+  - name: Unknown51
+  - name: DutyRecorderAllowed
+  - name: Unknown52
+  - name: Unknown53
+  - name: Unknown54
+  - name: Unknown55
+  - name: Unknown56

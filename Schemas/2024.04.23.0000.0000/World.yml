@@ -1,0 +1,10 @@
+name: World
+fields:
+  - name: InternalName
+  - name: Name
+  - name: Region
+  - name: UserType
+  - name: DataCenter
+    type: link
+    targets: [WorldDCGroupType]
+  - name: IsPublic

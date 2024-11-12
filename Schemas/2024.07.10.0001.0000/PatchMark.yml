@@ -1,0 +1,10 @@
+name: PatchMark
+fields:
+  - name: Unknown0
+  - name: MarkID
+  - name: SubCategory
+  - name: Unknown1
+  - name: SubCategoryType
+  - name: Unknown2
+  - name: Version
+  - name: Category

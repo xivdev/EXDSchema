@@ -1,0 +1,5 @@
+name: AchievementTarget
+displayField: Value
+fields:
+  - name: Value
+  - name: Type
