@@ -7,3 +7,4 @@ fields:
   - name: IsLoop
   - name: IsBlinkEnable
   - name: IsLipEnable
+  - name: Unknown0

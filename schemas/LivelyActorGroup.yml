@@ -1,4 +1,4 @@
-name: MapReplace
+name: LivelyActorGroup
 fields:
   - name: Unknown0
   - name: Unknown1
@@ -6,4 +6,3 @@ fields:
   - name: Unknown3
   - name: Unknown4
   - name: Unknown5
-  - name: Unknown6
