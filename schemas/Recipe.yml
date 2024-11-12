@@ -52,6 +52,7 @@ fields:
         4: [SharlayanCraftWorksSupply]
         6: [CollectablesRefine] # For Wachumeqimeqi (Banka) deliveries
   - name: PatchNumber
+  - name: Unknown22
   - name: AmountResult
   - name: AmountIngredient
     type: array
@@ -64,3 +65,4 @@ fields:
   - name: ExpRewarded
   - name: IsSpecializationRequired
   - name: IsExpert
+  - name: Unknown33
