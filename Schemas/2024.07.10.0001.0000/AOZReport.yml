@@ -1,7 +1,0 @@
-name: AOZReport
-fields:
-  - name: Unknown0
-  - name: Reward
-    type: link
-    targets: [AOZReportReward]
-  - name: Order

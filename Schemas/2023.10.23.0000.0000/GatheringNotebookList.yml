@@ -1,9 +1,0 @@
-name: GatheringNotebookList
-fields:
-  - name: GatheringItem
-    type: array
-    count: 100
-    fields:
-      - type: link
-        targets: [GatheringItem]
-  - name: Unknown0

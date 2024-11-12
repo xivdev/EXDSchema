@@ -1,5 +1,0 @@
-name: GCShop
-fields:
-  - name: GrandCompany
-    type: link
-    targets: [GrandCompany]

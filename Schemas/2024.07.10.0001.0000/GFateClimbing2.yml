@@ -1,5 +1,0 @@
-name: GFateClimbing2
-fields:
-  - name: ContentEntry
-    type: link
-    targets: [ContentEntry]

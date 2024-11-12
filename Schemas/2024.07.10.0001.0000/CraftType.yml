@@ -1,6 +1,0 @@
-name: CraftType
-displayField: Name
-fields:
-  - name: Name
-  - name: MainPhysical
-  - name: SubPhysical

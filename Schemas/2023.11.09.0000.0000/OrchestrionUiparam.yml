@@ -1,6 +1,0 @@
-name: OrchestrionUiparam
-fields:
-  - name: Order
-  - name: OrchestrionCategory
-    type: link
-    targets: [OrchestrionCategory]

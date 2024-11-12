@@ -1,7 +1,0 @@
-name: ActivityFeedImages
-fields:
-  - name: ExpansionImage
-  - name: ActivityFeedJA
-  - name: ActivityFeedEN
-  - name: ActivityFeedDE
-  - name: ActivityFeedFR

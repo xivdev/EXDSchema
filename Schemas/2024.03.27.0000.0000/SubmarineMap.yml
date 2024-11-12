@@ -1,6 +1,0 @@
-name: SubmarineMap
-displayField: Name
-fields:
-  - name: Name
-  - name: Image
-    type: icon

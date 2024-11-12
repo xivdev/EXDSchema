@@ -1,8 +1,0 @@
-name: MountAction
-fields:
-  - name: Action
-    type: array
-    count: 6
-    fields:
-      - type: link
-        targets: [Action]

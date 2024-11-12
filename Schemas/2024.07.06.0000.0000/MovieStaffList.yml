@@ -1,7 +1,0 @@
-name: MovieStaffList
-fields:
-  - name: StartTime
-  - name: EndTime
-  - name: Image
-    type: icon
-  - name: Unknown0

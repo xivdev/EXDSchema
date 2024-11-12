@@ -1,8 +1,0 @@
-name: WeatherReportReplace
-fields:
-  - name: PlaceNameSub
-    type: link
-    targets: [PlaceName]
-  - name: PlaceNameParent
-    type: link
-    targets: [PlaceName]
