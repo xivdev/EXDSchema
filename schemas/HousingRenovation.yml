@@ -1,0 +1,5 @@
+name: HousingRenovation
+displayField: Name
+fields:
+  - name: Name
+  - name: Description

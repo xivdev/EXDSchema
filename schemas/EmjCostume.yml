@@ -1,0 +1,7 @@
+name: EmjCostume
+fields:
+  - name: Unknown0
+  - name: Unknown1
+  - name: Data
+    type: link
+    targets: [EmjCostumeData]

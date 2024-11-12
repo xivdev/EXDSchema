@@ -18,11 +18,17 @@ fields:
   - name: Unknown2
     type: array
     count: 3
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5
+  - name: Unknown6
   - name: ObjectiveIcon
     type: array
     count: 8
     fields:
-      - type: icon
+      - name: Icon
+        type: icon
+      - name: Unknown0
   - name: Location
   - name: EventItem
     type: link

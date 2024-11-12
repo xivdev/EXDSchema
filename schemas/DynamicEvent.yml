@@ -11,6 +11,8 @@ fields:
   - name: Announce
     type: link
     targets: [LogMessage]
+  - name: Unknown6
+  - name: Unknown7
   - name: Unknown0
   - name: Unknown1
   - name: Unknown2
