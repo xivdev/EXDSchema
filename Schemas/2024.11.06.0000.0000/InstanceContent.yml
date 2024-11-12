@@ -27,7 +27,7 @@ fields:
     type: array
     count: 5
   - name: Unknown1
-  - name: Unknown2
+  - name: Unknown20
   - name: Cutscene
     type: link
     targets: [Cutscene]
