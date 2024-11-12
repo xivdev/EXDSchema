@@ -1,4 +1,4 @@
-name: TerritoryIntendedUse
+name: WKSCosmoToolDataAmount
 fields:
   - name: Unknown0
   - name: Unknown1
@@ -42,3 +42,33 @@ fields:
   - name: Unknown39
   - name: Unknown40
   - name: Unknown41
+  - name: Unknown42
+  - name: Unknown43
+  - name: Unknown44
+  - name: Unknown45
+  - name: Unknown46
+  - name: Unknown47
+  - name: Unknown48
+  - name: Unknown49
+  - name: Unknown50
+  - name: Unknown51
+  - name: Unknown52
+  - name: Unknown53
+  - name: Unknown54
+  - name: Unknown55
+  - name: Unknown56
+  - name: Unknown57
+  - name: Unknown58
+  - name: Unknown59
+  - name: Unknown60
+  - name: Unknown61
+  - name: Unknown62
+  - name: Unknown63
+  - name: Unknown64
+  - name: Unknown65
+  - name: Unknown66
+  - name: Unknown67
+  - name: Unknown68
+  - name: Unknown69
+  - name: Unknown70
+  - name: Unknown71
