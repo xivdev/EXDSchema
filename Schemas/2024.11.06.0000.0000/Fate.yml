@@ -21,7 +21,6 @@ fields:
   - name: Unknown3
   - name: Unknown4
   - name: Unknown5
-  - name: Unknown6
   - name: ObjectiveIcon
     type: array
     count: 8
