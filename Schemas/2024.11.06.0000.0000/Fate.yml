@@ -18,10 +18,10 @@ fields:
   - name: Unknown2
     type: array
     count: 3
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown5
-  - name: Unknown6
+  - name: Unknown10
+  - name: Unknown11
+  - name: Unknown12
+  - name: Unknown13
   - name: ObjectiveIcon
     type: array
     count: 8
