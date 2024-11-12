@@ -38,6 +38,7 @@ fields:
   - name: RequiredControl
   - name: QuickSynthCraftsmanship
   - name: QuickSynthControl
+  - name: Unknown0
   - name: SecretRecipeBook
     type: link
     targets: [SecretRecipeBook]
@@ -64,3 +65,4 @@ fields:
   - name: ExpRewarded
   - name: IsSpecializationRequired
   - name: IsExpert
+  - name: Unknown1
