@@ -31,6 +31,7 @@ fields:
     type: link
     targets: [RecipeNotebookList]
   - name: DisplayPriority
+  - name: Unknown0
   - name: DifficultyFactor
   - name: QualityFactor
   - name: DurabilityFactor
@@ -38,7 +39,6 @@ fields:
   - name: RequiredControl
   - name: QuickSynthCraftsmanship
   - name: QuickSynthControl
-  - name: Unknown0
   - name: SecretRecipeBook
     type: link
     targets: [SecretRecipeBook]
