@@ -11,10 +11,10 @@ fields:
   - name: Announce
     type: link
     targets: [LogMessage]
-  - name: Unknown6
-  - name: Unknown7
   - name: Unknown0
   - name: Unknown1
+  - name: Unknown6
+  - name: Unknown7
   - name: Unknown2
   - name: EventType
     type: link

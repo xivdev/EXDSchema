@@ -9,12 +9,12 @@ fields:
         targets: [Addon]
   - name: Image
     type: icon
+  - name: Unknown13
   - name: UnlockQuest
     type: link
     targets: [Quest]
   - name: Unknown11
   - name: Unknown12
-  - name: Unknown13
   - name: ContentType
     type: link
     targets: [ContentType]

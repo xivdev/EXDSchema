@@ -27,6 +27,7 @@ fields:
   - name: RecipeLevelTable
     type: link
     targets: [RecipeLevelTable]
+  - name: Unknown0
   - name: RecipeNotebookList
     type: link
     targets: [RecipeNotebookList]
@@ -38,7 +39,6 @@ fields:
   - name: RequiredControl
   - name: QuickSynthCraftsmanship
   - name: QuickSynthControl
-  - name: Unknown0
   - name: SecretRecipeBook
     type: link
     targets: [SecretRecipeBook]
