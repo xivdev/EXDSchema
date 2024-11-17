@@ -109,6 +109,7 @@ fields:
   - name: Unknown42
   - name: AllowUndersized
   - name: Unknown43
+  - name: Unknown57
   - name: AllowReplacement
   - name: Unknown44
   - name: AllowExplorerMode
@@ -125,6 +126,5 @@ fields:
   - name: Unknown53
   - name: Unknown54
   - name: Unknown55
-  - name: Unknown57
   - name: Unknown56
   - name: Unknown58
