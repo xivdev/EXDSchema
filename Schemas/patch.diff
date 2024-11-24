@@ -1,0 +1,15 @@
+diff --git a/2024.08.02.0000.0000/WorldDCGroupType.yml b/2024.11.06.0000.0000/WorldDCGroupType.yml
+index cb4f5aa..2c04992 100644
+--- a/2024.08.02.0000.0000/WorldDCGroupType.yml
++++ b/2024.11.06.0000.0000/WorldDCGroupType.yml
+@@ -2,5 +2,7 @@ name: WorldDCGroupType
+ displayField: Name
+ fields:
+   - name: Name
++  - name: PvPRegion
++  - name: NeolobbyId
+   - name: Region
+-  - name: Unknown0
+\ No newline at end of file
++  - name: IsCloud
+\ No newline at end of file
