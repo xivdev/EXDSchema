@@ -2,12 +2,12 @@ name: MirageStoreSetItem
 fields:
   - name: Unknown0
   - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown5
-  - name: Unknown6
-  - name: Unknown7
-  - name: Unknown8
-  - name: Unknown9
-  - name: Unknown10
+  - name: Head
+  - name: Body
+  - name: Hands
+  - name: Legs
+  - name: Feet
+  - name: Earrings
+  - name: Necklace
+  - name: Bracelets
+  - name: Ring
