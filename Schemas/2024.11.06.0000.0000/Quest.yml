@@ -245,7 +245,8 @@ fields:
   - name: EventIconType
     type: link
     targets: [EventIconType]
-  - name: Unknown11
+  - name: DailyQuestPool
+    comment: 1/2 - normal daily beast tribe quests, 3 - 'exclusive' (if player's rank is not greater than max rank requirement of quests offered by npc, exactly one of the available quests will be from this pool)
   - name: IsHouseRequired
   - name: IsRepeatable
   - name: CanCancel
