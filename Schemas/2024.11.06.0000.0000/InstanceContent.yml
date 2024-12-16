@@ -47,13 +47,11 @@ fields:
   - name: InstanceContentTextDataObjectiveEnd
     type: link
     targets: [InstanceContentTextData]
-  - name: Unknown2
-  - name: ReqInstance
-    type: link
-    targets: [InstanceContent]
   - name: InstanceContentBuff
     type: link
     targets: [InstanceContentBuff]
+  - name: PartyCondition
+  - name: Unknown2
   - name: TimeLimitmin
   - name: BGM
     type: link
@@ -69,8 +67,8 @@ fields:
   - name: Unknown6
   - name: Unknown7
   - name: Unknown8
-  - name: Unknown_70
-  - name: PartyCondition
+  - name: Unknown9
+  - name: Unknown10
   - name: InstanceContentType
     type: link
     targets: [InstanceContentType]
@@ -78,8 +76,6 @@ fields:
   - name: Colosseum
     type: link
     targets: [Colosseum]
-  - name: Unknown9
-  - name: Unknown10
   - name: Unknown11
   - name: Unknown12
   - name: Unknown19
@@ -87,5 +83,9 @@ fields:
   - name: Unknown14
   - name: Unknown15
   - name: Unknown16
+  - name: ReqInstance
+    type: link
+    targets: [InstanceContent]
   - name: Unknown17
   - name: Unknown18
+  - name: Unknown21
