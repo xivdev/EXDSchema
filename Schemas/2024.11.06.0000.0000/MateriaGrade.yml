@@ -1,7 +1,7 @@
 name: MateriaGrade
 fields:
-  - name: Unknown0
-  - name: RetrunRate
+  - name: MeldFee
+  - name: ReturnRate
   - name: OvermeldNQPercent
     type: array
     count: 4
