@@ -9,9 +9,12 @@ fields:
           switch: UnlockType1
           cases:
             1: [Quest]
-            4: [ContentFinderCondition]
+            3: [InstanceContent] # Unlocked
+            4: [InstanceContent] # Completed
             5: [Emote]
             6: [Companion]
+            7: [Mount]
+            8: [Ornament]
   - name: UnlockCriteria2
     type: link
     condition:
@@ -48,8 +51,12 @@ fields:
       switch: PrerequisiteType
       cases:
         1: [Quest]
-        3: [ContentFinderCondition]
-        4: [ContentFinderCondition]
+        3: [InstanceContent] # Unlocked
+        4: [InstanceContent] # Completed
+        5: [Emote]
+        6: [Companion]
+        7: [Mount]
+        8: [Ornament]
   - name: UnlockType1
   - name: UnlockType2
   - name: PrerequisiteType
