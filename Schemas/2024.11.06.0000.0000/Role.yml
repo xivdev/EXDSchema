@@ -1,3 +1,4 @@
 name: Role
 fields:
-  - name: Unknown0
+  - name: Type
+    comment: 1 = Tank, 2 = DPS, 3 = Healer

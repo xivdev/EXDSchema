@@ -4,5 +4,7 @@ fields:
   - name: Quest
     type: link
     targets: [Quest]
-  - name: Unknown0
+  - name: InstanceContent
+    type: link
+    targets: [InstanceContent]
   - name: Unknown1

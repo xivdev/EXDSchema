@@ -63,7 +63,9 @@ fields:
     targets: [BGM]
   - name: Order
   - name: SortKey
-  - name: Unknown3
+  - name: Tutorial
+    type: link
+    targets: [Tutorial]
   - name: Unknown4
   - name: Unknown5
   - name: Unknown6

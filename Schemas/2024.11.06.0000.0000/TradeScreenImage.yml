@@ -1,9 +1,18 @@
 name: TradeScreenImage
 fields:
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown5
-  - name: Unknown6
+  - name: Items
+    type: array
+    count: 2
+    fields:
+      - type: link
+        targets: [EventItem]
+  - name: ItemIcons
+    type: array
+    count: 2
+    fields:
+      - type: icon
+  - name: ItemValues
+    type: array
+    count: 2
+  - name: BannerType
+    comment: 1 = Icon 180096 ("Excellent Trade!"), 2 = Icon 180097 ("Feat Accomplished!")
