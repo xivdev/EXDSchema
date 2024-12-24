@@ -10,9 +10,7 @@ fields:
   - name: Instrument
   - name: ModelKey
   - name: Name
-  - name: StopAnimation
-    type: link
-    targets: [ActionTimeline]
+  - name: UnlockLink
   - name: Order
   - name: AnimationStart
     type: link
@@ -26,5 +24,7 @@ fields:
   - name: Transient
     type: link
     targets: [PerformTransient]
-  - name: Unknown0
+  - name: PerformGroup
+    type: link
+    targets: [PerformGroup]
   - name: Unknown1

@@ -5,7 +5,7 @@ fields:
     targets: [MJIText]
   - name: Icon
     type: icon
-  - name: Unknown0
+  - name: UnlockLink
   - name: SGB
     type: array
     count: 7
