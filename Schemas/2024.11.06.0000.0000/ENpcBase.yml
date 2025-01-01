@@ -5,7 +5,32 @@ fields:
     count: 32
     fields:
       - type: link
-        targets: [ChocoboTaxiStand, CraftLeve, CustomTalk, DefaultTalk, FccShop, GCShop, GilShop, GuildleveAssignment, GuildOrderGuide, GuildOrderOfficer, Quest, SpecialShop, Story, SwitchTalk, TopicSelect, TripleTriad, Warp]
+        targets:
+          - ChocoboTaxiStand
+          - CollectablesShop
+          - ContentNpc
+          - CraftLeve
+          - CustomTalk
+          - DefaultTalk
+          - DisposalShop
+          - DpsChallengeOfficer
+          - EventPathMove
+          - FccShop
+          - GCShop
+          - GilShop
+          - GuildOrderGuide
+          - GuildOrderOfficer
+          - GuildleveAssignment
+          - InclusionShop
+          - LotteryExchangeShop
+          - PreHandler
+          - Quest
+          - SpecialShop
+          - Story
+          - SwitchTalk
+          - TopicSelect
+          - TripleTriad
+          - Warp
   - name: ModelMainHand
   - name: ModelOffHand
   - name: Scale
@@ -76,7 +101,7 @@ fields:
     targets: [Stain]
   - name: Dye2OffHand
     type: link
-    targets: [ Stain ]
+    targets: [Stain]
   - name: DyeHead
     type: link
     targets: [Stain]
