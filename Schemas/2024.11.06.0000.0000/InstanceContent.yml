@@ -61,7 +61,9 @@ fields:
   - name: WinBGM
     type: link
     targets: [BGM]
-  - name: Order
+  - name: ContentFinderCondition
+    type: link
+    targets: [ContentFinderCondition]
   - name: SortKey
   - name: Tutorial
     type: link
