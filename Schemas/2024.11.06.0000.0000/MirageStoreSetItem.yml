@@ -1,7 +1,11 @@
 name: MirageStoreSetItem
 fields:
-  - name: Unknown0
-  - name: Unknown1
+  - name: MainHand
+    type: link
+    targets: [Item]
+  - name: OffHand
+    type: link
+    targets: [Item]
   - name: Head
     type: link
     targets: [Item]
