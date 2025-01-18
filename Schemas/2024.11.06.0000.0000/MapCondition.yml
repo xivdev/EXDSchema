@@ -7,4 +7,4 @@ fields:
   - name: InstanceContent
     type: link
     targets: [InstanceContent]
-  - name: Unknown1
+  - name: QuestSequence
