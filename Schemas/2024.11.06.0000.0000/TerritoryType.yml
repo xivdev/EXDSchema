@@ -56,7 +56,9 @@ fields:
     targets: [ExVersion]
   - name: Unknown2
   - name: Unknown3
-  - name: Unknown4
+  - name: AetherCurrentCompFlgSet
+    type: link
+    targets: [AetherCurrentCompFlgSet]
   - name: MountSpeed
     type: link
     targets: [MountSpeed]
