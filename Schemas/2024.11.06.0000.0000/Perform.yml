@@ -11,7 +11,8 @@ fields:
   - name: ModelKey
   - name: Name
   - name: UnlockLink
-  - name: Order
+  - name: Icon
+    type: icon
   - name: AnimationStart
     type: link
     targets: [ActionTimeline]
