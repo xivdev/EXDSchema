@@ -73,12 +73,20 @@ fields:
         16: [IKDRoute]
         19: [VVDData] # Variant Dungeon
         20: [VVDData] # Criterion Dungeon
-  - name: Unknown4
-  - name: Unknown5
+  - name: ContentDirectorManagedSG
+    type: link
+    targets: [ContentDirectorManagedSG]
+  - name: ContentTodo
+    type: link
+    targets: [ContentTodo]
   - name: Unknown6
   - name: Unknown7
-  - name: Unknown8
-  - name: Unknown_70
+  - name: ContentEventItem
+    type: link
+    targets: [ContentEventItem]
+  - name: ContentDirectorBattleTalk
+    type: link
+    targets: [ContentDirectorBattleTalk]
   - name: PartyCondition
   - name: InstanceContentType
     type: link
@@ -88,10 +96,16 @@ fields:
     type: link
     targets: [Colosseum]
   - name: Unknown9
-  - name: Unknown10
-  - name: Unknown11
+  - name: QTE1
+    type: link
+    targets: [QTE]
+  - name: QTE2
+    type: link
+    targets: [QTE]
   - name: Unknown12
-  - name: Unknown19
+  - name: ContentAttributeRect
+    type: link
+    targets: [ContentAttributeRect]
   - name: Unknown13
   - name: Unknown14
   - name: Unknown15
