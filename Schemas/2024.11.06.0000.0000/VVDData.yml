@@ -1,8 +1,17 @@
 name: VVDData
 fields:
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
+  - name: ContentFinderCondition
+    type: link
+    targets: [ContentFinderCondition]
+  - name: CurrencyItem
+    type: link
+    targets: [Item]
+  - name: ContentExAction
+    type: link
+    targets: [ContentExAction]
+  - name: UnlockQuest
+    type: link
+    targets: [Quest]
+  - name: Series
+    comment: RowId of VVDRouteData and VVDNotebookSeries
   - name: Unknown5
