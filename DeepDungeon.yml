@@ -12,7 +12,11 @@ fields:
     count: 4
     fields:
       - type: link
-        targets: [DeepDungeonMagicStone]
+        condition:
+          switch: DeepDungeonType
+          cases:
+            1: [DeepDungeonMagicStone]
+            2: [DeepDungeonDemiclone]
   - name: Name
   - name: ContentFinderConditionStart
     type: link
@@ -23,5 +27,5 @@ fields:
   - name: AetherpoolArmor
     type: link
     targets: [DeepDungeonEquipment]
-  - name: Unknown0
+  - name: DeepDungeonType
   - name: Unknown1

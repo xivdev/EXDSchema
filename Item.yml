@@ -81,7 +81,6 @@ fields:
         28: [AirshipExplorationPart]
         32: [Orchestrion]
         36: [SubmarinePart]
-        45: [ArchiveItem]
   - name: StackSize
   - name: PriceMid
   - name: PriceLow

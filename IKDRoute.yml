@@ -12,9 +12,9 @@ fields:
     type: icon
   - name: Unknown0
   - name: Unknown1
-  - name: TerritoryType
+  - name: Instance
     type: link
-    targets: [TerritoryType]
+    targets: [ContentFinderCondition]
   - name: Unknown2
   - name: Time
     type: array

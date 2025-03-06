@@ -45,6 +45,8 @@ fields:
     targets: [LoadingImage]
   - name: ExclusiveType
   - name: TerritoryIntendedUse
+    type: link
+    targets: [TerritoryIntendedUse]
   - name: WeatherRate
   - name: Unknown1
   - name: ExVersion

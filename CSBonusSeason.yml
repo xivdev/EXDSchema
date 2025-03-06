@@ -1,15 +1,21 @@
 name: CSBonusSeason
 fields:
-  - name: Unknown0
+  - name: Item
+    type: link
+    targets: [Item]
   - name: Unknown1
   - name: Unknown2
+  - name: Category0
+  - name: Category1
+  - name: Category2
+  - name: Category3
+  - name: Text0
+    type: link
+    targets: [CSBonusTextData]
+  - name: Text1
+    type: link
+    targets: [CSBonusTextData]
+  - name: Unknown12
   - name: Unknown3
   - name: Unknown4
-  - name: Unknown5
-  - name: Unknown6
-  - name: Unknown7
-  - name: Unknown8
-  - name: Unknown9
-  - name: Unknown10
-  - name: Unknown11
-  - name: Unknown12
+  - name: Unknown0
