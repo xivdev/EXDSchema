@@ -43,3 +43,5 @@ fields:
   - name: DNC
   - name: RPR
   - name: SGE
+  - name: Unknown1
+  - name: Unknown2

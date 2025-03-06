@@ -7,3 +7,4 @@ fields:
     type: link
     targets: [Addon]
   - name: MenuOrder
+  - name: HideOrder

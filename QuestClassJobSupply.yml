@@ -6,6 +6,8 @@ fields:
   - name: Item
     type: link
     targets: [Item]
+  - name: Unknown1
+  - name: Unknown2
   - name: ClassJobCategory
     type: link
     targets: [ClassJobCategory]

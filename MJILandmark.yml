@@ -8,7 +8,7 @@ fields:
   - name: Unknown0
   - name: SGB
     type: array
-    count: 5
+    count: 7
     fields:
       - type: link
         targets: [ExportedSG]

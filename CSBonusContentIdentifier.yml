@@ -1,4 +1,4 @@
-name: QuestLinkMarkerSet
+name: CSBonusContentIdentifier
 fields:
   - name: Unknown0
   - name: Unknown1
@@ -7,3 +7,4 @@ fields:
   - name: Unknown4
   - name: Unknown5
   - name: Unknown6
+  - name: Unknown7
