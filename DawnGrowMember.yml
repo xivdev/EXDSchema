@@ -3,12 +3,12 @@ displayField: Member
 fields:
   - name: SelectImage
     type: array
-    count: 3
+    count: 4
     fields:
       - type: icon
   - name: PortraitImage
     type: array
-    count: 3
+    count: 4
     fields:
       - type: icon
   - name: Class

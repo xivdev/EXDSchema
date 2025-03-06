@@ -2,7 +2,6 @@ name: RecipeLevelTable
 fields:
   - name: Quality
   - name: SuggestedCraftsmanship
-  - name: SuggestedControl
   - name: Difficulty
   - name: Durability
   - name: ConditionsFlag

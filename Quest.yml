@@ -233,6 +233,7 @@ fields:
     type: link
     targets: [QuestRepeatFlag]
   - name: Type
+  - name: Unknown_70
   - name: LevelMax
   - name: ClassJobRequired
     type: link

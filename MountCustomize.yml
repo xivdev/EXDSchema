@@ -36,4 +36,6 @@ fields:
   - name: VieraFemaleCameraHeight
   - name: Unknown0
   - name: Unknown1
+  - name: Unknown_70_1
+  - name: Unknown_70_2
   - name: Unknown2

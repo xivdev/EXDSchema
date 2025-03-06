@@ -9,5 +9,6 @@ fields:
     type: link
     targets: [Guide]
   - name: Unknown1
+  - name: Unknown_70
   - name: Unknown2
   - name: Unknown3

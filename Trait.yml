@@ -11,6 +11,7 @@ fields:
   - name: ClassJob
     type: link
     targets: [ClassJob]
+  - name: Unknown_70
   - name: Level
   - name: ClassJobCategory
     type: link

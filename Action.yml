@@ -66,6 +66,7 @@ fields:
     targets: [ClassJobCategory]
   - name: Unknown5
   - name: Unknown6
+  - name: Unknown_70
   - name: ClassJob
     type: link
     targets: [ClassJob]

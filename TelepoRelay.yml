@@ -2,7 +2,7 @@ name: TelepoRelay
 fields:
   - name: Relays
     type: array
-    count: 7
+    count: 8
     fields:
     - name: EnterTerritory
       type: link
@@ -11,3 +11,4 @@ fields:
       type: link
       targets: [TerritoryType]
     - name: Cost
+  - name: Unknown_70

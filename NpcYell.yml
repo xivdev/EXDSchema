@@ -5,6 +5,7 @@ fields:
   - name: BalloonTime
   - name: Unknown0
   - name: OutputType
+  - name: Unknown_70
   - name: Unknown1
   - name: Unknown2
   - name: Unknown3

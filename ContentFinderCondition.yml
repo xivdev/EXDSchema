@@ -51,6 +51,7 @@ fields:
     type: link
     targets: [Quest]
   - name: Unknown31
+  - name: Unknown_70_1
   - name: Transient
     type: link
     condition:
@@ -102,6 +103,7 @@ fields:
   - name: Unknown40
   - name: Unknown41
   - name: PvP
+  - name: Unknown_70_2
   - name: Unknown42
   - name: AllowUndersized
   - name: Unknown43

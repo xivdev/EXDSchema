@@ -11,7 +11,6 @@ fields:
     type: icon
   - name: Unknown2
   - name: Unknown3
-  - name: Unknown25
   - name: ItemLevelRequired
   - name: Unknown4
   - name: RewardTomeA
@@ -48,6 +47,7 @@ fields:
   - name: IsGoldSaucer
   - name: IsInDutyFinder
   - name: IsPvP
+  - name: Unknown25
   - name: Unknown18
   - name: Unknown19
   - name: Unknown20
