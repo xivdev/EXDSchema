@@ -1,5 +1,5 @@
 name: SwitchTalkVariation
-displayField: Quest
+displayField: Quest0
 fields:
   - name: Quest0
     type: link

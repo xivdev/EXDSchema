@@ -1,5 +1,5 @@
 name: DisposalShopItem
-displayField: Item{Disposed}
+displayField: ItemDisposed
 fields:
   - name: QuantityReceived
   - name: ItemDisposed

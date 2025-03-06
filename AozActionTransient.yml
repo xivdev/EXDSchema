@@ -1,5 +1,5 @@
 name: AozActionTransient
-displayField: Action
+displayField: Icon
 fields:
   - name: Stats
   - name: Description
