@@ -33,7 +33,9 @@ fields:
   - name: Omen
     type: link
     targets: [Omen]
-  - name: Unknown0
+  - name: OmenAlt
+    type: link
+    targets: [Omen]
   - name: AnimationEnd
     type: link
     targets: [ActionTimeline]
@@ -64,8 +66,10 @@ fields:
   - name: ClassJobCategory
     type: link
     targets: [ClassJobCategory]
-  - name: Unknown5
-  - name: Unknown6
+  - name: AutoAttackBehaviour
+    comment: 0 = no effect on auto attacks, 1 = typical cast (unsheathe weapon, but don't touch autos), 2 = typical weaponskill (unsheathe, start autos if action target is primary target), 3 = sleep-like effect (unsheathe, stop autos), 4 = typical point-blank aoe (unsheathe, start autos if primary target is within action range), 5 = ??? (doesn't touch weapon state), 6 = typical channeled action (unsheathe, stop autos, do not auto-face target), 7 = force sheathe and stop autos, 8 = ??? (unused)
+  - name: EquivalenceGroup
+    comment: set for eg crafting actions, when different jobs have different rows, but they need to be considered interchangeable
   - name: Unknown_70
   - name: ClassJob
     type: link
@@ -102,6 +106,6 @@ fields:
   - name: Unknown21
   - name: Unknown22
   - name: Unknown23
-  - name: Unknown24
+  - name: CanUseWhileMounted
   - name: Unknown25
   - name: IsPlayerAction

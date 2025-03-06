@@ -52,7 +52,9 @@ fields:
     targets: [ModelChara]
   - name: Unknown0
   - name: Unknown1
-  - name: Unknown2
+  - name: RPParameter2
+    type: link
+    targets: [RPParameter]
   - name: Unknown3
   - name: Unknown4
   - name: ExHotbarEnableConfig
