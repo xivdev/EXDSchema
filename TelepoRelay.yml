@@ -2,7 +2,7 @@ name: TelepoRelay
 fields:
   - name: Relays
     type: array
-    count: 8
+    count: 9
     fields:
     - name: EnterTerritory
       type: link

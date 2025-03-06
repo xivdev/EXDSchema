@@ -2,6 +2,7 @@ name: ModelChara
 fields:
   - name: Unknown0
   - name: Unknown1
+  - name: Unknown15
   - name: Model
   - name: SEPack
   - name: Type

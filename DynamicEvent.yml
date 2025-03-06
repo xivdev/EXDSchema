@@ -13,6 +13,8 @@ fields:
     targets: [LogMessage]
   - name: Unknown0
   - name: Unknown1
+  - name: Unknown6
+  - name: Unknown7
   - name: Unknown2
   - name: EventType
     type: link

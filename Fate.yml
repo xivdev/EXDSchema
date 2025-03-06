@@ -18,11 +18,16 @@ fields:
   - name: Unknown2
     type: array
     count: 3
+  - name: Unknown10
+  - name: Unknown11
+  - name: Unknown12
   - name: ObjectiveIcon
     type: array
     count: 8
     fields:
-      - type: icon
+      - name: Icon
+        type: icon
+      - name: Unknown0
   - name: Location
   - name: EventItem
     type: link
@@ -38,6 +43,7 @@ fields:
     type: link
     targets: [Quest]
   - name: FATEChain
+  - name: Unknown13
   - name: ArrayIndex
     type: link
     targets: [ArrayEventHandler]

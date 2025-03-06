@@ -8,3 +8,6 @@ fields:
   - name: Category
     type: link
     targets: [CabinetCategory]
+  - name: SubCategory
+    type: link
+    targets: [CabinetSubCategory]

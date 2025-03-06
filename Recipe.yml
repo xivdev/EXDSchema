@@ -27,6 +27,7 @@ fields:
   - name: RecipeLevelTable
     type: link
     targets: [RecipeLevelTable]
+  - name: Unknown0
   - name: RecipeNotebookList
     type: link
     targets: [RecipeNotebookList]
@@ -62,5 +63,6 @@ fields:
   - name: CanQuickSynth
   - name: CanHq
   - name: ExpRewarded
+  - name: Unknown1
   - name: IsSpecializationRequired
   - name: IsExpert

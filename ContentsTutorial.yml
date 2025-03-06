@@ -3,6 +3,7 @@ displayField: Name
 fields:
   - name: Name
   - name: Description
+  - name: Unknown1
   - name: Page
     type: array
     count: 8

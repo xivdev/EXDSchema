@@ -2,5 +2,7 @@ name: WorldDCGroupType
 displayField: Name
 fields:
   - name: Name
+  - name: PvPRegion
+  - name: NeolobbyId
   - name: Region
-  - name: Unknown0
+  - name: IsCloud

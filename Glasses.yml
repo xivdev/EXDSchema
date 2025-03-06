@@ -15,4 +15,6 @@ fields:
   - name: Icon
     type: icon
   - name: Unknown_70_8
-  - name: Unknown_70_9
+  - name: Style
+    type: link
+    targets: [GlassesStyle]

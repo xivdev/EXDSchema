@@ -12,9 +12,11 @@ fields:
   - name: RewardRanged
     type: link
     targets: [Item]
+  - name: Unknown4
   - name: Objective
     type: link
     targets: [InstanceContentTextData]
+  - name: Unknown5
   - name: Unknown0
   - name: Unknown1
   - name: Unknown2

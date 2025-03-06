@@ -21,3 +21,4 @@ fields:
   - name: Type
   - name: Unknown0
   - name: Count
+  - name: Unknown1

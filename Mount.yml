@@ -31,6 +31,8 @@ fields:
     targets: [MountAction]
   - name: Unknown_70_1
   - name: Unknown_70_2
+  - name: Unknown16
+  - name: Unknown17
   - name: Order
   - name: FlyingCondition
     type: link
@@ -61,3 +63,5 @@ fields:
   - name: IsImmobile
   - name: Unknown14
   - name: Unknown15
+  - name: Unknown18
+  - name: Unknown19
