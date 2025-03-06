@@ -55,7 +55,7 @@ fields:
   - name: Transient
     type: link
     condition:
-      switch: TransientKey
+      switch: ContentUICategory
       cases:
         6: [ContentFinderConditionTransient]
         7: [ContentFinderConditionTransient]
@@ -99,7 +99,9 @@ fields:
   - name: ContentType
     type: link
     targets: [ContentType]
-  - name: TransientKey
+  - name: ContentUICategory
+    type: link
+    targets: [ContentUICategory]
   - name: Unknown40
   - name: Unknown41
   - name: PvP
