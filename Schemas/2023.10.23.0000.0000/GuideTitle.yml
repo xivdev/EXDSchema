@@ -1,5 +1,0 @@
-name: GuideTitle
-displayField: Title
-fields:
-  - name: Title
-  - name: Unknown0

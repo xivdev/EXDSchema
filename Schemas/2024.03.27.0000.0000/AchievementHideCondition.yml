@@ -1,5 +1,0 @@
-name: AchievementHideCondition
-fields:
-  - name: HideAchievement
-  - name: HideName
-  - name: HideConditions

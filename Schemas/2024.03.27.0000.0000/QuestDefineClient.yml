@@ -1,6 +1,0 @@
-name: QuestDefineClient
-fields:
-  - name: Unknown0
-  - name: Target
-    type: link
-    targets: [Item, Quest, ENpcBase, EObjName, Level]

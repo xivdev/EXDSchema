@@ -1,4 +1,0 @@
-name: DisposalShopFilterType
-displayField: Category
-fields:
-  - name: Category

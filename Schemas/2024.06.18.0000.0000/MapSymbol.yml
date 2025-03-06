@@ -1,8 +1,0 @@
-name: MapSymbol
-fields:
-  - name: Icon
-    type: icon
-  - name: PlaceName
-    type: link
-    targets: [PlaceName]
-  - name: DisplayNavi

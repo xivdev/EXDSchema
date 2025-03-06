@@ -1,5 +1,0 @@
-name: BNpcAnnounceIcon
-displayField: Icon
-fields:
-  - name: Icon
-    type: icon

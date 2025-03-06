@@ -1,5 +1,0 @@
-name: BacklightColor
-displayField: Color
-fields:
-  - name: Color
-    type: color

@@ -1,4 +1,0 @@
-name: CollectablesShopItemGroup
-displayField: Name
-fields:
-  - name: Name

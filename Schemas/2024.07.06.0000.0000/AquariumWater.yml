@@ -1,5 +1,0 @@
-name: AquariumWater
-displayField: Name
-fields:
-  - name: Name
-  - name: Unknown0

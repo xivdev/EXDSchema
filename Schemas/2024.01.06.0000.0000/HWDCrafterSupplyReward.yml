@@ -1,5 +1,0 @@
-name: HWDCrafterSupplyReward
-fields:
-  - name: ExpReward
-  - name: ScriptRewardAmount
-  - name: Points

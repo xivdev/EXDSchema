@@ -1,6 +1,0 @@
-name: EventItemCastTimeline
-displayField: ActionTimeline
-fields:
-  - name: ActionTimeline
-    type: link
-    targets: [ActionTimeline]

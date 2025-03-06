@@ -1,5 +1,0 @@
-name: SatisfactionSupplyRewardExp
-fields:
-  - name: PercentOfLevelLow
-  - name: PercentOfLevelMid
-  - name: PercentOfLevelHigh

@@ -1,6 +1,0 @@
-name: TutorialDPS
-fields:
-  - name: Unknown0
-  - name: Objective
-    type: link
-    targets: [Tutorial]

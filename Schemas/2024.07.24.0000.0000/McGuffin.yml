@@ -1,5 +1,0 @@
-name: McGuffin
-fields:
-  - name: UIData
-    type: link
-    targets: [McGuffinUIData]

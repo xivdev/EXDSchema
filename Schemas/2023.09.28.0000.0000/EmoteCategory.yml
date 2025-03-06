@@ -1,4 +1,0 @@
-name: EmoteCategory
-displayField: Name
-fields:
-  - name: Name

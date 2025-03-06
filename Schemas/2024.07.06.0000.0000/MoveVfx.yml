@@ -1,9 +1,0 @@
-name: MoveVfx
-displayField: VFXNormal
-fields:
-  - name: VFXNormal
-    type: link
-    targets: [VFX]
-  - name: VFXWalking
-    type: link
-    targets: [VFX]

@@ -1,6 +1,0 @@
-name: QuestDerivedClass
-displayField: ClassJob
-fields:
-  - name: ClassJob
-    type: link
-    targets: [ClassJob]

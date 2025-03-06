@@ -1,9 +1,0 @@
-name: ExportedGatheringPoint
-fields:
-  - name: X
-  - name: Y
-  - name: Radius
-  - name: GatheringType
-    type: link
-    targets: [GatheringType]
-  - name: GatheringPointType

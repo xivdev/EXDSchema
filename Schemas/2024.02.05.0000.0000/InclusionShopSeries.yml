@@ -1,6 +1,0 @@
-name: InclusionShopSeries
-displayField: SpecialShop
-fields:
-  - name: SpecialShop
-    type: link
-    targets: [SpecialShop]

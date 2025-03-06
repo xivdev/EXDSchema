@@ -1,9 +1,0 @@
-name: Lobby
-displayField: Text
-fields:
-  - name: Text
-  - name: Unknown0
-  - name: Unknown1
-  - name: TYPE
-  - name: PARAM
-  - name: LINK

@@ -1,5 +1,0 @@
-name: MainCommandCategory
-displayField: Name
-fields:
-  - name: Name
-  - name: Unknown0

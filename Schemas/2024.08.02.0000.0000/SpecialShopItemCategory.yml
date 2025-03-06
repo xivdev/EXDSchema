@@ -1,4 +1,0 @@
-name: SpecialShopItemCategory
-displayField: Name
-fields:
-  - name: Name

@@ -1,5 +1,0 @@
-name: FCProfile
-displayField: Name
-fields:
-  - name: Name
-  - name: Priority

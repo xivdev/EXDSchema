@@ -1,5 +1,0 @@
-name: CollectablesRefine
-fields:
-  - name: CollectabilityLow
-  - name: CollectabilityMid
-  - name: CollectabilityHigh

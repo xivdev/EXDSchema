@@ -1,8 +1,0 @@
-name: MJIHudMode
-displayField: Name
-fields:
-  - name: Name
-  - name: Title
-  - name: Icon
-    type: icon
-  - name: Unknown0
