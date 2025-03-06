@@ -1,5 +1,7 @@
 name: SharlayanCraftWorks
 fields:
-  - name: Unknown0
-  - name: Unknown1
+  - name: Description
+  - name: Questgiver
+    type: link
+    targets: [Level]
   - name: Unknown2
