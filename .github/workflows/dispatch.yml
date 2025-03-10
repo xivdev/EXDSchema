@@ -1,0 +1,39 @@
+name: Dispatch
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+  push:
+
+jobs:
+  dispatch:
+    name: Dispatch
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository Dispatch (PR)
+        uses: peter-evans/repository-dispatch@v3
+        if: github.event_name == 'pull_request_target'
+        with:
+          event-type: version-pr
+          client-payload: >
+            {
+              "actor": "${{ github.event.pull_request.user.login }}",
+              "pr_number": "${{ github.event.number }}",
+              "head_ref": "${{ github.event.pull_request.head.ref }}",
+              "head_sha": "${{ github.event.pull_request.head.sha }}",
+              "base_ref": "${{ github.event.pull_request.base.ref }}"
+            }
+      
+      - name: Repository Dispatch (Push)
+        uses: peter-evans/repository-dispatch@v3
+        if: github.event_name == 'push'
+        with:
+          event-type: version-push
+          client-payload: >
+            {
+              "actor": "${{ github.actor }}",
+              "head_ref": "${{ github.ref }}",
+              "head_sha": "${{ github.sha }}",
+              "base_ref": "${{ github.base_ref }}"
+            }
