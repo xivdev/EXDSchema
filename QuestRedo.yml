@@ -1,5 +1,5 @@
 name: QuestRedo
-displayField: Quest
+displayField: FinalQuest
 fields:
   - name: QuestRedoParam
     type: array

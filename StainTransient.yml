@@ -1,5 +1,5 @@
 name: StainTransient
-displayField: Item{1}
+displayField: Item1
 fields:
   - name: Item1
     type: link

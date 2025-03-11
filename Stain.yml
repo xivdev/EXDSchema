@@ -2,7 +2,7 @@ name: Stain
 displayField: Name
 fields:
   - name: Name
-  - name: Unknown0
+  - name: Name2
   - name: Color
     type: color
   - name: Shade

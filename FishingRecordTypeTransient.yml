@@ -1,5 +1,5 @@
 name: FishingRecordTypeTransient
-displayField: Icon
+displayField: Image
 fields:
   - name: Image
     type: icon

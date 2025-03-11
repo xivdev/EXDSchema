@@ -1,5 +1,4 @@
 name: IndividualWeather
-displayField: Name
 fields:
   - name: IndividualWeatherData
     type: array

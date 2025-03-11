@@ -1,5 +1,5 @@
 name: PartyContentCutscene
-displayField: Name
+displayField: Cutscene
 fields:
   - name: Cutscene
     type: link

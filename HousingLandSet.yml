@@ -1,5 +1,4 @@
 name: HousingLandSet
-displayField: 
 fields:
   - name: LandSet
     type: array

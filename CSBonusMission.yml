@@ -1,4 +1,8 @@
 name: CSBonusMission
 fields:
-  - name: Unknown0
-  - name: Unknown1
+  - name: Content0
+    type: link
+    targets: [CSBonusContent]
+  - name: Content1
+    type: link
+    targets: [CSBonusContent]
