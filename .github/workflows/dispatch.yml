@@ -11,29 +11,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Repository Dispatch (PR)
+      - name: Repository Dispatch
         uses: peter-evans/repository-dispatch@v3
-        if: github.event_name == 'pull_request_target'
         with:
-          event-type: version-pr
+          event-type: "${{ github.event_name == 'push' && 'version-push' || 'version-pr' }}"
           client-payload: >
             {
-              "actor": "${{ github.event.pull_request.user.login }}",
+              "actor": "${{ github.event.pull_request.user.login || github.actor }}",
               "pr_number": "${{ github.event.number }}",
-              "head_ref": "${{ github.event.pull_request.head.ref }}",
-              "head_sha": "${{ github.event.pull_request.head.sha }}",
-              "base_ref": "${{ github.event.pull_request.base.ref }}"
-            }
-      
-      - name: Repository Dispatch (Push)
-        uses: peter-evans/repository-dispatch@v3
-        if: github.event_name == 'push'
-        with:
-          event-type: version-push
-          client-payload: >
-            {
-              "actor": "${{ github.actor }}",
-              "head_ref": "${{ github.ref }}",
+              "head_ref": "${{ github.head_ref || github.ref }}",
               "head_sha": "${{ github.sha }}",
-              "base_ref": "${{ github.base_ref }}"
+              "base_ref": "${{ github.base_ref || github.ref_name }}"
             }
