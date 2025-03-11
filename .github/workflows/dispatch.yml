@@ -20,6 +20,6 @@ jobs:
               "actor": "${{ github.event.pull_request.user.login || github.actor }}",
               "pr_number": "${{ github.event.number }}",
               "head_ref": "${{ github.head_ref || github.ref }}",
-              "head_sha": "${{ github.sha }}",
-              "base_ref": "${{ github.base_ref || github.ref_name }}"
+              "head_sha": "${{ github.event.pull_request.head.sha || github.sha }}",
+              "base_ref": "${{ github.ref_name }}"
             }
