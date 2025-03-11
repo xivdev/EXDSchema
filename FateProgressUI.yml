@@ -1,5 +1,5 @@
 name: FateProgressUI
-displayField: Name
+displayField: Location
 fields:
   - name: Location
     type: link
