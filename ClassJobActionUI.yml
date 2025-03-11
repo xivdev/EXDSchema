@@ -1,7 +1,13 @@
 name: ClassJobActionUI
 fields:
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
+  - name: UpgradeAction
+    type: link
+    targets: [Action]
+  - name: BaseAction
+    type: link
+    targets: [Action]
+  - name: ComboTreeLayout
+    comment: Used to position the action within a combo tree diagram. Non-zero digits identify branches within the combo (eg, Hakaze -> Shifu -> Kasha is 100 -> 120 -> 121)
   - name: Unknown3
-  - name: Unknown4
+  - name: GroupedCell
+    comment: Currently only used for MNK actions; displays a set of actions in a shared rectangular cell instead of a tree.

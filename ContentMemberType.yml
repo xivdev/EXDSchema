@@ -1,5 +1,4 @@
 name: ContentMemberType
-displayField: InstanceContent
 fields:
   - name: Unknown0
   - name: Unknown1

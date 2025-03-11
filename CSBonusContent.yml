@@ -1,5 +1,5 @@
 name: CSBonusContent
-displayField: Content{0}
+displayField: Content0
 fields:
   - name: Score1
   - name: Score2

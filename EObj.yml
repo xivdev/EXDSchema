@@ -1,5 +1,4 @@
 name: EObj
-displayField: Singular
 fields:
   - name: Data
   - name: SgbPath

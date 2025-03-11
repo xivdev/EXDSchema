@@ -5,7 +5,7 @@ fields:
     count: 32
     fields:
       - type: link
-        targets: [ChocoboTaxiStand, CraftLeve, CustomTalk, DefaultTalk, FccShop, GCShop, GilShop, GuildleveAssignment, GuildOrderGuide, GuildOrderOfficer, Quest, SpecialShop, Story, SwitchTalk, TopicSelect, TripleTriad, Warp]
+        targets: [ChocoboTaxiStand, CraftLeve, CustomTalk, DefaultTalk, FccShop, GCShop, GilShop, GuildleveAssignment, GuildOrderGuide, GuildOrderOfficer, Quest, SpecialShop, Story, SwitchTalk, TopicSelect, TripleTriad, Warp, PreHandler]
   - name: ModelMainHand
   - name: ModelOffHand
   - name: Scale
