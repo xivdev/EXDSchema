@@ -1,5 +1,5 @@
 name: TreasureHuntRank
-displayField: Name
+displayField: ItemName
 fields:
   - name: Icon
     type: icon

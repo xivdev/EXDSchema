@@ -1,5 +1,5 @@
 name: Description
-displayField: Text[Long]
+displayField: TextLong
 fields:
   - name: TextLong
   - name: TextShort

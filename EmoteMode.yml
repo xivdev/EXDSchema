@@ -1,5 +1,5 @@
 name: EmoteMode
-displayField: Name
+displayField: StartEmote
 fields:
   - name: StartEmote
     type: link
