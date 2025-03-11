@@ -1,5 +1,5 @@
 name: QuickChat
-displayField: Text
+displayField: NameAction
 fields:
   - name: NameAction
   - name: Icon

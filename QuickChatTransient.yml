@@ -1,4 +1,4 @@
 name: QuickChatTransient
-displayField: Text{Output}
+displayField: TextOutput
 fields:
   - name: TextOutput

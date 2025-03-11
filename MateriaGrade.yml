@@ -1,12 +1,10 @@
 name: MateriaGrade
 fields:
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown5
-  - name: Unknown6
-  - name: Unknown7
-  - name: Unknown8
-  - name: Unknown9
+  - name: MeldFee
+  - name: ReturnRate
+  - name: OvermeldNQPercent
+    type: array
+    count: 4
+  - name: OvermeldHQPercent
+    type: array
+    count: 4

@@ -36,13 +36,17 @@ fields:
     type: link
     targets: [QuestBattle]
   - name: Resident
-  - name: Unknown0
+  - name: NotoriousMonsterTerritory
+    type: link
+    targets: [NotoriousMonsterTerritory]
   - name: BattalionMode
   - name: LoadingImage
     type: link
     targets: [LoadingImage]
   - name: ExclusiveType
   - name: TerritoryIntendedUse
+    type: link
+    targets: [TerritoryIntendedUse]
   - name: WeatherRate
   - name: Unknown1
   - name: ExVersion

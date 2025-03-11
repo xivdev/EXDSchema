@@ -1,5 +1,5 @@
 name: SkyIsland2Mission
-displayField: Item{1}
+displayField: Item1
 fields:
   - name: Unknown0
   - name: Unknown1

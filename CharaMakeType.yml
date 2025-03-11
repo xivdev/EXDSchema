@@ -26,11 +26,21 @@ fields:
     type: array
     count: 8
     fields:
-      - name: Options
-        type: array
-        count: 7
-        fields:
-          - type: icon
+      # TODO: Fix double nested array generation
+      - name: Option1
+        type: icon
+      - name: Option2
+        type: icon
+      - name: Option3
+        type: icon
+      - name: Option4
+        type: icon
+      - name: Option5
+        type: icon
+      - name: Option6
+        type: icon
+      - name: Option7
+        type: icon
   - name: Equipment
     type: array
     count: 3
