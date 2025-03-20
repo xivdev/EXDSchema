@@ -1,5 +1,5 @@
 name: UIColor
-displayField: UIForeground
+displayField: Dark
 fields:
   - name: Dark
   - name: Light
