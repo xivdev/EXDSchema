@@ -3,6 +3,8 @@ displayField: Text
 fields:
   - name: Text
   - name: LogKind
+    type: link
+    targets: [LogKind]
   - name: Unknown0
   - name: Unknown1
   - name: Unknown_70
