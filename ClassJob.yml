@@ -3,7 +3,7 @@ displayField: Name
 fields:
   - name: Name
   - name: Abbreviation
-  - name: Unknown0
+  - name: NameFemale
   - name: CanQueueForDuty
   - name: NameEnglish
   - name: ItemSoulCrystal
@@ -52,9 +52,13 @@ fields:
     targets: [ClassJobCategory]
   - name: Unknown8
   - name: JobIndex
-  - name: Unknown9
+  - name: PvPBaseParamValue
+    type: link
+    targets: [PvPBaseParamValue]
   - name: PvPActionSortRow
-  - name: Unknown10
+  - name: PvPInitialSelectActionTrait
+    type: link
+    targets: [PvPInitialSelectActionTrait]
   - name: ClassJobParent
     type: link
     targets: [ClassJob]

@@ -1,3 +1,5 @@
 name: VVDRouteData
 fields:
-  - name: Unknown0
+  - name: NotebookEntry
+    type: link
+    targets: [VVDNotebookContents]

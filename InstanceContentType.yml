@@ -1,11 +1,13 @@
 name: InstanceContentType
 fields:
-  - name: Unknown0
+  - name: StartLogMessage
+    type: link
+    targets: [LogMessage]
   - name: Unknown1
   - name: Unknown2
   - name: Unknown3
   - name: Unknown4
   - name: Unknown5
   - name: Unknown6
-  - name: Unknown7
+  - name: SupportsPartyMemberPortraits
   - name: Unknown8
