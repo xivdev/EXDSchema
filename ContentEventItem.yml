@@ -1,3 +1,5 @@
 name: ContentEventItem
 fields:
-  - name: Unknown0
+  - name: EventItem
+    type: link
+    targets: [EventItem]

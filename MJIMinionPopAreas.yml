@@ -1,7 +1,11 @@
 name: MJIMinionPopAreas
 fields:
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
+  - name: Text
+    type: link
+    targets: [MJIText]
+  - name: X
+  - name: Y
+  - name: RequiredFunction
+    type: link
+    targets: [MJIFunction]
   - name: Unknown4
