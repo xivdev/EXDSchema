@@ -1,0 +1,87 @@
+name: Update Versions
+on:
+  schedule:
+    - cron: '40 */2 * * *' # Every 2 hours at :40
+  workflow_dispatch:
+
+jobs:
+  update:
+    name: Update Versions
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: latest
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Download EXDTools
+        uses: robinraju/release-downloader@v1
+        with:
+          repository: xivdev/EXDTools
+          fileName: 'EXDTooler'
+          latest: true
+      
+      - name: Chmod Executable
+        run: chmod +x EXDTooler
+
+      - name: Retrieve cache
+        id: exd-cache
+        uses: actions/cache@v4
+        with:
+          path: data
+          key: exd-latest
+      
+      - name: Download Latest Game Data
+        id: downloader
+        uses: WorkingRobot/ffxiv-downloader@v3
+        with:
+          output-path: data
+          regex: '^sqpack\/ffxiv\/0a0000\..+$'
+
+      - name: Hash Columns Old
+        id: hash-columns-old
+        run: |
+          echo "hash=${{hashFiles('.github/columns.yml')}}" >> "$GITHUB_OUTPUT"
+
+      - name: Run Column Exporter
+        run: ./EXDTooler export-columns -g data/sqpack -o .github/columns.yml
+
+      - name: Hash Columns New
+        id: hash-columns-new
+        run: |
+          echo "hash=${{hashFiles('.github/columns.yml')}}" >> "$GITHUB_OUTPUT"
+      
+      - name: Create Branch
+        if: steps.hash-columns-old.outputs.hash != steps.hash-columns-new.outputs.hash
+        run: git branch ver/${{steps.downloader.outputs.version}}
+      
+      - name: Commit Files
+        if: steps.hash-columns-old.outputs.hash != steps.hash-columns-new.outputs.hash
+        id: commit
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add .github/columns.yml
+          git commit -m "Add column data for ${{steps.downloader.outputs.version}}" --author="${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
+
+      - name: Push Changes
+        if: steps.hash-columns-old.outputs.hash != steps.hash-columns-new.outputs.hash
+        run: |
+          git checkout ver/${{steps.downloader.outputs.version}}
+          git reset --hard latest
+          git push origin --all
+      
+      - name: Add submodule to main
+        if: steps.hash-columns-old.outputs.hash != steps.hash-columns-new.outputs.hash
+        run: |
+          git checkout main
+          git submodule add -b ver/${{steps.downloader.outputs.version}} -- https://github.com/${{github.repository}}.git schemas/${{steps.downloader.outputs.version}}
+          git add -A
+          git commit -m "Add version ${{steps.downloader.outputs.version}}" --author="${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
+      
+      - name: Push new submodule
+        if: steps.hash-columns-old.outputs.hash != steps.hash-columns-new.outputs.hash
+        run: git push origin main
+
