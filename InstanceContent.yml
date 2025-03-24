@@ -66,6 +66,7 @@ fields:
     targets: [ContentFinderCondition]
   - name: SortKey
   - name: ContentRoute
+    type: link
     condition:
       switch: InstanceContentType
       cases:

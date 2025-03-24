@@ -2,7 +2,7 @@ name: OrnamentCustomizeGroup
 fields:
   - name: Customize
     type: array
-    count: 18
+    count: 19
     fields:
       - type: link
         targets: [OrnamentCustomize]

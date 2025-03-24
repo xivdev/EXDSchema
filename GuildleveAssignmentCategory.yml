@@ -1,5 +1,4 @@
 name: GuildleveAssignmentCategory
-displayField: 
 fields:
   - name: Category
     type: array

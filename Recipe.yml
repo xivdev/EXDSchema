@@ -1,5 +1,5 @@
 name: Recipe
-displayField: Item{Result}
+displayField: ItemResult
 fields:
   - name: RequiredQuality
   - name: Quest

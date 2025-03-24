@@ -1,4 +1,4 @@
 name: TripleTriadCardRarity
-displayField: Name
+displayField: Stars
 fields:
   - name: Stars
