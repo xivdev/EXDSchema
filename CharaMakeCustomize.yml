@@ -9,7 +9,7 @@ fields:
   - name: HintItem
     type: link
     targets: [Item]
-  - name: Data
+  - name: UnlockLink
   - name: FeatureID
   - name: Unknown0
   - name: IsPurchasable

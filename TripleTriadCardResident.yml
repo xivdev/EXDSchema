@@ -43,4 +43,6 @@ fields:
   - name: SortKey
   - name: UIPriority
   - name: AcquisitionType
+    type: link
+    targets: [TripleTriadCardObtain]
   - name: Unknown1

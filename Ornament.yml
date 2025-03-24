@@ -10,11 +10,13 @@ fields:
   - name: Pronoun
   - name: Article
   - name: Model
-  - name: Unknown1
+  - name: Action
+    type: link
+    targets: [OrnamentAction]
   - name: Icon
     type: icon
   - name: Transient
   - name: Order
-  - name: Unknown2
+  - name: AttachmentPoint
   - name: Unknown3
   - name: Unknown4
