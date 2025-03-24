@@ -12,4 +12,6 @@ fields:
   - name: Unknown6
   - name: Unknown7
   - name: Unknown8
-  - name: Unknown9
+  - name: MapCondition
+    type: link
+    targets: [MapCondition]

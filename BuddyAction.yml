@@ -7,5 +7,5 @@ fields:
     type: icon
   - name: IconStatus
     type: icon
-  - name: Reward
+  - name: UnlockLink
   - name: Sort
