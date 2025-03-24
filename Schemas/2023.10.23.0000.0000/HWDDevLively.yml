@@ -1,8 +1,0 @@
-name: HWDDevLively
-displayField: ENPC
-fields:
-  - name: ENPC
-    type: link
-    targets: [ENpcBase]
-  - name: Unknown0
-  - name: Unknown1

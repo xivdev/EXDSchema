@@ -1,4 +1,0 @@
-name: HWDInfoBoardArticleType
-displayField: Type
-fields:
-  - name: Type

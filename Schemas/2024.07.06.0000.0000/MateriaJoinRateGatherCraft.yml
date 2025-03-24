@@ -1,8 +1,0 @@
-name: MateriaJoinRateGatherCraft
-fields:
-  - name: NQOvermeldPercentSlot
-    type: array
-    count: 4
-  - name: HQOvermeldPercentSlot
-    type: array
-    count: 4

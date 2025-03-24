@@ -1,7 +1,0 @@
-name: PlantPotFlowerSeed
-fields:
-  - name: SeedIcon
-    type: array
-    count: 9
-    fields:
-      - type: icon

@@ -1,8 +1,0 @@
-name: VaseFlower
-fields:
-  - name: Item
-    type: link
-    targets: [Item]
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2

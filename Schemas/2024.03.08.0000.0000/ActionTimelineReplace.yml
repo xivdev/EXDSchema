@@ -1,8 +1,0 @@
-name: ActionTimelineReplace
-fields:
-  - name: Old
-    type: link
-    targets: [ActionTimeline]
-  - name: New
-    type: link
-    targets: [ActionTimeline]

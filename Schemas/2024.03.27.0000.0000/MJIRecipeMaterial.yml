@@ -1,7 +1,0 @@
-name: MJIRecipeMaterial
-displayField: ItemPouch
-fields:
-  - name: ItemPouch
-    type: link
-    targets: [MJIItemPouch]
-  - name: Unknown0

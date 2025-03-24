@@ -1,7 +1,0 @@
-name: AOZBoss
-displayField: Boss
-fields:
-  - name: Boss
-    type: link
-    targets: [AOZContentBriefingBNpc]
-  - name: Position

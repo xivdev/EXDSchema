@@ -1,9 +1,0 @@
-name: QuestEventAreaEntranceInfo
-fields:
-  - name: Quest
-    type: link
-    targets: [Quest]
-  - name: Location
-    type: link
-    targets: [Level]
-  - name: Unknown0

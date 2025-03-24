@@ -1,8 +1,0 @@
-name: GatheringRarePopTimeTable
-fields:
-  - name: StartTime
-    count: 3
-    type: array
-  - name: Duration
-    count: 3
-    type: array

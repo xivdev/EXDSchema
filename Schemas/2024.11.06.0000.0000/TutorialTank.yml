@@ -1,6 +1,0 @@
-name: TutorialTank
-fields:
-  - name: Image
-  - name: Objective
-    type: link
-    targets: [Tutorial]

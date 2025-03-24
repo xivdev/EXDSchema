@@ -1,9 +1,0 @@
-name: OrnamentCustomizeGroup
-fields:
-  - name: Customize
-    type: array
-    count: 18
-    fields:
-      - type: link
-        targets: [OrnamentCustomize]
-  - name: Unknown18

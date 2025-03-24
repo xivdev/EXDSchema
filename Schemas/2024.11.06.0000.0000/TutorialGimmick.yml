@@ -1,6 +1,0 @@
-name: TutorialGimmick
-fields:
-  - name: Image
-  - name: Objective
-    type: link
-    targets: [Tutorial]

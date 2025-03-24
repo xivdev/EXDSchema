@@ -1,7 +1,0 @@
-name: DeepDungeonFloorEffectUI
-displayField: Name
-fields:
-  - name: Name
-  - name: Description
-  - name: Icon
-    type: icon

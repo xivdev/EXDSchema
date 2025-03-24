@@ -1,8 +1,0 @@
-name: ChocoboRace
-fields:
-  - name: ChocoboRaceRank
-    type: link
-    targets: [ChocoboRaceRank]
-  - name: ChocoboRaceTerritory
-    type: link
-    targets: [ChocoboRaceTerritory]

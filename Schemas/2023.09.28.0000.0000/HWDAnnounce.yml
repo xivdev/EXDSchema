@@ -1,9 +1,0 @@
-name: HWDAnnounce
-displayField: Text
-fields:
-  - name: Name
-  - name: ENPC
-    type: link
-    targets: [ENpcResident]
-  - name: Unknown0
-  - name: Unknown1
