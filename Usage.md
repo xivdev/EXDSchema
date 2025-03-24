@@ -334,3 +334,45 @@ relations:
     - MaxHQ
 ```
 Now, instead of accessing each array individually, `Params` is the only available field, where every element of `Params` contains all the related columns.
+
+## Version Consistency
+To maintain version consistency and backwards compatibility, the schema provides two keys: `pendingName` and `pendingFields`.
+
+#### pendingName
+When a field is renamed, the `pendingName` key should be used to provide the new name. This allows advanced consumers to mark the old name as deprecated and provide the new name as a hint without causing breaking changes to their users.
+
+This feature is especially useful for new sheets that still contain Unknownxx fields. For example:
+```yml
+name: WKSWhatever
+fields:
+  - name: Unknown32
+    pendingName: NewField
+  - name: Unknown33
+    pendingName: OtherNewField
+```
+
+#### pendingFields
+In the event that a simple rename is not enough, the `pendingFields` key can be used to provide a brand new field structure. This is required for anything that changes the structure of the sheet, such as changing the type of a field or adding a relation. This key should be used sparingly, as it can cause sudden breaking changes to consumers when updating to a new release.
+
+For example, let's say we have a sheet `WKSWhatever` that has a field `Unknown32` that is a scalar, but you notice that it should be a link to `Item`. Thus, you'll need to add a `pendingFields` key:
+```yml
+name: WKSWhatever
+fields:
+  - name: Unknown32
+    # Adding a pendingName and comment is a courtesy to consumers to help minimize friction when updating
+    comment: Will be a link to Item in the future
+    pendingName: NewField
+  - name: Unknown33
+    comment: Will be a link to Item in the future
+    pendingName: OtherNewField
+pendingFields:
+  - name: NewField
+    type: link
+    targets: [Item]
+  - name: OtherNewField
+    type: link
+    targets: [Item]
+```
+
+> [!IMPORTANT]  
+> `pendingFields` key is meant to be a complete replacement for `fields`. When creating a `pendingFields` key, make sure to copy the entire structure of `fields`.
