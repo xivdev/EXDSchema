@@ -1,5 +1,5 @@
 name: RelicNote
-displayField: EventItem
+displayField: Name
 fields:
   - name: EventItem
     type: link

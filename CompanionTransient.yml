@@ -1,5 +1,5 @@
 name: CompanionTransient
-displayField: Description
+displayField: Name
 fields:
   - name: Description
   - name: DescriptionEnhanced

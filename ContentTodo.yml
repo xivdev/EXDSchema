@@ -1,7 +1,9 @@
 name: ContentTodo
 fields:
   - name: Unknown0
-  - name: Unknown1
+  - name: Text
+    type: link
+    targets: [InstanceContentTextData]
   - name: Unknown2
   - name: Unknown3
   - name: Unknown4

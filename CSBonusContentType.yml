@@ -13,7 +13,7 @@ fields:
   - name: UnlockQuest
     type: link
     targets: [Quest]
-  - name: Unknown11
+  - name: UnlockLink
   - name: Unknown12
   - name: ContentType
     type: link

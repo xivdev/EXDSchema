@@ -1,4 +1,4 @@
 name: TerritoryTypeTransient
-displayField: OffsetZ
+displayField: Offset{Z}
 fields:
   - name: OffsetZ

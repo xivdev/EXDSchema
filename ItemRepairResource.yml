@@ -1,5 +1,5 @@
 name: ItemRepairResource
-displayField: Item
+displayField: Name
 fields:
   - name: Item
     type: link

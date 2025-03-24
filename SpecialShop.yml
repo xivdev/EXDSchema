@@ -48,7 +48,8 @@ fields:
         count: 3
       - name: Unknown1
         type: array
-        count: 6
+        count: 5
+      - name: Order
       - name: ReceiveHq
         type: array
         count: 2
@@ -68,9 +69,18 @@ fields:
   - name: Unknown0
   - name: Unknown1
   - name: CompleteText
+    type: link
+    targets: [DefaultTalk]
   - name: NotCompleteText
-  - name: Unknown2
-  - name: Unknown5
+    type: link
+    targets: [DefaultTalk]
+  - name: RequiredFestival
+    type: link
+    targets: [Festival]
+  - name: RequiredFestivalPhase
   - name: UseCurrencyType
-  - name: Unknown3
-  - name: Unknown4
+  - name: RequiredContentFinderCondition
+    type: link
+    targets: [ContentFinderCondition]
+  - name: RequiredContentFinderConditionComplete
+    comment: If this is true, then the CFC needs to be completed; If this is false, then the CFC just needs to be unlocked

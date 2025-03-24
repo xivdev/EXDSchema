@@ -1,5 +1,5 @@
 name: Treasure
-displayField: SGB
+displayField: Item
 fields:
   - name: Unknown0
   - name: Unknown1

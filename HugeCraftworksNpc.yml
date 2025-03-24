@@ -1,5 +1,5 @@
 name: HugeCraftworksNpc
-displayField: EventNpc
+displayField: ENpcResident
 fields:
   - name: HugeCraftworksTurnInParam
     type: array

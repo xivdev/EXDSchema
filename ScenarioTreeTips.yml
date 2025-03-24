@@ -1,4 +1,5 @@
 name: ScenarioTreeTips
+displayField: Type
 fields:
   - name: Tips1
   - name: Tips2

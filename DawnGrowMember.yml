@@ -1,5 +1,5 @@
 name: DawnGrowMember
-displayField: Class
+displayField: Member
 fields:
   - name: SelectImage
     type: array

@@ -1,5 +1,5 @@
 name: DawnMemberUIParam
-displayField: ClassSingular
+displayField: Class{Singular}
 fields:
   - name: Unknown0
   - name: ClassPlural

@@ -1,5 +1,5 @@
 name: PvPActionSort
-displayField: Action
+displayField: Name
 fields:
   - name: Unknown0
   - name: Action

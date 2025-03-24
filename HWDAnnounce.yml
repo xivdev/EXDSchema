@@ -1,5 +1,5 @@
 name: HWDAnnounce
-displayField: Name
+displayField: Text
 fields:
   - name: Name
   - name: ENPC

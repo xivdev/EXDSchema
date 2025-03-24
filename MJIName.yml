@@ -1,5 +1,5 @@
 name: MJIName
-displayField: Singular
+displayField: Name
 fields:
   - name: Singular
   - name: Plural

@@ -1,9 +1,15 @@
 name: MapReplace
 fields:
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
+  - name: Quest
+    type: link
+    targets: [Quest]
+  - name: Map
+    type: link
+    targets: [Map]
+  - name: TerritoryType
+    type: link
+    targets: [TerritoryType]
   - name: Unknown4
   - name: Unknown5
   - name: Unknown6
-  - name: Unknown3
+  - name: QuestSequence

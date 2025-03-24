@@ -2,6 +2,8 @@ name: ContentDirectorBattleTalk
 fields:
   - name: Unknown0
   - name: Unknown1
-  - name: Unknown2
+  - name: Text
+    type: link
+    targets: [InstanceContentTextData]
   - name: Unknown3
   - name: Unknown4

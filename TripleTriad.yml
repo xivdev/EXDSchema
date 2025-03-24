@@ -33,6 +33,7 @@ fields:
     fields:
       - type: link
         targets: [TripleTriadCard]
+    targets: [TripleTriadCard]
   - name: TripleTriadCardVariable
     type: array
     count: 5

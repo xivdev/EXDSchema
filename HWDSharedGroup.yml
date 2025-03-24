@@ -1,5 +1,5 @@
 name: HWDSharedGroup
-displayField: LGBSharedGroup
+displayField: LGB
 fields:
   - name: LGBSharedGroup
   - name: Param

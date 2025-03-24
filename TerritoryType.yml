@@ -48,17 +48,23 @@ fields:
     type: link
     targets: [TerritoryIntendedUse]
   - name: WeatherRate
+    type: link
+    targets: [WeatherRate]
   - name: Unknown1
   - name: ExVersion
     type: link
     targets: [ExVersion]
   - name: Unknown2
   - name: Unknown3
-  - name: Unknown4
+  - name: AetherCurrentCompFlgSet
+    type: link
+    targets: [AetherCurrentCompFlgSet]
   - name: MountSpeed
     type: link
     targets: [MountSpeed]
-  - name: Unknown5
+  - name: IndividualWeather
+    type: link
+    targets: [IndividualWeather]
   - name: AchievementIndex
   - name: Unknown6
   - name: Unknown7

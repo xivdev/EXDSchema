@@ -1,5 +1,5 @@
 name: Picture
-displayField: Image
+displayField: Item
 fields:
   - name: Image
     type: icon

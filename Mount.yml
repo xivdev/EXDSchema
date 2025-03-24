@@ -19,7 +19,9 @@ fields:
   - name: EquipBody
   - name: EquipLeg
   - name: EquipFoot
-  - name: Unknown4
+  - name: MoveControl
+    type: link
+    targets: [MoveControl]
   - name: RideBGM
     type: link
     targets: [BGM]

@@ -39,7 +39,6 @@ fields:
   - name: Icon
     type: icon
   - name: RequiredStatus
-    type: link
     targets: [Status]
   - name: ClassJobCategory
     type: link

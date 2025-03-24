@@ -1,5 +1,5 @@
 name: Relic
-displayField: ItemAnimus
+displayField: Item{Animus}
 fields:
   - name: ItemAtma
     type: link

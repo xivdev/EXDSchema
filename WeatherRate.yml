@@ -1,4 +1,5 @@
 name: WeatherRate
+displayField: Name
 fields:
   - name: Weather
     type: array

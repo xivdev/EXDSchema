@@ -1,5 +1,5 @@
 name: WeatherGroup
-displayField: WeatherRate
+displayField: Name
 fields:
   - name: Unknown0
   - name: WeatherRate
