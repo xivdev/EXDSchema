@@ -1,8 +1,0 @@
-name: TerritoryTypeTelepo
-fields:
-  - name: X
-  - name: Y
-  - name: Expansion
-  - name: Relay
-    type: link
-    targets: [TelepoRelay]

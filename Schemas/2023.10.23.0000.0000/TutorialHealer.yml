@@ -1,5 +1,0 @@
-name: TutorialHealer
-fields:
-  - name: Objective
-    type: link
-    targets: [Tutorial]

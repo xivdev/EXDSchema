@@ -1,8 +1,0 @@
-name: GatheringType
-displayField: Name
-fields:
-  - name: Name
-  - name: IconMain
-    type: icon
-  - name: IconOff
-    type: icon

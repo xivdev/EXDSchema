@@ -1,9 +1,0 @@
-name: QuestRedoChapterUITab
-displayField: Text
-fields:
-  - name: Text
-  - name: Icon1
-    type: icon
-  - name: Icon2
-    type: icon
-  - name: Unknown0

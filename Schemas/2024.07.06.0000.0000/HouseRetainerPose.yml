@@ -1,6 +1,0 @@
-name: HouseRetainerPose
-displayField: ActionTimeline
-fields:
-  - name: ActionTimeline
-    type: link
-    targets: [ActionTimeline]

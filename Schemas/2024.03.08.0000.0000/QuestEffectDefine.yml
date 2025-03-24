@@ -1,6 +1,0 @@
-name: QuestEffectDefine
-displayField: Effect
-fields:
-  - name: Effect
-    type: link
-    targets: [QuestEffect]

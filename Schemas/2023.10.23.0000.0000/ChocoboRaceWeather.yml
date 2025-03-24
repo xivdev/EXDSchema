@@ -1,8 +1,0 @@
-name: ChocoboRaceWeather
-fields:
-  - name: WeatherType1
-    type: link
-    targets: [Weather]
-  - name: WeatherType2
-    type: link
-    targets: [Weather]

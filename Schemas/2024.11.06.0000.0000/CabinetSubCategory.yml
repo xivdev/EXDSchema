@@ -1,5 +1,0 @@
-name: CabinetSubCategory
-displayField: Name
-fields:
-  - name: Name
-  - name: MenuOrder

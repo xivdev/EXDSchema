@@ -1,7 +1,0 @@
-name: ActivityFeedButtons
-fields:
-  - name: BannerURL
-  - name: Description
-  - name: Language
-  - name: PictureURL
-  - name: Unknown0

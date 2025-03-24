@@ -1,7 +1,0 @@
-name: WeddingBGM
-displayField: Song
-fields:
-  - name: SongName
-  - name: Song
-    type: link
-    targets: [BGM]

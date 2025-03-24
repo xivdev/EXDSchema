@@ -1,4 +1,0 @@
-name: GcArmyExpeditionType
-displayField: Name
-fields:
-  - name: Name

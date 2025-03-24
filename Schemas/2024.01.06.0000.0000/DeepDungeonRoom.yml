@@ -1,8 +1,0 @@
-name: DeepDungeonRoom
-fields:
-  - name: Level
-    type: array
-    count: 5
-    fields:
-      - type: link
-        targets: [Level]

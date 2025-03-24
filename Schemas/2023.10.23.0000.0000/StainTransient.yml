@@ -1,9 +1,0 @@
-name: StainTransient
-displayField: Item{1}
-fields:
-  - name: Item1
-    type: link
-    targets: [Item]
-  - name: Item2
-    type: link
-    targets: [Item]

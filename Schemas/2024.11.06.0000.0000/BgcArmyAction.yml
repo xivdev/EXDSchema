@@ -1,8 +1,0 @@
-name: BgcArmyAction
-fields:
-  - name: Name
-  - name: Icon
-    type: icon
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4

@@ -1,4 +1,0 @@
-name: FCAuthorityCategory
-displayField: Name
-fields:
-  - name: Name

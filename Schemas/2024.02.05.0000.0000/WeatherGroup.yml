@@ -1,7 +1,0 @@
-name: WeatherGroup
-displayField: Name
-fields:
-  - name: Unknown0
-  - name: WeatherRate
-    type: link
-    targets: [WeatherRate]

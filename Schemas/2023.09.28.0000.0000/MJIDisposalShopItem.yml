@@ -1,9 +1,0 @@
-name: MJIDisposalShopItem
-fields:
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
-  - name: Category
-    type: link
-    targets: [MJIDisposalShopUICategory]
-  - name: Unknown3

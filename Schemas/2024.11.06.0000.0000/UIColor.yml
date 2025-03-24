@@ -1,7 +1,0 @@
-name: UIColor
-displayField: Dark
-fields:
-  - name: Dark
-  - name: Light
-  - name: ClassicFF
-  - name: ClearBlue

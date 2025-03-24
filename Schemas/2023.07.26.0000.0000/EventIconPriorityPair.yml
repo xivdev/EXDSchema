@@ -1,4 +1,0 @@
-name: EventIconPriorityPair
-fields:
-  - name: Icon
-    type: icon
