@@ -15,20 +15,20 @@ fields:
         type: array
         count: 2
         fields:
-          - type: link
-            targets: [Item]
+        - type: link
+          targets: [Item]
       - name: Category
         type: array
         count: 2
         fields:
-          - type: link
-            targets: [SpecialShopItemCategory]
+        - type: link
+          targets: [SpecialShopItemCategory]
       - name: ItemCost
         type: array
         count: 3
         fields:
-          - type: link
-            targets: [Item]
+        - type: link
+          targets: [Item]
       - name: Quest
         type: link
         targets: [Quest]
@@ -67,7 +67,9 @@ fields:
     type: link
     targets: [Quest]
   - name: Unknown0
-  - name: Unknown1
+  - name: RequiredContentFinderCondition
+    type: link
+    targets: [ContentFinderCondition]
   - name: CompleteText
     type: link
     targets: [DefaultTalk]
@@ -80,4 +82,5 @@ fields:
   - name: RequiredFestivalPhase
   - name: UseCurrencyType
   - name: Unknown3
-  - name: Unknown4
+  - name: RequiredContentFinderConditionComplete
+    comment: If this is true, then the CFC needs to be completed; If this is false, then the CFC just needs to be unlocked
