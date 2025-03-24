@@ -1,4 +1,7 @@
 name: TripleTriadCardObtain
 fields:
-  - name: Unknown0
-  - name: Unknown1
+  - name: Icon
+    type: icon
+  - name: Text
+    type: link
+    targets: [Addon]

@@ -7,4 +7,6 @@ fields:
   - name: JournalSection
     type: link
     targets: [JournalSection]
-  - name: Unknown0
+  - name: MapCondition
+    type: link
+    targets: [MapCondition]

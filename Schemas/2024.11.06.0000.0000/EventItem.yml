@@ -20,7 +20,9 @@ fields:
     type: link
     targets: [Action]
   - name: StackSize
-  - name: Unknown2
+  - name: Category
+    type: link
+    targets: [EventItemCategory]
   - name: CastTime
   - name: CastTimeline
     type: link
