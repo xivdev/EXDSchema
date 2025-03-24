@@ -1,7 +1,7 @@
 name: UIColor
-displayField: UIForeground
+displayField: Dark
 fields:
-  - name: UIForeground
-  - name: UIGlow
-  - name: Unknown0
-  - name: Unknown1
+  - name: Dark
+  - name: Light
+  - name: ClassicFF
+  - name: ClearBlue
