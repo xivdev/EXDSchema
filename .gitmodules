@@ -1,0 +1,52 @@
+[submodule "schemas/2023.07.26.0000.0000"]
+    path = schemas/2023.07.26.0000.0000
+    url = https://github.com/WorkingRobot/EXDSchema.git
+    branch = ver/2023.07.26.0000.0000
+[submodule "schemas/2023.09.28.0000.0000"]
+    path = schemas/2023.09.28.0000.0000
+    url = https://github.com/WorkingRobot/EXDSchema.git
+    branch = ver/2023.09.28.0000.0000
+[submodule "schemas/2023.11.09.0000.0000"]
+    path = schemas/2023.11.09.0000.0000
+    url = https://github.com/WorkingRobot/EXDSchema.git
+    branch = ver/2023.11.09.0000.0000
+[submodule "schemas/2024.02.05.0000.0000"]
+    path = schemas/2024.02.05.0000.0000
+    url = https://github.com/WorkingRobot/EXDSchema.git
+    branch = ver/2024.02.05.0000.0000
+[submodule "schemas/2024.03.27.0000.0000"]
+    path = schemas/2024.03.27.0000.0000
+    url = https://github.com/WorkingRobot/EXDSchema.git
+    branch = ver/2024.03.27.0000.0000
+[submodule "schemas/2024.04.23.0000.0000"]
+    path = schemas/2024.04.23.0000.0000
+    url = https://github.com/WorkingRobot/EXDSchema.git
+    branch = ver/2024.04.23.0000.0000
+[submodule "schemas/2024.06.18.0000.0000"]
+    path = schemas/2024.06.18.0000.0000
+    url = https://github.com/WorkingRobot/EXDSchema.git
+    branch = ver/2024.06.18.0000.0000
+[submodule "schemas/2024.07.06.0000.0000"]
+    path = schemas/2024.07.06.0000.0000
+    url = https://github.com/WorkingRobot/EXDSchema.git
+    branch = ver/2024.07.06.0000.0000
+[submodule "schemas/2024.07.10.0001.0000"]
+    path = schemas/2024.07.10.0001.0000
+    url = https://github.com/WorkingRobot/EXDSchema.git
+    branch = ver/2024.07.10.0001.0000
+[submodule "schemas/2024.07.24.0000.0000"]
+    path = schemas/2024.07.24.0000.0000
+    url = https://github.com/WorkingRobot/EXDSchema.git
+    branch = ver/2024.07.24.0000.0000
+[submodule "schemas/2024.08.02.0000.0000"]
+    path = schemas/2024.08.02.0000.0000
+    url = https://github.com/WorkingRobot/EXDSchema.git
+    branch = ver/2024.08.02.0000.0000
+[submodule "schemas/2024.11.06.0000.0000"]
+    path = schemas/2024.11.06.0000.0000
+    url = https://github.com/WorkingRobot/EXDSchema.git
+    branch = ver/2024.11.06.0000.0000
+[submodule "schemas/latest"]
+    path = schemas/latest
+    url = https://github.com/WorkingRobot/EXDSchema.git
+    branch = latest
