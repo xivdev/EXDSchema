@@ -1,3 +1,5 @@
 name: DynamicEventManager
 fields:
+  - name: Unknown1
   - name: Unknown0
+  - name: Unknown2

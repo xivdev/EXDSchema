@@ -15,6 +15,7 @@ fields:
   - name: AuRaMaleScale
   - name: AuRaFemaleScale
   - name: HrothgarMaleScale
+  - name: HrothgarFemaleScale
   - name: VieraMaleScale
   - name: VieraFemaleScale
   - name: HyurMidlanderMaleCameraHeight
@@ -32,6 +33,7 @@ fields:
   - name: AuRaMaleCameraHeight
   - name: AuRaFemaleCameraHeight
   - name: HrothgarMaleCameraHeight
+  - name: HrothgarFemaleCameraHeight
   - name: VieraMaleCameraHeight
   - name: VieraFemaleCameraHeight
   - name: Unknown0
@@ -39,3 +41,5 @@ fields:
   - name: Unknown_70_1
   - name: Unknown_70_2
   - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4

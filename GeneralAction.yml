@@ -12,4 +12,5 @@ fields:
   - name: Unknown0
   - name: Recast
   - name: UIPriority
+  - name: Unknown2
   - name: Unknown1
