@@ -4,6 +4,14 @@ on:
   repository_dispatch:
     types: [version-pr, version-push]
 
+permissions:
+  statuses: write
+  pull-requests: write
+  issues: write
+  discussions: write
+  contents: write
+  checks: write
+
 concurrency:
   group: ${{github.workflow}}-${{github.event.client_payload.head_ref}}
   cancel-in-progress: true
