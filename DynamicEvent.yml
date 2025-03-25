@@ -28,3 +28,4 @@ fields:
   - name: SingleBattle
     type: link
     targets: [DynamicEventSingleBattle]
+  - name: Unknown8

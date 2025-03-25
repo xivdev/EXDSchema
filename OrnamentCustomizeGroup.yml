@@ -6,4 +6,6 @@ fields:
     fields:
       - type: link
         targets: [OrnamentCustomize]
+  - name: Unknown19
+  - name: Unknown20
   - name: Unknown18

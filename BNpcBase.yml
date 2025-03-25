@@ -17,6 +17,7 @@ fields:
     type: link
     targets: [NpcEquip]
   - name: Special
+  - name: Unknown9
   - name: Battalion
     type: link
     targets: [Battalion]
@@ -32,6 +33,7 @@ fields:
   - name: Unknown1
   - name: Unknown2
   - name: Unknown3
+  - name: Unknown10
   - name: Unknown4
   - name: IsOmnidirectional
   - name: Unknown6

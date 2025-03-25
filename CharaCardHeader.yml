@@ -11,9 +11,10 @@ fields:
     targets: [BannerCondition]
   - name: Unknown_70_1
   - name: Unknown_70_2
+  - name: Unknown4
+  - name: Unknown5
   - name: FontColor
-  - name: Unknown0
-  - name: Unknown1
   - name: Unknown2
+  - name: Unknown1
+  - name: Unknown0
   - name: Unknown3
-  - name: SortKey

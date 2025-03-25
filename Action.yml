@@ -4,7 +4,26 @@ fields:
   - name: Name
   - name: UnlockLink
     type: link
-    targets: [ChocoboTaxiStand, CraftLeve, CustomTalk, DefaultTalk, FccShop, GCShop, GilShop, GuildleveAssignment, GuildOrderGuide, GuildOrderOfficer, Quest, SpecialShop, Story, SwitchTalk, TopicSelect, TripleTriad, Warp]
+    targets:
+      [
+        ChocoboTaxiStand,
+        CraftLeve,
+        CustomTalk,
+        DefaultTalk,
+        FccShop,
+        GCShop,
+        GilShop,
+        GuildleveAssignment,
+        GuildOrderGuide,
+        GuildOrderOfficer,
+        Quest,
+        SpecialShop,
+        Story,
+        SwitchTalk,
+        TopicSelect,
+        TripleTriad,
+        Warp,
+      ]
   - name: Icon
     type: icon
   - name: VFX
@@ -27,6 +46,7 @@ fields:
     targets: [Action]
   - name: Cast100ms
   - name: Recast100ms
+  - name: Unknown26
   - name: StatusGainSelf
     type: link
     targets: [Status]
@@ -58,7 +78,6 @@ fields:
   - name: CooldownGroup
   - name: AdditionalCooldownGroup
   - name: MaxCharges
-  - name: Aspect
   - name: ActionProcStatus
     type: link
     targets: [ActionProcStatus]
@@ -109,3 +128,4 @@ fields:
   - name: CanUseWhileMounted
   - name: Unknown25
   - name: IsPlayerAction
+  - name: Unknown27

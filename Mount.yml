@@ -58,6 +58,7 @@ fields:
   - name: Unknown11
   - name: Unknown12
   - name: IsEmote
+  - name: Unknown20
   - name: IsAirborne
   - name: ExHotbarEnableConfig
   - name: UseEP

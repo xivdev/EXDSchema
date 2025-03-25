@@ -26,6 +26,7 @@ fields:
   - name: PriorityCategoryUI
   - name: PriorityUI
   - name: Hierarchy
+  - name: Unknown2
   - name: Unknown0
   - name: MapIndex
   - name: DiscoveryArrayByte

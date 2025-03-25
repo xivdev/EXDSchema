@@ -6,6 +6,7 @@ fields:
     fields:
       - type: link
         targets: [RacingChocoboName]
+  - name: Unknown4
   - name: RacingChocoboNameCategory
     type: link
     targets: [RacingChocoboNameCategory]

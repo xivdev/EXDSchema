@@ -45,6 +45,7 @@ fields:
       cases:
         4: [Item]
         21: [Item]
+  - name: Unknown1
   - name: Prerequisite
     type: link
     condition:

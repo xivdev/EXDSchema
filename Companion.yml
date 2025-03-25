@@ -29,6 +29,8 @@ fields:
     type: link
     targets: [CompanionMove]
   - name: Special
+  - name: Unknown10
+  - name: Unknown11
   - name: WanderingWait
   - name: Unknown2
   - name: Cost

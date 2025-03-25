@@ -12,6 +12,8 @@ fields:
     fields:
       - type: link
         targets: [Item]
+  - name: Unknown8
+  - name: Unknown9
   - name: ClassJobCategory
     type: link
     targets: [ClassJobCategory]
@@ -21,6 +23,8 @@ fields:
   - name: RequiredAmount
     type: array
     count: 4
+  - name: Unknown10
+  - name: Unknown11
   - name: Unknown0
   - name: Unknown1
   - name: Unknown2
@@ -29,3 +33,7 @@ fields:
   - name: Unknown5
   - name: Unknown6
   - name: Unknown7
+  - name: Unknown12
+  - name: Unknown13
+  - name: Unknown14
+  - name: Unknown15
