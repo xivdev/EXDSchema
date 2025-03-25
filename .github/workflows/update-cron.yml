@@ -81,7 +81,7 @@ jobs:
         run: |
           git checkout main
           git submodule add -b ver/${{steps.downloader.outputs.version}} -- https://github.com/${{github.repository}}.git schemas/${{steps.downloader.outputs.version}}
-          git add -A
+          git add schemas
           git commit -m "Add version ${{steps.downloader.outputs.version}}" --author="${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
       
       - name: Push new submodule
