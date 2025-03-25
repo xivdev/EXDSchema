@@ -1,5 +1,8 @@
 name: Dispatch
 
+permissions:
+  contents: write
+
 on:
   pull_request_target:
     types: [opened, synchronize, reopened]
