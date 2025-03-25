@@ -14,7 +14,6 @@ jobs:
         with:
           ref: latest
           fetch-depth: 0
-          persist-credentials: false
 
       - name: Download EXDTools
         uses: robinraju/release-downloader@v1
