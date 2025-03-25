@@ -4,6 +4,10 @@ on:
     - cron: '40 */2 * * *' # Every 2 hours at :40
   workflow_dispatch:
 
+permissions:
+  contents: write
+  packages: write
+
 jobs:
   update:
     name: Update Versions
