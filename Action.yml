@@ -56,6 +56,8 @@ fields:
   - name: OmenAlt
     type: link
     targets: [Omen]
+  - name: Aspect
+    comment: 0 = Unaspected, 1 = Fire, 2 = Ice, 3 = Wind, 4 = Earth, 5 = Lightning, 6 = Water, 7 = Physical
   - name: AnimationEnd
     type: link
     targets: [ActionTimeline]
