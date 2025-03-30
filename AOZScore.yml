@@ -5,3 +5,4 @@ fields:
   - name: Description
   - name: Score
   - name: IsHidden
+    pendingName: IsValid
