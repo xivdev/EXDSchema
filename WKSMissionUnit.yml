@@ -1,8 +1,12 @@
 name: WKSMissionUnit
 fields:
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
+  - name: Name
+  - name: ClassJobCategory
+    type: array
+    count: 2
+    fields:
+      - type: link
+        targets: [ClassJobCategory]
   - name: Unknown3
   - name: Unknown4
   - name: Unknown5
@@ -12,7 +16,9 @@ fields:
   - name: Unknown9
   - name: Unknown10
   - name: Unknown11
-  - name: Unknown12
+  - name: Recipe
+    type: link
+    targets: [WKSMissionRecipe]
   - name: Unknown13
   - name: Unknown14
   - name: Unknown15
