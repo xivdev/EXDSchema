@@ -47101,6 +47101,8 @@ WKSMissionToDo:
     offset: 0
   - type: uint8
     offset: 32
+  - type: uint8
+    offset: 33
   - type: uint16
     offset: 8
   - type: uint16
@@ -47116,15 +47118,15 @@ WKSMissionToDo:
   - type: uint16
     offset: 20
   - type: uint8
-    offset: 33
+    offset: 34
   - type: uint16
     offset: 22
   - type: uint8
-    offset: 34
+    offset: 35
   - type: uint32
     offset: 4
   - type: uint8
-    offset: 35
+    offset: 36
   - type: uint16
     offset: 24
   - type: uint16
@@ -47134,7 +47136,7 @@ WKSMissionToDo:
   - type: uint16
     offset: 30
   - type: uint8
-    offset: 36
+    offset: 37
 WKSMissionToDoEvalutionItem:
   - type: uint16
     offset: 0
