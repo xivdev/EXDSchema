@@ -8,3 +8,4 @@ fields:
     type: link
     targets: [Tomestones]
   - name: Unknown0
+    pendingName: CurrencyInventorySlot
