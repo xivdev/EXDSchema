@@ -1,8 +1,12 @@
 name: WKSTerritoryInfo
 fields:
     - name: Unknown0
-    - name: Unknown1
-    - name: Unknown2
+    - name: MechaEventNpc
+      type: link
+      targets: [ENpcBase]
+    - name: Item
+      type: link
+      targets: [Item]
     - name: Unknown3
     - name: Unknown4
     - name: Unknown5

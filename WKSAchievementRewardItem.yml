@@ -1,5 +1,7 @@
 name: WKSAchievementRewardItem
 fields:
-    - name: Unknown0
+    - name: Item
+      type: link
+      targets: [Item]
     - name: Unknown1
     - name: Unknown2
