@@ -46,7 +46,9 @@ pendingFields:
     fields:
       - type: link
         targets: [WKSMissionToDo]
-  - name: Unknown10
+  - name: LockedBehind
+    type: link
+    targets: [WKSMissionUnit]
   - name: WKSMissionSupplyItem
     type: link
     targets: [WKSMissionSupplyItem]
