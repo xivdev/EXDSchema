@@ -35,12 +35,17 @@ pendingFields:
       - type: link
         targets: [ClassJobCategory]
   - name: Unknown3
-  - name: Unknown4
+  - name: MissionReward
+    type: link
+    targets: [WKSMissionReward]
   - name: SilverStarRequirement
   - name: GoldStarRequirement
-  - name: Unknown7
-  - name: Unknown8
-  - name: Unknown9
+  - name: MissionToDo
+    type: array
+    count: 3
+    fields:
+      - type: link
+        targets: [WKSMissionToDo]
   - name: Unknown10
   - name: WKSMissionSupplyItem
     type: link
@@ -50,7 +55,9 @@ pendingFields:
     targets: [WKSMissionRecipe]
   - name: Unknown13
   - name: Unknown14
-  - name: Unknown15
+  - name: WKSMissionText
+    type: link
+    targets: [WKSMissionText]
   - name: Unknown16
   - name: Unknown17
   - name: Unknown18
