@@ -19,7 +19,9 @@ fields:
   - name: Unknown16
   - name: Unknown17
   - name: Unknown18
+    pendingName: MissionType
   - name: Unknown19
+    pendingName: WKSMissionText
 
 pendingFields:
   - name: Unknown0
@@ -43,5 +45,7 @@ pendingFields:
   - name: Unknown15
   - name: Unknown16
   - name: Unknown17
-  - name: Unknown18
-  - name: Unknown19
+  - name: MissionType
+  - name: WKSMissionText
+    type: link
+    targets: [WKSMissionText]
