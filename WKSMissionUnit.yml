@@ -34,7 +34,7 @@ pendingFields:
     fields:
       - type: link
         targets: [ClassJobCategory]
-  - name: Unknown3
+  - name: MissionTime
   - name: MissionReward
     type: link
     targets: [WKSMissionReward]
@@ -53,13 +53,19 @@ pendingFields:
   - name: WKSMissionRecipe
     type: link
     targets: [WKSMissionRecipe]
-  - name: Unknown13
-  - name: Unknown14
+  - name: PlaceName
+    type: link
+    targets: [PlaceName]
+  - name: SortKey
   - name: WKSMissionText
     type: link
     targets: [WKSMissionText]
-  - name: Unknown16
-  - name: Unknown17
-  - name: Unknown18
-  - name: Unknown19
-  - name: Unknown20
+  - name: WKSFunction
+    type: link
+    targets: [WKSFunction]
+  - name: LevelGroup
+  - name: WKSMissionLotterySpecialCond
+    type: link
+    targets: [WKSMissionLotterySpecialCond]
+  - name: IsSynced
+  - name: SpecialQuests
