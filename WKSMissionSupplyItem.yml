@@ -6,3 +6,13 @@ fields:
   - name: Unknown3
   - name: Unknown4
   - name: Unknown5
+pendingFields:
+  - name: Item
+    type: array
+    count: 3
+    fields:
+      - type: link
+        targets: [WKSItemInfo]
+  - name: ItemCount
+    type: array
+    count: 3
