@@ -1,4 +1,6 @@
 name: WKSItemSubCategory
 fields:
     - name: Unknown0
+      pendingName: Name
     - name: Unknown1
+      pendingName: MenuOrder

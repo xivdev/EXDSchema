@@ -1,5 +1,16 @@
 name: WKSAchievementDailyDefine
 fields:
-    - name: Unknown0
-    - name: Unknown1
-    - name: Unknown2
+  - name: Unknown0
+    pendingName: RewardItem
+  - name: Unknown1
+    pendingName: SuccessPointsRequired
+  - name: Unknown2
+    pendingName: RewardQuantity
+pendingFields:
+  - name: RewardItem
+    type: link
+    targets: [Item]
+  - name: Unknown1
+    pendingName: SuccessPointsRequired
+  - name: Unknown2
+    pendingName: RewardQuantity
