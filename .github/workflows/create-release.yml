@@ -1,0 +1,76 @@
+name: Create Release
+on:
+  schedule:
+    - cron: '0 0 1 * *' # Midnight on the 1st of the month
+  workflow_dispatch:
+
+concurrency:
+  group: ${{github.workflow}}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  packages: write
+
+jobs:
+  create-release:
+    name: Create Release
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Get tag metadata
+        id: tag-meta
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            echo "tag_name=$(date +'%Y.%m')-${{github.run_number}}" >> "$GITHUB_OUTPUT"
+            echo "tag_prerelease=true" >> "$GITHUB_OUTPUT"
+            echo "apply_breaking=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "tag_name=$(date +'%Y.%m')" >> "$GITHUB_OUTPUT"
+            echo "tag_prerelease=false" >> "$GITHUB_OUTPUT"
+            echo "apply_breaking=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Download apply.py
+        run: |
+          pip install ruamel.yaml
+          wget https://raw.githubusercontent.com/xivdev/EXDTools/refs/heads/main/apply.py
+
+      - name: Checkout submodules to branch
+        run: git submodule foreach 'git checkout $(git describe --all HEAD | sed -En "s/(remotes\/origin\/|heads\/)//p")'
+
+      - name: Run Apply
+        run: python apply.py ${{steps.tag-meta.outputs.apply_breaking}}
+
+      - name: Commit Changes
+        run: |
+          rm apply.py
+          git config --global user.name github-actions[bot]
+          git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git submodule foreach 'git add .; git commit -m "Creating release"; git push'
+          git add --all
+          git commit -m "Update submodules"
+          git push
+
+      - name: Zip submodules
+        run: |
+          mkdir -p artifacts
+
+          git submodule foreach '
+            find . -maxdepth 1 -type f -name "*.yml" -print \
+              | zip -@ "$toplevel/artifacts/$(basename "$sm_path").zip"
+          '
+
+      - name: Create Release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: artifacts/*.zip
+          tag: ${{steps.tag-meta.outputs.tag_name}}
+          prerelease: ${{steps.tag-meta.outputs.tag_prerelease}}
+
+
