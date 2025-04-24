@@ -1,11 +1,13 @@
 name: WKSMissionUnit
 fields:
   - name: Unknown0
-    pendingName: Item
+    pendingName: Name
   - name: Unknown1
   - name: Unknown2
   - name: Unknown3
+    pendingName: MissionTime
   - name: Unknown4
+    pendingName: MissionReward
   - name: Unknown5
     pendingName: SilverStarRequirement
   - name: Unknown6
@@ -14,18 +16,28 @@ fields:
   - name: Unknown8
   - name: Unknown9
   - name: Unknown10
+    pendingName: LockedBehind
   - name: Unknown11
     pendingName: WKSMissionSupplyItem
   - name: Unknown12
     pendingName: WKSMissionRecipe
   - name: Unknown13
+    pendingName: PlaceName
   - name: Unknown14
+    pendingName: SortKey
   - name: Unknown15
+    pendingName: WKSMissionText
   - name: Unknown16
+    pendingName: WKSFunction
   - name: Unknown17
+    pendingName: LevelGroup
   - name: Unknown18
+    pendingName: WKSMissionLotterySpecialCond
   - name: Unknown19
+    pendingName: IsSynced
   - name: Unknown20
+    pendingName: IsSpecialQuest
+
 pendingFields:
   - name: Name
   - name: ClassJobCategory
@@ -70,4 +82,4 @@ pendingFields:
     type: link
     targets: [WKSMissionLotterySpecialCond]
   - name: IsSynced
-  - name: SpecialQuests
+  - name: IsSpecialQuest
