@@ -1,6 +1,15 @@
 name: WKSTerritoryInfo
 fields:
     - name: Unknown0
+    - name: Unknown1
+      pendingName: MechaEventNpc
+    - name: Unknown2
+      pendingName: Item
+    - name: Unknown3
+    - name: Unknown4
+    - name: Unknown5
+pendingFields:
+    - name: Unknown0
     - name: MechaEventNpc
       type: link
       targets: [ENpcBase]

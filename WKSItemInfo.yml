@@ -1,5 +1,12 @@
 name: WKSItemInfo
 fields:
+  - name: Unknown0
+    pendingName: Item
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
+    pendingName: WKSItemSubCategory
+pendingFields:
   - name: Item
     type: link
     targets: [Item]
@@ -8,3 +15,5 @@ fields:
   - name: WKSItemSubCategory
     type: link
     targets: [WKSItemSubCategory]
+
+

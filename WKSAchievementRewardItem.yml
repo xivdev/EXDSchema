@@ -1,7 +1,12 @@
 name: WKSAchievementRewardItem
 fields:
-    - name: Item
-      type: link
-      targets: [Item]
+    - name: Unknown0
+      pendingName: Item
     - name: Unknown1
     - name: Unknown2
+pendingFields:
+  - name: Item
+    type: link
+    targets: [Item]
+  - name: Unknown1
+  - name: Unknown2

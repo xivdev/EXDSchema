@@ -1,3 +1,4 @@
 name: WKSText
 fields:
-    - name: Text
+    - name: Unknown0
+      pendingName: Text
