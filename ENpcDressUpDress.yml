@@ -53,13 +53,13 @@ fields:
     targets: [Stain]
   - name: Dye2MainHand
     type: link
-    targets: [ Stain ]
+    targets: [Stain]
   - name: DyeOffHand
     type: link
     targets: [Stain]
   - name: Dye2OffHand
     type: link
-    targets: [ Stain ]
+    targets: [Stain]
   - name: DyeHead
     type: link
     targets: [Stain]
@@ -92,34 +92,34 @@ fields:
     targets: [Stain]
   - name: Dye2Head
     type: link
-    targets: [ Stain ]
+    targets: [Stain]
   - name: Dye2Body
     type: link
-    targets: [ Stain ]
+    targets: [Stain]
   - name: Dye2Hands
     type: link
-    targets: [ Stain ]
+    targets: [Stain]
   - name: Dye2Legs
     type: link
-    targets: [ Stain ]
+    targets: [Stain]
   - name: Dye2Feet
     type: link
-    targets: [ Stain ]
+    targets: [Stain]
   - name: Dye2Ears
     type: link
-    targets: [ Stain ]
+    targets: [Stain]
   - name: Dye2Neck
     type: link
-    targets: [ Stain ]
+    targets: [Stain]
   - name: Dye2Wrists
     type: link
-    targets: [ Stain ]
+    targets: [Stain]
   - name: Dye2LeftRing
     type: link
-    targets: [ Stain ]
+    targets: [Stain]
   - name: Dye2RightRing
     type: link
-    targets: [ Stain ]
+    targets: [Stain]
   - name: Unknown40
   - name: Unknown41
   - name: Unknown42
