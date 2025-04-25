@@ -5,11 +5,11 @@ fields:
     type: link
     targets: [EObjName]
   - name: SGB
-    count: 2
     type: array
+    count: 2
     fields:
-    - type: link
-      targets: [ExportedSG]
+      - type: link
+        targets: [ExportedSG]
   - name: Unknown1
   - name: Unknown2
   - name: Unknown3

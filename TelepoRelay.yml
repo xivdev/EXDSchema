@@ -4,10 +4,10 @@ fields:
     type: array
     count: 7
     fields:
-    - name: EnterTerritory
-      type: link
-      targets: [TerritoryType]
-    - name: ExitTerritory
-      type: link
-      targets: [TerritoryType]
-    - name: Cost
+      - name: EnterTerritory
+        type: link
+        targets: [TerritoryType]
+      - name: ExitTerritory
+        type: link
+        targets: [TerritoryType]
+      - name: Cost

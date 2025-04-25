@@ -2,11 +2,11 @@ name: ItemAction
 fields:
   - name: Type
   - name: Data
-    count: 9
     type: array
+    count: 9
   - name: DataHQ
-    count: 9
     type: array
+    count: 9
   - name: CondLv
   - name: CondBattle
   - name: CondPVP

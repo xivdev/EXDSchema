@@ -1,11 +1,11 @@
 name: RetainerTaskParameter
 fields:
   - name: ItemLevelDoW
-    count: 4
     type: array
+    count: 4
   - name: PerceptionDoL
-    count: 4
     type: array
+    count: 4
   - name: PerceptionFSH
-    count: 4
     type: array
+    count: 4
