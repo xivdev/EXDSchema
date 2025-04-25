@@ -1,7 +1,5 @@
 name: Apply Downstream Changes
 on:
-  schedule:
-    - cron: '0 0 * * *' # Every midnight
   workflow_dispatch:
 
 concurrency:

@@ -41,20 +41,37 @@ jobs:
           pip install ruamel.yaml
           wget https://raw.githubusercontent.com/xivdev/EXDTools/refs/heads/main/apply.py
 
+      - name: Download EXDTools
+        if: ${{ github.event_name == 'schedule' }}
+        uses: robinraju/release-downloader@v1
+        with:
+          repository: xivdev/EXDTools
+          fileName: 'EXDTooler'
+          latest: true
+
+      - name: Chmod Executable
+        if: ${{ github.event_name == 'schedule' }}
+        run: chmod +x EXDTooler
+
       - name: Checkout submodules to branch
         run: git submodule foreach 'git checkout $(git describe --all HEAD | sed -En "s/(remotes\/origin\/|heads\/)//p")'
+
+      - name: Run Column Merger
+        if: ${{ github.event_name == 'schedule' }}
+        run: ./EXDTooler merge-columns -b schemas
 
       - name: Run Apply
         run: python apply.py ${{steps.tag-meta.outputs.apply_breaking}}
 
       - name: Commit Changes
         run: |
+          rm EXDTooler  || :
           rm apply.py
           git config --global user.name github-actions[bot]
           git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
           git submodule foreach '
             git add .
-            git commit -m "Creating release"  || :
+            git commit -m "Creating release ${{steps.tag-meta.outputs.tag_name}}"  || :
             git push
           '
           git add --all
