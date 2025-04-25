@@ -1,39 +1,39 @@
 name: Story
 fields:
   - name: StoryParams
-    count: 40
     type: array
+    count: 40
     fields:
       - name: Instruction
       - name: Argument
   - name: StoryDefine
-    count: 110
     type: array
+    count: 110
     fields:
       - name: CompletedQuest
-        count: 3
         type: array
+        count: 3
         fields:
           - type: link
             targets: [Quest]
       - name: AcceptedQuest
-        count: 3
         type: array
+        count: 3
         fields:
           - type: link
             targets: [Quest]
       - name: LayerSet
-        count: 2
         type: array
+        count: 2
       - name: Sequence
       - name: CompletedQuestOperator
       - name: AcceptedQuestOperator
       - name: AcceptedQuestSequence
-        count: 3
         type: array
+        count: 3
   - name: StoryListener
-    count: 80
     type: array
+    count: 80
     fields:
       - name: Listener
         type: link
@@ -42,8 +42,8 @@ fields:
       - name: SequenceEnd
   - name: Script
   - name: LayerSetTerritoryType
-    count: 2
     type: array
+    count: 2
     fields:
       - type: link
         targets: [TerritoryType]

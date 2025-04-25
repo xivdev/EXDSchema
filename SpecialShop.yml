@@ -27,8 +27,8 @@ fields:
         type: array
         count: 3
         fields:
-        - type: link
-          targets: [Item]
+          - type: link
+            targets: [Item]
       - name: Quest
         type: link
         targets: [Quest]
