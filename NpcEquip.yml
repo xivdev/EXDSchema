@@ -25,7 +25,7 @@ fields:
     targets: [Stain]
   - name: Dye2OffHand
     type: link
-    targets: [ Stain ]
+    targets: [Stain]
   - name: DyeHead
     type: link
     targets: [Stain]
