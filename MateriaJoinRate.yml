@@ -1,8 +1,8 @@
 name: MateriaJoinRate
 fields:
   - name: NQOvermeldPercentSlot
-    count: 4
     type: array
+    count: 4
   - name: HQOvermeldPercentSlot
-    count: 4
     type: array
+    count: 4

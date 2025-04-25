@@ -1,4 +1,4 @@
 name: WKSMissionText
 fields:
-    - name: Unknown0
-      pendingName: Text
+  - name: Unknown0
+    pendingName: Text
