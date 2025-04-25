@@ -1,0 +1,54 @@
+name: Apply Downstream Changes
+on:
+  schedule:
+    - cron: '0 0 * * *' # Every midnight
+  workflow_dispatch:
+
+concurrency:
+  group: ${{github.workflow}}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  packages: write
+
+jobs:
+  apply-downstream:
+    name: Apply Downstream
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Download EXDTools
+        uses: robinraju/release-downloader@v1
+        with:
+          repository: xivdev/EXDTools
+          fileName: 'EXDTooler'
+          latest: true
+
+      - name: Chmod Executable
+        run: chmod +x EXDTooler
+
+      - name: Checkout submodules to branch
+        run: git submodule foreach 'git checkout $(git describe --all HEAD | sed -En "s/(remotes\/origin\/|heads\/)//p")'
+
+      - name: Run Column Merger
+        run: ./EXDTooler merge-columns -b schemas
+
+      - name: Commit Changes
+        run: |
+          rm EXDTooler
+          git config --global user.name github-actions[bot]
+          git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git submodule foreach '
+            git add .
+            git commit -m "Upstream changes"  || :
+            git push
+          '
+          git add --all
+          git commit -m "Update submodules"  || :
+          git push
