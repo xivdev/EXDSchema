@@ -17,6 +17,6 @@ fields:
     type: array
     count: 12
     fields:
-    - type: link
-      targets: [Glasses]
+      - type: link
+        targets: [Glasses]
   - name: Unknown_70_7
