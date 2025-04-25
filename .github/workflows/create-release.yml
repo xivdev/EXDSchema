@@ -27,7 +27,7 @@ jobs:
         id: tag-meta
         run: |
           if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
-            echo "tag_name=$(date +'%Y.%m')-${{github.run_number}}" >> "$GITHUB_OUTPUT"
+            echo "tag_name=$(date +'%Y.%m')-pre${{github.run_number}}" >> "$GITHUB_OUTPUT"
             echo "tag_prerelease=true" >> "$GITHUB_OUTPUT"
             echo "apply_breaking=false" >> "$GITHUB_OUTPUT"
           else
