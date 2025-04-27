@@ -10,7 +10,7 @@ fields:
   - name: ItemPouch
     type: link
     targets: [MJIItemPouch]
-  - name: Unknown0
+  - name: Yield
   - name: Material
     type: array
     count: 5
