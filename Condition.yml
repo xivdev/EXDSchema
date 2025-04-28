@@ -4,5 +4,19 @@ fields:
     type: link
     targets: [LogMessage]
   - name: Unknown0
+    pendingName: Permission
   - name: Unknown1
+    pendingName: LogMessagePriority
   - name: Unknown2
+    pendingName: IsNetworked
+pendingFields:
+  - name: LogMessage
+    type: link
+    targets: [LogMessage]
+  - name: Permission
+    type: link
+    targets: [Permission]
+  - name: LogMessagePriority
+    comment: The lower this number is, the higher the priority. Used to determine which conditions LogMessage should be printed.
+  - name: IsNetworked
+    comment: Allows this Condition to be set by a packet received from the server.
