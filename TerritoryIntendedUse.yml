@@ -3,7 +3,7 @@ fields:
   - name: Unknown0
   - name: Unknown1
     pendingName: GayaSoundId
-    comment: Ambient noise of people talking in a crowd. Values: 0 = None, 1 = sound/strm/GAYA_LestArea_01.scd, 2 = sound/strm/GAYA_Village_01.scd
+    comment: "Ambient noise of people talking in a crowd. Values: 0 = None, 1 = sound/strm/GAYA_LestArea_01.scd, 2 = sound/strm/GAYA_Village_01.scd"
   - name: ChatRule
     type: link
     targets: [TerritoryChatRule]
