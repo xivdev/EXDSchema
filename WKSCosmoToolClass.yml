@@ -40,4 +40,37 @@ fields:
   - name: Unknown37
   - name: Unknown38
   - name: Unknown39
+    pendingName: Name
   - name: Unknown40
+    pendingName: DataAmount
+
+pendingFields:
+  - name: Stages
+    type: array
+    count: 9
+    fields:
+      - name: Unknown0
+      - name: Item
+        type: link
+        targets: [Item]
+      - name: Name
+        type: link
+        targets: [WKSCosmoToolName]
+  - name: Types
+    type: array
+    count: 4
+    fields:
+      - name: Icon
+        type: icon
+      - name: Name
+        type: link
+        targets: [WKSCosmoToolName]
+      - name: CosmicName
+        type: link
+        targets: [WKSCosmoToolName]
+  - name: Name
+    type: link
+    targets: [WKSCosmoToolName]
+  - name: DataAmount
+    type: link
+    targets: [WKSCosmoToolDataAmount]

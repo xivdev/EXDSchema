@@ -4,3 +4,7 @@ fields:
     pendingName: Name
   - name: Unknown1
     pendingName: MenuOrder
+
+pendingFields:
+  - name: Name
+  - name: MenuOrder
