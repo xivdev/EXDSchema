@@ -11,6 +11,7 @@ fields:
     type: link
     targets: [MJIItemPouch]
   - name: Unknown0
+    pendingName: Yield
   - name: Material
     type: array
     count: 5
