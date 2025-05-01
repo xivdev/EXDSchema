@@ -1,6 +1,10 @@
 name: WKSItemInfo
 fields:
-  - name: Unknown0
+  - name: Item
+    type: link
+    targets: [Item]
   - name: Unknown1
   - name: Unknown2
-  - name: Unknown3
+  - name: WKSItemSubCategory
+    type: link
+    targets: [WKSItemSubCategory]

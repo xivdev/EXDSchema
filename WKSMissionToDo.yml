@@ -3,12 +3,15 @@ fields:
   - name: Unknown0
   - name: Unknown1
   - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown5
-  - name: Unknown6
-  - name: Unknown7
-  - name: Unknown8
+  - name: RequiredItem
+    type: array
+    count: 3
+    fields:
+      - type: link
+        targets: [WKSItemInfo]
+  - name: RequiredItemQuantity
+    type: array
+    count: 3
   - name: Unknown9
   - name: Unknown10
   - name: Unknown11
@@ -19,3 +22,4 @@ fields:
   - name: Unknown16
   - name: Unknown17
   - name: Unknown18
+  - name: Unknown19

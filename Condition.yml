@@ -3,6 +3,10 @@ fields:
   - name: LogMessage
     type: link
     targets: [LogMessage]
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
+  - name: Permission
+    type: link
+    targets: [Permission]
+  - name: LogMessagePriority
+    comment: The lower this number is, the higher the priority. Used to determine which conditions LogMessage should be printed.
+  - name: IsNetworked
+    comment: Allows this Condition to be set by a packet received from the server.

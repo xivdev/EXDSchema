@@ -1,4 +1,4 @@
 name: WKSItemSubCategory
 fields:
-  - name: Unknown0
-  - name: Unknown1
+  - name: Name
+  - name: MenuOrder
