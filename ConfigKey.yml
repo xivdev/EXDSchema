@@ -6,5 +6,7 @@ fields:
   - name: Param
   - name: Platform
   - name: Category
-  - name: Unknown1
+  - name: BacklightColor
+    type: link
+    targets: [BacklightColor]
   - name: Required
