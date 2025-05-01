@@ -1,8 +1,5 @@
 name: WKSMissionToDoEvalutionItem
 fields:
-  - name: Unknown0
-    pendingName: Item
-pendingFields:
   - name: Item
     type: link
     targets: [WKSItemInfo]

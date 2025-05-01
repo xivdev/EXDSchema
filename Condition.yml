@@ -3,16 +3,6 @@ fields:
   - name: LogMessage
     type: link
     targets: [LogMessage]
-  - name: Unknown0
-    pendingName: Permission
-  - name: Unknown1
-    pendingName: LogMessagePriority
-  - name: Unknown2
-    pendingName: IsNetworked
-pendingFields:
-  - name: LogMessage
-    type: link
-    targets: [LogMessage]
   - name: Permission
     type: link
     targets: [Permission]

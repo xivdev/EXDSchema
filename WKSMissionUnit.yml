@@ -1,26 +1,29 @@
 name: WKSMissionUnit
 fields:
-  - name: Unknown0
-    pendingName: Name
-  - name: Unknown1
-  - name: Unknown2
+  - name: Name
+  - name: ClassJobCategory
+    type: array
+    count: 2
+    fields:
+      - type: link
+        targets: [ClassJobCategory]
   - name: Unknown3
     pendingName: MissionTime
   - name: Unknown4
     pendingName: MissionReward
-  - name: Unknown5
-    pendingName: SilverStarRequirement
-  - name: Unknown6
-    pendingName: GoldStarRequirement
+  - name: SilverStarRequirement
+  - name: GoldStarRequirement
   - name: Unknown7
   - name: Unknown8
   - name: Unknown9
   - name: Unknown10
     pendingName: LockedBehind
-  - name: Unknown11
-    pendingName: WKSMissionSupplyItem
-  - name: Unknown12
-    pendingName: WKSMissionRecipe
+  - name: WKSMissionSupplyItem
+    type: link
+    targets: [WKSMissionSupplyItem]
+  - name: WKSMissionRecipe
+    type: link
+    targets: [WKSMissionRecipe]
   - name: Unknown13
     pendingName: PlaceName
   - name: Unknown14

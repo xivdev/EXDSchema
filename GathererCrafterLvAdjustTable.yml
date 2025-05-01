@@ -1,15 +1,5 @@
 name: GathererCrafterLvAdjustTable
 fields:
-  - name: Unknown0
-    pendingName: RecipeLevel
-  - name: Unknown1
-  - name: Unknown2
-    pendingName: CrafterLevel
-  - name: Unknown3
-    pendingName: GathererLevel
-  - name: Unknown4
-    pendingName: FisherLevel
-pendingFields:
   - name: RecipeLevel
     type: link
     targets: [RecipeLevelTable]
