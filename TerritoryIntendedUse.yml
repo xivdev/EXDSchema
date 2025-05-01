@@ -1,8 +1,7 @@
 name: TerritoryIntendedUse
 fields:
   - name: Unknown0
-  - name: Unknown1
-    pendingName: GayaSoundId
+  - name: GayaSoundId
     comment: "Ambient noise of people talking in a crowd. Values: 0 = None, 1 = sound/strm/GAYA_LestArea_01.scd, 2 = sound/strm/GAYA_Village_01.scd"
   - name: ChatRule
     type: link
@@ -14,54 +13,40 @@ fields:
   - name: Unknown7
   - name: Unknown8
   - name: Unknown9
-  - name: Unknown10
-    pendingName: EnableCompanion
+  - name: EnableCompanion
     comment: Enables summoning Chocobo Companion
-  - name: Unknown11
-    pendingName: EnablePets
+  - name: EnablePets
     comment: Enables summoning Summoner/Scholar pets
-  - name: Unknown12
-    pendingName: EnableRidePillion
-  - name: Unknown13
-    pendingName: DisableLogoutTimer
+  - name: EnableRidePillion
+  - name: DisableLogoutTimer
   - name: Unknown14
-  - name: Unknown15
-    pendingName: EnableReturn
+  - name: EnableReturn
   - name: Unknown16
   - name: Unknown17
-  - name: Unknown18
-    pendingName: EnableRecommendList
+  - name: EnableRecommendList
   - name: Unknown19
   - name: Unknown20
   - name: Unknown21
     comment: Related to Map in Island Sanctuary, Cosmic Exploration
-  - name: Unknown22
-    pendingName: DisableFieldMarkers
+  - name: DisableFieldMarkers
   - name: Unknown23
-  - name: Unknown24
-    pendingName: EnableActions
+  - name: EnableActions
   - name: Unknown25
   - name: Unknown26
-  - name: Unknown27
-    pendingName: EnableTripleTriadMatches
-  - name: Unknown28
-    pendingName: EnableTripleTriadMatchesAnywhere
+  - name: EnableTripleTriadMatches
+  - name: EnableTripleTriadMatchesAnywhere
   - name: Unknown29
   - name: Unknown30
   - name: Unknown31
     comment: Related to Idle Cam filtering EventNpcs/EventObjs??
-  - name: Unknown32
-    pendingName: CanPauseTimeWeather
+  - name: CanPauseTimeWeather
   - name: Unknown33
-  - name: Unknown34
-    pendingName: EnablePvPQuickChat
+  - name: EnablePvPQuickChat
   - name: Unknown35
   - name: Unknown36
-  - name: Unknown37
-    pendingName: CanApplyGlamourPlatesAnywhere
+  - name: CanApplyGlamourPlatesAnywhere
   - name: Unknown38
-  - name: Unknown39
-    pendingName: EnableFieldMarkerPresets
+  - name: EnableFieldMarkerPresets
   - name: Unknown40
   - name: Unknown41
     comment: Related to blocking Say/Yell/Shout in Eureka/Bozja/Unknown61??

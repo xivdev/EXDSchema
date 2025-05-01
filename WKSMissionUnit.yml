@@ -1,32 +1,5 @@
 name: WKSMissionUnit
 fields:
-  - name: Unknown0
-    pendingName: Item
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown5
-    pendingName: SilverStarRequirement
-  - name: Unknown6
-    pendingName: GoldStarRequirement
-  - name: Unknown7
-  - name: Unknown8
-  - name: Unknown9
-  - name: Unknown10
-  - name: Unknown11
-    pendingName: WKSMissionSupplyItem
-  - name: Unknown12
-    pendingName: WKSMissionRecipe
-  - name: Unknown13
-  - name: Unknown14
-  - name: Unknown15
-  - name: Unknown16
-  - name: Unknown17
-  - name: Unknown18
-  - name: Unknown19
-  - name: Unknown20
-pendingFields:
   - name: Name
   - name: ClassJobCategory
     type: array

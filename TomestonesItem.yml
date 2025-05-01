@@ -7,5 +7,4 @@ fields:
   - name: Tomestones
     type: link
     targets: [Tomestones]
-  - name: Unknown0
-    pendingName: CurrencyInventorySlot
+  - name: CurrencyInventorySlot
