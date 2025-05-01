@@ -27,7 +27,9 @@ fields:
   - name: RecipeLevelTable
     type: link
     targets: [RecipeLevelTable]
-  - name: Unknown0
+  - name: MaxAdjustableJobLevel
+    type: link
+    targets: [GathererCrafterLvAdjustTable]
   - name: RecipeNotebookList
     type: link
     targets: [RecipeNotebookList]

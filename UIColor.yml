@@ -2,6 +2,10 @@ name: UIColor
 displayField: Dark
 fields:
   - name: Dark
+    type: color
   - name: Light
+    type: color
   - name: ClassicFF
+    type: color
   - name: ClearBlue
+    type: color
