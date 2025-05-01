@@ -1,8 +1,25 @@
 name: WKSDevGrade
 fields:
   - name: Unknown0
+    pendingName: Stage
   - name: Unknown1
+    pendingName: IndexText
   - name: Unknown2
+    pendingName: IndexNpc
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown7
+  - name: Unknown8
+  - name: Unknown9
+  - name: Unknown10
+  - name: Unknown11
+
+pendingFields:
+  - name: Stage
+  - name: IndexText
+  - name: IndexNpc
   - name: Unknown3
   - name: Unknown4
   - name: Unknown5

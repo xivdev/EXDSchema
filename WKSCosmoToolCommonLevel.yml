@@ -1,3 +1,7 @@
 name: WKSCosmoToolCommonLevel
 fields:
   - name: Unknown0
+    pendingName: IsCommon
+
+pendingFields:
+  - name: IsCommon

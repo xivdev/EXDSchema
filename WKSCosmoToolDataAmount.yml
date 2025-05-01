@@ -72,3 +72,15 @@ fields:
   - name: Unknown69
   - name: Unknown70
   - name: Unknown71
+
+pendingFields:
+  - name: Stages
+    type: array
+    count: 9
+    fields:
+      - name: RequiredAmount
+        type: array
+        count: 4
+      - name: MaxAmount
+        type: array
+        count: 4

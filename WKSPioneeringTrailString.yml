@@ -1,5 +1,13 @@
 name: WKSPioneeringTrailString
 fields:
   - name: Unknown0
+    pendingName: DevelopmentLogText
   - name: Unknown1
+    pendingName: DevelopmentLogName
   - name: Unknown2
+    pendingName: DevelopmentLogDescription
+
+pendingFields:
+  - name: DevelopmentLogText
+  - name: DevelopmentLogName
+  - name: DevelopmentLogDescription
