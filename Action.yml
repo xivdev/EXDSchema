@@ -27,7 +27,9 @@ fields:
     targets: [Action]
   - name: Cast100ms
   - name: Recast100ms
-  - name: Unknown26
+  - name: ActionProcStatus
+    type: link
+    targets: [ActionProcStatus]
   - name: StatusGainSelf
     type: link
     targets: [Status]
@@ -59,9 +61,7 @@ fields:
   - name: CooldownGroup
   - name: AdditionalCooldownGroup
   - name: MaxCharges
-  - name: ActionProcStatus
-    type: link
-    targets: [ActionProcStatus]
+  - name: Aspect
   - name: Unknown4
   - name: ClassJobCategory
     type: link

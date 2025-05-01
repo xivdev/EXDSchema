@@ -1,7 +1,8 @@
 name: TerritoryIntendedUse
 fields:
   - name: Unknown0
-  - name: Unknown1
+  - name: GayaSoundId
+    comment: "Ambient noise of people talking in a crowd. Values: 0 = None, 1 = sound/strm/GAYA_LestArea_01.scd, 2 = sound/strm/GAYA_Village_01.scd"
   - name: ChatRule
     type: link
     targets: [TerritoryChatRule]
@@ -12,35 +13,40 @@ fields:
   - name: Unknown7
   - name: Unknown8
   - name: Unknown9
-  - name: Unknown10
-  - name: Unknown11
-  - name: Unknown12
-  - name: Unknown13
+  - name: EnableCompanion
+    comment: Enables summoning Chocobo Companion
+  - name: EnablePets
+    comment: Enables summoning Summoner/Scholar pets
+  - name: EnableRidePillion
+  - name: DisableLogoutTimer
   - name: Unknown14
-  - name: Unknown15
+  - name: EnableReturn
   - name: Unknown16
   - name: Unknown17
-  - name: Unknown18
+  - name: EnableRecommendList
   - name: Unknown19
   - name: Unknown20
   - name: Unknown21
-  - name: Unknown22
+    comment: Related to Map in Island Sanctuary, Cosmic Exploration
+  - name: DisableFieldMarkers
   - name: Unknown23
-  - name: Unknown24
+  - name: EnableActions
   - name: Unknown25
   - name: Unknown26
-  - name: Unknown27
-  - name: Unknown28
+  - name: EnableTripleTriadMatches
+  - name: EnableTripleTriadMatchesAnywhere
   - name: Unknown29
   - name: Unknown30
   - name: Unknown31
-  - name: Unknown32
+    comment: Related to Idle Cam filtering EventNpcs/EventObjs??
+  - name: CanPauseTimeWeather
   - name: Unknown33
-  - name: Unknown34
+  - name: EnablePvPQuickChat
   - name: Unknown35
   - name: Unknown36
-  - name: Unknown37
+  - name: CanApplyGlamourPlatesAnywhere
   - name: Unknown38
-  - name: Unknown39
+  - name: EnableFieldMarkerPresets
   - name: Unknown40
   - name: Unknown41
+    comment: Related to blocking Say/Yell/Shout in Eureka/Bozja/Unknown61??
