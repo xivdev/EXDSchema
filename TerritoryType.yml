@@ -56,6 +56,90 @@ fields:
     targets: [ExVersion]
   - name: Unknown2
   - name: Unknown3
+    pendingName: ZoneSharedGroup
+  - name: AetherCurrentCompFlgSet
+    type: link
+    targets: [AetherCurrentCompFlgSet]
+  - name: MountSpeed
+    type: link
+    targets: [MountSpeed]
+  - name: IndividualWeather
+    type: link
+    targets: [IndividualWeather]
+  - name: AchievementIndex
+  - name: Unknown6
+  - name: Unknown7
+  - name: PCSearch
+  - name: Stealth
+  - name: Mount
+  - name: Unknown8
+  - name: IsPvpZone
+  - name: Unknown9
+  - name: Unknown10
+  - name: Unknown11
+  - name: Unknown12
+  - name: Unknown13
+  - name: Unknown14
+  - name: Unknown15
+  - name: Unknown16
+pendingFields:
+  - name: Name
+  - name: Bg
+  - name: ArrayEventHandler
+    type: link
+    targets: [ArrayEventHandler]
+  - name: PlaceNameRegionIcon
+    type: icon
+  - name: PlaceNameIcon
+    type: icon
+  - name: Aetheryte
+    type: link
+    targets: [Aetheryte]
+  - name: FixedTime
+  - name: PlaceNameRegion
+    type: link
+    targets: [PlaceName]
+  - name: PlaceNameZone
+    type: link
+    targets: [PlaceName]
+  - name: PlaceName
+    type: link
+    targets: [PlaceName]
+  - name: Map
+    type: link
+    targets: [Map]
+  - name: ContentFinderCondition
+    type: link
+    targets: [ContentFinderCondition]
+  - name: BGM
+    type: link
+    targets: [BGM, BGMSituation]
+  - name: QuestBattle
+    type: link
+    targets: [QuestBattle]
+  - name: Resident
+  - name: NotoriousMonsterTerritory
+    type: link
+    targets: [NotoriousMonsterTerritory]
+  - name: BattalionMode
+  - name: LoadingImage
+    type: link
+    targets: [LoadingImage]
+  - name: ExclusiveType
+  - name: TerritoryIntendedUse
+    type: link
+    targets: [TerritoryIntendedUse]
+  - name: WeatherRate
+    type: link
+    targets: [WeatherRate]
+  - name: Unknown1
+  - name: ExVersion
+    type: link
+    targets: [ExVersion]
+  - name: Unknown2
+  - name: ZoneSharedGroup
+    type: link
+    targets: [ZoneSharedGroup]
   - name: AetherCurrentCompFlgSet
     type: link
     targets: [AetherCurrentCompFlgSet]
