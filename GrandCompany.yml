@@ -13,6 +13,15 @@ fields:
   - name: Unknown8
     pendingName: MonsterNote
 pendingFields:
+  - name: Name
+  - name: Unknown0
+  - name: Unknown1
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown7
   - name: MonsterNote
     type: link
     targets: [MonsterNote]
