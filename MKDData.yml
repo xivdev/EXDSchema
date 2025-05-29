@@ -10,3 +10,30 @@ fields:
   - name: Unknown7
   - name: Unknown8
   - name: Unknown9
+pendingFields:
+  - name: Quest
+    type: link
+    targets: [Quest]
+  - name: ZoneName
+    type: link
+    targets: [Addon]
+  - name: CurrencyItem
+    type: array
+    count: 2
+    fields:
+      - type: link
+        targets: [Item]
+  - name: CipherItem
+    type: link
+    targets: [Item]
+  - name: CurrencyName
+    type: array
+    count: 2
+    fields:
+      - type: link
+        targets: [Addon]
+  - name: CipherName
+    type: link
+    targets: [Addon]
+  - name: Unknown8 # Minimum Knowledge Level?
+  - name: Unknown9
