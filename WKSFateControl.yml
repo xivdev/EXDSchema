@@ -1,10 +1,4 @@
 name: WKSFateControl
 fields:
-  - name: Unknown0
-    pendingName: StartupText
-  - name: Unknown1
-    pendingName: RunningText
-
-pendingFields:
   - name: StartupText
   - name: RunningText

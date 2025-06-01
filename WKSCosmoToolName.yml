@@ -1,16 +1,5 @@
 name: WKSCosmoToolName
 fields:
-  - name: Unknown0
-    pendingName: Name
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown5
-  - name: Unknown6
-  - name: Unknown7
-
-pendingFields:
   - name: Name
   - name: Unknown1
   - name: Unknown2
