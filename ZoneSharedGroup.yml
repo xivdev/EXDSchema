@@ -1,38 +1,26 @@
 name: ZoneSharedGroup
 fields:
   - name: LGBSharedGroup
-  - name: Quest0
-    type: link
-    targets: [Quest]
-  - name: Quest1
-    type: link
-    targets: [Quest]
-  - name: Quest2
-    type: link
-    targets: [Quest]
-  - name: Quest3
-    type: link
-    targets: [Quest]
-  - name: Quest4
-    type: link
-    targets: [Quest]
-  - name: Quest5
-    type: link
-    targets: [Quest]
+  - name: RequirementRow
+    type: array
+    count: 6
+    fields:
+      - type: link
+        targets: [Quest, AetherCurrent, EurekaStoryProgress, DomaStoryProgress]
   - name: Unknown0
-  - name: Seq0
-  - name: Seq1
-  - name: Seq2
-  - name: Seq3
-  - name: Seq4
-  - name: Seq5
+  - name: RequirementQuestSequence
+    type: array
+    count: 6
   - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown5
-  - name: Unknown6
-  - name: Unknown7
+  - name: RequirementType
+    comment: |
+      1 = Quest
+      2 = Quest with specific Sequence
+      3 = AetherCurrent
+      4 = EurekaStoryProgress
+      5 = DomaStoryProgress
+    type: array
+    count: 6
   - name: Unknown8
   - name: Unknown9
   - name: Unknown10
