@@ -9,7 +9,9 @@ fields:
   - name: AdventureEnd
     type: link
     targets: [Adventure]
-  - name: Unknown0
+  - name: AllVistasCompletedScreenImage
+    type: link
+    targets: [ScreenImage]
   - name: Expansion
     type: link
     targets: [ExVersion]
