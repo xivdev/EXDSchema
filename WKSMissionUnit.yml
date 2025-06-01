@@ -7,25 +7,40 @@ fields:
     fields:
       - type: link
         targets: [ClassJobCategory]
-  - name: Unknown3
-  - name: Unknown4
+  - name: MissionTime
+  - name: MissionReward
+    type: link
+    targets: [WKSMissionReward]
   - name: SilverStarRequirement
   - name: GoldStarRequirement
-  - name: Unknown7
-  - name: Unknown8
-  - name: Unknown9
-  - name: Unknown10
+  - name: MissionToDo
+    type: array
+    count: 3
+    fields:
+      - type: link
+        targets: [WKSMissionToDo]
+  - name: LockedBehind
+    type: link
+    targets: [WKSMissionUnit]
   - name: WKSMissionSupplyItem
     type: link
     targets: [WKSMissionSupplyItem]
   - name: WKSMissionRecipe
     type: link
     targets: [WKSMissionRecipe]
-  - name: Unknown13
-  - name: Unknown14
-  - name: Unknown15
-  - name: Unknown16
-  - name: Unknown17
-  - name: Unknown18
-  - name: Unknown19
-  - name: Unknown20
+  - name: PlaceName
+    type: link
+    targets: [PlaceName]
+  - name: SortKey
+  - name: WKSMissionText
+    type: link
+    targets: [WKSMissionText]
+  - name: WKSFunction
+    type: link
+    targets: [WKSFunction]
+  - name: LevelGroup
+  - name: WKSMissionLotterySpecialCond
+    type: link
+    targets: [WKSMissionLotterySpecialCond]
+  - name: IsSynced
+  - name: IsSpecialQuest

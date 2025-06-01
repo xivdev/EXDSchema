@@ -1,6 +1,6 @@
 name: WKSCosmoToolName
 fields:
-  - name: Unknown0
+  - name: Name
   - name: Unknown1
   - name: Unknown2
   - name: Unknown3

@@ -55,7 +55,9 @@ fields:
     type: link
     targets: [ExVersion]
   - name: Unknown2
-  - name: Unknown3
+  - name: ZoneSharedGroup
+    type: link
+    targets: [ZoneSharedGroup]
   - name: AetherCurrentCompFlgSet
     type: link
     targets: [AetherCurrentCompFlgSet]
