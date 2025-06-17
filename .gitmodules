@@ -58,3 +58,7 @@
 	path = schemas/2025.04.16.0000.0000
 	url = https://github.com/xivdev/EXDSchema.git
 	branch = ver/2025.04.16.0000.0000
+[submodule "schemas/2025.06.10.0000.0000"]
+	path = schemas/2025.06.10.0000.0000
+	url = https://github.com/xivdev/EXDSchema.git
+	branch = ver/2025.06.10.0000.0000
