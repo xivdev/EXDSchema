@@ -6,6 +6,7 @@ fields:
   - name: Unknown3
   - name: Unknown4
   - name: Unknown5
+  - name: Unknown15
   - name: Unknown6
   - name: TanksPerParty
   - name: HealersPerParty
