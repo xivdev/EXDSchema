@@ -24,7 +24,7 @@ If not, parsing should fail.
 
 We can define fields like this:
 ```yml
-type: sheet
+name: AozActionTransient
 fields:
   - name: Stats
   - name: Description
