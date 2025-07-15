@@ -9,21 +9,6 @@ fields:
   - name: AdventureEnd
     type: link
     targets: [Adventure]
-  - name: Unknown0
-    pendingName: AllVistasCompletedScreenImage
-  - name: Expansion
-    type: link
-    targets: [ExVersion]
-pendingFields:
-  - name: Quest
-    type: link
-    targets: [Quest]
-  - name: AdventureBegin
-    type: link
-    targets: [Adventure]
-  - name: AdventureEnd
-    type: link
-    targets: [Adventure]
   - name: AllVistasCompletedScreenImage
     type: link
     targets: [ScreenImage]
