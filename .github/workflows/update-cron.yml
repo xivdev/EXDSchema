@@ -34,11 +34,13 @@ jobs:
         uses: actions/cache@v4
         with:
           path: data
-          key: exd-latest
+          key: exd-latest-${{hashFiles('data/.cachemeta.json')}}
+          restore-keys: |
+            exd-latest-
       
       - name: Download Latest Game Data
         id: downloader
-        uses: WorkingRobot/ffxiv-downloader@v3
+        uses: WorkingRobot/ffxiv-downloader@v5
         with:
           output-path: data
           regex: '^sqpack\/ffxiv\/0a0000\..+$'
@@ -87,4 +89,3 @@ jobs:
       - name: Push new submodule
         if: steps.hash-columns-old.outputs.hash != steps.hash-columns-new.outputs.hash
         run: git push origin main
-
