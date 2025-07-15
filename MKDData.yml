@@ -35,5 +35,6 @@ pendingFields:
   - name: CipherName
     type: link
     targets: [Addon]
-  - name: Unknown8 # Minimum Knowledge Level?
+  - name: Unknown8
+    comment: 'Minimum Knowledge Level?'
   - name: Unknown9
