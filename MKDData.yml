@@ -1,12 +1,29 @@
 name: MKDData
 fields:
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown5
-  - name: Unknown6
-  - name: Unknown7
+  - name: Quest
+    type: link
+    targets: [Quest]
+  - name: ZoneName
+    type: link
+    targets: [Addon]
+  - name: CurrencyItem
+    type: array
+    count: 2
+    fields:
+      - type: link
+        targets: [Item]
+  - name: CipherItem
+    type: link
+    targets: [Item]
+  - name: CurrencyName
+    type: array
+    count: 2
+    fields:
+      - type: link
+        targets: [Addon]
+  - name: CipherName
+    type: link
+    targets: [Addon]
   - name: Unknown8
+    comment: 'Minimum Knowledge Level?'
   - name: Unknown9
