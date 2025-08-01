@@ -8,6 +8,8 @@ fields:
     type: link
     targets: [Quest]
   - name: Unknown0
+    type: link
+    targets: [Quest]
   - name: QuestRedoUISmall
     type: icon
   - name: QuestRedoUILarge
