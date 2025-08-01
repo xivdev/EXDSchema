@@ -3,28 +3,6 @@ displayField: Unknown2
 fields:
   - name: Unknown0
   - name: Unknown1
-  - name: Unknown2
-    comment: Will be a link to AkatsukiNoteString in the future
-    pendingName: ListName
-  - name: Unknown3
-    comment: Will be a link to Quest in the future
-    pendingName: UnlockOnQuest
-  - name: Unknown4
-  - name: Unknown5
-    comment: Will be a link to AkatsukiNoteString in the future
-    pendingName: Title
-  - name: Unknown6
-    comment: Will be of type Icon in the future
-    pendingName: Icon
-  - name: Unknown7
-    comment: Will be a link to AkatsukiNoteString in the future
-    pendingName: Subtitle
-  - name: Unknown8
-    comment: Will be a link to AkatsukiNoteString in the future
-    pendingName: Text
-pendingFields:
-  - name: Unknown0
-  - name: Unknown1
   - name: ListName
     type: link
     targets: [AkatsukiNoteString]

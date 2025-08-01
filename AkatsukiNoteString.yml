@@ -1,7 +1,4 @@
 name: AkatsukiNoteString
 displayField: Unknown0
 fields:
-  - name: Unknown0
-    pendingName: Text
-pendingFields:
   - name: Text
