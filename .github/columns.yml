@@ -649,7 +649,7 @@ AirshipSkyIsland:
     offset: 3
   - type: uint8
     offset: 5
-AkatsukiNote:
+AkatsukiNote@Subrow:
   - type: int32
     offset: 0
   - type: int32
@@ -719,7 +719,7 @@ AnimaWeapon5Param:
 AnimaWeapon5PatternGroup:
   - type: string
     offset: 0
-AnimaWeapon5SpiritTalk:
+AnimaWeapon5SpiritTalk@Subrow:
   - type: int32
     offset: 0
 AnimaWeapon5SpiritTalkParam:
@@ -787,7 +787,7 @@ AnimaWeapon5TradeItem:
     offset: 45
   - type: uint8
     offset: 46
-AnimaWeaponFUITalk:
+AnimaWeaponFUITalk@Subrow:
   - type: int32
     offset: 0
 AnimaWeaponFUITalkParam:
@@ -881,7 +881,7 @@ AozActionTransient:
     offset: 25
   - type: packedbool3
     offset: 25
-AOZArrangement:
+AOZArrangement@Subrow:
   - type: uint16
     offset: 0
   - type: uint16
@@ -981,7 +981,7 @@ AOZContentBriefingBNpc:
     offset: 24
   - type: packedbool2
     offset: 24
-AOZContentBriefingObject:
+AOZContentBriefingObject@Subrow:
   - type: uint32
     offset: 0
   - type: uint16
@@ -1036,7 +1036,7 @@ AquariumWater:
     offset: 4
   - type: string
     offset: 0
-ArchiveItem:
+ArchiveItem@Subrow:
   - type: int32
     offset: 0
   - type: uint16
@@ -1922,7 +1922,7 @@ BeastTribe:
     offset: 17
   - type: string
     offset: 8
-Behavior:
+Behavior@Subrow:
   - type: uint8
     offset: 24
   - type: uint8
@@ -2122,7 +2122,7 @@ BGMSituation:
     offset: 6
   - type: uint16
     offset: 8
-BGMSwitch:
+BGMSwitch@Subrow:
   - type: uint8
     offset: 6
   - type: uint32
@@ -9959,7 +9959,7 @@ ClassJobCategory:
     offset: 43
   - type: bool
     offset: 44
-ClassJobResident:
+ClassJobResident@Subrow:
   - type: uint32
     offset: 0
 CollectablesShop:
@@ -9991,7 +9991,7 @@ CollectablesShop:
     offset: 26
   - type: uint16
     offset: 28
-CollectablesShopItem:
+CollectablesShopItem@Subrow:
   - type: uint32
     offset: 0
   - type: uint8
@@ -11147,7 +11147,7 @@ ContentCloseCycle:
     offset: 20
   - type: bool
     offset: 21
-ContentDirectorManagedSG:
+ContentDirectorManagedSG@Subrow:
   - type: int32
     offset: 0
 ContentEffectiveTime:
@@ -11156,7 +11156,7 @@ ContentEffectiveTime:
 ContentEntry:
   - type: string
     offset: 0
-ContentEventItem:
+ContentEventItem@Subrow:
   - type: uint32
     offset: 0
 ContentExAction:
@@ -11450,7 +11450,7 @@ ContentNpcTalk:
     offset: 24
   - type: uint32
     offset: 28
-ContentRandomSelect:
+ContentRandomSelect@Subrow:
   - type: uint16
     offset: 0
 ContentRewardCondition:
@@ -11661,7 +11661,7 @@ ContentTalkParam:
     offset: 7
   - type: uint8
     offset: 5
-ContentTodo:
+ContentTodo@Subrow:
   - type: uint8
     offset: 4
   - type: uint32
@@ -11672,7 +11672,7 @@ ContentTodo:
     offset: 6
   - type: packedbool0
     offset: 7
-ContentTourismConstruct:
+ContentTourismConstruct@Subrow:
   - type: uint8
     offset: 52
   - type: uint32
@@ -11876,7 +11876,7 @@ CraftType:
     offset: 5
   - type: string
     offset: 0
-Credit:
+Credit@Subrow:
   - type: uint8
     offset: 20
   - type: uint16
@@ -11899,7 +11899,7 @@ Credit:
     offset: 16
   - type: uint16
     offset: 18
-CreditBackImage:
+CreditBackImage@Subrow:
   - type: uint16
     offset: 4
   - type: uint16
@@ -11947,7 +11947,7 @@ CreditFont:
     offset: 7
   - type: int8
     offset: 8
-CreditList:
+CreditList@Subrow:
   - type: uint16
     offset: 12
   - type: uint32
@@ -12134,12 +12134,12 @@ CustomTalk:
     offset: 265
   - type: packedbool2
     offset: 267
-CustomTalkDefineClient:
+CustomTalkDefineClient@Subrow:
   - type: string
     offset: 0
   - type: uint32
     offset: 4
-CustomTalkNestHandlers:
+CustomTalkNestHandlers@Subrow:
   - type: uint32
     offset: 0
 CustomTalkResident:
@@ -12217,7 +12217,7 @@ CutsceneEventMotion:
     offset: 40
   - type: float32
     offset: 44
-CutSceneIncompQuest:
+CutSceneIncompQuest@Subrow:
   - type: uint32
     offset: 0
 CutsceneMotion:
@@ -12347,7 +12347,7 @@ DawnContent:
     offset: 48
   - type: uint32
     offset: 52
-DawnContentParticipable:
+DawnContentParticipable@Subrow:
   - type: uint8
     offset: 0
 DawnGrowMember:
@@ -12578,7 +12578,7 @@ DeepDungeonMagicStone:
     offset: 8
   - type: string
     offset: 12
-DeepDungeonMap5X:
+DeepDungeonMap5X@Subrow:
   - type: uint16
     offset: 0
   - type: uint16
@@ -12675,7 +12675,7 @@ Description:
     offset: 21
   - type: uint32
     offset: 16
-DescriptionPage:
+DescriptionPage@Subrow:
   - type: uint8
     offset: 72
   - type: uint32
@@ -12728,7 +12728,7 @@ DescriptionPage:
     offset: 44
   - type: uint16
     offset: 70
-DescriptionSection:
+DescriptionSection@Subrow:
   - type: uint16
     offset: 0
   - type: uint16
@@ -12804,7 +12804,7 @@ DisposalShop:
 DisposalShopFilterType:
   - type: string
     offset: 0
-DisposalShopItem:
+DisposalShopItem@Subrow:
   - type: int32
     offset: 4
   - type: packedbool0
@@ -12930,7 +12930,7 @@ DynamicEventEnemyType:
 DynamicEventManager:
   - type: uint16
     offset: 0
-DynamicEventSet:
+DynamicEventSet@Subrow:
   - type: uint16
     offset: 0
 DynamicEventSingleBattle:
@@ -13262,7 +13262,7 @@ ENpcDressUp:
     offset: 0
   - type: uint8
     offset: 1
-ENpcDressUpDress:
+ENpcDressUpDress@Subrow:
   - type: uint32
     offset: 16
   - type: packedbool0
@@ -13552,7 +13552,7 @@ EurekaAetherItem:
 EurekaAethernet:
   - type: uint16
     offset: 0
-EurekaDungeonPortal:
+EurekaDungeonPortal@Subrow:
   - type: uint32
     offset: 0
 EurekaGrowData:
@@ -14574,7 +14574,7 @@ FittingShopCategory:
     offset: 4
   - type: string
     offset: 0
-FittingShopCategoryItem:
+FittingShopCategoryItem@Subrow:
   - type: int32
     offset: 0
   - type: uint8
@@ -15185,7 +15185,7 @@ GathererCrafterTool:
     offset: 0
   - type: uint8
     offset: 1
-GathererReductionReward:
+GathererReductionReward@Subrow:
   - type: uint16
     offset: 0
   - type: packedbool0
@@ -15220,7 +15220,7 @@ GatheringItemLevelConvertTable:
     offset: 0
   - type: uint8
     offset: 1
-GatheringItemPoint:
+GatheringItemPoint@Subrow:
   - type: uint32
     offset: 0
 GatheringLeve:
@@ -16529,7 +16529,7 @@ GCScripShopCategory:
     offset: 1
   - type: int8
     offset: 2
-GCScripShopItem:
+GCScripShopItem@Subrow:
   - type: int32
     offset: 4
   - type: int32
@@ -16936,7 +16936,7 @@ GilShop:
 GilShopInfo:
   - type: uint32
     offset: 0
-GilShopItem:
+GilShopItem@Subrow:
   - type: int32
     offset: 0
   - type: packedbool0
@@ -17327,7 +17327,7 @@ Guide:
     offset: 0
   - type: uint16
     offset: 2
-GuidePage:
+GuidePage@Subrow:
   - type: uint8
     offset: 4
   - type: uint32
@@ -19765,7 +19765,7 @@ HousingAppeal:
     offset: 4
   - type: uint8
     offset: 8
-HousingEmploymentNpcList:
+HousingEmploymentNpcList@Subrow:
   - type: uint8
     offset: 8
   - type: uint32
@@ -20431,7 +20431,7 @@ HousingLandSet:
     offset: 1200
   - type: uint32
     offset: 1204
-HousingMapMarkerInfo:
+HousingMapMarkerInfo@Subrow:
   - type: float32
     offset: 0
   - type: float32
@@ -21511,7 +21511,7 @@ HWDDevLevelWebText:
     offset: 0
   - type: string
     offset: 4
-HWDDevLively:
+HWDDevLively@Subrow:
   - type: uint32
     offset: 0
   - type: uint16
@@ -22667,12 +22667,12 @@ HWDInfoBoardBackNumber:
 HWDLevelChangeDeception:
   - type: int32
     offset: 0
-HWDSharedGroup:
+HWDSharedGroup@Subrow:
   - type: uint32
     offset: 0
   - type: uint8
     offset: 4
-HWDSharedGroupControlParam:
+HWDSharedGroupControlParam@Subrow:
   - type: uint8
     offset: 0
   - type: uint8
@@ -22835,7 +22835,7 @@ InclusionShopCategory:
     offset: 6
   - type: uint16
     offset: 4
-InclusionShopSeries:
+InclusionShopSeries@Subrow:
   - type: uint32
     offset: 0
 InclusionShopWelcom:
@@ -23330,7 +23330,7 @@ ItemActionTelepo:
     offset: 0
   - type: uint32
     offset: 4
-ItemBarterCheck:
+ItemBarterCheck@Subrow:
   - type: uint16
     offset: 8
   - type: uint32
@@ -24414,7 +24414,7 @@ MapExclusive:
     offset: 2
   - type: uint16
     offset: 0
-MapMarker:
+MapMarker@Subrow:
   - type: int16
     offset: 6
   - type: int16
@@ -24462,7 +24462,7 @@ MapMarkerRegion:
     offset: 18
   - type: packedbool0
     offset: 21
-MapReplace:
+MapReplace@Subrow:
   - type: uint32
     offset: 0
   - type: uint8
@@ -24709,7 +24709,7 @@ MiniGameRA:
     offset: 40
   - type: uint8
     offset: 41
-MiniGameRANotes:
+MiniGameRANotes@Subrow:
   - type: uint32
     offset: 0
   - type: uint16
@@ -24819,7 +24819,7 @@ MiniGameTurnBreakEnemy:
     offset: 50
   - type: uint8
     offset: 51
-MiniGameTurnBreakPop:
+MiniGameTurnBreakPop@Subrow:
   - type: uint8
     offset: 2
   - type: uint8
@@ -24912,7 +24912,7 @@ MJIAnimals:
     offset: 8
   - type: int32
     offset: 12
-MJIBuilding:
+MJIBuilding@Subrow:
   - type: uint8
     offset: 22
   - type: uint16
@@ -25485,7 +25485,7 @@ MJILandmarkPlace:
     offset: 12
   - type: int16
     offset: 14
-MJILivelyActor:
+MJILivelyActor@Subrow:
   - type: uint32
     offset: 16
   - type: uint16
@@ -25625,7 +25625,7 @@ MJIStockyardManagementArea:
     offset: 3
   - type: uint16
     offset: 0
-MJIStockyardManagementTable:
+MJIStockyardManagementTable@Subrow:
   - type: uint8
     offset: 0
 MJIText:
@@ -25648,7 +25648,7 @@ MJIVillageAppearanceSG:
     offset: 16
   - type: uint32
     offset: 24
-MJIVillageAppearanceUI:
+MJIVillageAppearanceUI@Subrow:
   - type: int32
     offset: 0
   - type: uint16
@@ -25686,7 +25686,7 @@ MJIVillageDevelopment:
     offset: 33
   - type: uint8
     offset: 34
-MobHuntOrder:
+MobHuntOrder@Subrow:
   - type: uint16
     offset: 0
   - type: uint8
@@ -26165,7 +26165,7 @@ MultipleHelp:
     offset: 0
   - type: string
     offset: 4
-MultipleHelpPage:
+MultipleHelpPage@Subrow:
   - type: uint16
     offset: 0
 MultipleHelpString:
@@ -27631,7 +27631,7 @@ PvPAction:
     offset: 12
   - type: uint8
     offset: 9
-PvPActionSort:
+PvPActionSort@Subrow:
   - type: uint8
     offset: 6
   - type: uint16
@@ -31930,7 +31930,7 @@ QuestChapter:
     offset: 0
   - type: uint16
     offset: 4
-QuestClassJobReward:
+QuestClassJobReward@Subrow:
   - type: uint8
     offset: 32
   - type: uint32
@@ -31981,7 +31981,7 @@ QuestClassJobReward:
     offset: 47
   - type: bool
     offset: 48
-QuestClassJobSupply:
+QuestClassJobSupply@Subrow:
   - type: uint8
     offset: 8
   - type: uint8
@@ -31999,7 +31999,7 @@ QuestCustomTodo:
     offset: 0
   - type: uint8
     offset: 2
-QuestDefineClient:
+QuestDefineClient@Subrow:
   - type: string
     offset: 0
   - type: uint32
@@ -32028,7 +32028,7 @@ QuestEffect:
     offset: 32
   - type: uint32
     offset: 36
-QuestEffectDefine:
+QuestEffectDefine@Subrow:
   - type: uint16
     offset: 0
 QuestEffectType:
@@ -32039,7 +32039,7 @@ QuestEquipModel:
     offset: 8
   - type: uint64
     offset: 0
-QuestEventAreaEntranceInfo:
+QuestEventAreaEntranceInfo@Subrow:
   - type: uint32
     offset: 0
   - type: uint8
@@ -32049,7 +32049,7 @@ QuestEventAreaEntranceInfo:
 QuestHideReward:
   - type: packedbool0
     offset: 0
-QuestLinkMarker:
+QuestLinkMarker@Subrow:
   - type: uint32
     offset: 0
   - type: uint32
@@ -32260,7 +32260,7 @@ QuestRedoChapterUITab:
     offset: 8
   - type: string
     offset: 0
-QuestRedoIncompChapter:
+QuestRedoIncompChapter@Subrow:
   - type: uint16
     offset: 0
 QuestRepeatFlag:
@@ -32274,7 +32274,7 @@ QuestRewardOther:
 QuestSelectTitle:
   - type: uint32
     offset: 0
-QuestSetDefine:
+QuestSetDefine@Subrow:
   - type: uint32
     offset: 0
 QuestStatusParam:
@@ -32368,15 +32368,15 @@ RacingChocoboNameInfo:
 RacingChocoboParam:
   - type: string
     offset: 0
-RaidFinderParam:
+RaidFinderParam@Subrow:
   - type: packedbool0
     offset: 0
-ReactionEventObject:
+ReactionEventObject@Subrow:
   - type: uint32
     offset: 0
   - type: uint32
     offset: 4
-ReactionEventObjectInfo:
+ReactionEventObjectInfo@Subrow:
   - type: uint32
     offset: 0
 RecastNavimesh:
@@ -33133,7 +33133,7 @@ RelicNoteCategory:
     offset: 4
   - type: string
     offset: 0
-Resident:
+Resident@Subrow:
   - type: uint8
     offset: 14
   - type: uint64
@@ -33504,7 +33504,7 @@ RideShooting:
     offset: 277
   - type: uint8
     offset: 317
-RideShootingScheduler:
+RideShootingScheduler@Subrow:
   - type: uint8
     offset: 16
   - type: uint32
@@ -33528,7 +33528,7 @@ RideShootingTarget:
     offset: 8
   - type: uint8
     offset: 14
-RideShootingTargetScheduler:
+RideShootingTargetScheduler@Subrow:
   - type: uint8
     offset: 16
   - type: uint32
@@ -33571,7 +33571,7 @@ RPParameter:
     offset: 2
   - type: uint8
     offset: 3
-SatisfactionArbitration:
+SatisfactionArbitration@Subrow:
   - type: uint8
     offset: 4
   - type: uint8
@@ -33778,7 +33778,7 @@ SatisfactionNpc:
     offset: 231
   - type: uint8
     offset: 232
-SatisfactionSupply:
+SatisfactionSupply@Subrow:
   - type: uint8
     offset: 16
   - type: uint8
@@ -33832,7 +33832,7 @@ SatisfactionSupplyReward:
     offset: 24
   - type: uint16
     offset: 26
-SatisfactionSupplyRewardExp:
+SatisfactionSupplyRewardExp@Subrow:
   - type: uint8
     offset: 0
   - type: uint8
@@ -33863,7 +33863,7 @@ ScenarioTreeTips:
     offset: 8
   - type: uint32
     offset: 4
-ScenarioTreeTipsClassQuest:
+ScenarioTreeTipsClassQuest@Subrow:
   - type: uint32
     offset: 0
   - type: uint16
@@ -34546,7 +34546,7 @@ SequentialEvent:
     offset: 1004
   - type: uint16
     offset: 1020
-SequentialEventMultipleRange:
+SequentialEventMultipleRange@Subrow:
   - type: uint32
     offset: 0
   - type: packedbool0
@@ -35086,7 +35086,7 @@ SnipeCollision:
 SnipeElementId:
   - type: int8
     offset: 0
-SnipeHitEvent:
+SnipeHitEvent@Subrow:
   - type: uint8
     offset: 6
   - type: uint16
@@ -42491,7 +42491,7 @@ SwitchTalk:
     offset: 0
   - type: packedbool0
     offset: 4
-SwitchTalkVariation:
+SwitchTalkVariation@Subrow:
   - type: uint32
     offset: 0
   - type: uint32
@@ -42500,7 +42500,7 @@ SwitchTalkVariation:
     offset: 12
   - type: uint32
     offset: 8
-SystemGraphicPreset:
+SystemGraphicPreset@Subrow:
   - type: int8
     offset: 0
   - type: int8
@@ -43147,7 +43147,7 @@ TreasureHuntTexture:
 TreasureModel:
   - type: string
     offset: 0
-TreasureSpot:
+TreasureSpot@Subrow:
   - type: int32
     offset: 8
   - type: float32
@@ -43539,10 +43539,10 @@ VVDNotebookSeries:
     offset: 44
   - type: int32
     offset: 48
-VVDRouteData:
+VVDRouteData@Subrow:
   - type: uint16
     offset: 0
-VVDVariantAction:
+VVDVariantAction@Subrow:
   - type: uint32
     offset: 0
 Warp:
@@ -43662,7 +43662,7 @@ Weather:
     offset: 16
   - type: string
     offset: 20
-WeatherGroup:
+WeatherGroup@Subrow:
   - type: int32
     offset: 0
   - type: int32
@@ -44083,7 +44083,7 @@ YKW:
     offset: 20
   - type: string
     offset: 0
-ZoneSharedGroup:
+ZoneSharedGroup@Subrow:
   - type: uint32
     offset: 0
   - type: uint8
@@ -44142,7 +44142,7 @@ ZoneSharedGroup:
     offset: 56
   - type: bool
     offset: 73
-ZoneTimeline:
+ZoneTimeline@Subrow:
   - type: uint32
     offset: 0
   - type: uint8
