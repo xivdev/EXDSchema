@@ -2,19 +2,6 @@
 ## Introduction
 This is the schema repository for SqPack [Excel data](https://xiv.dev/game-data/file-formats/excel).
 
-> [!WARNING]  
-> The following versions are considered deprecated and will be removed on the day of 7.3's release:
-> - 2023.11.09.0000.0000
-> - 2024.02.05.0000.0000
-> - 2024.03.27.0000.0000
-> - 2024.04.23.0000.0000
-> - 2024.07.06.0000.0000
-> - 2024.07.10.0001.0000
-> - 2024.07.24.0000.0000
-> - 2024.08.02.0000.0000
-> 
-> These versions have identical column definitions to a previous version, and will always be aliased to a previous version.
-
 ## Sheets
 Inside SqPack, category 0A (`0a0000.win32...` files) consists of Excel sheets serialized into a proprietary binary format read by the game.
 The development cycle generates header files for each sheet, which are then compiled into the game, thus, all structure information
@@ -45,7 +32,6 @@ The schema includes the following:
 - Maps out-of-the-box to a very simple object mapping
 - JSON schema for the schema itself, providing IDE completion and error-checking
 - Relations to [group identically sized arrays together](https://en.wikipedia.org/wiki/AoS_and_SoA)
-- Version consistency via `pendingName` and `pendingFields`
 
 This repository hosts the schema files for each game version. Each change produces a new release of every known game version's schema and removes the old release.
 Due to the structure of this repository, any change to a given game version is meant to supercede all others.

@@ -1,7 +1,7 @@
 name: Create Release
 on:
-  schedule:
-    - cron: '0 0 1 * *' # Midnight on the 1st of the month
+  # schedule:
+  #   - cron: '0 0 1 * *' # Midnight on the 1st of the month
   workflow_dispatch:
 
 concurrency:
@@ -26,15 +26,7 @@ jobs:
       - name: Get tag metadata
         id: tag-meta
         run: |
-          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
-            echo "tag_name=$(date +'%Y.%m')-pre${{github.run_number}}" >> "$GITHUB_OUTPUT"
-            echo "tag_prerelease=true" >> "$GITHUB_OUTPUT"
-            echo "apply_breaking=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "tag_name=$(date +'%Y.%m')" >> "$GITHUB_OUTPUT"
-            echo "tag_prerelease=false" >> "$GITHUB_OUTPUT"
-            echo "apply_breaking=true" >> "$GITHUB_OUTPUT"
-          fi
+          echo "tag_name=$(date +'%Y.%m.%d')" >> "$GITHUB_OUTPUT"
 
       - name: Download apply.py
         run: |
@@ -61,7 +53,7 @@ jobs:
         run: ./EXDTooler merge-columns -b schemas
 
       - name: Run Apply
-        run: python apply.py ${{steps.tag-meta.outputs.apply_breaking}}
+        run: python apply.py
 
       - name: Commit Changes
         run: |
@@ -92,6 +84,5 @@ jobs:
         with:
           artifacts: artifacts/*.zip
           tag: ${{steps.tag-meta.outputs.tag_name}}
-          prerelease: ${{steps.tag-meta.outputs.tag_prerelease}}
 
 

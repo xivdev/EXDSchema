@@ -31,11 +31,19 @@ jobs:
       - name: Chmod Executable
         run: chmod +x EXDTooler
 
+      - name: Download apply.py
+        run: |
+          pip install ruamel.yaml
+          wget https://raw.githubusercontent.com/xivdev/EXDTools/refs/heads/main/apply.py
+
       - name: Checkout submodules to branch
         run: git submodule foreach 'git checkout $(git describe --all HEAD | sed -En "s/(remotes\/origin\/|heads\/)//p")'
 
       - name: Run Column Merger
         run: ./EXDTooler merge-columns -b schemas
+
+      - name: Run Apply
+        run: python apply.py
 
       - name: Commit Changes
         run: |

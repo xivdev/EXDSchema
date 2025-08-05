@@ -68,8 +68,10 @@ jobs:
       
       - name: Write out summary
         if: always()
+        env:
+          SUMMARY_CONTENT: ${{steps.validation.outputs.summary}}
         run: |
-          echo "${{steps.validation.outputs.summary}}" > summary.txt
+          echo "$SUMMARY_CONTENT" > summary.txt
           cat summary.txt >> $GITHUB_STEP_SUMMARY
 
       - uses: myrotvorets/set-commit-status-action@v2.0.1
@@ -117,4 +119,4 @@ jobs:
               repo: context.repo.repo,
               body: summary
             });
-        
+
