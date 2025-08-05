@@ -1,5 +1,7 @@
 name: WKSEmergencyProblem
 fields:
+  - name: Unknown3
+  - name: Unknown4
   - name: Unknown0
   - name: Unknown1
   - name: Unknown2

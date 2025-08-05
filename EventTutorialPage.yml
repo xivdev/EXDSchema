@@ -1,0 +1,5 @@
+name: EventTutorialPage
+fields:
+  - name: Name
+  - name: Text
+  - name: Unknown2

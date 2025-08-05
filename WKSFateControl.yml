@@ -2,3 +2,4 @@ name: WKSFateControl
 fields:
   - name: StartupText
   - name: RunningText
+  - name: Unknown0

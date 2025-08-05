@@ -2,7 +2,7 @@ name: BannerCondition
 fields:
   - name: UnlockCriteria1
     type: array
-    count: 6
+    count: 2
     fields:
       - type: link
         condition:

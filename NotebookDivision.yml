@@ -11,6 +11,8 @@ fields:
   - name: CraftOpeningLevel
   - name: GatheringOpeningLevel
   - name: Unknown0
+  - name: Unknown2
+  - name: Unknown3
   - name: CRPCraft
   - name: BSMCraft
   - name: ARMCraft

@@ -1,11 +1,23 @@
 name: AkatsukiNote
+displayField: ListName
 fields:
   - name: Unknown0
   - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
+  - name: ListName
+    type: link
+    targets: [AkatsukiNoteString]
+  - name: UnlockOnQuest
+    type: link
+    targets: [Quest]
   - name: Unknown4
-  - name: Unknown5
-  - name: Unknown6
-  - name: Unknown7
-  - name: Unknown8
+  - name: Title
+    type: link
+    targets: [AkatsukiNoteString]
+  - name: Icon
+    type: icon
+  - name: Subtitle
+    type: link
+    targets: [AkatsukiNoteString]
+  - name: Text
+    type: link
+    targets: [AkatsukiNoteString]

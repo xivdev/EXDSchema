@@ -16,4 +16,5 @@ fields:
     targets: [ClassJobCategory]
   - name: Unknown0
   - name: AmountRequired
+  - name: Unknown3
   - name: ItemHQ

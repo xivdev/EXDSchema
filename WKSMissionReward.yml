@@ -1,14 +1,16 @@
 name: WKSMissionReward
 fields:
+  - name: Unknown15
+  - name: Unknown16
+  - name: Unknown17
+  - name: Unknown18
   - name: Unknown0
   - name: Unknown1
   - name: Unknown2
   - name: Unknown3
   - name: Unknown4
-  - name: Unknown5
-  - name: Unknown6
-  - name: Unknown7
   - name: Unknown8
+  - name: Unknown19
   - name: Unknown9
   - name: Unknown10
   - name: Unknown11

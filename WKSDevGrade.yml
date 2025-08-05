@@ -1,10 +1,14 @@
 name: WKSDevGrade
 fields:
+  - name: StageFull
   - name: Stage
+  - name: IndexText2
   - name: IndexText
   - name: IndexNpc
   - name: Unknown3
   - name: Unknown4
+  - name: Unknown12
+  - name: Unknown13
   - name: Unknown5
   - name: Unknown6
   - name: Unknown7

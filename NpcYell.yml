@@ -2,8 +2,11 @@ name: NpcYell
 displayField: Text
 fields:
   - name: Text
+  - name: Unknown6
   - name: BalloonTime
   - name: Unknown0
+  - name: Unknown7
+  - name: Unknown8
   - name: OutputType
   - name: Unknown_70
   - name: Unknown1

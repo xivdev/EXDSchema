@@ -672,7 +672,7 @@ AirshipSkyIsland:
     offset: 3
   - type: uint8
     offset: 5
-AkatsukiNote:
+AkatsukiNote@Subrow:
   - type: int32
     offset: 0
   - type: int32
@@ -742,7 +742,7 @@ AnimaWeapon5Param:
 AnimaWeapon5PatternGroup:
   - type: string
     offset: 0
-AnimaWeapon5SpiritTalk:
+AnimaWeapon5SpiritTalk@Subrow:
   - type: int32
     offset: 0
 AnimaWeapon5SpiritTalkParam:
@@ -810,7 +810,7 @@ AnimaWeapon5TradeItem:
     offset: 45
   - type: uint8
     offset: 46
-AnimaWeaponFUITalk:
+AnimaWeaponFUITalk@Subrow:
   - type: int32
     offset: 0
 AnimaWeaponFUITalkParam:
@@ -904,7 +904,7 @@ AozActionTransient:
     offset: 25
   - type: packedbool3
     offset: 25
-AOZArrangement:
+AOZArrangement@Subrow:
   - type: uint16
     offset: 0
   - type: uint16
@@ -1004,7 +1004,7 @@ AOZContentBriefingBNpc:
     offset: 24
   - type: packedbool2
     offset: 24
-AOZContentBriefingObject:
+AOZContentBriefingObject@Subrow:
   - type: uint32
     offset: 0
   - type: uint16
@@ -1059,7 +1059,7 @@ AquariumWater:
     offset: 4
   - type: string
     offset: 0
-ArchiveItem:
+ArchiveItem@Subrow:
   - type: int32
     offset: 0
   - type: uint16
@@ -1336,11 +1336,13 @@ BannerBg:
     offset: 0
 BannerCondition:
   - type: uint8
-    offset: 44
+    offset: 28
   - type: uint32
     offset: 0
   - type: uint32
     offset: 4
+  - type: uint8
+    offset: 29
   - type: uint32
     offset: 8
   - type: uint32
@@ -1350,23 +1352,13 @@ BannerCondition:
   - type: uint32
     offset: 20
   - type: uint8
-    offset: 45
+    offset: 30
   - type: uint32
     offset: 24
-  - type: uint32
-    offset: 28
-  - type: uint32
-    offset: 32
-  - type: uint32
-    offset: 36
   - type: uint8
-    offset: 46
-  - type: uint32
-    offset: 40
-  - type: uint8
-    offset: 47
+    offset: 31
   - type: packedbool0
-    offset: 48
+    offset: 32
 BannerDecoration:
   - type: int32
     offset: 4
@@ -1510,13 +1502,13 @@ BannerTimeline:
     offset: 0
 BaseParam:
   - type: int8
-    offset: 66
+    offset: 68
   - type: string
     offset: 0
   - type: string
     offset: 4
   - type: uint8
-    offset: 52
+    offset: 54
   - type: uint16
     offset: 8
   - type: uint16
@@ -1561,10 +1553,8 @@ BaseParam:
     offset: 48
   - type: uint16
     offset: 50
-  - type: uint8
-    offset: 53
-  - type: uint8
-    offset: 54
+  - type: uint16
+    offset: 52
   - type: uint8
     offset: 55
   - type: uint8
@@ -1587,8 +1577,12 @@ BaseParam:
     offset: 64
   - type: uint8
     offset: 65
-  - type: packedbool0
+  - type: uint8
+    offset: 66
+  - type: uint8
     offset: 67
+  - type: packedbool0
+    offset: 69
 Battalion:
   - type: bool
     offset: 0
@@ -2036,25 +2030,27 @@ BeastReputationRank:
     offset: 8
 BeastTribe:
   - type: packedbool0
+    offset: 45
+  - type: uint8
+    offset: 40
+  - type: uint8
     offset: 41
-  - type: uint8
-    offset: 36
-  - type: uint8
-    offset: 37
   - type: uint32
     offset: 20
   - type: uint32
     offset: 24
   - type: uint8
-    offset: 38
+    offset: 42
   - type: uint8
-    offset: 39
+    offset: 43
   - type: uint32
     offset: 28
   - type: uint32
     offset: 32
+  - type: uint32
+    offset: 36
   - type: uint8
-    offset: 40
+    offset: 44
   - type: string
     offset: 0
   - type: int8
@@ -2073,7 +2069,7 @@ BeastTribe:
     offset: 17
   - type: string
     offset: 8
-Behavior:
+Behavior@Subrow:
   - type: uint8
     offset: 24
   - type: uint8
@@ -2273,7 +2269,7 @@ BGMSituation:
     offset: 6
   - type: uint16
     offset: 8
-BGMSwitch:
+BGMSwitch@Subrow:
   - type: uint8
     offset: 6
   - type: uint32
@@ -2415,6 +2411,8 @@ BNpcName:
   - type: int8
     offset: 13
 BNpcParts:
+  - type: packedbool0
+    offset: 150
   - type: uint16
     offset: 96
   - type: uint8
@@ -9852,6 +9850,24 @@ CharaMakeType:
     offset: 12328
   - type: uint64
     offset: 12384
+ChatBubbleSampeTextList:
+  - type: packedbool0
+    offset: 0
+ChatBubbleType:
+  - type: string
+    offset: 0
+  - type: uint8
+    offset: 16
+  - type: string
+    offset: 4
+  - type: string
+    offset: 8
+  - type: string
+    offset: 12
+  - type: uint8
+    offset: 17
+  - type: uint8
+    offset: 18
 ChocoboRace:
   - type: uint8
     offset: 0
@@ -9985,21 +10001,17 @@ ClassJob:
   - type: string
     offset: 8
   - type: uint8
-    offset: 86
+    offset: 90
   - type: int8
-    offset: 100
+    offset: 104
   - type: int8
-    offset: 101
+    offset: 105
   - type: uint8
-    offset: 87
+    offset: 91
   - type: uint8
-    offset: 88
+    offset: 92
   - type: int8
-    offset: 102
-  - type: uint16
-    offset: 52
-  - type: uint16
-    offset: 54
+    offset: 106
   - type: uint16
     offset: 56
   - type: uint16
@@ -10024,40 +10036,46 @@ ClassJob:
     offset: 76
   - type: uint16
     offset: 78
-  - type: int32
-    offset: 36
-  - type: int32
-    offset: 40
-  - type: uint8
-    offset: 89
-  - type: uint8
-    offset: 90
-  - type: uint8
-    offset: 91
-  - type: uint8
-    offset: 92
-  - type: string
-    offset: 16
-  - type: int32
-    offset: 44
-  - type: int32
-    offset: 48
-  - type: uint8
-    offset: 93
-  - type: uint8
-    offset: 94
-  - type: int8
-    offset: 103
-  - type: uint8
-    offset: 95
   - type: uint16
     offset: 80
   - type: uint16
     offset: 82
-  - type: uint16
-    offset: 84
+  - type: int32
+    offset: 36
+  - type: int32
+    offset: 40
+  - type: int32
+    offset: 44
+  - type: uint8
+    offset: 93
+  - type: uint8
+    offset: 94
+  - type: uint8
+    offset: 95
   - type: uint8
     offset: 96
+  - type: string
+    offset: 16
+  - type: int32
+    offset: 48
+  - type: int32
+    offset: 52
+  - type: uint8
+    offset: 97
+  - type: uint8
+    offset: 98
+  - type: int8
+    offset: 107
+  - type: uint8
+    offset: 99
+  - type: uint16
+    offset: 84
+  - type: uint16
+    offset: 86
+  - type: uint16
+    offset: 88
+  - type: uint8
+    offset: 100
   - type: uint32
     offset: 20
   - type: uint32
@@ -10067,16 +10085,16 @@ ClassJob:
   - type: uint32
     offset: 32
   - type: uint8
-    offset: 97
+    offset: 101
   - type: uint8
-    offset: 98
+    offset: 102
   - type: uint8
-    offset: 99
+    offset: 103
   - type: packedbool0
-    offset: 104
+    offset: 108
   - type: packedbool0
     offset: 12
-ClassJobActionUI:
+ClassJobActionUI@Subrow:
   - type: uint32
     offset: 0
   - type: uint8
@@ -10185,7 +10203,13 @@ ClassJobCategory:
     offset: 45
   - type: bool
     offset: 46
-ClassJobResident:
+  - type: bool
+    offset: 47
+  - type: bool
+    offset: 48
+  - type: bool
+    offset: 49
+ClassJobResident@Subrow:
   - type: uint32
     offset: 0
 CollectablesRefine:
@@ -10224,7 +10248,7 @@ CollectablesShop:
     offset: 26
   - type: uint16
     offset: 28
-CollectablesShopItem:
+CollectablesShopItem@Subrow:
   - type: uint32
     offset: 0
   - type: uint8
@@ -11384,7 +11408,7 @@ ContentCloseCycle:
     offset: 20
   - type: bool
     offset: 21
-ContentDirectorBattleTalk:
+ContentDirectorBattleTalk@Subrow:
   - type: uint16
     offset: 8
   - type: uint8
@@ -11395,7 +11419,7 @@ ContentDirectorBattleTalk:
     offset: 0
   - type: uint32
     offset: 4
-ContentDirectorManagedSG:
+ContentDirectorManagedSG@Subrow:
   - type: int32
     offset: 0
   - type: packedbool0
@@ -11406,7 +11430,7 @@ ContentEffectiveTime:
 ContentEntry:
   - type: string
     offset: 0
-ContentEventItem:
+ContentEventItem@Subrow:
   - type: uint32
     offset: 0
 ContentExAction:
@@ -11652,13 +11676,13 @@ ContentGaugeColor:
     offset: 8
 ContentMemberType:
   - type: packedbool0
-    offset: 12
+    offset: 13
   - type: uint8
     offset: 0
   - type: packedbool1
-    offset: 12
+    offset: 13
   - type: packedbool2
-    offset: 12
+    offset: 13
   - type: uint8
     offset: 1
   - type: uint8
@@ -11682,15 +11706,17 @@ ContentMemberType:
   - type: uint8
     offset: 11
   - type: packedbool3
-    offset: 12
+    offset: 13
   - type: packedbool4
+    offset: 13
+  - type: uint8
     offset: 12
   - type: packedbool5
-    offset: 12
+    offset: 13
   - type: packedbool6
-    offset: 12
+    offset: 13
   - type: packedbool7
-    offset: 12
+    offset: 13
 ContentNpc:
   - type: packedbool0
     offset: 0
@@ -11713,7 +11739,7 @@ ContentNpcTalk:
     offset: 24
   - type: uint32
     offset: 28
-ContentRandomSelect:
+ContentRandomSelect@Subrow:
   - type: uint16
     offset: 0
 ContentRewardCondition:
@@ -11798,19 +11824,21 @@ ContentRoulette:
     offset: 68
   - type: packedbool0
     offset: 69
+  - type: packedbool1
+    offset: 69
   - type: uint8
     offset: 64
   - type: uint16
     offset: 48
-  - type: packedbool1
+  - type: packedbool2
     offset: 69
   - type: uint8
     offset: 65
-  - type: packedbool2
-    offset: 69
   - type: packedbool3
     offset: 69
   - type: packedbool4
+    offset: 69
+  - type: packedbool5
     offset: 69
   - type: uint8
     offset: 66
@@ -11930,7 +11958,7 @@ ContentTalkParam:
     offset: 7
   - type: uint8
     offset: 5
-ContentTodo:
+ContentTodo@Subrow:
   - type: uint8
     offset: 4
   - type: uint32
@@ -11941,7 +11969,7 @@ ContentTodo:
     offset: 6
   - type: packedbool0
     offset: 7
-ContentTourismConstruct:
+ContentTourismConstruct@Subrow:
   - type: uint8
     offset: 52
   - type: uint32
@@ -12147,7 +12175,7 @@ CraftType:
     offset: 5
   - type: string
     offset: 0
-Credit:
+Credit@Subrow:
   - type: uint8
     offset: 20
   - type: uint16
@@ -12170,7 +12198,7 @@ Credit:
     offset: 16
   - type: uint16
     offset: 18
-CreditBackImage:
+CreditBackImage@Subrow:
   - type: uint16
     offset: 4
   - type: uint16
@@ -12220,7 +12248,7 @@ CreditFont:
     offset: 7
   - type: int8
     offset: 8
-CreditList:
+CreditList@Subrow:
   - type: uint16
     offset: 12
   - type: uint32
@@ -12308,7 +12336,7 @@ CSBonusContentType:
     offset: 28
   - type: uint32
     offset: 32
-CSBonusMission:
+CSBonusMission@Subrow:
   - type: uint16
     offset: 0
   - type: uint16
@@ -12514,12 +12542,12 @@ CustomTalk:
     offset: 265
   - type: packedbool2
     offset: 267
-CustomTalkDefineClient:
+CustomTalkDefineClient@Subrow:
   - type: string
     offset: 0
   - type: uint32
     offset: 4
-CustomTalkNestHandlers:
+CustomTalkNestHandlers@Subrow:
   - type: uint32
     offset: 0
 CustomTalkResident:
@@ -12599,7 +12627,7 @@ CutsceneEventMotion:
     offset: 40
   - type: float32
     offset: 44
-CutSceneIncompQuest:
+CutSceneIncompQuest@Subrow:
   - type: uint32
     offset: 0
 CutsceneMotion:
@@ -12638,6 +12666,21 @@ CutScreenImage:
     offset: 0
   - type: int16
     offset: 6
+CuttingGrass:
+  - type: string
+    offset: 0
+  - type: uint32
+    offset: 4
+  - type: uint32
+    offset: 8
+  - type: uint32
+    offset: 12
+  - type: uint32
+    offset: 16
+  - type: uint32
+    offset: 20
+  - type: uint32
+    offset: 24
 CycleTime:
   - type: uint32
     offset: 0
@@ -12733,7 +12776,7 @@ DawnContent:
     offset: 48
   - type: uint32
     offset: 52
-DawnContentParticipable:
+DawnContentParticipable@Subrow:
   - type: uint8
     offset: 0
 DawnGrowMember:
@@ -12784,9 +12827,9 @@ DawnQuestMember:
     offset: 15
 DeepDungeon:
   - type: uint8
-    offset: 26
+    offset: 66
   - type: uint8
-    offset: 27
+    offset: 67
   - type: uint8
     offset: 0
   - type: uint8
@@ -12820,21 +12863,55 @@ DeepDungeon:
   - type: uint8
     offset: 15
   - type: uint8
-    offset: 28
+    offset: 68
   - type: uint8
+    offset: 48
+  - type: uint8
+    offset: 52
+  - type: uint32
     offset: 16
+  - type: uint32
+    offset: 32
   - type: uint8
-    offset: 17
+    offset: 49
   - type: uint8
-    offset: 18
-  - type: uint8
-    offset: 19
-  - type: string
+    offset: 53
+  - type: uint32
     offset: 20
-  - type: uint16
+  - type: uint32
+    offset: 36
+  - type: uint8
+    offset: 50
+  - type: uint8
+    offset: 54
+  - type: uint32
     offset: 24
-  - type: packedbool0
-    offset: 29
+  - type: uint32
+    offset: 40
+  - type: uint8
+    offset: 51
+  - type: uint8
+    offset: 55
+  - type: uint32
+    offset: 28
+  - type: uint32
+    offset: 44
+  - type: string
+    offset: 56
+  - type: uint16
+    offset: 64
+  - type: uint32
+    offset: 60
+DeepDungeon4GimmickEffect:
+  - type: uint16
+    offset: 4
+  - type: uint32
+    offset: 0
+DeepDungeon4GimmickEffectTransient:
+  - type: string
+    offset: 0
+  - type: string
+    offset: 4
 DeepDungeonBan:
   - type: uint16
     offset: 0
@@ -12905,6 +12982,13 @@ DeepDungeonFloorEffectUI:
 DeepDungeonGrowData:
   - type: uint8
     offset: 0
+DeepDungeonHardModeItem:
+  - type: uint16
+    offset: 12
+  - type: uint32
+    offset: 8
+  - type: uint64
+    offset: 0
 DeepDungeonItem:
   - type: uint32
     offset: 24
@@ -12945,6 +13029,8 @@ DeepDungeonLayer:
     offset: 8
   - type: uint8
     offset: 9
+  - type: packedbool0
+    offset: 10
 DeepDungeonMagicStone:
   - type: uint32
     offset: 24
@@ -12968,7 +13054,7 @@ DeepDungeonMagicStone:
     offset: 8
   - type: string
     offset: 12
-DeepDungeonMap5X:
+DeepDungeonMap5X@Subrow:
   - type: uint16
     offset: 0
   - type: uint16
@@ -12979,6 +13065,9 @@ DeepDungeonMap5X:
     offset: 6
   - type: uint16
     offset: 8
+DeepDungeonResident:
+  - type: uint8
+    offset: 0
 DeepDungeonRoom:
   - type: uint32
     offset: 0
@@ -13065,7 +13154,7 @@ Description:
     offset: 21
   - type: uint32
     offset: 16
-DescriptionPage:
+DescriptionPage@Subrow:
   - type: uint8
     offset: 76
   - type: uint32
@@ -13118,7 +13207,7 @@ DescriptionPage:
     offset: 48
   - type: uint16
     offset: 74
-DescriptionSection:
+DescriptionSection@Subrow:
   - type: uint16
     offset: 0
   - type: uint16
@@ -13194,7 +13283,7 @@ DisposalShop:
 DisposalShopFilterType:
   - type: string
     offset: 0
-DisposalShopItem:
+DisposalShopItem@Subrow:
   - type: int32
     offset: 4
   - type: packedbool0
@@ -13330,7 +13419,7 @@ DynamicEventManager:
     offset: 6
   - type: uint32
     offset: 0
-DynamicEventSet:
+DynamicEventSet@Subrow:
   - type: uint16
     offset: 0
 DynamicEventSingleBattle:
@@ -13400,12 +13489,20 @@ EmjCharaViewCamera:
     offset: 16
   - type: float32
     offset: 20
-EmjCostume:
+EmjCostume@Subrow:
   - type: uint32
-    offset: 0
+    offset: 12
   - type: uint32
-    offset: 4
+    offset: 16
   - type: uint16
+    offset: 20
+  - type: uint8
+    offset: 22
+  - type: float32
+    offset: 0
+  - type: float32
+    offset: 4
+  - type: float32
     offset: 8
 EmjCostumeData:
   - type: string
@@ -13437,9 +13534,9 @@ EmjDani:
     offset: 22
 EmjVoiceNpc:
   - type: uint16
-    offset: 104
+    offset: 108
   - type: uint16
-    offset: 106
+    offset: 110
   - type: uint32
     offset: 0
   - type: uint32
@@ -13488,10 +13585,12 @@ EmjVoiceNpc:
     offset: 88
   - type: uint32
     offset: 92
-  - type: string
+  - type: uint32
     offset: 96
   - type: string
     offset: 100
+  - type: string
+    offset: 104
 Emote:
   - type: string
     offset: 0
@@ -13717,6 +13816,8 @@ ENpcBase:
     offset: 243
   - type: packedbool1
     offset: 256
+  - type: packedbool2
+    offset: 256
   - type: uint32
     offset: 152
   - type: uint8
@@ -13779,7 +13880,7 @@ ENpcBase:
     offset: 253
   - type: uint16
     offset: 200
-  - type: packedbool2
+  - type: packedbool3
     offset: 256
   - type: uint8
     offset: 254
@@ -13790,7 +13891,7 @@ ENpcDressUp:
     offset: 0
   - type: uint8
     offset: 1
-ENpcDressUpDress:
+ENpcDressUpDress@Subrow:
   - type: uint32
     offset: 16
   - type: packedbool0
@@ -14104,7 +14205,7 @@ EurekaAetherItem:
 EurekaAethernet:
   - type: uint16
     offset: 0
-EurekaDungeonPortal:
+EurekaDungeonPortal@Subrow:
   - type: uint32
     offset: 0
 EurekaGrowData:
@@ -14450,6 +14551,36 @@ EventSystemDefine:
     offset: 0
   - type: uint32
     offset: 4
+EventTutorial:
+  - type: string
+    offset: 0
+  - type: string
+    offset: 4
+  - type: uint32
+    offset: 8
+  - type: uint16
+    offset: 12
+  - type: uint16
+    offset: 14
+  - type: uint16
+    offset: 16
+  - type: uint16
+    offset: 18
+  - type: uint16
+    offset: 20
+  - type: uint16
+    offset: 22
+  - type: uint16
+    offset: 24
+  - type: uint16
+    offset: 26
+EventTutorialPage:
+  - type: uint32
+    offset: 8
+  - type: string
+    offset: 0
+  - type: string
+    offset: 4
 EventVfx:
   - type: string
     offset: 0
@@ -14523,11 +14654,13 @@ ExVersion:
   - type: string
     offset: 0
   - type: uint16
-    offset: 8
+    offset: 12
   - type: uint16
-    offset: 10
+    offset: 14
   - type: uint32
     offset: 4
+  - type: uint32
+    offset: 8
 FashionCheckThemeCategory:
   - type: string
     offset: 0
@@ -14548,25 +14681,25 @@ Fate:
   - type: string
     offset: 20
   - type: uint8
-    offset: 380
+    offset: 372
   - type: uint8
-    offset: 381
+    offset: 373
   - type: uint16
-    offset: 364
+    offset: 356
   - type: uint32
     offset: 320
   - type: uint8
-    offset: 382
+    offset: 374
   - type: uint8
-    offset: 383
+    offset: 375
   - type: uint32
     offset: 324
   - type: uint8
-    offset: 384
+    offset: 376
   - type: uint8
-    offset: 385
+    offset: 377
   - type: uint8
-    offset: 386
+    offset: 378
   - type: uint32
     offset: 328
   - type: uint32
@@ -14574,45 +14707,41 @@ Fate:
   - type: uint32
     offset: 336
   - type: uint16
-    offset: 366
+    offset: 358
   - type: uint32
     offset: 340
   - type: uint16
-    offset: 368
+    offset: 360
   - type: uint16
-    offset: 370
+    offset: 362
   - type: uint16
-    offset: 372
+    offset: 364
   - type: uint8
-    offset: 387
+    offset: 379
   - type: uint32
     offset: 344
   - type: packedbool0
-    offset: 389
+    offset: 381
   - type: packedbool1
-    offset: 389
+    offset: 381
   - type: uint16
-    offset: 374
+    offset: 366
   - type: uint16
-    offset: 376
+    offset: 368
   - type: packedbool2
-    offset: 389
+    offset: 381
   - type: packedbool3
-    offset: 389
+    offset: 381
   - type: packedbool4
-    offset: 389
+    offset: 381
   - type: uint32
     offset: 348
   - type: uint8
-    offset: 388
+    offset: 380
   - type: uint32
     offset: 352
   - type: uint16
-    offset: 378
-  - type: uint32
-    offset: 356
-  - type: uint32
-    offset: 360
+    offset: 370
   - type: uint32
     offset: 24
   - type: uint32
@@ -15101,6 +15230,8 @@ Festival:
     offset: 0
   - type: uint8
     offset: 4
+  - type: uint8
+    offset: 5
 FGSAddon:
   - type: string
     offset: 0
@@ -15319,7 +15450,7 @@ FittingShopCategory:
     offset: 4
   - type: string
     offset: 0
-FittingShopCategoryItem:
+FittingShopCategoryItem@Subrow:
   - type: int32
     offset: 0
   - type: uint8
@@ -15616,6 +15747,23 @@ FurnitureCatalogItemList:
     offset: 0
   - type: uint16
     offset: 6
+GameConditionValueArray:
+  - type: uint32
+    offset: 0
+  - type: uint32
+    offset: 4
+  - type: uint32
+    offset: 8
+  - type: uint32
+    offset: 12
+  - type: uint32
+    offset: 16
+  - type: uint32
+    offset: 20
+  - type: uint32
+    offset: 24
+  - type: uint32
+    offset: 28
 GameRewardObtainType:
   - type: uint32
     offset: 0
@@ -15650,7 +15798,7 @@ GathererCrafterTool:
     offset: 0
   - type: uint8
     offset: 1
-GathererReductionReward:
+GathererReductionReward@Subrow:
   - type: uint16
     offset: 0
   - type: packedbool0
@@ -15687,7 +15835,7 @@ GatheringItemLevelConvertTable:
     offset: 0
   - type: uint8
     offset: 1
-GatheringItemPoint:
+GatheringItemPoint@Subrow:
   - type: uint32
     offset: 0
 GatheringLeve:
@@ -16998,7 +17146,7 @@ GCScripShopCategory:
     offset: 1
   - type: int8
     offset: 2
-GCScripShopItem:
+GCScripShopItem@Subrow:
   - type: int32
     offset: 4
   - type: int32
@@ -17412,7 +17560,7 @@ GilShop:
 GilShopInfo:
   - type: uint32
     offset: 0
-GilShopItem:
+GilShopItem@Subrow:
   - type: int32
     offset: 0
   - type: packedbool0
@@ -17889,7 +18037,7 @@ Guide:
     offset: 0
   - type: uint16
     offset: 2
-GuidePage:
+GuidePage@Subrow:
   - type: uint8
     offset: 4
   - type: packedbool0
@@ -20307,6 +20455,21 @@ HairMakeType:
     offset: 4044
   - type: int32
     offset: 4072
+HalloweenNpcSelect:
+  - type: uint16
+    offset: 16
+  - type: uint8
+    offset: 20
+  - type: uint32
+    offset: 4
+  - type: uint32
+    offset: 8
+  - type: uint16
+    offset: 18
+  - type: uint32
+    offset: 12
+  - type: string
+    offset: 0
 HouseRetainerPose:
   - type: uint16
     offset: 0
@@ -20326,7 +20489,7 @@ HousingAppeal:
     offset: 4
   - type: uint8
     offset: 8
-HousingEmploymentNpcList:
+HousingEmploymentNpcList@Subrow:
   - type: uint8
     offset: 8
   - type: uint32
@@ -20995,7 +21158,7 @@ HousingLandSet:
     offset: 1200
   - type: uint32
     offset: 1204
-HousingMapMarkerInfo:
+HousingMapMarkerInfo@Subrow:
   - type: float32
     offset: 0
   - type: float32
@@ -22084,7 +22247,7 @@ HWDDevLevelWebText:
     offset: 0
   - type: string
     offset: 4
-HWDDevLively:
+HWDDevLively@Subrow:
   - type: uint32
     offset: 0
   - type: uint16
@@ -23240,12 +23403,12 @@ HWDInfoBoardBackNumber:
 HWDLevelChangeDeception:
   - type: int32
     offset: 0
-HWDSharedGroup:
+HWDSharedGroup@Subrow:
   - type: uint32
     offset: 0
   - type: uint8
     offset: 4
-HWDSharedGroupControlParam:
+HWDSharedGroupControlParam@Subrow:
   - type: uint8
     offset: 0
   - type: uint8
@@ -23408,7 +23571,7 @@ InclusionShopCategory:
     offset: 6
   - type: uint16
     offset: 4
-InclusionShopSeries:
+InclusionShopSeries@Subrow:
   - type: uint32
     offset: 0
 InclusionShopWelcom:
@@ -23621,6 +23784,8 @@ InstanceContent:
     offset: 152
   - type: uint16
     offset: 154
+  - type: packedbool5
+    offset: 167
 InstanceContentBuff:
   - type: uint16
     offset: 0
@@ -23898,7 +24063,7 @@ ItemActionTelepo:
     offset: 0
   - type: uint32
     offset: 4
-ItemBarterCheck:
+ItemBarterCheck@Subrow:
   - type: uint16
     offset: 8
   - type: uint32
@@ -24510,7 +24675,7 @@ LinkRace:
     offset: 2
   - type: bool
     offset: 3
-LivelyActorGroup:
+LivelyActorGroup@Subrow:
   - type: uint32
     offset: 16
   - type: uint16
@@ -24523,6 +24688,18 @@ LivelyActorGroup:
     offset: 8
   - type: float32
     offset: 12
+LiveMinigames:
+  - type: string
+    offset: 0
+  - type: uint32
+    offset: 4
+  - type: uint32
+    offset: 8
+  - type: uint32
+    offset: 12
+LiveMinigamesTerritoryType@Subrow:
+  - type: uint32
+    offset: 0
 LoadingImage:
   - type: string
     offset: 0
@@ -24574,9 +24751,11 @@ LogFilter:
 LogKind:
   - type: uint8
     offset: 4
+  - type: packedbool0
+    offset: 6
   - type: string
     offset: 0
-  - type: packedbool0
+  - type: uint8
     offset: 5
 LogMessage:
   - type: uint16
@@ -25015,7 +25194,7 @@ MapExclusive:
     offset: 2
   - type: uint16
     offset: 0
-MapMarker:
+MapMarker@Subrow:
   - type: int16
     offset: 6
   - type: int16
@@ -25063,7 +25242,7 @@ MapMarkerRegion:
     offset: 18
   - type: packedbool0
     offset: 21
-MapReplace:
+MapReplace@Subrow:
   - type: uint8
     offset: 10
   - type: uint8
@@ -25106,7 +25285,7 @@ Marker:
     offset: 0
 MassivePcContent:
   - type: uint8
-    offset: 24
+    offset: 40
   - type: uint32
     offset: 4
   - type: string
@@ -25119,9 +25298,17 @@ MassivePcContent:
     offset: 16
   - type: uint32
     offset: 20
+  - type: uint32
+    offset: 24
+  - type: uint32
+    offset: 28
+  - type: uint32
+    offset: 32
+  - type: uint32
+    offset: 36
   - type: uint8
-    offset: 25
-MassivePcContentBattleTalk:
+    offset: 41
+MassivePcContentBattleTalk@Subrow:
   - type: uint8
     offset: 14
   - type: uint32
@@ -25139,7 +25326,7 @@ MassivePcContentBattleTalk:
 MassivePcContentTextData:
   - type: string
     offset: 0
-MassivePcContentTodo:
+MassivePcContentTodo@Subrow:
   - type: uint8
     offset: 10
   - type: uint32
@@ -25365,7 +25552,7 @@ MiniGameRA:
     offset: 40
   - type: uint8
     offset: 41
-MiniGameRANotes:
+MiniGameRANotes@Subrow:
   - type: uint32
     offset: 0
   - type: uint16
@@ -25475,7 +25662,7 @@ MiniGameTurnBreakEnemy:
     offset: 50
   - type: uint8
     offset: 51
-MiniGameTurnBreakPop:
+MiniGameTurnBreakPop@Subrow:
   - type: uint8
     offset: 2
   - type: uint8
@@ -25602,7 +25789,7 @@ MJIAnimals:
     offset: 8
   - type: int32
     offset: 12
-MJIBuilding:
+MJIBuilding@Subrow:
   - type: uint8
     offset: 22
   - type: uint16
@@ -26201,7 +26388,7 @@ MJILandmarkPlace:
     offset: 16
   - type: int16
     offset: 18
-MJILivelyActor:
+MJILivelyActor@Subrow:
   - type: uint32
     offset: 16
   - type: uint16
@@ -26352,7 +26539,7 @@ MJIStockyardManagementArea:
     offset: 3
   - type: uint16
     offset: 0
-MJIStockyardManagementTable:
+MJIStockyardManagementTable@Subrow:
   - type: uint8
     offset: 0
 MJIText:
@@ -26379,7 +26566,7 @@ MJIVillageAppearanceSG:
     offset: 24
   - type: uint32
     offset: 32
-MJIVillageAppearanceUI:
+MJIVillageAppearanceUI@Subrow:
   - type: int32
     offset: 0
   - type: uint16
@@ -26449,7 +26636,7 @@ MKDData:
 MKDGrowData:
   - type: uint32
     offset: 0
-MKDGrowDataSJob:
+MKDGrowDataSJob@Subrow:
   - type: uint32
     offset: 0
 MKDLore:
@@ -26513,7 +26700,7 @@ MKDTrait:
     offset: 0
   - type: string
     offset: 4
-MobHuntOrder:
+MobHuntOrder@Subrow:
   - type: uint16
     offset: 0
   - type: uint8
@@ -27030,7 +27217,7 @@ MultipleHelp:
     offset: 0
   - type: string
     offset: 4
-MultipleHelpPage:
+MultipleHelpPage@Subrow:
   - type: uint16
     offset: 0
 MultipleHelpString:
@@ -27093,10 +27280,10 @@ NotebookDivision:
   - type: uint8
     offset: 11
   - type: packedbool0
-    offset: 20
-  - type: bool
+    offset: 22
+  - type: uint8
     offset: 12
-  - type: bool
+  - type: uint8
     offset: 13
   - type: bool
     offset: 14
@@ -27110,6 +27297,10 @@ NotebookDivision:
     offset: 18
   - type: bool
     offset: 19
+  - type: bool
+    offset: 20
+  - type: bool
+    offset: 21
 NotebookDivisionCategory:
   - type: string
     offset: 0
@@ -27171,6 +27362,8 @@ NpcEquip:
     offset: 74
   - type: packedbool0
     offset: 84
+  - type: packedbool1
+    offset: 84
   - type: uint32
     offset: 20
   - type: uint8
@@ -27231,29 +27424,35 @@ NpcEquip:
     offset: 58
 NpcYell:
   - type: uint32
-    offset: 8
-  - type: packedbool0
-    offset: 16
-  - type: packedbool1
-    offset: 16
-  - type: packedbool2
-    offset: 16
-  - type: uint8
     offset: 12
+  - type: packedbool0
+    offset: 26
+  - type: packedbool1
+    offset: 26
+  - type: packedbool2
+    offset: 26
   - type: uint8
-    offset: 13
+    offset: 22
+  - type: uint8
+    offset: 23
+  - type: uint32
+    offset: 16
   - type: float32
     offset: 4
+  - type: float32
+    offset: 8
   - type: packedbool3
-    offset: 16
+    offset: 26
   - type: packedbool4
-    offset: 16
+    offset: 26
   - type: uint8
-    offset: 14
+    offset: 24
   - type: uint8
-    offset: 15
+    offset: 25
   - type: string
     offset: 0
+  - type: uint16
+    offset: 20
 Omen:
   - type: string
     offset: 0
@@ -28396,6 +28595,9 @@ PlantPotFlowerSeed:
     offset: 28
   - type: uint32
     offset: 32
+Platform:
+  - type: string
+    offset: 0
 PlayerSearchLocation:
   - type: uint8
     offset: 4
@@ -28419,7 +28621,7 @@ PointMenu:
     offset: 4
   - type: string
     offset: 0
-PointMenuChoice:
+PointMenuChoice@Subrow:
   - type: float32
     offset: 0
   - type: float32
@@ -28613,7 +28815,7 @@ PvPAction:
     offset: 12
   - type: uint8
     offset: 9
-PvPActionSort:
+PvPActionSort@Subrow:
   - type: uint8
     offset: 6
   - type: uint16
@@ -28658,7 +28860,7 @@ PvPRankTransient:
     offset: 16
   - type: string
     offset: 20
-PvPSelectAction:
+PvPSelectAction@Subrow:
   - type: uint32
     offset: 0
 PvPSelectTrait:
@@ -32087,18 +32289,20 @@ Quest:
   - type: packedbool6
     offset: 2535
 QuestAcceptAdditionCondition:
+  - type: packedbool0
+    offset: 12
   - type: uint32
     offset: 0
   - type: uint32
     offset: 4
   - type: uint32
     offset: 8
-  - type: packedbool0
+  - type: packedbool1
     offset: 12
-QuestAdditionalToolIcon:
+QuestAdditionalToolIcon@Subrow:
   - type: uint32
     offset: 0
-QuestAroundPlayerHide:
+QuestAroundPlayerHide@Subrow:
   - type: uint8
     offset: 8
   - type: uint32
@@ -33010,7 +33214,7 @@ QuestChapter:
     offset: 0
   - type: uint16
     offset: 4
-QuestClassJobReward:
+QuestClassJobReward@Subrow:
   - type: uint8
     offset: 40
   - type: uint32
@@ -33077,7 +33281,7 @@ QuestClassJobReward:
     offset: 61
   - type: bool
     offset: 62
-QuestClassJobSupply:
+QuestClassJobSupply@Subrow:
   - type: uint8
     offset: 26
   - type: uint8
@@ -33089,7 +33293,7 @@ QuestClassJobSupply:
   - type: uint8
     offset: 28
   - type: packedbool0
-    offset: 29
+    offset: 30
   - type: uint32
     offset: 12
   - type: uint32
@@ -33099,13 +33303,29 @@ QuestClassJobSupply:
   - type: uint16
     offset: 24
   - type: uint8
+    offset: 29
+  - type: uint8
     offset: 0
 QuestCustomTodo:
+  - type: uint8
+    offset: 16
   - type: uint16
     offset: 0
-  - type: uint8
+  - type: uint16
+    offset: 8
+  - type: uint16
     offset: 2
-QuestDefineClient:
+  - type: uint16
+    offset: 10
+  - type: uint16
+    offset: 4
+  - type: uint16
+    offset: 12
+  - type: uint16
+    offset: 6
+  - type: uint16
+    offset: 14
+QuestDefineClient@Subrow:
   - type: string
     offset: 0
   - type: uint32
@@ -33144,7 +33364,7 @@ QuestEffect:
     offset: 52
   - type: packedbool0
     offset: 56
-QuestEffectDefine:
+QuestEffectDefine@Subrow:
   - type: uint16
     offset: 0
 QuestEffectType:
@@ -33155,7 +33375,7 @@ QuestEquipModel:
     offset: 8
   - type: uint64
     offset: 0
-QuestEventAreaEntranceInfo:
+QuestEventAreaEntranceInfo@Subrow:
   - type: uint32
     offset: 0
   - type: uint8
@@ -33165,7 +33385,7 @@ QuestEventAreaEntranceInfo:
 QuestHideReward:
   - type: packedbool0
     offset: 0
-QuestLinkMarker:
+QuestLinkMarker@Subrow:
   - type: uint32
     offset: 0
   - type: uint32
@@ -33384,10 +33604,10 @@ QuestRedoChapterUITab:
     offset: 8
   - type: string
     offset: 0
-QuestRedoIncompChapter:
+QuestRedoIncompChapter@Subrow:
   - type: uint16
     offset: 0
-QuestRedoValidCustomTalk:
+QuestRedoValidCustomTalk@Subrow:
   - type: uint32
     offset: 0
 QuestRepeatFlag:
@@ -33398,7 +33618,7 @@ QuestRewardOther:
     offset: 4
   - type: string
     offset: 0
-QuestSceneAbortCondition:
+QuestSceneAbortCondition@Subrow:
   - type: uint16
     offset: 0
 QuestSceneAbortConditionFlag:
@@ -33412,7 +33632,7 @@ QuestSceneAbortConditionType:
 QuestSelectTitle:
   - type: uint32
     offset: 0
-QuestSetDefine:
+QuestSetDefine@Subrow:
   - type: uint32
     offset: 0
 QuestStatusParam:
@@ -33422,7 +33642,7 @@ QuestStatusParam:
     offset: 4
   - type: int16
     offset: 2
-QuestSubCommand:
+QuestSubCommand@Subrow:
   - type: uint8
     offset: 32
   - type: uint8
@@ -33557,15 +33777,15 @@ RacingChocoboNameInfo:
 RacingChocoboParam:
   - type: string
     offset: 0
-RaidFinderParam:
+RaidFinderParam@Subrow:
   - type: packedbool0
     offset: 0
-ReactionEventObject:
+ReactionEventObject@Subrow:
   - type: uint32
     offset: 0
   - type: uint32
     offset: 4
-ReactionEventObjectInfo:
+ReactionEventObjectInfo@Subrow:
   - type: uint32
     offset: 0
 RecastNavimesh:
@@ -34323,32 +34543,38 @@ RelicNoteCategory:
     offset: 4
   - type: string
     offset: 0
-ReplaceAction:
+ReplaceAction@Subrow:
   - type: int32
     offset: 0
   - type: int8
-    offset: 22
-  - type: int16
-    offset: 16
-  - type: int32
-    offset: 4
-  - type: int8
-    offset: 23
-  - type: int16
-    offset: 18
-  - type: int32
-    offset: 8
-  - type: int8
-    offset: 24
+    offset: 28
   - type: int16
     offset: 20
   - type: int32
+    offset: 4
+  - type: int8
+    offset: 29
+  - type: int16
+    offset: 22
+  - type: int32
+    offset: 8
+  - type: int8
+    offset: 30
+  - type: int16
+    offset: 24
+  - type: int32
     offset: 12
   - type: int8
-    offset: 25
-  - type: packedbool0
+    offset: 31
+  - type: int16
     offset: 26
-Resident:
+  - type: int32
+    offset: 16
+  - type: int8
+    offset: 32
+  - type: packedbool0
+    offset: 33
+Resident@Subrow:
   - type: uint8
     offset: 14
   - type: uint64
@@ -34719,7 +34945,7 @@ RideShooting:
     offset: 277
   - type: uint8
     offset: 317
-RideShootingScheduler:
+RideShootingScheduler@Subrow:
   - type: uint8
     offset: 16
   - type: uint32
@@ -34743,7 +34969,7 @@ RideShootingTarget:
     offset: 8
   - type: uint8
     offset: 14
-RideShootingTargetScheduler:
+RideShootingTargetScheduler@Subrow:
   - type: uint8
     offset: 16
   - type: uint32
@@ -34786,7 +35012,7 @@ RPParameter:
     offset: 2
   - type: uint8
     offset: 3
-SatisfactionArbitration:
+SatisfactionArbitration@Subrow:
   - type: uint8
     offset: 4
   - type: uint8
@@ -34995,7 +35221,7 @@ SatisfactionNpc:
     offset: 235
   - type: uint8
     offset: 236
-SatisfactionSupply:
+SatisfactionSupply@Subrow:
   - type: uint8
     offset: 16
   - type: uint8
@@ -35049,7 +35275,7 @@ SatisfactionSupplyReward:
     offset: 24
   - type: uint16
     offset: 26
-SatisfactionSupplyRewardExp:
+SatisfactionSupplyRewardExp@Subrow:
   - type: uint8
     offset: 0
   - type: uint8
@@ -35080,7 +35306,7 @@ ScenarioTreeTips:
     offset: 8
   - type: uint32
     offset: 4
-ScenarioTreeTipsClassQuest:
+ScenarioTreeTipsClassQuest@Subrow:
   - type: uint32
     offset: 0
   - type: uint16
@@ -35118,6 +35344,23 @@ SecretRecipeBook:
     offset: 4
   - type: string
     offset: 0
+SecretRecipeBookGroup:
+  - type: uint16
+    offset: 0
+  - type: uint16
+    offset: 2
+  - type: uint16
+    offset: 4
+  - type: uint16
+    offset: 6
+  - type: uint16
+    offset: 8
+  - type: uint16
+    offset: 10
+  - type: uint16
+    offset: 12
+  - type: uint16
+    offset: 14
 SequentialEvent:
   - type: uint16
     offset: 1032
@@ -35765,7 +36008,7 @@ SequentialEvent:
     offset: 1004
   - type: uint16
     offset: 1020
-SequentialEventMultipleRange:
+SequentialEventMultipleRange@Subrow:
   - type: uint32
     offset: 0
   - type: packedbool0
@@ -36305,7 +36548,7 @@ SnipeCollision:
 SnipeElementId:
   - type: int8
     offset: 0
-SnipeHitEvent:
+SnipeHitEvent@Subrow:
   - type: uint8
     offset: 6
   - type: uint16
@@ -44564,7 +44807,7 @@ SwitchTalk:
     offset: 0
   - type: packedbool0
     offset: 4
-SwitchTalkVariation:
+SwitchTalkVariation@Subrow:
   - type: uint32
     offset: 0
   - type: uint32
@@ -44573,7 +44816,7 @@ SwitchTalkVariation:
     offset: 12
   - type: uint32
     offset: 8
-SystemGraphicPreset:
+SystemGraphicPreset@Subrow:
   - type: int8
     offset: 0
   - type: int8
@@ -44714,7 +44957,7 @@ TelepoRelay:
 TerritoryAethernet:
   - type: uint16
     offset: 0
-TerritoryAetheryteList:
+TerritoryAetheryteList@Subrow:
   - type: uint32
     offset: 0
   - type: uint32
@@ -44828,6 +45071,8 @@ TerritoryIntendedUse:
   - type: packedbool4
     offset: 9
   - type: packedbool5
+    offset: 9
+  - type: packedbool6
     offset: 9
 TerritoryType:
   - type: string
@@ -44980,6 +45225,15 @@ Title:
     offset: 8
   - type: uint16
     offset: 12
+TofuBg:
+  - type: packedbool0
+    offset: 10
+  - type: uint16
+    offset: 8
+  - type: uint32
+    offset: 4
+  - type: string
+    offset: 0
 TofuEditParam:
   - type: string
     offset: 0
@@ -44992,8 +45246,10 @@ TofuEditParam:
   - type: packedbool0
     offset: 10
 TofuObject:
-  - type: uint8
+  - type: packedbool0
     offset: 46
+  - type: uint8
+    offset: 44
   - type: uint16
     offset: 28
   - type: uint32
@@ -45002,10 +45258,6 @@ TofuObject:
     offset: 30
   - type: uint16
     offset: 32
-  - type: uint8
-    offset: 47
-  - type: uint8
-    offset: 48
   - type: string
     offset: 0
   - type: int32
@@ -45028,14 +45280,12 @@ TofuObject:
     offset: 40
   - type: int16
     offset: 42
-  - type: packedbool0
-    offset: 49
   - type: packedbool1
-    offset: 49
-  - type: int16
-    offset: 44
+    offset: 46
   - type: packedbool2
-    offset: 49
+    offset: 46
+  - type: int8
+    offset: 45
 TofuObjectCategory:
   - type: packedbool0
     offset: 7
@@ -45046,14 +45296,14 @@ TofuObjectCategory:
   - type: string
     offset: 0
 TofuPreset:
+  - type: packedbool0
+    offset: 50
+  - type: int32
+    offset: 4
   - type: uint16
     offset: 48
   - type: string
     offset: 0
-  - type: int32
-    offset: 4
-  - type: packedbool0
-    offset: 50
   - type: int32
     offset: 8
   - type: int32
@@ -45075,14 +45325,12 @@ TofuPreset:
   - type: int32
     offset: 44
 TofuPresetCategory:
+  - type: packedbool0
+    offset: 5
   - type: uint8
     offset: 4
   - type: string
     offset: 0
-  - type: packedbool0
-    offset: 5
-  - type: packedbool1
-    offset: 5
 TofuPresetObject:
   - type: int32
     offset: 0
@@ -45094,10 +45342,10 @@ TofuPresetObject:
     offset: 10
   - type: int16
     offset: 8
+  - type: int8
+    offset: 12
   - type: uint8
     offset: 11
-  - type: uint8
-    offset: 12
   - type: packedbool0
     offset: 13
   - type: packedbool1
@@ -45177,6 +45425,8 @@ Trait:
     offset: 0
   - type: int32
     offset: 8
+  - type: packedbool0
+    offset: 19
   - type: uint8
     offset: 14
   - type: uint8
@@ -45332,7 +45582,7 @@ TreasureHuntTexture:
 TreasureModel:
   - type: string
     offset: 0
-TreasureSpot:
+TreasureSpot@Subrow:
   - type: int32
     offset: 8
   - type: float32
@@ -45670,12 +45920,65 @@ UIColor:
     offset: 8
   - type: uint32
     offset: 12
+  - type: uint32
+    offset: 16
+  - type: uint32
+    offset: 20
+  - type: uint32
+    offset: 24
+  - type: uint32
+    offset: 28
+UIColorPickerTable@Subrow:
+  - type: uint16
+    offset: 0
+  - type: uint8
+    offset: 2
+  - type: uint8
+    offset: 3
 UIConst:
   - type: int32
     offset: 0
 UILevelLookup:
   - type: uint32
     offset: 0
+ValentionSweetsMaterial:
+  - type: string
+    offset: 0
+ValentionSweetsRecipe:
+  - type: string
+    offset: 0
+  - type: uint8
+    offset: 4
+  - type: uint8
+    offset: 12
+  - type: uint8
+    offset: 5
+  - type: uint8
+    offset: 13
+  - type: uint8
+    offset: 6
+  - type: uint8
+    offset: 14
+  - type: uint8
+    offset: 7
+  - type: uint8
+    offset: 15
+  - type: uint8
+    offset: 8
+  - type: uint8
+    offset: 16
+  - type: uint8
+    offset: 9
+  - type: uint8
+    offset: 17
+  - type: uint8
+    offset: 10
+  - type: uint8
+    offset: 18
+  - type: uint8
+    offset: 11
+  - type: uint8
+    offset: 19
 Vase:
   - type: uint32
     offset: 0
@@ -45742,10 +46045,10 @@ VVDNotebookSeries:
     offset: 44
   - type: int32
     offset: 48
-VVDRouteData:
+VVDRouteData@Subrow:
   - type: uint16
     offset: 0
-VVDVariantAction:
+VVDVariantAction@Subrow:
   - type: uint32
     offset: 0
 Warp:
@@ -45850,6 +46153,8 @@ WeaponTimeline:
     offset: 4
   - type: packedbool0
     offset: 6
+  - type: packedbool1
+    offset: 6
 Weather:
   - type: int32
     offset: 24
@@ -45865,7 +46170,7 @@ Weather:
     offset: 16
   - type: string
     offset: 20
-WeatherGroup:
+WeatherGroup@Subrow:
   - type: int32
     offset: 0
   - type: int32
@@ -45975,19 +46280,62 @@ WeddingPlan:
     offset: 18
   - type: uint8
     offset: 19
+WeeklyBingoMultipleOrder:
+  - type: uint32
+    offset: 0
+  - type: uint32
+    offset: 4
+  - type: uint32
+    offset: 8
+  - type: uint32
+    offset: 12
+  - type: uint32
+    offset: 16
+  - type: uint32
+    offset: 20
+  - type: uint32
+    offset: 24
+  - type: uint32
+    offset: 28
+  - type: uint32
+    offset: 32
+  - type: uint32
+    offset: 36
+  - type: uint32
+    offset: 40
+  - type: uint32
+    offset: 44
+  - type: uint32
+    offset: 48
+  - type: uint32
+    offset: 52
+  - type: uint32
+    offset: 56
+  - type: uint32
+    offset: 60
+  - type: uint32
+    offset: 64
+  - type: uint32
+    offset: 68
+  - type: uint32
+    offset: 72
+  - type: uint32
+    offset: 76
 WeeklyBingoOrderData:
   - type: uint32
     offset: 0
   - type: uint32
     offset: 4
-  - type: uint8
-    offset: 12
-  - type: uint8
-    offset: 13
   - type: uint32
     offset: 8
   - type: uint8
-    offset: 14
+    offset: 16
+  - type: uint8
+    offset: 17
+  - type: uint32
+    offset: 12
+  - type: uint8
+    offset: 18
 WeeklyBingoRewardData:
   - type: uint8
     offset: 18
@@ -46241,11 +46589,31 @@ WKSAchievement:
     offset: 14
 WKSAchievementDailyDefine:
   - type: uint16
-    offset: 4
+    offset: 48
   - type: uint32
     offset: 0
-  - type: uint16
-    offset: 6
+  - type: uint32
+    offset: 16
+  - type: uint32
+    offset: 32
+  - type: uint32
+    offset: 4
+  - type: uint32
+    offset: 20
+  - type: uint32
+    offset: 36
+  - type: uint32
+    offset: 8
+  - type: uint32
+    offset: 24
+  - type: uint32
+    offset: 40
+  - type: uint32
+    offset: 12
+  - type: uint32
+    offset: 28
+  - type: uint32
+    offset: 44
 WKSAchievementRewardItem:
   - type: uint32
     offset: 0
@@ -46272,6 +46640,16 @@ WKSCosmoToolClass:
     offset: 92
   - type: uint16
     offset: 104
+  - type: uint16
+    offset: 116
+  - type: uint16
+    offset: 128
+  - type: uint16
+    offset: 140
+  - type: uint16
+    offset: 152
+  - type: uint16
+    offset: 164
   - type: int32
     offset: 4
   - type: int32
@@ -46290,6 +46668,16 @@ WKSCosmoToolClass:
     offset: 88
   - type: int32
     offset: 100
+  - type: int32
+    offset: 112
+  - type: int32
+    offset: 124
+  - type: int32
+    offset: 136
+  - type: int32
+    offset: 148
+  - type: int32
+    offset: 160
   - type: uint32
     offset: 0
   - type: uint32
@@ -46308,34 +46696,50 @@ WKSCosmoToolClass:
     offset: 84
   - type: uint32
     offset: 96
-  - type: uint16
-    offset: 112
-  - type: uint16
-    offset: 120
-  - type: uint16
-    offset: 128
-  - type: uint16
-    offset: 136
-  - type: uint16
-    offset: 114
-  - type: uint16
-    offset: 122
-  - type: uint16
-    offset: 130
-  - type: uint16
-    offset: 138
   - type: uint32
     offset: 108
   - type: uint32
-    offset: 116
-  - type: uint32
-    offset: 124
+    offset: 120
   - type: uint32
     offset: 132
-  - type: uint8
-    offset: 142
+  - type: uint32
+    offset: 144
+  - type: uint32
+    offset: 156
   - type: uint16
-    offset: 140
+    offset: 172
+  - type: uint16
+    offset: 180
+  - type: uint16
+    offset: 188
+  - type: uint16
+    offset: 196
+  - type: uint16
+    offset: 204
+  - type: uint16
+    offset: 174
+  - type: uint16
+    offset: 182
+  - type: uint16
+    offset: 190
+  - type: uint16
+    offset: 198
+  - type: uint16
+    offset: 206
+  - type: uint32
+    offset: 168
+  - type: uint32
+    offset: 176
+  - type: uint32
+    offset: 184
+  - type: uint32
+    offset: 192
+  - type: uint32
+    offset: 200
+  - type: uint8
+    offset: 210
+  - type: uint16
+    offset: 208
 WKSCosmoToolCommonLevel:
   - type: packedbool0
     offset: 0
@@ -46343,147 +46747,283 @@ WKSCosmoToolDataAmount:
   - type: uint16
     offset: 0
   - type: uint16
-    offset: 16
-  - type: uint16
-    offset: 32
-  - type: uint16
-    offset: 48
-  - type: uint16
-    offset: 64
-  - type: uint16
-    offset: 80
-  - type: uint16
-    offset: 96
-  - type: uint16
-    offset: 112
-  - type: uint16
-    offset: 128
-  - type: uint16
-    offset: 8
-  - type: uint16
-    offset: 24
+    offset: 20
   - type: uint16
     offset: 40
   - type: uint16
-    offset: 56
+    offset: 60
   - type: uint16
-    offset: 72
-  - type: uint16
-    offset: 88
-  - type: uint16
-    offset: 104
-  - type: uint16
-    offset: 120
-  - type: uint16
-    offset: 136
-  - type: uint16
-    offset: 2
-  - type: uint16
-    offset: 18
-  - type: uint16
-    offset: 34
-  - type: uint16
-    offset: 50
-  - type: uint16
-    offset: 66
-  - type: uint16
-    offset: 82
-  - type: uint16
-    offset: 98
-  - type: uint16
-    offset: 114
-  - type: uint16
-    offset: 130
-  - type: uint16
-    offset: 10
-  - type: uint16
-    offset: 26
-  - type: uint16
-    offset: 42
-  - type: uint16
-    offset: 58
-  - type: uint16
-    offset: 74
-  - type: uint16
-    offset: 90
-  - type: uint16
-    offset: 106
-  - type: uint16
-    offset: 122
-  - type: uint16
-    offset: 138
-  - type: uint16
-    offset: 4
-  - type: uint16
-    offset: 20
-  - type: uint16
-    offset: 36
-  - type: uint16
-    offset: 52
-  - type: uint16
-    offset: 68
-  - type: uint16
-    offset: 84
+    offset: 80
   - type: uint16
     offset: 100
   - type: uint16
-    offset: 116
-  - type: uint16
-    offset: 132
-  - type: uint16
-    offset: 12
-  - type: uint16
-    offset: 28
-  - type: uint16
-    offset: 44
-  - type: uint16
-    offset: 60
-  - type: uint16
-    offset: 76
-  - type: uint16
-    offset: 92
-  - type: uint16
-    offset: 108
-  - type: uint16
-    offset: 124
+    offset: 120
   - type: uint16
     offset: 140
   - type: uint16
-    offset: 6
+    offset: 160
   - type: uint16
-    offset: 22
+    offset: 180
   - type: uint16
-    offset: 38
+    offset: 200
   - type: uint16
-    offset: 54
+    offset: 220
   - type: uint16
-    offset: 70
+    offset: 240
   - type: uint16
-    offset: 86
+    offset: 260
   - type: uint16
-    offset: 102
-  - type: uint16
-    offset: 118
-  - type: uint16
-    offset: 134
-  - type: uint16
-    offset: 14
+    offset: 10
   - type: uint16
     offset: 30
   - type: uint16
-    offset: 46
+    offset: 50
   - type: uint16
-    offset: 62
+    offset: 70
   - type: uint16
-    offset: 78
-  - type: uint16
-    offset: 94
+    offset: 90
   - type: uint16
     offset: 110
   - type: uint16
-    offset: 126
+    offset: 130
+  - type: uint16
+    offset: 150
+  - type: uint16
+    offset: 170
+  - type: uint16
+    offset: 190
+  - type: uint16
+    offset: 210
+  - type: uint16
+    offset: 230
+  - type: uint16
+    offset: 250
+  - type: uint16
+    offset: 270
+  - type: uint16
+    offset: 2
+  - type: uint16
+    offset: 22
+  - type: uint16
+    offset: 42
+  - type: uint16
+    offset: 62
+  - type: uint16
+    offset: 82
+  - type: uint16
+    offset: 102
+  - type: uint16
+    offset: 122
   - type: uint16
     offset: 142
+  - type: uint16
+    offset: 162
+  - type: uint16
+    offset: 182
+  - type: uint16
+    offset: 202
+  - type: uint16
+    offset: 222
+  - type: uint16
+    offset: 242
+  - type: uint16
+    offset: 262
+  - type: uint16
+    offset: 12
+  - type: uint16
+    offset: 32
+  - type: uint16
+    offset: 52
+  - type: uint16
+    offset: 72
+  - type: uint16
+    offset: 92
+  - type: uint16
+    offset: 112
+  - type: uint16
+    offset: 132
+  - type: uint16
+    offset: 152
+  - type: uint16
+    offset: 172
+  - type: uint16
+    offset: 192
+  - type: uint16
+    offset: 212
+  - type: uint16
+    offset: 232
+  - type: uint16
+    offset: 252
+  - type: uint16
+    offset: 272
+  - type: uint16
+    offset: 4
+  - type: uint16
+    offset: 24
+  - type: uint16
+    offset: 44
+  - type: uint16
+    offset: 64
+  - type: uint16
+    offset: 84
+  - type: uint16
+    offset: 104
+  - type: uint16
+    offset: 124
+  - type: uint16
+    offset: 144
+  - type: uint16
+    offset: 164
+  - type: uint16
+    offset: 184
+  - type: uint16
+    offset: 204
+  - type: uint16
+    offset: 224
+  - type: uint16
+    offset: 244
+  - type: uint16
+    offset: 264
+  - type: uint16
+    offset: 14
+  - type: uint16
+    offset: 34
+  - type: uint16
+    offset: 54
+  - type: uint16
+    offset: 74
+  - type: uint16
+    offset: 94
+  - type: uint16
+    offset: 114
+  - type: uint16
+    offset: 134
+  - type: uint16
+    offset: 154
+  - type: uint16
+    offset: 174
+  - type: uint16
+    offset: 194
+  - type: uint16
+    offset: 214
+  - type: uint16
+    offset: 234
+  - type: uint16
+    offset: 254
+  - type: uint16
+    offset: 274
+  - type: uint16
+    offset: 6
+  - type: uint16
+    offset: 26
+  - type: uint16
+    offset: 46
+  - type: uint16
+    offset: 66
+  - type: uint16
+    offset: 86
+  - type: uint16
+    offset: 106
+  - type: uint16
+    offset: 126
+  - type: uint16
+    offset: 146
+  - type: uint16
+    offset: 166
+  - type: uint16
+    offset: 186
+  - type: uint16
+    offset: 206
+  - type: uint16
+    offset: 226
+  - type: uint16
+    offset: 246
+  - type: uint16
+    offset: 266
+  - type: uint16
+    offset: 16
+  - type: uint16
+    offset: 36
+  - type: uint16
+    offset: 56
+  - type: uint16
+    offset: 76
+  - type: uint16
+    offset: 96
+  - type: uint16
+    offset: 116
+  - type: uint16
+    offset: 136
+  - type: uint16
+    offset: 156
+  - type: uint16
+    offset: 176
+  - type: uint16
+    offset: 196
+  - type: uint16
+    offset: 216
+  - type: uint16
+    offset: 236
+  - type: uint16
+    offset: 256
+  - type: uint16
+    offset: 276
+  - type: uint16
+    offset: 8
+  - type: uint16
+    offset: 28
+  - type: uint16
+    offset: 48
+  - type: uint16
+    offset: 68
+  - type: uint16
+    offset: 88
+  - type: uint16
+    offset: 108
+  - type: uint16
+    offset: 128
+  - type: uint16
+    offset: 148
+  - type: uint16
+    offset: 168
+  - type: uint16
+    offset: 188
+  - type: uint16
+    offset: 208
+  - type: uint16
+    offset: 228
+  - type: uint16
+    offset: 248
+  - type: uint16
+    offset: 268
+  - type: uint16
+    offset: 18
+  - type: uint16
+    offset: 38
+  - type: uint16
+    offset: 58
+  - type: uint16
+    offset: 78
+  - type: uint16
+    offset: 98
+  - type: uint16
+    offset: 118
+  - type: uint16
+    offset: 138
+  - type: uint16
+    offset: 158
+  - type: uint16
+    offset: 178
+  - type: uint16
+    offset: 198
+  - type: uint16
+    offset: 218
+  - type: uint16
+    offset: 238
+  - type: uint16
+    offset: 258
+  - type: uint16
+    offset: 278
 WKSCosmoToolName:
   - type: string
     offset: 0
@@ -46515,25 +47055,33 @@ WKSDevGrade:
     offset: 4
   - type: string
     offset: 8
-  - type: uint8
-    offset: 24
-  - type: uint8
-    offset: 25
-  - type: int32
-    offset: 20
-  - type: uint32
+  - type: string
     offset: 12
-  - type: uint32
+  - type: string
     offset: 16
   - type: uint8
-    offset: 26
+    offset: 38
+  - type: uint16
+    offset: 36
   - type: uint8
-    offset: 27
-  - type: uint8
+    offset: 39
+  - type: uint32
+    offset: 20
+  - type: int32
+    offset: 32
+  - type: uint32
+    offset: 24
+  - type: uint32
     offset: 28
   - type: uint8
-    offset: 29
-WKSDevGradeBGSet:
+    offset: 40
+  - type: uint8
+    offset: 41
+  - type: uint8
+    offset: 42
+  - type: uint8
+    offset: 43
+WKSDevGradeBGSet@Subrow:
   - type: uint16
     offset: 0
   - type: bool
@@ -46616,7 +47164,7 @@ WKSDevGradeBGSet:
     offset: 40
   - type: bool
     offset: 41
-WKSEmergencyInfo:
+WKSEmergencyInfo@Subrow:
   - type: uint8
     offset: 6
   - type: uint8
@@ -46630,20 +47178,26 @@ WKSEmergencyInfo:
 WKSEmergencyInfoText:
   - type: string
     offset: 0
-WKSEmergencyMission:
+WKSEmergencyMission@Subrow:
   - type: uint16
     offset: 0
-WKSEmergencyMissionGroup:
+WKSEmergencyMissionGroup@Subrow:
   - type: uint16
     offset: 0
 WKSEmergencyProblem:
   - type: uint32
     offset: 0
-  - type: uint8
-    offset: 8
   - type: uint32
     offset: 4
+  - type: uint32
+    offset: 8
+  - type: uint8
+    offset: 16
+  - type: uint32
+    offset: 12
 WKSFateControl:
+  - type: uint16
+    offset: 8
   - type: string
     offset: 0
   - type: string
@@ -46826,21 +47380,21 @@ WKSFortuneSPPatternUIPlace:
     offset: 156
 WKSFunction:
   - type: uint8
-    offset: 32
+    offset: 48
   - type: uint8
-    offset: 33
+    offset: 49
   - type: uint8
-    offset: 34
+    offset: 50
   - type: uint8
-    offset: 35
+    offset: 51
   - type: uint8
-    offset: 36
+    offset: 52
   - type: uint8
-    offset: 37
+    offset: 53
   - type: uint8
-    offset: 38
+    offset: 54
   - type: uint8
-    offset: 39
+    offset: 55
   - type: uint32
     offset: 0
   - type: uint32
@@ -46857,6 +47411,14 @@ WKSFunction:
     offset: 24
   - type: uint32
     offset: 28
+  - type: uint32
+    offset: 32
+  - type: uint32
+    offset: 36
+  - type: uint32
+    offset: 40
+  - type: uint32
+    offset: 44
 WKSItemInfo:
   - type: uint32
     offset: 0
@@ -46866,6 +47428,8 @@ WKSItemInfo:
     offset: 7
   - type: uint16
     offset: 4
+  - type: packedbool0
+    offset: 8
 WKSItemSubCategory:
   - type: string
     offset: 0
@@ -46970,19 +47534,21 @@ WKSMechaEventData:
     offset: 140
 WKSMechaEventObject:
   - type: uint8
-    offset: 12
+    offset: 14
   - type: int32
     offset: 4
   - type: uint32
     offset: 0
   - type: int32
     offset: 8
+  - type: uint16
+    offset: 12
   - type: uint8
-    offset: 13
-WKSMechaEventObjectGroup:
+    offset: 15
+WKSMechaEventObjectGroup@Subrow:
   - type: uint32
     offset: 0
-WKSMechaEventRewardUI:
+WKSMechaEventRewardUI@Subrow:
   - type: packedbool0
     offset: 8
   - type: packedbool1
@@ -46993,7 +47559,12 @@ WKSMechaEventRewardUI:
     offset: 0
   - type: uint32
     offset: 4
-WKSMechaLivelyActorGroup:
+WKSMechaFieldSearcher:
+  - type: uint32
+    offset: 0
+  - type: uint32
+    offset: 4
+WKSMechaLivelyActorGroup@Subrow:
   - type: uint32
     offset: 0
   - type: uint16
@@ -47006,7 +47577,9 @@ WKSMechaLivelyActorGroup:
     offset: 10
   - type: uint16
     offset: 12
-WKSMissionInfo:
+  - type: uint16
+    offset: 14
+WKSMissionInfo@Subrow:
   - type: uint16
     offset: 0
   - type: uint16
@@ -47015,6 +47588,9 @@ WKSMissionInfo:
     offset: 4
   - type: uint16
     offset: 6
+WKSMissionLotteryCond:
+  - type: uint8
+    offset: 0
 WKSMissionLotterySpecialCond:
   - type: uint8
     offset: 2
@@ -47032,14 +47608,10 @@ WKSMissionMapMarker:
   - type: uint16
     offset: 8
 WKSMissionPromotionCondition:
-  - type: uint16
+  - type: uint8
     offset: 0
   - type: uint8
-    offset: 4
-  - type: uint8
-    offset: 5
-  - type: uint16
-    offset: 2
+    offset: 1
 WKSMissionRecipe:
   - type: uint32
     offset: 0
@@ -47052,36 +47624,40 @@ WKSMissionRecipe:
   - type: uint32
     offset: 16
 WKSMissionReward:
-  - type: uint8
-    offset: 10
-  - type: uint8
-    offset: 11
-  - type: uint8
-    offset: 12
-  - type: uint16
-    offset: 0
-  - type: uint16
-    offset: 2
-  - type: uint8
-    offset: 13
-  - type: uint8
-    offset: 14
-  - type: uint8
-    offset: 17
   - type: uint16
     offset: 4
-  - type: uint8
-    offset: 15
-  - type: uint8
-    offset: 18
   - type: uint16
     offset: 6
-  - type: uint8
-    offset: 16
-  - type: uint8
-    offset: 19
   - type: uint16
     offset: 8
+  - type: uint16
+    offset: 10
+  - type: uint16
+    offset: 12
+  - type: uint8
+    offset: 22
+  - type: uint8
+    offset: 23
+  - type: uint8
+    offset: 26
+  - type: uint16
+    offset: 14
+  - type: uint8
+    offset: 24
+  - type: uint8
+    offset: 27
+  - type: uint16
+    offset: 16
+  - type: uint8
+    offset: 25
+  - type: uint8
+    offset: 28
+  - type: uint16
+    offset: 18
+  - type: uint32
+    offset: 0
+  - type: uint16
+    offset: 20
 WKSMissionSupplyItem:
   - type: uint16
     offset: 0
@@ -47139,7 +47715,7 @@ WKSMissionToDo:
     offset: 30
   - type: uint8
     offset: 37
-WKSMissionToDoEvalutionItem:
+WKSMissionToDoEvalutionItem@Subrow:
   - type: uint16
     offset: 0
 WKSMissionToDoEvalutionRefin:
@@ -47164,7 +47740,7 @@ WKSMissionUnit:
   - type: uint8
     offset: 33
   - type: packedbool0
-    offset: 37
+    offset: 38
   - type: uint8
     offset: 34
   - type: uint16
@@ -47183,22 +47759,29 @@ WKSMissionUnit:
     offset: 20
   - type: uint8
     offset: 35
+  - type: uint8
+    offset: 36
   - type: uint16
     offset: 22
   - type: uint16
     offset: 24
   - type: uint8
-    offset: 36
+    offset: 37
   - type: uint16
     offset: 26
   - type: uint16
     offset: 28
   - type: uint16
     offset: 30
+WKSNextPlanetGuidance:
+  - type: uint32
+    offset: 4
+  - type: string
+    offset: 0
 WKSParam:
   - type: uint32
     offset: 0
-WKSPioneeringTrail:
+WKSPioneeringTrail@Subrow:
   - type: uint16
     offset: 4
   - type: uint32
@@ -47214,7 +47797,18 @@ WKSPioneeringTrailString:
     offset: 4
   - type: string
     offset: 8
-WKSPraiseHologram:
+WKSPlanetSelect:
+  - type: uint8
+    offset: 16
+  - type: uint32
+    offset: 4
+  - type: uint32
+    offset: 8
+  - type: uint32
+    offset: 12
+  - type: string
+    offset: 0
+WKSPraiseHologram@Subrow:
   - type: uint16
     offset: 0
   - type: uint16
@@ -47223,6 +47817,11 @@ WKSPraiseHologram:
     offset: 4
   - type: uint16
     offset: 6
+WKSPraiseUI:
+  - type: int32
+    offset: 4
+  - type: string
+    offset: 0
 WKSScoreList:
   - type: int8
     offset: 7
@@ -47236,32 +47835,48 @@ WKSScoreList:
     offset: 4
 WKSSharedGroup:
   - type: uint8
-    offset: 8
+    offset: 10
   - type: uint32
     offset: 0
   - type: uint32
     offset: 4
   - type: uint8
-    offset: 9
+    offset: 11
   - type: packedbool0
-    offset: 10
+    offset: 12
+  - type: uint16
+    offset: 8
 WKSTerritoryInfo:
   - type: uint32
-    offset: 0
+    offset: 28
   - type: uint8
-    offset: 18
+    offset: 46
+  - type: uint32
+    offset: 32
+  - type: uint32
+    offset: 36
+  - type: uint16
+    offset: 44
+  - type: uint32
+    offset: 40
+  - type: uint32
+    offset: 0
   - type: uint32
     offset: 4
   - type: uint32
     offset: 8
-  - type: uint16
-    offset: 16
   - type: uint32
     offset: 12
+  - type: uint32
+    offset: 16
+  - type: uint32
+    offset: 20
+  - type: uint32
+    offset: 24
 WKSText:
   - type: string
     offset: 0
-WKSZoneFloorCollision:
+WKSZoneFloorCollision@Subrow:
   - type: uint32
     offset: 0
 World:
@@ -47288,6 +47903,9 @@ WorldDCGroupType:
     offset: 7
   - type: packedbool0
     offset: 8
+XBMPet:
+  - type: uint8
+    offset: 0
 XPVPGroupActivity:
   - type: string
     offset: 0
@@ -47330,7 +47948,7 @@ YKW:
     offset: 20
   - type: string
     offset: 0
-ZoneSharedGroup:
+ZoneSharedGroup@Subrow:
   - type: uint32
     offset: 0
   - type: uint8
@@ -47389,7 +48007,7 @@ ZoneSharedGroup:
     offset: 56
   - type: bool
     offset: 73
-ZoneTimeline:
+ZoneTimeline@Subrow:
   - type: uint32
     offset: 0
   - type: uint8
