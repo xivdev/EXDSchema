@@ -19,7 +19,6 @@ fields:
   - name: Unknown11
   - name: Unknown12
   - name: Unknown13
-  - name: Unknown14
   - name: MagiciteSlot
     type: array
     count: 4
@@ -31,7 +30,7 @@ fields:
             1: [DeepDungeonMagicStone]
             2: [DeepDungeonDemiclone]
   - name: Name
-  - name: Unknown15
+  - name: Unknown14
   - name: ContentFinderConditionStart
     type: link
     targets: [ContentFinderCondition]
