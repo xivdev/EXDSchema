@@ -1,5 +1,6 @@
 name: Update Submodules
 on:
+  workflow_dispatch:
   repository_dispatch:
     types: [version-push]
 
