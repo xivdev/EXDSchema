@@ -1,4 +1,4 @@
 name: AkatsukiNoteString
-displayField: Unknown0
+displayField: Text
 fields:
   - name: Text
