@@ -2,11 +2,11 @@ name: WKSCosmoToolDataAmount
 fields:
   - name: Stages
     type: array
-    count: 9
+    count: 14
     fields:
       - name: RequiredAmount
         type: array
-        count: 4
+        count: 5
       - name: MaxAmount
         type: array
-        count: 4
+        count: 5

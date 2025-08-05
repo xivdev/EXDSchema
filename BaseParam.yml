@@ -25,6 +25,7 @@ fields:
   - name: ChestLegsGlovesPercent
   - name: ChestLegsFeetPercent
   - name: Unknown1
+  - name: Unknown3
   - name: OrderPriority
   - name: MeldParam
     type: array

@@ -7,6 +7,19 @@ fields:
     fields:
       - type: link
         targets: [DeepDungeonItem]
+  - name: Unknown2
+  - name: Unknown3
+  - name: Unknown4
+  - name: Unknown5
+  - name: Unknown6
+  - name: Unknown7
+  - name: Unknown8
+  - name: Unknown9
+  - name: Unknown10
+  - name: Unknown11
+  - name: Unknown12
+  - name: Unknown13
+  - name: Unknown14
   - name: MagiciteSlot
     type: array
     count: 4
@@ -18,6 +31,7 @@ fields:
             1: [DeepDungeonMagicStone]
             2: [DeepDungeonDemiclone]
   - name: Name
+  - name: Unknown15
   - name: ContentFinderConditionStart
     type: link
     targets: [ContentFinderCondition]
@@ -28,4 +42,3 @@ fields:
     type: link
     targets: [DeepDungeonEquipment]
   - name: DeepDungeonType
-  - name: Unknown1

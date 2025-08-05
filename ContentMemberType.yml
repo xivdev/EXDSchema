@@ -12,6 +12,7 @@ fields:
   - name: HealersPerParty
   - name: MeleesPerParty
   - name: RangedPerParty
+  - name: Unknown16
   - name: Unknown7
   - name: Unknown8
   - name: Unknown9

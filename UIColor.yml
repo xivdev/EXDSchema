@@ -9,3 +9,11 @@ fields:
     type: color
   - name: ClearBlue
     type: color
+  - name: Unknown0
+    type: color
+  - name: Unknown1
+    type: color
+  - name: Unknown2
+    type: color
+  - name: Unknown3
+    type: color

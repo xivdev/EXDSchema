@@ -44,10 +44,6 @@ fields:
     targets: [Quest]
   - name: FATEChain
   - name: Unknown13
-  - name: ArrayIndex
-    type: link
-    targets: [ArrayEventHandler]
-  - name: Unknown3
   - name: FateRuleEx
     type: link
     targets: [FateRuleEx]

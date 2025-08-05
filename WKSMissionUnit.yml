@@ -39,6 +39,7 @@ fields:
     type: link
     targets: [WKSFunction]
   - name: LevelGroup
+  - name: Unknown0
   - name: WKSMissionLotterySpecialCond
     type: link
     targets: [WKSMissionLotterySpecialCond]

@@ -8,3 +8,4 @@ fields:
   - name: WKSItemSubCategory
     type: link
     targets: [WKSItemSubCategory]
+  - name: Unknown3
