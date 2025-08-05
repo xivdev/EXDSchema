@@ -1,8 +1,8 @@
 name: WeeklyBingoMultipleOrder
 fields:
   - name: Content
-    type: array
     comment: "I *think* this is correct? You're welcome MidoriKami :3"
+    type: array
     count: 5
     fields:
       - type: link
