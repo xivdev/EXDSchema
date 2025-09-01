@@ -47,7 +47,7 @@ fields:
   - name: CanApplyGlamourPlatesAnywhere
   - name: Unknown38
   - name: EnableFieldMarkerPresets
-  - name: Unknown40
+  - name: IgnoreCombatFlagForMarkers
   - name: Unknown41
     comment: Related to blocking Say/Yell/Shout in Eureka/Bozja/Unknown61??
   - name: Unknown42
