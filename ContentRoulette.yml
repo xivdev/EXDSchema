@@ -7,12 +7,13 @@ fields:
   - name: Description
   - name: DutyType
   - name: Unknown1
-  - name: Icon
+    comment: "This would show Addon#102618, but the row is empty."
+  - name: Image
     type: icon
   - name: Unknown2
   - name: Unknown3
   - name: ItemLevelRequired
-  - name: Unknown4
+  - name: ItemLevelSync
   - name: RewardTomeA
   - name: RewardTomeB
   - name: RewardTomeC
@@ -20,41 +21,55 @@ fields:
   - name: InstanceContent
     type: link
     targets: [InstanceContent]
-  - name: Unknown6
+  - name: RequiredExVersion
+    type: link
+    targets: [ExVersion]
   - name: OpenRule
     type: link
     targets: [ContentRouletteOpenRule]
   - name: RequiredLevel
-  - name: Unknown7
+  - name: SyncedFromLevel
   - name: ContentRouletteRoleBonus
     type: link
     targets: [ContentRouletteRoleBonus]
   - name: SortKey
-  - name: Unknown8
+  - name: ClassJobCategory
+    type: link
+    targets: [ClassJobCategory]
   - name: ContentMemberType
     type: link
     targets: [ContentMemberType]
   - name: Unknown9
-  - name: Unknown10
-  - name: Unknown11
+  - name: QueueMaxPlayers
+  - name: ContentType
+    type: link
+    targets: [ContentType]
   - name: Unknown12
-  - name: Unknown13
-  - name: Unknown14
-  - name: ContentRouletteOpenRule
+  - name: TimeLimit
+    comment: "In minutes."
+  - name: TimeLimitMax
+    comment: "In minutes. If 0, only TimeLimit is displayed."
+  - name: LootModeType
+    type: link
+    targets: [LootModeType]
   - name: Unknown15
-  - name: Unknown16
-  - name: Unknown17
+  - name: PenaltyTimestampArrayIndex
+    comment: "Index in PlayerState.PenaltyTimestamps"
+  - name: CompletionArrayIndex
+    comment: "Index in PlayerState.ContentRouletteCompletion"
   - name: IsGoldSaucer
   - name: IsInDutyFinder
   - name: IsPvP
-  - name: Unknown25
+  - name: AppliesHighestAverageDutyItemLevel
+    comment: "Displays Addon#2828."
   - name: Unknown18
-  - name: Unknown19
-  - name: Unknown27
-  - name: Unknown20
-  - name: RequireAllDuties
-  - name: Unknown21
+  - name: AllowConsumableItems
+  - name: AllowPhoenixDown
+  - name: AllowReplacement
+  - name: RatedMatch
+  - name: Rated
   - name: Unknown22
+    comment: "This would show Addon#10833, but the row does not exist."
   - name: Unknown23
   - name: Unknown24
-  - name: Unknown26
+  - name: IsRegistrationAllowedFromAnyDataCenter
