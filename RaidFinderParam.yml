@@ -1,3 +1,4 @@
 name: RaidFinderParam
 fields:
-  - name: Unknown0
+  - name: SeparatedHealerRoles
+    comment: "Displays Addon#10115 instead of Addon#10093, to list pure and barrier healer count."
