@@ -46,19 +46,30 @@ fields:
   - name: Unknown28
   - name: ShortCode
   - name: Unknown29
-  - name: Unknown30
-  - name: UnlockQuest
+    comment: "This would show Addon#102618, if not 0, but the row is empty."
+  - name: ContentCloseCycle
     type: link
-    targets: [Quest]
-  - name: Unknown31
-  - name: Unknown_70_1
-  - name: Transient
+    targets: [ContentCloseCycle]
+  - name: UnlockCriteria
     type: link
     condition:
-      switch: ContentUICategory
+      switch: UnlockType
       cases:
-        6: [ContentFinderConditionTransient]
-        7: [ContentFinderConditionTransient]
+        1: [Quest]
+        2: [InstanceContent]
+  - name: UnlockCriteria2
+    type: link
+    condition:
+      switch: UnlockType2
+      cases:
+        1: [Quest]
+        2: [InstanceContent]
+  - name: JournalGenre
+    type: link
+    targets: [JournalGenre]
+  - name: Transient
+    type: link
+    targets: [ContentFinderConditionTransient]
   - name: Image
     type: icon
   - name: Icon
@@ -81,7 +92,9 @@ fields:
   - name: ItemLevelSync
   - name: SortKey
   - name: ContentLinkType
-  - name: Unknown33
+  - name: RequiredExVersion
+    type: link
+    targets: [ExVersion]
   - name: AcceptClassJobCategory
     type: link
     targets: [ClassJobCategory]
@@ -89,42 +102,49 @@ fields:
     type: link
     targets: [ContentMemberType]
   - name: Unknown34
-  - name: Unknown35
-  - name: Unknown36
-  - name: Unknown37
+    comment: "Used to control what is displayed as player count (Addon#10806, Addon#10805, etc.). Has some weird logic behind it."
+  - name: QueueMaxPlayers
+  - name: UnlockType
+  - name: UnlockType2
   - name: ClassJobLevelRequired
   - name: ClassJobLevelSync
-  - name: Unknown38
-  - name: Unknown39
+  - name: LootModeType
+    type: link
+    targets: [LootModeType]
+  - name: RaidFinderParam
+    type: link
+    targets: [RaidFinderParam]
   - name: ContentType
     type: link
     targets: [ContentType]
   - name: ContentUICategory
     type: link
     targets: [ContentUICategory]
-  - name: Unknown40
+  - name: PenaltyTimestampArrayIndex
+    comment: "Index in PlayerState.PenaltyTimestamps"
   - name: Unknown41
   - name: PvP
   - name: Unknown_70_2
-  - name: Unknown42
+  - name: FixedItemLevelSync
+    comment: "If true, the players item level is always set to ItemLevelSync (up-sync and down-sync possible)."
   - name: AllowUndersized
-  - name: Unknown43
+  - name: NeedsMemberInEveryParty
   - name: Unknown57
   - name: AllowReplacement
-  - name: Unknown44
+  - name: AllowMinimumIL
   - name: AllowExplorerMode
-  - name: Unknown45
-  - name: Unknown46
+  - name: RatedMatch
+  - name: Rated
   - name: Unknown47
-  - name: Unknown48
+  - name: IsInDutyFinder
   - name: HighEndDuty
   - name: Unknown49
-  - name: Unknown50
+  - name: HasOnePlayerPerJobDetails
   - name: Unknown51
   - name: DutyRecorderAllowed
   - name: Unknown52
-  - name: Unknown53
+  - name: IsRegistrationHomeWorldLimited
   - name: Unknown54
   - name: Unknown55
   - name: Unknown56
-  - name: Unknown58
+  - name: IsRegistrationAllowedFromAnyDataCenter

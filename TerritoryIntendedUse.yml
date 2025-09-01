@@ -31,7 +31,7 @@ fields:
   - name: DisableFieldMarkers
   - name: Unknown23
   - name: EnableActions
-  - name: Unknown25
+  - name: EnableConsumableItems
   - name: Unknown26
   - name: EnableTripleTriadMatches
   - name: EnableTripleTriadMatchesAnywhere
