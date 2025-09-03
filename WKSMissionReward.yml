@@ -1,19 +1,26 @@
 name: WKSMissionReward
 fields:
-  - name: Unknown15
-  - name: Unknown16
-  - name: Unknown17
-  - name: Unknown18
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown8
+  - name: Item
+    targets: [Item]
+    type: link
+  - name: ExpModifier
+    type: array
+    count: 3
+    comment: "tmp = (((1374389535 * ExpToNex * (lvl < 50 ? index0 : lvl < 90 ? index1 : index2)) >> 32) >> 5); exp = tmp + (tmp >> 31)"
+  - name: CosmoCredits
+  - name: PlanetCredits
+  - type: array
+    count: 3
+    name: ResearchReward
+  - name: ItemCount
   - name: Unknown19
-  - name: Unknown9
-  - name: Unknown10
-  - name: Unknown11
-  - name: Unknown12
-  - name: Unknown13
-  - name: Unknown14
+    comment: Needs to match WKSEmergencyProblem.Unknown2 to be active?
+  - name: Tool
+    type: array
+    count: 3
+    fields:
+      - type: link
+        targets: [WKSCosmoToolClass]
+  - name: TypeIndex
+    type: array
+    count: 3
