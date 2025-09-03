@@ -1,5 +1,7 @@
 name: WKSMissionLotterySpecialCond
 fields:
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
+  - name: WeatherRequired
+    type: link
+    targets: [Weather]
+  - name: StartTimeHour
+  - name: EndTimeHour
