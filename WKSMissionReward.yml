@@ -6,7 +6,7 @@ fields:
   - name: ExpModifier
     type: array
     count: 3
-    comment: "tmp = (((1374389535 * ExpToNex * (lvl < 50 ? index0 : lvl < 90 ? index1 : index2)) >> 32) >> 5); exp = tmp + (tmp >> 31)"
+    comment: "ExpReward = ExpToNex * (lvl < 50 ? ExpModifier[0] : lvl < 90 ? ExpModifier[1] : ExpModifier[2]) / 100"
   - name: CosmoCredits
   - name: PlanetCredits
   - type: array
