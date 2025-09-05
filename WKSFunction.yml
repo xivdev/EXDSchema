@@ -1,13 +1,17 @@
 name: WKSFunction
 fields:
   - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
+    type: array
+    count: 4
+    fields:
+      - type: link
+        targets: [Quest]
   - name: Unknown4
-  - name: Unknown5
-  - name: Unknown6
-  - name: Unknown7
+    type: array
+    count: 4
+    fields:
+      - type: link
+        targets: [Quest]
   - name: Unknown16
   - name: Unknown17
   - name: Unknown18
