@@ -1,5 +1,7 @@
 name: EventTutorialPage
+displayField: Name
 fields:
   - name: Name
   - name: Text
-  - name: Unknown2
+  - name: Image
+    type: icon
