@@ -1,5 +1,4 @@
 name: DeepDungeonBan
-displayField: Name
 fields:
   - name: ScreenImage
     type: link
