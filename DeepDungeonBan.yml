@@ -7,6 +7,6 @@ fields:
   - name: LogMessage
     type: link
     targets: [LogMessage]
-  - name: Name
+  - name: FloorEffectUI
     type: link
     targets: [DeepDungeonFloorEffectUI]
