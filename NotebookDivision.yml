@@ -11,14 +11,14 @@ fields:
   - name: CraftOpeningLevel
   - name: GatheringOpeningLevel
   - name: Unknown0
-  - name: Unknown2
-  - name: Unknown3
-  - name: CRPCraft
-  - name: BSMCraft
-  - name: ARMCraft
-  - name: GSMCraft
-  - name: LTWCraft
-  - name: WVRCraft
-  - name: ALCCraft
-  - name: CULCraft
-  - name: Unknown1
+  - name: SecretRecipeBookGroups
+    type: array
+    count: 2
+    fields:
+      - type: link
+        targets: [SecretRecipeBookGroup]
+  - name: AllowedCraftTypes
+    type: array
+    count: 8
+    comment: "Index is CraftType"
+  - name: RequiresSecretRecipeBookGroupUnlock

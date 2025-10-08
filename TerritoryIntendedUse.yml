@@ -7,7 +7,7 @@ fields:
     type: link
     targets: [TerritoryChatRule]
   - name: Unknown3
-  - name: Unknown4
+  - name: EnableCrafting
   - name: Unknown5
   - name: Unknown6
   - name: Unknown7
