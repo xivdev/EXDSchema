@@ -21,7 +21,7 @@ fields:
   - name: LogMessageUntargeted
     type: link
     targets: [LogMessage]
-  - name: Unknown0
+  - name: Patch
   - name: EmoteCategory
     type: link
     targets: [EmoteCategory]
