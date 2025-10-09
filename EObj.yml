@@ -1,6 +1,8 @@
 name: EObj
 fields:
   - name: Data
+    type: link
+    targets: [Quest, CustomTalk, Warp]
   - name: SgbPath
     type: link
     targets: [ExportedSG]
