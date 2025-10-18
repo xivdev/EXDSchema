@@ -1,10 +1,22 @@
 name: PatchMark
 fields:
-  - name: Unknown0
+  - name: Requirement
+    type: link
+    condition:
+      switch: RequirementType
+      cases:
+        3: [Quest]
   - name: MarkID
   - name: SubCategory
   - name: Unknown1
   - name: SubCategoryType
-  - name: Unknown2
+  - name: RequirementType
+    comment: |
+      1 = Some Housing Permission 1
+      2 = Some Housing Permission 2
+      3 = Quest
+      4 = UnlockLink
+      5 = InstanceContent 50001 unlocked, but 50003 not
+      6 = LocalPlayer has a FreeCompanyTag
   - name: Version
   - name: Category
