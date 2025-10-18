@@ -4,7 +4,9 @@ fields:
   - name: Name
   - name: MenuScreen
     comment: Equivalent to the last quest in column 6 of ScenarioTree
-  - name: Unknown0
+  - name: Icon
+    comment: Can be used in various places for UI elements.
+    type: icon
   - name: AcceptJingle
     type: link
     targets: [ScreenImage]

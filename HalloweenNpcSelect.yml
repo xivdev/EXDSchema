@@ -9,4 +9,6 @@ fields:
     type: link
     targets: [Transformation]
   - name: Unknown5
-  - name: ExpansionPage
+  - name: Expansion
+    type: link
+    targets: [ExVersion]
