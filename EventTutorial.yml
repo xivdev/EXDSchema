@@ -3,7 +3,7 @@ displayField: Singular
 fields:
   - name: Singular
   - name: Plural
-  - name: Unknown2
+  - name: UnlockLink
   - name: Pages
     type: array
     count: 8
