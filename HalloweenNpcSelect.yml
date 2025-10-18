@@ -3,7 +3,10 @@ fields:
   - name: Description
   - name: Unknown1
   - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
+  - name: PreviewIcon
+    type: icon
+  - name: Transformation
+    type: link
+    targets: [Transformation]
   - name: Unknown5
-  - name: Unknown6
+  - name: ExpansionPage
