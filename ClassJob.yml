@@ -21,10 +21,12 @@ fields:
   - name: Unknown_70_1
   - name: Unknown_70_2
   - name: Unknown9
-  - name: ItemStartingWeapon
+  - name: ItemStartingWeaponMainHand
     type: link
     targets: [Item]
-  - name: Unknown1
+  - name: ItemStartingWeaponOffHand
+    type: link
+    targets: [Item]
   - name: ModifierHitPoints
   - name: ModifierManaPoints
   - name: ModifierStrength
@@ -71,7 +73,14 @@ fields:
   - name: UIPriority
   - name: StartingLevel
   - name: PartyBonus
-  - name: Unknown11
+  - name: JobType
+    comment: |
+      1 = Tank
+      2 = Pure Healer
+      3 = Melee
+      4 = Physical Ranged
+      5 = Magical Ranged
+      6 = Barrier Healer
   - name: ExpArrayIndex
   - name: BattleClassIndex
   - name: DohDolJobIndex

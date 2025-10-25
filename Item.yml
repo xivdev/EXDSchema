@@ -104,6 +104,64 @@ fields:
   - name: AetherialReduce
   - name: Rarity
   - name: FilterGroup
+    comment: |
+      1 = Physical Weapon
+      2 = Magical Weapon
+      3 = Shield
+      4 = Gear
+      5 = Meal
+      6 = Medicine
+      7 = Deep Dungeon Usable (Manuals, Medicine, Potions)
+      8 = Potion (HP)
+      9 = Ether (MP)
+      10 = Elixir (HP+MP)
+      11 = Crystal
+      12 = Crafting Material
+      13 = Materia
+      14 = Housing
+      15 = Stain
+      16 = Misc (Various stuff)
+      17 = Fishing Bait
+      18 = Treasure Map
+      19 = Useables (Various stuff)
+      20 = Gardening Seed
+      21 = Gardening Soil
+      22 = Gardening Fertilizer
+      23 = Secret Recipe Book
+      24 = unused
+      25 = Aetherial Wheel
+      26 = Primed Aetherial Wheel
+      27 = Triple Triad Card
+      28 = Airship Component
+      29 = Currency
+      30 = Folklore Book
+      31 = Soul Crystal
+      32 = Orchestrion Roll
+      33 = Aquarium Tank Trimming
+      34 = Painting
+      35 = Tales Of Adventure Retainer
+      36 = Submersible Component
+      37 = Eureka Logos Action Ingredient
+      38 = Bozja Mettle
+      39 = Bozja Lost Action
+      40 = Bozjan Cluster
+      41 = unused
+      42 = unused
+      43 = Placeholder Item
+      44 = Belts
+      45 = ArchiveItem (RowId in AdditionalData)
+      46 = unused
+      47 = Sanctuary Cowrie
+      48 = Sanctuary Material
+      49 = Adventurers Parcel
+      50 = Cosmic Exploration Material
+      51 = Outfit
+      52 = Occult Crescent Knowledge
+      53 = Occult Crescent Phantom Experience
+      54 = Occult Crescent Enlightenment Piece
+      55 = Cosmic Exploration Cosmocredit
+      56 = Cosmic Exploration Lunar Credit
+      57 = Occult Crescent Sanguine Cipher
   - name: ItemUICategory
     type: link
     targets: [ItemUICategory]

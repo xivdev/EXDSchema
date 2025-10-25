@@ -25,9 +25,13 @@ fields:
     targets: [MapCondition]
   - name: PriorityCategoryUI
   - name: PriorityUI
-  - name: Hierarchy
+  - name: MapType
+    type: link
+    targets: [MapType]
   - name: Unknown2
-  - name: Unknown0
+  - name: MapReplace
+    type: link
+    targets: [MapReplace]
   - name: MapIndex
   - name: DiscoveryArrayByte
   - name: IsEvent
