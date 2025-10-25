@@ -1,3 +1,5 @@
 name: MapType
 fields:
-  - name: Unknown0
+  - name: ParentMapOverride
+    type: link
+    targets: [Map]
