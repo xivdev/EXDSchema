@@ -28,7 +28,9 @@ fields:
       - name: Quest
         type: link
         targets: [Quest]
-  - name: Unknown0
+  - name: Level
+    type: link
+    targets: [Level]
   - name: Npc
     type: link
     targets: [ENpcResident]
