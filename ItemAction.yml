@@ -2,6 +2,8 @@ name: ItemAction
 fields:
   - name: Type
   - name: Data
+    type: link
+    targets: [Action]
     type: array
     count: 9
   - name: DataHQ
