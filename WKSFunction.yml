@@ -1,26 +1,34 @@
 name: WKSFunction
 fields:
-  - name: Unknown0
+  - name: RequiredQuests0
+    comment: "Required quest needed for function to return true"
     type: array
     count: 4
     fields:
       - type: link
         targets: [Quest]
-  - name: Unknown4
+  - name: RequiredQuests1
+    comment: "Required quest needed for function to return true"
     type: array
     count: 4
     fields:
       - type: link
         targets: [Quest]
   - name: Unknown16
-  - name: Unknown17
-  - name: Unknown18
-  - name: Unknown19
-  - name: Unknown8
-  - name: Unknown9
-  - name: Unknown10
-  - name: Unknown11
+    comment: "Best guess for now as no references are easily found in the game files"
+    type: array
+    count: 4
+    fields:
+      - type: link
+        targets: [Quest]
+  - name: DevGrade
+    comment: "Needs this grade to be completed for function to be valid. Game checks for WKSManager.DevGrade < DevGrade["
+    type: array
+    count: 4
+    fields:
+      - type: link
+        targets: [WKSDevGrade]
   - name: Unknown12
-  - name: Unknown13
-  - name: Unknown14
-  - name: Unknown15
+    comment: "Seems to only control one function tree for now relating to something in WKSManager but is also slated to check for '- 2 >= 2' and fail"
+    type: array
+    count: 4
