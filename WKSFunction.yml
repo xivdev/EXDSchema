@@ -14,15 +14,15 @@ fields:
     fields:
       - type: link
         targets: [Quest]
-  - name: Unknown16
+  - name: RequiredQuests2
     comment: "Best guess for now as no references are easily found in the game files"
     type: array
     count: 4
     fields:
       - type: link
         targets: [Quest]
-  - name: DevGrade
-    comment: "Needs this grade to be completed for function to be valid. Game checks for WKSManager.DevGrade < DevGrade["
+  - name: RequiredDevGrade
+    comment: "Needs this grade to be completed for function to be valid. Game checks for WKSManager.DevGrade < RequiredDevGrade[]"
     type: array
     count: 4
     fields:
