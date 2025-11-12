@@ -1,4 +1,7 @@
 name: GameRewardObtainType
 fields:
-  - name: Unknown0
-  - name: Unknown1
+  - name: Icon
+    type: icon
+  - name: Addon
+    type: link
+    targets: [Addon]
