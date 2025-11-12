@@ -8,18 +8,18 @@ fields:
     targets: [TerritoryChatRule]
   - name: Unknown3
   - name: EnableCrafting
-  - name: Unknown5
-  - name: Unknown6
+  - name: EnableGathering
+  - name: EnableRepairs
   - name: Unknown7
   - name: Unknown8
-  - name: Unknown9
+  - name: EnableJobChangeToLimitedJob
   - name: EnableCompanion
     comment: Enables summoning Chocobo Companion
   - name: EnablePets
     comment: Enables summoning Summoner/Scholar pets
   - name: EnableRidePillion
   - name: DisableLogoutTimer
-  - name: Unknown14
+  - name: EnableTeleport
   - name: EnableReturn
   - name: Unknown16
   - name: Unknown17
@@ -38,7 +38,7 @@ fields:
   - name: Unknown29
   - name: Unknown30
   - name: Unknown31
-    comment: Related to Idle Cam filtering EventNpcs/EventObjs??
+    comment: Related to Idle Cam
   - name: CanPauseTimeWeather
   - name: Unknown33
   - name: EnablePvPQuickChat
@@ -46,8 +46,9 @@ fields:
   - name: Unknown36
   - name: CanApplyGlamourPlatesAnywhere
   - name: Unknown38
+    comment: Related to idle timer
   - name: EnableFieldMarkerPresets
   - name: IgnoreCombatFlagForMarkers
   - name: Unknown41
-    comment: Related to blocking Say/Yell/Shout in Eureka/Bozja/Unknown61??
+    comment: Related to blocking Say/Yell/Shout of a muted player in Eureka/Bozja/OccultCrescent
   - name: Unknown42
