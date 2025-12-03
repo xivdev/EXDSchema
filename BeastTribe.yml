@@ -14,8 +14,12 @@ fields:
     type: icon
   - name: Icon
     type: icon
-  - name: Unknown1
-  - name: Unknown2
+  - name: IntersocietalQuest
+    type: link
+    targets: [Quest]
+  - name: Level
+    type: link
+    targets: [Level]
   - name: CurrencyItem
     type: link
     targets: [Item]
