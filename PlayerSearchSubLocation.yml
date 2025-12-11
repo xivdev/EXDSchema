@@ -1,8 +1,14 @@
 name: PlayerSearchSubLocation
+displayField: Name0
 fields:
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown5
+  - name: Name0
+  - name: Name1
+  - name: Name2
+  - name: PlaceName
+    type: link
+    targets: [PlaceName]
+  - name: Location
+    comment: The UI category this appears in.
+    type: link
+    targets: [PlayerSearchLocation]
+  - name: SortKey
