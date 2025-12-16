@@ -12,6 +12,9 @@ fields:
       - name: SubMenuParam
         type: array
         count: 100
+      - name: Unknown0
+        type: array
+        count: 6
       - name: InitVal
       - name: SubMenuType
       - name: SubMenuNum

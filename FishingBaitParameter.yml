@@ -1,3 +1,5 @@
 name: FishingBaitParameter
 fields:
-  - name: Unknown0
+  - name: Item
+    type: link
+    targets: [Item]

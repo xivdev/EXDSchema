@@ -1,0 +1,6 @@
+name: EventSetDefine
+fields:
+  - name: Unknown0
+    type: link
+    targets: [Quest]
+  - name: Unknown1

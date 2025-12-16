@@ -2,6 +2,8 @@ name: Emote
 displayField: Name
 fields:
   - name: Name
+  - name: Icon
+    type: icon
   - name: UnlockLink
   - name: TextCommand
     type: link
@@ -13,8 +15,6 @@ fields:
       - type: link
         targets: [ActionTimeline]
   - name: Order
-  - name: Icon
-    type: icon
   - name: LogMessageTargeted
     type: link
     targets: [LogMessage]

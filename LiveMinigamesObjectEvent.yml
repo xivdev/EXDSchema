@@ -1,4 +1,4 @@
-name: WKSMechaEventData
+name: LiveMinigamesObjectEvent
 fields:
   - name: Unknown0
   - name: Unknown1
