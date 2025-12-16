@@ -12,6 +12,7 @@ fields:
     type: icon
   - name: Unknown2
   - name: Unknown3
+  - name: Unknown6
   - name: ItemLevelRequired
   - name: ItemLevelSync
   - name: RewardTomeA

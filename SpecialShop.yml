@@ -84,3 +84,4 @@ fields:
   - name: Unknown3
   - name: RequiredContentFinderConditionComplete
     comment: If this is true, then the CFC needs to be completed; If this is false, then the CFC just needs to be unlocked
+  - name: Unknown4

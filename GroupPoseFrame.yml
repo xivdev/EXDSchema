@@ -4,9 +4,11 @@ fields:
   - name: Text
   - name: GridText
   - name: Unknown0
+  - name: Unknown5
   - name: Unknown1
   - name: Image
     type: icon
   - name: Unknown2
   - name: Unknown3
   - name: Unknown4
+  - name: Unknown6

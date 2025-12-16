@@ -27,6 +27,7 @@ fields:
     type: array
     count: 5
   - name: Unknown1
+  - name: Unknown8
   - name: LimitedTimeBonus
   - name: Cutscene
     type: link
