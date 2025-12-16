@@ -1,3 +1,4 @@
 name: GimmickBill
+displayField: Text
 fields:
-  - name: Unknown0
+  - name: Text

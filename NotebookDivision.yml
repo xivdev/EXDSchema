@@ -18,7 +18,7 @@ fields:
       - type: link
         targets: [SecretRecipeBookGroup]
   - name: AllowedCraftTypes
+    comment: "Index is CraftType"
     type: array
     count: 8
-    comment: "Index is CraftType"
   - name: RequiresSecretRecipeBookGroupUnlock
