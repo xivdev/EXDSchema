@@ -2,7 +2,7 @@ name: WKSMissionToDo
 fields:
   - name: TemporaryAction
     type: link
-    targets: [Action,ActionTransient]
+    targets: [Action, ActionTransient]
   - name: Unknown1
   - name: Unknown2
   - name: RequiredItem

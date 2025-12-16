@@ -6,6 +6,6 @@ fields:
   - name: Icon
     type: icon
   - name: Territory
+    comment: "Also links to HousingIndoorTerritory which shares a 1:1 map of ids to TerritoryType"
     type: link
     targets: [TerritoryType]
-    comment: "Also links to HousingIndoorTerritory which shares a 1:1 map of ids to TerritoryType"

@@ -8,8 +8,8 @@ fields:
   - name: Action
     type: array
     count: 5
-    fields: 
-      - type: link        
+    fields:
+      - type: link
         targets: [Action]
   - name: LevelMax
   - name: JobIndex
@@ -17,6 +17,6 @@ fields:
     type: array
     count: 5
 relations:
-    Actions:
-      - Action
-      - LevelUnlock
+  Actions:
+    - Action
+    - LevelUnlock
