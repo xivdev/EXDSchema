@@ -1,3 +1,4 @@
 name: WKSEmergencyMission
 fields:
-  - name: Unknown0
+  - name: WKSEmergencyMissionGroupRowId
+    comment: As of Patch 7.31 this can always be direct queried with subrow 0 to get the follow chain to WKSMissionUnit from the sheet

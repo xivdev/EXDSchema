@@ -2,7 +2,7 @@ name: MKDLore
 fields:
   - name: Name
   - name: Description
-  - name: Unknown2
+  - name: UnlockLink
   - name: Image
     type: icon
   - name: Unknown4

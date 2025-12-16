@@ -76,7 +76,7 @@ fields:
   - name: Unknown8
   - name: IsPvpZone
   - name: Unknown9
-  - name: Unknown10
+  - name: IsInUse
   - name: Unknown11
   - name: Unknown12
   - name: Unknown13
