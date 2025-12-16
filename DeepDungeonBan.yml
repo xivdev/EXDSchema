@@ -1,5 +1,4 @@
 name: DeepDungeonBan
-displayField: Name
 fields:
   - name: ScreenImage
     type: link
@@ -7,6 +6,6 @@ fields:
   - name: LogMessage
     type: link
     targets: [LogMessage]
-  - name: Name
+  - name: FloorEffectUI
     type: link
     targets: [DeepDungeonFloorEffectUI]
