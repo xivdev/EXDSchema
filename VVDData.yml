@@ -15,3 +15,4 @@ fields:
   - name: Series
     comment: RowId of VVDRouteData and VVDNotebookSeries
   - name: Unknown5
+  - name: Unknown6

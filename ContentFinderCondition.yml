@@ -75,6 +75,7 @@ fields:
   - name: Icon
     type: icon
   - name: Unknown32
+  - name: Unknown58
   - name: TerritoryType
     type: link
     targets: [TerritoryType]
