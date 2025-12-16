@@ -33,5 +33,6 @@ fields:
         3: [Fate]
         4: [Level]
         7: [Level]
+        8: [Level]
   - name: ContentLinkType
   - name: Unknown2

@@ -3,7 +3,7 @@ displayField: PlaceName
 fields:
   - name: BigFishOnReach
   - name: BigFishOnEnd
-  - name: Unknown_70_1
+  - name: BigFishOnRefresh
   - name: Item
     type: array
     count: 10

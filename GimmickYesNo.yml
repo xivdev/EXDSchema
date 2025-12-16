@@ -1,5 +1,6 @@
 name: GimmickYesNo
+displayField: Message
 fields:
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
+  - name: Message
+  - name: YesButton
+  - name: NoButton

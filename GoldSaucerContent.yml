@@ -1,6 +1,8 @@
 name: GoldSaucerContent
 fields:
   - name: Unknown0
-  - name: Unknown1
+  - name: ContentFinderCondition
+    type: link
+    targets: [ContentFinderCondition]
   - name: Unknown2
-  - name: Unknown3
+  - name: TimeLimit
