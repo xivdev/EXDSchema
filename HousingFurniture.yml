@@ -11,11 +11,17 @@ fields:
   - name: ModelKey
   - name: HousingItemCategory
   - name: UsageType
-  - name: Unknown0
+  - name: Placement
+    type: link
+    targets: [HousingPlacement]
   - name: AquariumTier
   - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
+  - name: Unplacement
+    type: link
+    targets: [HousingUnplacement]
+  - name: UnplacementStorage
+    type: link
+    targets: [HousingUnplacement]
   - name: DestroyOnRemoval
   - name: Unknown4
   - name: Unknown5
