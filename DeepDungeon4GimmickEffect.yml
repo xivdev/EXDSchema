@@ -1,4 +1,5 @@
 name: DeepDungeon4GimmickEffect
 fields:
-  - name: Unknown0
+  - name: StatusIcon
+    type: icon
   - name: Unknown1

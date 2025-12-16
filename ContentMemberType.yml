@@ -2,22 +2,30 @@ name: ContentMemberType
 fields:
   - name: Unknown0
   - name: Unknown1
-  - name: Unknown2
+  - name: AllianceRegistrationMinPlayers
+    comment: "Used as parameter for Addon#16461."
   - name: Unknown3
-  - name: Unknown4
-  - name: Unknown5
-  - name: Unknown15
+  - name: MembersPerParty
+  - name: PartyCount
+  - name: AlliancePartyCount
+    comment: "For example, used for The Occult Crescent: South Horn, to allow queuing with alliance parties. If 0, use PartyCount."
   - name: Unknown6
+    comment: "Unknown party count. If 0, use PartyCount."
   - name: TanksPerParty
   - name: HealersPerParty
   - name: MeleesPerParty
   - name: RangedPerParty
   - name: Unknown16
   - name: Unknown7
-  - name: Unknown8
-  - name: Unknown9
+  - name: AllowAllianceRegistration
+    comment: "Displays Addon#10826."
   - name: Unknown10
-  - name: Unknown11
+  - name: SeparatedDpsRoles
+    comment: "If true, displays MeleesPerParty and RangedPerParty separately (Addon#102593) instead of combining them (Addon#2513)."
+  - name: RoleIndependent
+    comment: "If true, displays Addon#102599 instead of Addon#2513 or Addon#102593."
   - name: Unknown12
-  - name: Unknown13
-  - name: Unknown14
+  - name: OnlyPvPTeamMembers
+    comment: "Displays Addon#102617."
+  - name: AllowLimitedJobs
+    comment: "Displays Addon#10829."

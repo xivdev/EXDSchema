@@ -1,3 +1,4 @@
 name: ContentUICategory
+displayField: Name
 fields:
   - name: Name

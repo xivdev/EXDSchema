@@ -1,4 +1,5 @@
 name: DeepDungeon4GimmickEffectTransient
+displayField: Name
 fields:
-  - name: Unknown0
-  - name: Unknown1
+  - name: Name
+  - name: Description

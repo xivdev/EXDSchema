@@ -3,8 +3,11 @@ fields:
   - name: Unknown2
   - name: Unknown3
   - name: Unknown4
-  - name: Unknown0
-  - name: Unknown1
+  - name: Image
+    type: icon
+  - name: UnlockQuest
+    type: link
+    targets: [Quest]
   - name: Data
     type: link
     targets: [EmjCostumeData]

@@ -1,3 +1,5 @@
 name: WKSEmergencyMissionGroup
 fields:
-  - name: Unknown0
+  - name: WKSMissionUnit
+    type: link
+    targets: [WKSMissionUnit]

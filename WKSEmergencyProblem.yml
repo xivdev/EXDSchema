@@ -1,7 +1,13 @@
 name: WKSEmergencyProblem
 fields:
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown0
-  - name: Unknown1
+  - name: EmergencyInfoTeleportText1
+    comment: The first option to teleport
+    type: link
+    targets: [WKSEmergencyInfoText]
+  - name: EmergencyInfoTeleportText2
+    comment: The second option to teleport
+    type: link
+    targets: [WKSEmergencyInfoText]
+  - name: EventLayout
+  - name: RequiredProgress
   - name: Unknown2

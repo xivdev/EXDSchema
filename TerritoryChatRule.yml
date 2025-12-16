@@ -1,10 +1,10 @@
 name: TerritoryChatRule
 fields:
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown5
-  - name: Unknown6
+  - name: Public
+  - name: Shout
+  - name: DutyTell
+  - name: PublicTell
+  - name: Party
+  - name: Global
+  - name: Pvp
   - name: Unknown7
