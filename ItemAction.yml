@@ -1,11 +1,20 @@
 name: ItemAction
 fields:
-  - name: Action
-    type: link
-    targets: [Action]
+  - name: Type
   - name: Data
     type: array
     count: 9
+    fields:
+      - type: link
+        condition:
+          switch: Type
+          cases:
+            853: [Companion]
+            1013: [BuddyEquip]
+            1322: [Mount]
+            2633: [CharaMakeCustomize]
+            3357: [TripleTriadCard]
+            20086: [Ornament]
   - name: DataHQ
     type: array
     count: 9
