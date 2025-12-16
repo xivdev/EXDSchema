@@ -1,4 +1,4 @@
 name: Vase
 fields:
-  - name: Unknown0
-  - name: Unknown1
+  - name: VaseFlowerStart
+  - name: VaseFlowerEnd
