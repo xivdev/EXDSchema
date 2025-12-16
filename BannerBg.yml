@@ -13,4 +13,6 @@ fields:
   - name: Unknown_70_2
   - name: Unknown0
   - name: SortKey
-  - name: Unknown_70_3
+  - name: Category
+    type: link
+    targets: [CharaCardDesignCategory]

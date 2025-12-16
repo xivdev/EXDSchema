@@ -13,6 +13,8 @@ fields:
   - name: SortKey
   - name: FontColor
   - name: Unknown3
-  - name: Unknown0
+  - name: Category
+    type: link
+    targets: [CharaCardDesignCategory]
   - name: Unknown1
   - name: Unknown2

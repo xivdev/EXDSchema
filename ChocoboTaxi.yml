@@ -4,7 +4,8 @@ fields:
   - name: Location
     type: link
     targets: [ChocoboTaxiStand]
-  - name: TimeRequired
-  - name: Unknown0
   - name: Fare
+  - name: Unknown0
+  - name: TimeRequired
+    comment: "In minutes."
   - name: Unknown1

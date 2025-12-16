@@ -11,7 +11,9 @@ fields:
   - name: Unknown_70_2
   - name: Unknown3
   - name: SortKey
-  - name: Category
+  - name: Unknown2
   - name: Subtype
   - name: Unknown1
-  - name: Unknown2
+  - name: Category
+    type: link
+    targets: [CharaCardDesignCategory]
