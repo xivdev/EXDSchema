@@ -9,9 +9,10 @@ fields:
     comment: "ExpReward = ExpToNex * (lvl < 50 ? ExpModifier[0] : lvl < 90 ? ExpModifier[1] : ExpModifier[2]) / 100"
   - name: CosmoCredits
   - name: PlanetCredits
-  - type: array
+  - name: Unknown20
+  - name: ResearchReward
+    type: array
     count: 3
-    name: ResearchReward
   - name: ItemCount
   - name: Unknown19
     comment: Needs to match WKSEmergencyProblem.Unknown2 to be active?

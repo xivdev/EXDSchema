@@ -1,0 +1,10 @@
+name: MKDRelicGrowth2ContentList
+fields:
+  - name: Description
+  - name: Unknown1
+  - name: Level
+    type: link
+    targets: [Level]
+  - name: Category
+    type: link
+    targets: [MKDRelicGrowth2Category]

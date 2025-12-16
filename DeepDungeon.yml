@@ -31,9 +31,6 @@ fields:
             2: [DeepDungeonDemiclone]
   - name: Name
   - name: Unknown14
-  - name: ContentFinderConditionStart
-    type: link
-    targets: [ContentFinderCondition]
   - name: AetherpoolArm
     type: link
     targets: [DeepDungeonEquipment]
