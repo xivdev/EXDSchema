@@ -1,5 +1,6 @@
-name: QuestSceneAbortConditionType
+name: WKSCosmoToolUIRandomMsg
 fields:
   - name: Unknown0
   - name: Unknown1
   - name: Unknown2
+  - name: Unknown3

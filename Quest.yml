@@ -17,6 +17,8 @@ fields:
       - name: Behavior
       - name: ActorSpawnSeq
       - name: ActorDespawnSeq
+      - name: Unknown0
+      - name: Unknown1
       - name: QuestUInt8A
       - name: ConditionType
       - name: ConditionOperator
