@@ -1,4 +1,5 @@
 name: MKDTrait
+displayField: Name
 fields:
   - name: Name
   - name: Description
