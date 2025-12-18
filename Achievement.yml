@@ -6,6 +6,8 @@ fields:
   - name: Item
     type: link
     targets: [Item]
+  - name: Icon
+    type: icon
   - name: Key
     type: link
     condition:
@@ -40,8 +42,6 @@ fields:
   - name: Title
     type: link
     targets: [Title]
-  - name: Icon
-    type: icon
   - name: Order
   - name: AchievementCategory
     type: link

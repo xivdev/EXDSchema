@@ -17,4 +17,6 @@ fields:
   - name: Unknown2
   - name: Unknown1
   - name: Unknown0
-  - name: Unknown3
+  - name: Category
+    type: link
+    targets: [CharaCardDesignCategory]
