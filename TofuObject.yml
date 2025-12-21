@@ -4,7 +4,8 @@ fields:
   - name: Name
   - name: Icon
     type: icon
-  - name: Unknown2
+  - name: AltIcon
+    type: icon
   - name: Unknown3
   - name: Unknown4
   - name: Unknown5
@@ -19,7 +20,9 @@ fields:
   - name: Unknown20
   - name: Unknown21
   - name: Unknown10
-  - name: Unknown11
+  - name: Category
+    type: link
+    targets: [TofuObjectCategory]
   - name: Unknown12
   - name: Unknown13
   - name: Unknown14

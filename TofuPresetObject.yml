@@ -1,6 +1,9 @@
 name: TofuPresetObject
+displayField: Object
 fields:
-  - name: Unknown0
+  - name: Object
+    type: link
+    targets: [TofuObject]
   - name: Unknown1
   - name: Unknown2
   - name: Unknown3

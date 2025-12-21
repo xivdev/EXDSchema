@@ -1,7 +1,8 @@
 name: TofuEditParam
+displayField: Name
 fields:
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
+  - name: Name
+  - name: Default
+  - name: Minimum
+  - name: Maximum
   - name: Unknown4
