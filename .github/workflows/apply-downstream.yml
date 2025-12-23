@@ -25,7 +25,7 @@ jobs:
         uses: robinraju/release-downloader@v1
         with:
           repository: xivdev/EXDTools
-          fileName: 'EXDTooler'
+          fileName: "EXDTooler"
           latest: true
 
       - name: Chmod Executable
@@ -48,6 +48,7 @@ jobs:
       - name: Commit Changes
         run: |
           rm EXDTooler
+          rm apply.py
           git config --global user.name github-actions[bot]
           git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
           git submodule foreach '
