@@ -4,4 +4,6 @@ fields:
   - name: Name
     type: link
     targets: [PlaceName]
-  - name: Unknown1
+  - name: ObjectGroup
+    type: link
+    targets: [WKSAetheryteObjectGroup]
