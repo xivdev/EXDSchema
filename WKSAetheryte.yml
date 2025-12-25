@@ -1,4 +1,7 @@
 name: WKSAetheryte
+displayField: Name
 fields:
-  - name: Unknown0
+  - name: Name
+    type: link
+    targets: [PlaceName]
   - name: Unknown1
