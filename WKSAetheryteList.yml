@@ -1,3 +1,5 @@
 name: WKSAetheryteList
 fields:
-  - name: Unknown0
+  - name: Aetheryte
+    type: link
+    targets: [WKSAetheryte]
