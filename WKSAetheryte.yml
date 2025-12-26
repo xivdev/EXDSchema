@@ -1,4 +1,9 @@
 name: WKSAetheryte
+displayField: Name
 fields:
-  - name: Unknown0
-  - name: Unknown1
+  - name: Name
+    type: link
+    targets: [PlaceName]
+  - name: ObjectGroup
+    type: link
+    targets: [WKSAetheryteObjectGroup]
