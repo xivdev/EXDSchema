@@ -1,4 +1,5 @@
 name: WKSCosmoToolClass
+displayField: Name
 fields:
   - name: Stages
     type: array
