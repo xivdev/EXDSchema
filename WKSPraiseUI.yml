@@ -1,4 +1,5 @@
 name: WKSPraiseUI
 fields:
-  - name: Unknown0
-  - name: Unknown1
+  - name: Message
+  - name: Backdrop
+    type: icon
