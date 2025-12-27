@@ -1,4 +1,6 @@
 name: WKSNextPlanetGuidance
+displayField: Text
 fields:
-  - name: Unknown0
-  - name: Unknown1
+  - name: Text
+  - name: Backdrop
+    type: icon
