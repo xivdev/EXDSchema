@@ -11,12 +11,10 @@ fields:
   - name: Unknown_70_4
   - name: Pronoun
   - name: Article
-  - name: Glasses
-    type: link
-    targets: [Glasses]
+  - name: Model
   - name: Icon
     type: icon
-  - name: Model
+  - name: Unknown_70_8
   - name: Style
     type: link
     targets: [GlassesStyle]
