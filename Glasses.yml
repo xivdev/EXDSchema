@@ -5,16 +5,18 @@ fields:
   - name: Plural
   - name: Description
   - name: Name
-  - name: Unknown_70_1
-  - name: Unknown_70_2
-  - name: Unknown_70_3
+  - name: Adjective
+  - name: PossessivePronoun
+  - name: StartsWithVowel
   - name: Unknown_70_4
-  - name: Unknown_70_5
-  - name: Unknown_70_6
-  - name: Unknown_70_7
+  - name: Pronoun
+  - name: Article
+  - name: Glasses
+    type: link
+    targets: [Glasses]
   - name: Icon
     type: icon
-  - name: Unknown_70_8
+  - name: Model
   - name: Style
     type: link
     targets: [GlassesStyle]
