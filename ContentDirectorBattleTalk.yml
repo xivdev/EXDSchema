@@ -1,6 +1,6 @@
 name: ContentDirectorBattleTalk
 fields:
-  - name: BattleTalkIcon
+  - name: Icon
     type: icon
   - name: VoLine
   - name: Text
