@@ -1,9 +1,10 @@
 name: ContentDirectorBattleTalk
 fields:
-  - name: Unknown0
-  - name: Unknown1
+  - name: BattleTalkIcon
+    type: icon
+  - name: VoLine
   - name: Text
     type: link
     targets: [InstanceContentTextData]
-  - name: Unknown3
-  - name: Unknown4
+  - name: Duration
+  - name: Style
