@@ -33,6 +33,7 @@ fields:
     type: link
     targets: [Cutscene]
   - name: LGBEventRange
+    comment: Points to the game object ID of the exit range. 
   - name: InstanceContentTextDataBossStart
     type: link
     targets: [InstanceContentTextData]
