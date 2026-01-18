@@ -83,7 +83,8 @@ fields:
     type: link
     targets: [ContentTodo]
   - name: Unknown6
-  - name: Unknown7
+  - name: LookupIndex
+    comment: Used for certain duties. If not 0, then the client reads from a special unlock/completed array in PlayerState.
   - name: ContentEventItem
     type: link
     targets: [ContentEventItem]
