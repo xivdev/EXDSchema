@@ -1,8 +1,12 @@
 name: WKSAchievement
+displayField: Description
 fields:
-  - name: Unknown0
+  - name: Description
   - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
+  - name: RewardItem
+    type: link
+    targets: [WKSAchievementRewardItem]
+  - name: RewardAmount
   - name: Unknown4
-  - name: Unknown5
+  - name: Category
+    comment: Seems to be 1 for Daily and 2 for Standard

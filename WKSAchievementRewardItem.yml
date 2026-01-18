@@ -3,5 +3,7 @@ fields:
   - name: Item
     type: link
     targets: [Item]
-  - name: Unknown1
+  - name: ToolClass
+    type: link
+    targets: [WKSCosmoToolClass]
   - name: Unknown2
