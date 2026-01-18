@@ -14,5 +14,6 @@ fields:
     targets: [Quest]
   - name: Series
     comment: RowId of VVDRouteData and VVDNotebookSeries
-  - name: Unknown5
+  - name: Sequence
+    comment: Sequence inside of the series.
   - name: Unknown6
