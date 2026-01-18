@@ -73,6 +73,7 @@ fields:
       cases:
         14: [HousingExterior, HousingInterior, HousingYardObject, HousingFurniture, HousingPreset, HousingUnitedExterior]
         15: [Stain]
+        16: [Glasses]
         18: [TreasureHuntRank]
         20: [GardeningSeed]
         25: [AetherialWheel]
