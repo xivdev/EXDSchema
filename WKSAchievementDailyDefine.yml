@@ -16,3 +16,8 @@ fields:
     type: array
     count: 4
   - name: SuccessPointsRequired
+relations:
+  Reward:
+    - RequiredQuest
+    - RewardItem
+    - RewardQuantity
