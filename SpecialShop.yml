@@ -43,7 +43,8 @@ fields:
         type: array
         count: 3
       - name: PatchNumber
-      - name: HqCost
+      - name: CostType
+        comment: Indicates what the Cost Id links to. 3 = SpecialBucketId, rest items?
         type: array
         count: 3
       - name: Unknown1
@@ -84,3 +85,4 @@ fields:
   - name: Unknown3
   - name: RequiredContentFinderConditionComplete
     comment: If this is true, then the CFC needs to be completed; If this is false, then the CFC just needs to be unlocked
+  - name: Unknown4

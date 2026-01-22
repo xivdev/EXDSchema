@@ -1,12 +1,17 @@
 name: MoveControl
 fields:
-  - name: Unknown0
+  - name: Acceleration
   - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown5
-  - name: Unknown6
-  - name: Unknown7
+  - name: GroundSpeed
+  - name: RpWalkTurnSpeed
+    comment: Left/Right for the turn control scheme
+  - name: RpWalkSpeed
+    comment: Forwards/backwards
+  - name: RpWalkStrafeSpeed
+    comment: Left/Right for the strafe control scheme
+  - name: BackpedalSpeed
+    comment: Standard controls backwards or legacy back+strafe
+  - name: RotationStep
+    comment: Angle in degrees per step when turning
   - name: Unknown8
   - name: Unknown9

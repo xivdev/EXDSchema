@@ -15,4 +15,8 @@ fields:
   - name: Text
     type: link
     targets: [WeeklyBingoText]
-  - name: Unknown1
+  - name: ContentCategory
+    comment:|
+        1= TreasureMaps
+        2= PvP
+        

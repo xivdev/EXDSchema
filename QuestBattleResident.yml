@@ -1,3 +1,5 @@
 name: QuestBattleResident
 fields:
-  - name: Unknown0
+  - name: SoloDuty
+    type: link
+    targets: [ContentFinderCondition]
