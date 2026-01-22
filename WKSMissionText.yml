@@ -1,3 +1,4 @@
 name: WKSMissionText
+displayField: Text
 fields:
   - name: Text

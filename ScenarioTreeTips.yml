@@ -1,8 +1,12 @@
 name: ScenarioTreeTips
 fields:
-  - name: Tips1
-  - name: Tips2
+  - name: Tips
+    type: array
+    count: 2
+    fields:
+      - type: link
+        targets: [ScenarioTree, Quest]
+  - name: RequiredLevel
+  - name: NextTip
     type: link
-    targets: [ScenarioTree]
-  - name: Unknown0
-  - name: Unknown1
+    targets: [ScenarioTreeTips]

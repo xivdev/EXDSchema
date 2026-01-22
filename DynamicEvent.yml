@@ -23,7 +23,8 @@ fields:
     type: link
     targets: [DynamicEventEnemyType]
   - name: MaxParticipants
-  - name: Unknown4
+  - name: Duration
+    comment: "In minutes."
   - name: Unknown5
   - name: SingleBattle
     type: link

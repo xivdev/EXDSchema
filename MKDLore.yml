@@ -1,4 +1,5 @@
 name: MKDLore
+displayField: Name
 fields:
   - name: Name
   - name: Description

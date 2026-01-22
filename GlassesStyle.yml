@@ -4,12 +4,12 @@ fields:
   - name: Singular
   - name: Plural
   - name: Name
-  - name: Unknown_70_1
-  - name: Unknown_70_2
-  - name: Unknown_70_3
+  - name: Adjective
+  - name: PossessivePronoun
+  - name: StartsWithVowel
   - name: Unknown_70_4
-  - name: Unknown_70_5
-  - name: Unknown_70_6
+  - name: Pronoun
+  - name: Article
   - name: Icon
     type: icon
   - name: Order
@@ -19,4 +19,4 @@ fields:
     fields:
       - type: link
         targets: [Glasses]
-  - name: Unknown_70_7
+  - name: GlassesSlot

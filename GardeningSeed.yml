@@ -7,6 +7,8 @@ fields:
   - name: Icon
     type: icon
   - name: ModelID
-  - name: Unknown0
+  - name: PlantPotFlowerSeed
+    type: link
+    targets: [PlantPotFlowerSeed]
   - name: SE
-  - name: Unknown1
+  - name: IsPlantPotFlowerSeed
