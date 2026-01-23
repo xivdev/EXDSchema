@@ -26,8 +26,7 @@ fields:
   - name: EnableRecommendList
   - name: Unknown19
   - name: Unknown20
-  - name: Unknown21
-    comment: Related to Map in Island Sanctuary, Cosmic Exploration
+  - name: DisableMapDiscovery
   - name: DisableFieldMarkers
   - name: Unknown23
   - name: EnableActions
