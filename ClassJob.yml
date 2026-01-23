@@ -88,3 +88,4 @@ fields:
     type: link
     targets: [MonsterNote]
   - name: IsLimitedJob
+  - name: Unknown10

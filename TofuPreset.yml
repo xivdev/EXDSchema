@@ -1,15 +1,16 @@
 name: TofuPreset
+displayField: Name
 fields:
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown5
-  - name: Unknown6
-  - name: Unknown7
-  - name: Unknown8
-  - name: Unknown9
+  - name: Name
+  - name: Category
+    type: link
+    targets: [TofuPresetCategory]
+  - name: Objects
+    type: array
+    count: 8
+    fields:
+      - type: link
+        targets: [TofuPresetObject]
   - name: Unknown10
   - name: Unknown11
   - name: Unknown12

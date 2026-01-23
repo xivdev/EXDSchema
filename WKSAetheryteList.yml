@@ -1,0 +1,5 @@
+name: WKSAetheryteList
+fields:
+  - name: Aetheryte
+    type: link
+    targets: [WKSAetheryte]

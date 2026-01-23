@@ -3,7 +3,8 @@ fields:
   - name: StartLogMessage
     type: link
     targets: [LogMessage]
-  - name: Unknown1
+  - name: LookupIndex
+    comment: Used for certain duties. If not 0, then the client reads from a special unlock/completed array in PlayerState.
   - name: Unknown2
   - name: Unknown3
   - name: Unknown4

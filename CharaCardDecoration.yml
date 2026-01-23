@@ -11,7 +11,8 @@ fields:
   - name: Unknown_70_2
   - name: Unknown3
   - name: SortKey
-  - name: Unknown2
+  - name: Component
+    comment: 1 = Backing, 2 = Pattern Overlay, 3 = Portrait Frame, 4 = Plate Frame, 5 = Accent
   - name: Subtype
   - name: Unknown1
   - name: Category

@@ -1,6 +1,9 @@
 name: WKSMissionUnit
 fields:
   - name: Name
+  - name: WKSMissionText
+    type: link
+    targets: [WKSMissionText]
   - name: ClassJobCategory
     type: array
     count: 2
@@ -32,9 +35,6 @@ fields:
     type: link
     targets: [PlaceName]
   - name: SortKey
-  - name: WKSMissionText
-    type: link
-    targets: [WKSMissionText]
   - name: WKSFunction
     type: link
     targets: [WKSFunction]

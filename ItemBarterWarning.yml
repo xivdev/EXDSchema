@@ -1,3 +1,5 @@
 name: ItemBarterWarning
 fields:
-  - name: Unknown0
+  - name: Achievement
+    type: link
+    targets: [Achievement]

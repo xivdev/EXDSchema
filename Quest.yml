@@ -17,6 +17,8 @@ fields:
       - name: Behavior
       - name: ActorSpawnSeq
       - name: ActorDespawnSeq
+      - name: Unknown0
+      - name: Unknown1
       - name: QuestUInt8A
       - name: ConditionType
       - name: ConditionOperator
@@ -172,6 +174,9 @@ fields:
     type: array
     count: 2
   - name: Header
+  - name: Festival
+    type: link
+    targets: [Festival]
   - name: BellStart
   - name: BellEnd
   - name: BeastReputationValue
@@ -210,9 +215,6 @@ fields:
     type: link
     targets: [GrandCompanyRank]
   - name: InstanceContentJoin
-  - name: Festival
-    type: link
-    targets: [Festival]
   - name: FestivalBegin
   - name: FestivalEnd
   - name: BeastTribe
@@ -253,4 +255,5 @@ fields:
   - name: Introduction
   - name: HideOfferIcon
   - name: Unknown12
-  - name: Unknown13
+  - name: HideInScenarioGuide
+    comment: "Shows ??? instead."

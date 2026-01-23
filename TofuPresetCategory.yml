@@ -1,5 +1,6 @@
 name: TofuPresetCategory
+displayField: Name
 fields:
-  - name: Unknown0
+  - name: Name
   - name: Unknown1
   - name: Unknown2

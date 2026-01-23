@@ -82,6 +82,7 @@ fields:
     targets: [AttackType]
   - name: Unknown8
   - name: IsRoleAction
+  - name: Unknown28
   - name: CanTargetSelf
   - name: CanTargetParty
   - name: CanTargetAlliance

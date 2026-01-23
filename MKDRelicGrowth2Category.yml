@@ -1,0 +1,4 @@
+name: MKDRelicGrowth2Category
+displayField: Text
+fields:
+  - name: Text
