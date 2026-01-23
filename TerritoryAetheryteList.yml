@@ -1,8 +1,13 @@
 name: TerritoryAetheryteList
+displayField: PlaceName
 fields:
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
+  - name: PlaceName
+    type: link
+    targets: [PlaceName]
+  - name: AetheryteObject
+    type: link
+    targets: [EObjName, EObj]
+  - name: UnlockIndex
+  - name: DisplayIndex
   - name: Unknown4
   - name: Unknown5

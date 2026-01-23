@@ -1,3 +1,5 @@
 name: TerritoryAethernet
 fields:
-  - name: Unknown0
+  - name: TerritoryType
+    type: link
+    targets: [TerritoryType]
