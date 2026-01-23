@@ -1,7 +1,7 @@
 name: WKSMechaEventData
 fields:
-  - name: Unknown0
-  - name: Unknown1
+  - name: Name
+  - name: Description
   - name: Unknown2
   - name: Unknown3
   - name: Unknown4

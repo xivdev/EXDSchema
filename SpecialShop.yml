@@ -43,7 +43,8 @@ fields:
         type: array
         count: 3
       - name: PatchNumber
-      - name: HqCost
+      - name: CostType
+        comment: Indicates what the Cost Id links to. 3 = SpecialBucketId, rest items?
         type: array
         count: 3
       - name: Unknown1
