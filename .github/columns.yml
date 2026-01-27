@@ -27261,6 +27261,8 @@ MKDLore:
 MKDRelicGrowth2Category:
   - type: string
     offset: 0
+  - type: uint8
+    offset: 4
 MKDRelicGrowth2ContentList:
   - type: uint8
     offset: 12
