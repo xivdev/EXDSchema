@@ -1,17 +1,21 @@
 name: WKSDevGrade
+displayField: Stage
 fields:
   - name: StageFull
   - name: Stage
   - name: IndexText2
   - name: IndexText
   - name: IndexNpc
-  - name: Unknown3
+  - name: Thumbnail
+    type: icon
+    comment: "The image displayed when entering the Cosmic Exploration zone on a server that is currently at this stage."
   - name: Unknown4
   - name: Unknown12
   - name: Unknown13
   - name: Unknown5
   - name: Unknown14
-  - name: Unknown6
+  - name: LodestoneRank
+    comment: "The rank for a world that is currently at this stage, as displayed on the Lodestone site, minus one."
   - name: Unknown7
   - name: Unknown8
   - name: Unknown9

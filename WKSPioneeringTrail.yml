@@ -1,7 +1,12 @@
 name: WKSPioneeringTrail
 fields:
-  - name: Unknown0
-  - name: Unknown1
+  - name: Thumbnail
+    type: icon
+    comment: "The image used as thumbnail for log entry in the Infrastructure Index."
+  - name: ActivationStage
+    type: link
+    targets: [WKSDevGrade]
+    comment: "The stage at which the log entry is added to the Infrastructure Index."
   - name: Unknown2
   - name: LogEntry
     type: link
