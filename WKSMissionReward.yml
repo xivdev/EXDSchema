@@ -9,7 +9,8 @@ fields:
     count: 3
   - name: CosmoCredits
   - name: PlanetCredits
-  - name: Unknown20
+  - name: BaseDronebits
+    comment: "Doesn't take Gold bonus in to account"
   - name: ResearchReward
     type: array
     count: 3
