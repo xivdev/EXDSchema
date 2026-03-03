@@ -4,8 +4,7 @@ fields:
   - name: Name
   - name: Contents
     type: array
-    count: 12
+    count: 13
     fields:
       - type: link
         targets: [VVDNotebookContents]
-  - name: Unknown0
