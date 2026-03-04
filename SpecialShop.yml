@@ -62,7 +62,7 @@ fields:
       ItemCosts:
         - ItemCost
         - CurrencyCost
-        - HqCost
+        - CostType
         - CollectabilityCost
   - name: Quest
     type: link
