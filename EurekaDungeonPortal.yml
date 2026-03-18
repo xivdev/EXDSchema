@@ -1,3 +1,5 @@
 name: EurekaDungeonPortal
 fields:
-  - name: Unknown0
+  - name: Level
+    type: link
+    targets: [Level]

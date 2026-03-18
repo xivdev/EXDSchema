@@ -1,3 +1,5 @@
 name: DawnContentParticipable
 fields:
-  - name: Unknown0
+  - name: DawnQuestMember
+    type: link
+    targets: [DawnQuestMember]
