@@ -1,5 +1,11 @@
 name: CraftActionIndirection
 fields:
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
+  - name: Name
+    type: link
+    targets: [CraftAction]
+  - name: PreviousComboAction
+    type: link
+    targets: [CraftAction]
+  - name: ClassJob
+    type: link
+    targets: [ClassJob]
