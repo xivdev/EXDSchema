@@ -1,6 +1,8 @@
 name: AOZReport
 fields:
-  - name: Unknown0
+  - name: ContentFinderCondition
+    type: link
+    targets: [ContentFinderCondition]
   - name: Reward
     type: link
     targets: [AOZReportReward]
