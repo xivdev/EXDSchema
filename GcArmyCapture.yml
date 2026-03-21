@@ -1,10 +1,12 @@
 name: GcArmyCapture
 fields:
-  - name: Unknown0
+  - name: Content
+    type: link
+    targets: [ContentFinderCondition]
   - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown5
-  - name: Unknown6
-  - name: Unknown7
+  - name: ItemLevelRequired
+  - name: ItemLevelSync
+  - name: RequiredSeals
+  - name: RewardExperience
+  - name: ClassJobLevelRequired
+  - name: ClassJobLevelSync
