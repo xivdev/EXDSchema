@@ -18,7 +18,9 @@ fields:
   - name: Unknown10
   - name: Unknown11
   - name: Unknown12
-  - name: Unknown13
+  - name: MapMarker
+    type: link
+    targets: [WKSMissionMapMarker]
   - name: WKSMissionText
     type: link
     targets: [WKSMissionText]
