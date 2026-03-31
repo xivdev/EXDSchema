@@ -11,8 +11,10 @@ fields:
   - name: Announce
     type: link
     targets: [LogMessage]
-  - name: Unknown0
-  - name: Unknown1
+  - name: IconObjective0
+    type: icon
+  - name: IconObjective1
+    type: icon
   - name: Unknown6
   - name: Unknown7
   - name: Unknown2

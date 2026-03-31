@@ -29,6 +29,8 @@ fields:
   - name: LevelEquip
   - name: RequiredPvpRank
   - name: EquipRestriction
+    type: link
+    targets: [EquipRaceCategory]
   - name: ClassJobCategory
     type: link
     targets: [ClassJobCategory]
