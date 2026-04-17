@@ -13,7 +13,7 @@ fields:
     type: color
   - name: ClearGreen
     type: color
-  - name: Unknown2
+  - name: ClearGrey
     type: color
-  - name: Unknown3
+  - name: ClearPink
     type: color
