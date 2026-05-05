@@ -7,7 +7,7 @@ fields:
       switch: ContentLinkType
       cases:
         1: [InstanceContent]
-        2: [GoldSaucerContent]
+        2: [GFateType]
         3: [TerritoryType]
         4: [MobHuntOrderType]
         5: [TreasureHuntRank]
