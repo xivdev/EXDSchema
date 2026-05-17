@@ -10,4 +10,6 @@ fields:
   - name: UnlockQuest
     type: link
     targets: [Quest]
-  - name: Unknown2
+  - name: InclusionShopWelcom
+    type: link
+    targets: [InclusionShopWelcom]
