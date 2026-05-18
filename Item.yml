@@ -122,7 +122,7 @@ fields:
       12 = Crafting Material
       13 = Materia
       14 = Housing
-      15 = Stain
+      15 = Dyes
       16 = Misc (Various stuff)
       17 = Fishing Bait
       18 = Treasure Map
@@ -165,6 +165,9 @@ fields:
       55 = Cosmic Exploration Cosmocredit
       56 = Cosmic Exploration Lunar Credit
       57 = Occult Crescent Sanguine Cipher
+      58 = Oizys Dronebit
+      59 = unused
+      60 = Old Dyes
   - name: ItemUICategory
     type: link
     targets: [ItemUICategory]
