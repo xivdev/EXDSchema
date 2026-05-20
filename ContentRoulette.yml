@@ -10,15 +10,15 @@ fields:
     comment: "This would show Addon#102618, but the row is empty."
   - name: Image
     type: icon
-  - name: Unknown2
-  - name: Unknown3
+  - name: RewardPvPExp
+  - name: RewardSeriesExp
   - name: Unknown6
   - name: ItemLevelRequired
   - name: ItemLevelSync
   - name: RewardTomeA
   - name: RewardTomeB
   - name: RewardTomeC
-  - name: Unknown5
+  - name: RewardWolfMarks
   - name: InstanceContent
     type: link
     targets: [InstanceContent]
