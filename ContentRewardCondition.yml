@@ -1,5 +1,4 @@
 name: ContentRewardCondition
-comment: "Used to check when to display ContentRouletteRoleBonus.CurrencyA/CurrencyB/CurrencyC rewards."
 fields:
   - name: MaxLevelCondition
     comment: |
