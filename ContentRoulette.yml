@@ -12,7 +12,9 @@ fields:
     type: icon
   - name: RewardPvPExp
   - name: RewardSeriesExp
-  - name: Unknown6
+  - name: Region
+    type: link
+    targets: [ContentFinderConditionRegion]
   - name: ItemLevelRequired
   - name: ItemLevelSync
   - name: RewardTomeA
@@ -45,7 +47,9 @@ fields:
   - name: ContentType
     type: link
     targets: [ContentType]
-  - name: Unknown12
+  - name: UICategory
+    type: link
+    targets: [ContentUICategory]
   - name: TimeLimit
     comment: "In minutes."
   - name: TimeLimitMax
