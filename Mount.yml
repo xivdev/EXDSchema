@@ -31,8 +31,12 @@ fields:
   - name: MountAction
     type: link
     targets: [MountAction]
-  - name: Unknown_70_1
-  - name: Unknown_70_2
+  - name: GroundTiltParam
+    type: link
+    targets: [TiltParam]
+  - name: FlightTiltParam
+    type: link
+    targets: [TiltParam]
   - name: Unknown16
   - name: Unknown17
   - name: Order
