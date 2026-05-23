@@ -10,7 +10,7 @@ fields:
     type: link
     targets: [StatusLoopVFX]
   - name: Log
-  - name: Unknown0
+  - name: ExclusionGroup
   - name: MaxStacks
   - name: ClassJobCategory
     type: link
