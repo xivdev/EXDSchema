@@ -45,7 +45,7 @@ fields:
     type: link
     targets: [ClassJob]
   - name: Unknown2
-  - name: Unknown3
+  - name: DefaultActionRange
   - name: BaseParam
     type: array
     count: 6
