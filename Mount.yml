@@ -47,7 +47,7 @@ fields:
   - name: FlyingCondition
     type: link
     targets: [MountFlyingCondition]
-  - name: FlyUp/DownAngle
+  - name: FlyUpDownAngle
   - name: Unknown6
   - name: Unknown7
   - name: FlyingMoveVFX
