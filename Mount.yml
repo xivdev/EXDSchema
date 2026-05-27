@@ -50,12 +50,12 @@ fields:
   - name: FlyUpDownAngle
   - name: Unknown6
   - name: Unknown7
-  - name: FlyingMoveVFX
+  - name: FlyingMoveVfx
     type: link
-    targets: [MoveVFX]
+    targets: [MoveVfx]
   - name: GlideVFX
     type: link
-    targets: [MoveVFX]
+    targets: [MoveVfx]
   - name: MountCustomize
     type: link
     targets: [MountCustomize]
