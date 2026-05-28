@@ -12,7 +12,9 @@ fields:
   - name: Pronoun
   - name: Article
   - name: ModelMain
+    type: modelId
   - name: ModelSub
+    type: modelId
   - name: DamagePhys
   - name: DamageMag
   - name: Delayms
