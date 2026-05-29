@@ -14,24 +14,12 @@ fields:
   - name: SmallScalePercentage
   - name: MediumScalePercentage
   - name: LargeScalePercentage
-  - name: AllowedPetMirage1
-    type: link
-    targets: [PetMirage]
-  - name: AllowedPetMirage2
-    type: link
-    targets: [PetMirage]
-  - name: AllowedPetMirage3
-    type: link
-    targets: [PetMirage]
-  - name: AllowedPetMirage4
-    type: link
-    targets: [PetMirage]
-  - name: AllowedPetMirage5
-    type: link
-    targets: [PetMirage]
-  - name: AllowedPetMirage6
-    type: link
-    targets: [PetMirage]
+  - name: AllowedPetMirage
+    type: array
+    count: 6
+    fields:
+      - type: link
+        targets: [PetMirage]
   - name: Unknown18
   - name: Unknown14
   - name: AutoDespawn
