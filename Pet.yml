@@ -34,6 +34,6 @@ fields:
     targets: [PetMirage]
   - name: Unknown18
   - name: Unknown14
-  - name: Unknown15
+  - name: AutoDespawn
   - name: NonCombatSummon
-  - name: Unknown17
+  - name: ShowPetActionBar
