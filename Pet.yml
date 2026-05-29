@@ -14,12 +14,24 @@ fields:
   - name: SmallScalePercentage
   - name: MediumScalePercentage
   - name: LargeScalePercentage
-  - name: Unknown8
-  - name: Unknown9
-  - name: Unknown10
-  - name: Unknown11
-  - name: Unknown12
-  - name: Unknown13
+  - name: AllowedPetMirage1
+    type: link
+    targets: [PetMirage]
+  - name: AllowedPetMirage2
+    type: link
+    targets: [PetMirage]
+  - name: AllowedPetMirage3
+    type: link
+    targets: [PetMirage]
+  - name: AllowedPetMirage4
+    type: link
+    targets: [PetMirage]
+  - name: AllowedPetMirage5
+    type: link
+    targets: [PetMirage]
+  - name: AllowedPetMirage6
+    type: link
+    targets: [PetMirage]
   - name: Unknown18
   - name: Unknown14
   - name: Unknown15
