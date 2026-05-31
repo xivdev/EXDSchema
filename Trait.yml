@@ -11,10 +11,10 @@ fields:
   - name: ClassJob
     type: link
     targets: [ClassJob]
-  - name: Unknown_70
-  - name: Level
   - name: ClassJobCategory
     type: link
     targets: [ClassJobCategory]
+  - name: Level
+  - name: Unknown2
   - name: Unknown0
   - name: Unknown1
