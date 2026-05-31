@@ -4,21 +4,23 @@ fields:
 - name: Unknown1
 - name: Unknown2
 - name: Unknown3
-- name: Unknown4
-- name: Unknown5
-- name: Unknown6
+- name: Pet
+  type: link
+  targets: [Pet]
+- name: Action
+  type: link
+  targets: [Action]
+- name: Location
+  type: link
+  condition:
+    switch: LocationKey
+    cases:
+      1: [PlaceName]
+      2: [ContentFinderCondition]
 - name: Unknown7
 - name: Unknown8
 - name: Unknown9
-- name: Unknown10
-- name: Unknown11
-- name: Unknown12
-- name: Unknown13
-- name: Unknown14
-- name: Unknown15
-- name: Unknown16
-- name: Unknown17
-- name: Unknown18
-- name: Unknown19
-- name: Unknown20
-- name: Unknown21
+- name: LocationKey
+- name: Unknown11 # uses the same indexer as BNpcResist.Unknown0
+  type: array
+  count: 11

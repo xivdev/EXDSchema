@@ -13,4 +13,6 @@ fields:
 - name: Unknown10
 - name: Unknown11
 - name: Unknown12
-- name: Unknown13
+- name: Type
+  type: link
+  targets: [XBMItemType]

@@ -1,3 +1,5 @@
 name: XBMContentBattle
 fields:
-- name: Unknown0
+- name: BattleDetail
+  type: link
+  targets: [XBMBattleDetail]

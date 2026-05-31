@@ -33,7 +33,9 @@ fields:
 - name: Unknown30
 - name: Unknown31
 - name: Unknown32
-- name: Unknown33
+- name: ContentFinderCondition
+  type: link
+  targets: [ContentFinderCondition]
 - name: Unknown34
 - name: Unknown35
 - name: Unknown36

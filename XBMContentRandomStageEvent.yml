@@ -1,3 +1,5 @@
 name: XBMContentRandomStageEvent
 fields:
-- name: Unknown0
+- name: RandomStageEvent
+  type: link
+  targets: [XBMRandomStageEvent]

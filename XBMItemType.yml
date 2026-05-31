@@ -1,3 +1,4 @@
 name: XBMItemType
+displayField: Name
 fields:
-- name: Unknown0
+- name: Name

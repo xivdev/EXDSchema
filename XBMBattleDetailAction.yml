@@ -1,6 +1,14 @@
 name: XBMBattleDetailAction
 fields:
-- name: Unknown0
-- name: Unknown1
-- name: Unknown2
-- name: Unknown3
+- name: Action
+  type: link
+  targets: [Action]
+- name: Status
+  type: link
+  targets: [Status]
+- name: ActionTarget
+  type: link
+  targets: [XBMActionTarget]
+- name: ActionEffectType
+  type: link
+  targets: [XBMActionEffectType]

@@ -1,3 +1,4 @@
 name: XBMElement
+displayField: Name
 fields:
-- name: Unknown0
+- name: Name
