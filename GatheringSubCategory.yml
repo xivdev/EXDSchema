@@ -9,6 +9,8 @@ fields:
     type: link
     targets: [Item]
   - name: Division
+    type: link
+    targets: [NotebookDivision]
   - name: GatheringType
     type: link
     targets: [GatheringType]
