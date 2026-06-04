@@ -54,6 +54,7 @@ fields:
         3: [SatisfactionSupply]
         4: [SharlayanCraftWorksSupply]
         6: [CollectablesRefine] # For Wachumeqimeqi (Banka) deliveries
+        7: [WKSMissionToDoEvalutionRefin] # Cosmic Exploration
   - name: PatchNumber
   - name: AmountResult
   - name: AmountIngredient
