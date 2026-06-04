@@ -1,4 +1,5 @@
 name: GFATE
+displayField: Type
 fields:
   - name: GFATEParams
     type: array
@@ -22,5 +23,7 @@ fields:
   - name: Unknown7
   - name: Unknown8
   - name: Unknown9
-  - name: Unknown10
+  - name: Type
+    type: link
+    targets: [GFateType]
   - name: Unknown11

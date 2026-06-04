@@ -7,3 +7,4 @@ fields:
   - name: NameJapanese
   - name: UnlockLink
   - name: EmjCostume # SubrowId
+  - name: Unknown0

@@ -1,4 +1,5 @@
 name: DirectorSystemDefine
+displayField: Text
 fields:
-  - name: Unknown0
-  - name: Unknown1
+  - name: Text
+  - name: DefineValue

@@ -10,6 +10,7 @@ fields:
     targets: [NotebookDivisionCategory]
   - name: CraftOpeningLevel
   - name: GatheringOpeningLevel
+  - name: Unknown1
   - name: Unknown0
   - name: SecretRecipeBookGroups
     type: array

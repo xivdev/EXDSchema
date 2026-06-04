@@ -1,16 +1,36 @@
 name: ContentRouletteRoleBonus
 fields:
-  - name: ItemRewardType
-    type: link
-    targets: [Item]
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown5
-  - name: Unknown6
-  - name: RewardAmount
-  - name: Unknown7
-  - name: Unknown8
-  - name: Unknown9
+  - name: Item
+    type: array
+    count: 2
+    fields:
+      - type: link
+        targets: [Item]
+  - name: BaseExperience
+    comment: "Formula: BaseExperience * ParamGrow.ScaledQuestXP * ParamGrow.QuestExpModifier / 1000"
+  - name: GilMultiplier
+    comment: "Formula: InstanceContent.InstanceClearGil * GilMultiplier / 1000"
+  - name: GCSealsMultiplier
+    comment: "Formula: CurrentLevel * GCSealsMultiplier / 1000"
+  - name: CurrencyA
+  - name: CurrencyB
+  - name: CurrencyC
+  - name: ItemQuantity
+    type: array
+    count: 2
+  - name: ItemMaxLevelCondition
+    comment: |
+      0 = Always rewarded
+      1 = Character has reached current expansions max level
+      2 = Character has reached at least 50
+      3 = Character has reached at least 60
+      4 = Character has reached at least 70
+      5 = Character has reached at least 80
+      6 = Character has reached at least 90
+    type: array
+    count: 2
+relations:
+  Params:
+    - Item
+    - ItemQuantity
+    - ItemMaxLevelCondition

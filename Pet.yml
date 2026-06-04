@@ -14,13 +14,14 @@ fields:
   - name: SmallScalePercentage
   - name: MediumScalePercentage
   - name: LargeScalePercentage
-  - name: Unknown8
-  - name: Unknown9
-  - name: Unknown10
-  - name: Unknown11
-  - name: Unknown12
-  - name: Unknown13
+  - name: AllowedPetMirage
+    type: array
+    count: 6
+    fields:
+      - type: link
+        targets: [PetMirage]
+  - name: Unknown18
   - name: Unknown14
-  - name: Unknown15
+  - name: AutoDespawn
   - name: NonCombatSummon
-  - name: Unknown17
+  - name: ShowPetActionBar

@@ -1,4 +1,5 @@
 name: WKSPioneeringTrailString
+displayField: DevelopmentLogName
 fields:
   - name: DevelopmentLogText
   - name: DevelopmentLogName

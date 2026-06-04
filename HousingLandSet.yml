@@ -4,10 +4,10 @@ fields:
     type: array
     count: 60
     fields:
-      - name: UnknownRange1
+      - name: MapRange
       - name: PlacardId
-      - name: UnknownRange2
+      - name: RoomExit
       - name: InitialPrice
       - name: PlotSize
-  - name: UnknownRange1
-  - name: UnknownRange2
+  - name: MainApartment
+  - name: SubdivisionApartment

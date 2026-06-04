@@ -9,6 +9,7 @@ fields:
     count: 3
   - name: Unknown0
   - name: Unknown1
+  - name: Unknown14
   - name: ReqEventItem
     type: link
     targets: [EventItem]
@@ -29,6 +30,7 @@ fields:
       - name: Icon
         type: icon
   - name: Location
+    comment: Instance ID of the EventRange where this spawns.
   - name: EventItem
     type: link
     targets: [EventItem]
@@ -75,6 +77,7 @@ fields:
   - name: Unknown7
   - name: SpecialFate
   - name: Unknown8
+  - name: Unknown15
   - name: AdventEvent
   - name: MoonFaireEvent
   - name: Unknown9

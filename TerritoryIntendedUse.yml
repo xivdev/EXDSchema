@@ -10,8 +10,9 @@ fields:
   - name: EnableCrafting
   - name: EnableGathering
   - name: EnableRepairs
-  - name: Unknown7
-  - name: Unknown8
+  - name: EnableClassJobChange
+  - name: EnableClassJobChangeCombatJobCheck
+    comment: When true, requires that the target ClassJob is a combat job
   - name: EnableJobChangeToLimitedJob
   - name: EnableCompanion
     comment: Enables summoning Chocobo Companion
@@ -26,8 +27,7 @@ fields:
   - name: EnableRecommendList
   - name: Unknown19
   - name: Unknown20
-  - name: Unknown21
-    comment: Related to Map in Island Sanctuary, Cosmic Exploration
+  - name: DisableMapDiscovery
   - name: DisableFieldMarkers
   - name: Unknown23
   - name: EnableActions

@@ -3,6 +3,10 @@ displayField: Name
 fields:
   - name: Name
   - name: PvPRegion
+    type: link
+    targets: [WorldPhysicalDC]
   - name: NeolobbyId
   - name: Region
+    type: link
+    targets: [WorldRegionGroup]
   - name: IsCloud

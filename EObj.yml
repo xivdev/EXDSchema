@@ -1,6 +1,5 @@
 name: EObj
 fields:
-  - name: EventHighAddition
   - name: Data
     type: link
     targets: [Quest, CustomTalk, Warp]
@@ -10,6 +9,8 @@ fields:
   - name: PopType
   - name: Invisibility
   - name: Unknown0
+  - name: Unknown11
+  - name: Unknown12
   - name: Unknown1
   - name: Unknown2
   - name: Unknown3

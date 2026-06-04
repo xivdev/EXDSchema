@@ -1,3 +1,4 @@
 name: HousingMateAuthority
+displayField: Permission
 fields:
-  - name: Unknown0
+  - name: Permission

@@ -9,7 +9,7 @@ fields:
   - name: FATE
     type: link
     targets: [Fate]
-  - name: TerritoryType
+  - name: Map
     type: link
     targets: [Map]
   - name: PlaceName

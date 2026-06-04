@@ -4,13 +4,16 @@ fields:
   - name: LoopTimeline
   - name: Idle
   - name: Slot
-  - name: Unknown0
+  - name: ModelState
   - name: Attribute0
   - name: Attribute1
   - name: Attribute2
-  - name: Unknown1
-  - name: OverRay
-  - name: Unknown2
+  - name: ModelScale
+    type: link
+    targets: [ModelScale]
+  - name: AnimationStates
+    type: array
+    count: 2
   - name: AttributeFlag0
   - name: AttributeFlag1
   - name: AttributeFlag2

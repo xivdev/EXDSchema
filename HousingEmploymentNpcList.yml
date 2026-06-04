@@ -1,4 +1,5 @@
 name: HousingEmploymentNpcList
+displayField: Race
 fields:
   - name: MaleENpcBase
     type: link

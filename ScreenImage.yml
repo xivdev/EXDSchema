@@ -2,6 +2,7 @@ name: ScreenImage
 fields:
   - name: Image
     type: icon
+  - name: Unknown0
   - name: Jingle
     type: link
     targets: [Jingle]

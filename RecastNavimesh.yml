@@ -1,6 +1,8 @@
 name: RecastNavimesh
+displayField: Name
 fields:
-  - name: Unknown0
+  - name: Name
+    comment: Corresponds to Name from TerritoryType.
   - name: TileSize
   - name: CellSize
   - name: CellHeight

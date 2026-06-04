@@ -35,4 +35,6 @@ fields:
   - name: Unknown3
   - name: Unknown5
   - name: Type
+    type: link
+    targets: [PublicContentType]
   - name: Unknown4

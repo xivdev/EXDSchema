@@ -7,12 +7,15 @@ fields:
       switch: ContentLinkType
       cases:
         1: [InstanceContent]
-        2: [GoldSaucerContent]
+        2: [GFateType]
         3: [TerritoryType]
         4: [MobHuntOrderType]
         5: [TreasureHuntRank]
         6: [FishParameter]
         7: [ENpcResident]
+        8: [PublicContent]
+        9: [DeepDungeon]
+        10: [DynamicEvent]
   - name: UnlockQuest0
     type: link
     targets: [Quest]
@@ -34,5 +37,9 @@ fields:
         4: [Level]
         7: [Level]
         8: [Level]
+        9: [Level]
+        10: [Level]
+  - name: Icon
+    type: icon
   - name: ContentLinkType
   - name: Unknown2

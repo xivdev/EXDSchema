@@ -4,7 +4,9 @@ fields:
   - name: Text
   - name: Unknown6
   - name: BalloonTime
-  - name: Unknown0
+  - name: Name
+    type: link
+    targets: [ENpcResident, BNpcName]
   - name: Unknown7
   - name: Unknown8
   - name: OutputType

@@ -9,9 +9,9 @@ fields:
   - name: Unknown0
   - name: Pronoun
   - name: Article
-  - name: Unknown1
+  - name: WhistlePath
   - name: Unknown2
-  - name: Unknown3
+  - name: DismountSCDPath
   - name: ModelChara
     type: link
     targets: [ModelChara]
@@ -31,19 +31,31 @@ fields:
   - name: MountAction
     type: link
     targets: [MountAction]
-  - name: Unknown_70_1
-  - name: Unknown_70_2
-  - name: Unknown16
-  - name: Unknown17
+  - name: GroundTiltParam
+    type: link
+    targets: [TiltParam]
+  - name: FlightSwimTiltParam
+    type: link
+    targets: [TiltParam]
+  - name: RiderGroundTiltParam
+    type: link
+    targets: [TiltParam]
+  - name: RiderFlightSwimTiltParam
+    type: link
+    targets: [TiltParam]
   - name: Order
   - name: FlyingCondition
     type: link
     targets: [MountFlyingCondition]
-  - name: Unknown5
+  - name: FlyUpDownAngle
   - name: Unknown6
   - name: Unknown7
-  - name: IsFlying
-  - name: Unknown8
+  - name: FlyingMoveVfx
+    type: link
+    targets: [MoveVfx]
+  - name: GlideVFX
+    type: link
+    targets: [MoveVfx]
   - name: MountCustomize
     type: link
     targets: [MountCustomize]
@@ -52,7 +64,7 @@ fields:
   - name: RadiusRate
   - name: BaseMotionSpeed_Run
   - name: BaseMotionSpeed_Walk
-  - name: Unknown9
+  - name: BaseMotionSpeed_Swim
   - name: ExtraSeats
   - name: Unknown10
   - name: Unknown11
@@ -66,5 +78,5 @@ fields:
   - name: IsImmobile
   - name: Unknown14
   - name: HideHeadgear
-  - name: Unknown18
-  - name: Unknown19
+  - name: OwnerGroundTiltEnable
+  - name: OwnerGroundFlySwimEnable

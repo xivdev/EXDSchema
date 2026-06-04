@@ -1,4 +1,5 @@
 name: FittingShopItemSet
+displayField: Name
 fields:
   - name: Item
     type: array

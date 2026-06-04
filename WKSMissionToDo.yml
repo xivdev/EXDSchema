@@ -3,8 +3,8 @@ fields:
   - name: TemporaryAction
     type: link
     targets: [Action, ActionTransient]
-  - name: Unknown1
   - name: Unknown2
+  - name: Unknown1
   - name: RequiredItem
     type: array
     count: 3
@@ -18,7 +18,11 @@ fields:
   - name: Unknown10
   - name: Unknown11
   - name: Unknown12
-  - name: Unknown13
+  - name: MapMarker
+    type: link
+    targets: [WKSMissionMapMarker]
+  - name: Unknown18
+  - name: Unknown19
   - name: WKSMissionText
     type: link
     targets: [WKSMissionText]

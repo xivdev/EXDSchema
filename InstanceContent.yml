@@ -33,6 +33,7 @@ fields:
     type: link
     targets: [Cutscene]
   - name: LGBEventRange
+    comment: Points to the game object ID of the exit range. 
   - name: InstanceContentTextDataBossStart
     type: link
     targets: [InstanceContentTextData]
@@ -82,7 +83,8 @@ fields:
     type: link
     targets: [ContentTodo]
   - name: Unknown6
-  - name: Unknown7
+  - name: LookupIndex
+    comment: Used for certain duties. If not 0, then the client reads from a special unlock/completed array in PlayerState.
   - name: ContentEventItem
     type: link
     targets: [ContentEventItem]
@@ -94,9 +96,6 @@ fields:
     type: link
     targets: [InstanceContentType]
   - name: WeekRestriction
-  - name: Colosseum
-    type: link
-    targets: [Colosseum]
   - name: Unknown9
   - name: QTE1
     type: link

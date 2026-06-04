@@ -1,14 +1,18 @@
 name: EmjCostume
 fields:
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
+  - name: Scale
+  - name: OffsetX
+  - name: OffsetY
   - name: Image
     type: icon
   - name: UnlockQuest
     type: link
     targets: [Quest]
+  - name: Unknown0
+  - name: UnlockText
+    type: link
+    targets: [Addon]
   - name: Data
     type: link
     targets: [EmjCostumeData]
-  - name: Unknown5
+  - name: Sort

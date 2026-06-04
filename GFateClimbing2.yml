@@ -1,4 +1,5 @@
 name: GFateClimbing2
+displayField: ContentEntry
 fields:
   - name: ContentEntry
     type: link

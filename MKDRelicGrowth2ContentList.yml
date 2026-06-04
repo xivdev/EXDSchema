@@ -1,7 +1,18 @@
 name: MKDRelicGrowth2ContentList
 fields:
   - name: Description
-  - name: Unknown1
+  - name: Content
+    type: link
+    condition:
+        switch: Category
+        cases:
+            0: [ContentRoulette]
+            1: [TerritoryType]
+            2: [TerritoryType]
+            3: [TerritoryType]
+            4: [TerritoryType]
+            5: [TerritoryType]
+            6: [TerritoryType]
   - name: Level
     type: link
     targets: [Level]

@@ -8,6 +8,9 @@ fields:
   - name: Unknown5
   - name: Unknown6
   - name: Unknown7
+  - name: Unknown22
+    type: array
+    count: 16
   - name: Unknown8
   - name: Unknown9
   - name: Unknown10

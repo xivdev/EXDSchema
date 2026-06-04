@@ -12,7 +12,9 @@ fields:
   - name: Pronoun
   - name: Article
   - name: ModelMain
+    type: modelId
   - name: ModelSub
+    type: modelId
   - name: DamagePhys
   - name: DamageMag
   - name: Delayms
@@ -29,6 +31,8 @@ fields:
   - name: LevelEquip
   - name: RequiredPvpRank
   - name: EquipRestriction
+    type: link
+    targets: [EquipRaceCategory]
   - name: ClassJobCategory
     type: link
     targets: [ClassJobCategory]
@@ -43,7 +47,7 @@ fields:
     type: link
     targets: [ClassJob]
   - name: Unknown2
-  - name: Unknown3
+  - name: DefaultActionRange
   - name: BaseParam
     type: array
     count: 6
@@ -95,7 +99,8 @@ fields:
   - name: LevelItem
     type: link
     targets: [ItemLevel]
-  - name: Unknown4
+  - name: SubcategorySort
+    comment: Used in conjunction with the ItemUICategory sortkeys to sort things like vendor lists
   - name: ItemAction
     type: link
     targets: [ItemAction]
@@ -119,7 +124,7 @@ fields:
       12 = Crafting Material
       13 = Materia
       14 = Housing
-      15 = Stain
+      15 = Dyes
       16 = Misc (Various stuff)
       17 = Fishing Bait
       18 = Treasure Map
@@ -162,6 +167,9 @@ fields:
       55 = Cosmic Exploration Cosmocredit
       56 = Cosmic Exploration Lunar Credit
       57 = Occult Crescent Sanguine Cipher
+      58 = Oizys Dronebit
+      59 = unused
+      60 = Old Dyes
   - name: ItemUICategory
     type: link
     targets: [ItemUICategory]

@@ -1,6 +1,7 @@
 name: BNpcBase
 fields:
   - name: Scale
+  - name: Unknown11
   - name: ArrayEventHandler
     type: link
     targets: [ArrayEventHandler]

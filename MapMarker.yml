@@ -14,7 +14,7 @@ fields:
         2: [Map]
         3: [Aetheryte]
         4: [PlaceName]
-  - name: Unknown1
+  - name: MapMarkerUnlockedBit
   - name: X
   - name: Y
   - name: SubtextOrientation

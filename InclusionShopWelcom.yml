@@ -1,5 +1,9 @@
 name: InclusionShopWelcom
 fields:
   - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
+  - name: ShopName
+    type: link
+    targets: [InclusionShopWelcomText]
+  - name: WelcomeText
+    type: link
+    targets: [InclusionShopWelcomText]

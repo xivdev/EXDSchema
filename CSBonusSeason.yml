@@ -3,12 +3,17 @@ fields:
   - name: Item
     type: link
     targets: [Item]
+  - name: Unknown13
   - name: Unknown1
   - name: Unknown2
   - name: Category0
   - name: Category1
   - name: Category2
   - name: Category3
+  - name: Unknown14
+  - name: Unknown15
+  - name: Unknown16
+  - name: Unknown17
   - name: Text0
     type: link
     targets: [CSBonusTextData]

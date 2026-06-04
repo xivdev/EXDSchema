@@ -1,0 +1,4 @@
+name: WorldRegionGroup
+displayField: Name
+fields:
+- name: Name

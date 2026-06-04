@@ -1,3 +1,6 @@
 name: HousingTrainingDoll
+displayField: Base
 fields:
-  - name: Unknown0
+  - name: Base
+    type: link
+    targets: [BNpcBase]

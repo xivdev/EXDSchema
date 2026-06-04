@@ -12,8 +12,12 @@ fields:
   - name: ModelWrists
   - name: ModelLeftRing
   - name: ModelRightRing
-  - name: Unknown_70_1
-  - name: Unknown_70_2
+  - name: Glasses
+    type: array
+    count: 2
+    fields:
+      - type: link
+        targets: [Glasses]
   - name: DyeMainHand
     type: link
     targets: [Stain]
@@ -87,4 +91,4 @@ fields:
     type: link
     targets: [Stain]
   - name: Visor
-  - name: Unknown0
+  - name: VisorToggled

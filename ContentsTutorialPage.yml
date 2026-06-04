@@ -1,4 +1,5 @@
 name: ContentsTutorialPage
+displayField: Description
 fields:
   - name: Description
   - name: Image

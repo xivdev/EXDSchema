@@ -1,4 +1,5 @@
 name: GoldSaucerArcadeMachine
+displayField: Name
 fields:
   - name: Unknown0
   - name: Poor
@@ -28,16 +29,21 @@ fields:
   - name: Unknown17
   - name: Unknown18
   - name: Unknown19
-  - name: Unknown20
-  - name: Unknown21
-  - name: Unknown22
-  - name: Unknown23
+  - name: Name
+    comment: Shown in the Duty List.
+  - name: PayoutExplanation
+    comment: Shown in the Duty List below Description.
+  - name: Description
+    comment: Shown in the Duty List.
+  - name: TotalPayoutText
+    comment: Shown in the Duty List if this machine has multiple rounds.
   - name: FailImage
     type: icon
   - name: Unknown24
   - name: Unknown25
   - name: Unknown26
-  - name: Unknown27
+  - name: Timeout
+    comment: How long until the machine shuts down, in seconds.
   - name: Unknown28
   - name: Unknown29
   - name: Unknown30

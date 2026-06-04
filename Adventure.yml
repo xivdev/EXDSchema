@@ -6,11 +6,11 @@ fields:
   - name: Description
   - name: Level
     type: link
-    targets: [Level]
+    targets: [ Level ]
   - name: MinLevel
   - name: PlaceName
     type: link
-    targets: [PlaceName]
+    targets: [ PlaceName ]
   - name: IconList
     type: icon
   - name: IconDiscovered
@@ -19,8 +19,10 @@ fields:
     type: icon
   - name: Emote
     type: link
-    targets: [Emote]
+    targets: [ Emote ]
   - name: MinTime
   - name: MaxTime
   - name: MaxLevel
   - name: IsInitial
+  - name: Unknown0
+  - name: Unknown1

@@ -1,11 +1,15 @@
 name: InclusionShop
 fields:
-  - name: Unknown0
+  - name: ShopName
   - name: Category
     type: array
     count: 30
     fields:
       - type: link
         targets: [InclusionShopCategory]
-  - name: Unknown1
-  - name: Unknown2
+  - name: UnlockQuest
+    type: link
+    targets: [Quest]
+  - name: InclusionShopWelcom
+    type: link
+    targets: [InclusionShopWelcom]

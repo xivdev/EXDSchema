@@ -10,15 +10,17 @@ fields:
     comment: "This would show Addon#102618, but the row is empty."
   - name: Image
     type: icon
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown6
+  - name: RewardPvPExp
+  - name: RewardSeriesExp
+  - name: Region
+    type: link
+    targets: [ContentFinderConditionRegion]
   - name: ItemLevelRequired
   - name: ItemLevelSync
   - name: RewardTomeA
   - name: RewardTomeB
   - name: RewardTomeC
-  - name: Unknown5
+  - name: RewardWolfMarks
   - name: InstanceContent
     type: link
     targets: [InstanceContent]
@@ -45,7 +47,9 @@ fields:
   - name: ContentType
     type: link
     targets: [ContentType]
-  - name: Unknown12
+  - name: UICategory
+    type: link
+    targets: [ContentUICategory]
   - name: TimeLimit
     comment: "In minutes."
   - name: TimeLimitMax

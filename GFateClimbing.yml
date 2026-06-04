@@ -1,4 +1,5 @@
 name: GFateClimbing
+displayField: Text
 fields:
+  - name: Text
   - name: Unknown0
-  - name: Unknown1

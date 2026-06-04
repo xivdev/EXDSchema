@@ -42,8 +42,8 @@ fields:
   - name: Unknown24
   - name: Unknown25
   - name: Unknown26
-  - name: Unknown27
-  - name: Unknown28
+  - name: CrystallineConflictCasualRoulette
+  - name: CrystallineConflictRankedRoulette
   - name: ShortCode
   - name: Unknown29
     comment: "This would show Addon#102618, if not 0, but the row is empty."

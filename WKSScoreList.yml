@@ -1,7 +1,9 @@
 name: WKSScoreList
 fields:
+  - name: Unknown5
   - name: Unknown0
   - name: Unknown1
   - name: Unknown2
+  - name: Unknown6
   - name: Unknown3
   - name: Unknown4

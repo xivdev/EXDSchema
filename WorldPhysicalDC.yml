@@ -1,0 +1,4 @@
+name: WorldPhysicalDC
+displayField: Name
+fields:
+- name: Name

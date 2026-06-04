@@ -8,7 +8,7 @@ fields:
   - name: Type
   - name: Base
   - name: Variant
-  - name: Unknown2
+  - name: AnimationVariant
   - name: Unknown3
   - name: Unknown4
   - name: Unknown5

@@ -1,3 +1,6 @@
 name: GFateType
+displayField: Name
 fields:
-  - name: Unknown0
+  - name: Name
+    type: link
+    targets: [GoldSaucerTextData]

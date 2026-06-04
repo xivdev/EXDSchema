@@ -1,4 +1,5 @@
 name: GFateClimbing2TotemType
+displayField: PublicContentTextData
 fields:
   - name: PublicContentTextData
     type: link

@@ -1,5 +1,9 @@
 name: EventItemCategory
 fields:
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
+  - name: Text
+  - name: ReceiveLogMessage
+    type: link
+    targets: [LogMessage]
+  - name: DiscardLogMessage
+    type: link
+    targets: [LogMessage]

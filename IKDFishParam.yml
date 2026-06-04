@@ -4,7 +4,9 @@ fields:
   - name: Fish
     type: link
     targets: [FishParameter]
-  - name: IKDContentBonus
+  - name: PartyBonus
     type: link
     targets: [IKDContentBonus]
-  - name: Unknown0
+  - name: IndividualBonus
+    type: link
+    targets: [IKDContentBonus]

@@ -1,4 +1,5 @@
 name: MKDSupportJob
+displayField: Name
 fields:
   - name: Name
   - name: NameShort

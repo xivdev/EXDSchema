@@ -1,6 +1,7 @@
 name: QuestDefineClient
+displayField: Text
 fields:
-  - name: Unknown0
-  - name: Target
+  - name: Text
+  - name: DefineVaue
     type: link
     targets: [Item, Quest, ENpcBase, EObjName, Level]

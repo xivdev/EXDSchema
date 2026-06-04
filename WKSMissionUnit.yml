@@ -1,6 +1,8 @@
 name: WKSMissionUnit
 fields:
   - name: Name
+  - name: SilverStarRequirement
+  - name: GoldStarRequirement
   - name: WKSMissionText
     type: link
     targets: [WKSMissionText]
@@ -10,12 +12,11 @@ fields:
     fields:
       - type: link
         targets: [ClassJobCategory]
+  - name: Unknown1
   - name: MissionTime
   - name: MissionReward
     type: link
     targets: [WKSMissionReward]
-  - name: SilverStarRequirement
-  - name: GoldStarRequirement
   - name: MissionToDo
     type: array
     count: 3
@@ -45,3 +46,4 @@ fields:
     targets: [WKSMissionLotterySpecialCond]
   - name: IsSynced
   - name: IsSpecialQuest
+  - name: Unknown2

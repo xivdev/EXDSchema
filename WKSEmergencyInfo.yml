@@ -1,4 +1,5 @@
 name: WKSEmergencyInfo
+displayField: Name
 fields:
   - name: EmergencyProblem
     type: array
@@ -8,7 +9,9 @@ fields:
         targets: [WKSEmergencyProblem]
   - name: WKSEmergencyMissionRowId
     comment: Has between 5 and 6 subrows
-  - name: Unknown3
+  - name: Name
+    type: link
+    targets: [WKSEmergencyInfoText]
   - name: WKSEmergencyWarningText
     type: link
     targets: [WKSEmergencyInfoText]

@@ -2,6 +2,11 @@ name: HousingYardObject
 displayField: Item
 fields:
   - name: UsageParameter
+    type: link
+    condition:
+      switch: UsageType
+      cases:
+        16: [HousingTrainingDoll]
   - name: CustomTalk
     type: link
     targets: [CustomTalk]
@@ -11,10 +16,24 @@ fields:
   - name: ModelKey
   - name: HousingItemCategory
   - name: UsageType
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
+    comment: |
+      0 = Static furnishing
+      2 = Garden Patch
+      5 = Chocobo Stable
+      6 = Duties Permit
+      14 = Message Book
+      16 = Striking Dummy
+  - name: PlaceLimitType
+    comment: Any furnishings with the same type are counted towards the limit. For example, all garden patches are grouped together under the same key.
+  - name: Placement
+    type: link
+    targets: [HousingPlacement]
+  - name: Unplacement
+    type: link
+    targets: [HousingUnplacement]
+  - name: UnplacementStorage
+    type: link
+    targets: [HousingUnplacement]
   - name: DestroyOnRemoval
   - name: Unknown4
   - name: Unknown5

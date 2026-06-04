@@ -11,11 +11,25 @@ fields:
   - name: ModelKey
   - name: HousingItemCategory
   - name: UsageType
+    comment: |
+      0 = Static furnishing
+      3 = Vendor Permit
+      4 = Crafting Workbenche
+      7 = Food
+      8 = Aetherial Wheel
+      9 = Triple Triad Board
+      10 = Orchestrion
+      11 = Flowerpot
+      12 = Vase
+      13 = Aquarium
+      14 = Message Book
+      15 = Mannequin
+  - name: PlaceLimitType
+    comment: Any furnishings with the same type are counted towards the limit. For example, all vendor permits are grouped together under the same key.
+  - name: AquariumTier
   - name: Placement
     type: link
     targets: [HousingPlacement]
-  - name: AquariumTier
-  - name: Unknown1
   - name: Unplacement
     type: link
     targets: [HousingUnplacement]

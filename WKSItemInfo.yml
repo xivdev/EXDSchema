@@ -1,4 +1,5 @@
 name: WKSItemInfo
+displayField: Item
 fields:
   - name: Item
     type: link

@@ -2,7 +2,7 @@ name: DpsChallengeOfficer
 fields:
   - name: ChallengeName
     type: array
-    count: 25
+    count: 26
     fields:
       - type: link
         targets: [DpsChallenge]
