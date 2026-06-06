@@ -1,3 +1,5 @@
 name: WKSMissionLotteryCond
 fields:
-  - name: Unknown0
+  - name: RequiredFunction
+    type: link
+    targets: [WKSFunction]
