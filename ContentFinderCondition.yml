@@ -67,9 +67,7 @@ fields:
   - name: JournalGenre
     type: link
     targets: [JournalGenre]
-  - name: Transient
-    type: link
-    targets: [ContentFinderConditionTransient]
+  - name: Unknown59
   - name: Image
     type: icon
   - name: Icon
