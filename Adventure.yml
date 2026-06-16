@@ -24,5 +24,7 @@ fields:
   - name: MaxTime
   - name: MaxLevel
   - name: IsInitial
-  - name: Unknown0
+  - name: Weather
+    type: link
+    targets: [ Weather ]
   - name: Unknown1
