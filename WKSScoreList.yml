@@ -1,9 +1,21 @@
 name: WKSScoreList
 fields:
-  - name: Unknown5
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown6
+  - name: ScoreItemId
+    type: link
+    targets: [Item]
+  - name: 50kAchievement
+    type: link
+    targets: [Achievement]    
+  - name: 150kAchievement
+    type: link
+    targets: [Achievement]
+  - name: 500kAchievement
+    type: link
+    targets: [Achievement]
+  - name: MasteryAchievement
+    type: link
+    targets: [Achievement]
   - name: Unknown3
-  - name: Unknown4
+  - name: ClassJob
+    type: link
+    targets: [ClassJob]
