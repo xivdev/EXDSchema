@@ -167,8 +167,8 @@ fields:
       55 = Cosmic Exploration Cosmocredit
       56 = Cosmic Exploration Lunar Credit
       57 = Occult Crescent Sanguine Cipher
-      58 = Oizys Dronebit
-      59 = unused
+      58 = Cosmic Exploration Dronebits
+      59 = Cosmic Exploration Tool Mastery Points
       60 = Old Dyes
   - name: ItemUICategory
     type: link
