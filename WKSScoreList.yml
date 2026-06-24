@@ -3,13 +3,13 @@ fields:
   - name: ScoreItemId
     type: link
     targets: [Item]
-  - name: 50kAchievement
+  - name: Achievement50k
     type: link
     targets: [Achievement]    
-  - name: 150kAchievement
+  - name: Achievement150k
     type: link
     targets: [Achievement]
-  - name: 500kAchievement
+  - name: Achievement500k
     type: link
     targets: [Achievement]
   - name: MasteryAchievement
