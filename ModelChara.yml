@@ -1,6 +1,6 @@
 name: ModelChara
 fields:
-  - name: Unknown0
+  - name: Radius
   - name: Unknown1
   - name: Unknown15
   - name: Model
