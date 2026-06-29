@@ -24,6 +24,7 @@ fields:
     count: 6
     fields:
       - name: ImageId
+        type: icon
       - name: Unknown1
       - name: Quest
         type: link
