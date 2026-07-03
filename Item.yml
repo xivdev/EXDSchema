@@ -185,6 +185,7 @@ fields:
   - name: DyeCount
   - name: CastTimeSeconds
   - name: ClassJobRepair
+    comment: "This applies to both repairs and desynthesis, so irreparable but desynthesizable items such as fish or furniture will have a ClassJobRepair value."
     type: link
     targets: [ClassJob]
   - name: IsUnique
