@@ -1,4 +1,6 @@
 name: ItemRetainerLevelUp
 fields:
-  - name: Unknown0
-  - name: Unknown1
+  - name: Item
+    type: link
+    targets: [Item]
+  - name: RetainerLevel
