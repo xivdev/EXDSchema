@@ -1,45 +1,9 @@
 name: MountCustomize
 fields:
-  - name: HyurMidlanderMaleScale
-  - name: HyurMidlanderFemaleScale
-  - name: HyurHighlanderMaleScale
-  - name: HyurHighlanderFemaleScale
-  - name: ElezenMaleScale
-  - name: ElezenFemaleScale
-  - name: LalaMaleScale
-  - name: LalaFemaleScale
-  - name: MiqoMaleScale
-  - name: MiqoFemaleScale
-  - name: RoeMaleScale
-  - name: RoeFemaleScale
-  - name: AuRaMaleScale
-  - name: AuRaFemaleScale
-  - name: HrothgarMaleScale
-  - name: HrothgarFemaleScale
-  - name: VieraMaleScale
-  - name: VieraFemaleScale
-  - name: HyurMidlanderMaleCameraHeight
-  - name: HyurMidlanderFemaleCameraHeight
-  - name: HyurHighlanderMaleCameraHeight
-  - name: HyurHighlanderFemaleCameraHeight
-  - name: ElezenMaleCameraHeight
-  - name: ElezenFemaleCameraHeight
-  - name: LalaMaleCameraHeight
-  - name: LalaFemaleCameraHeight
-  - name: MiqoMaleCameraHeight
-  - name: MiqoFemaleCameraHeight
-  - name: RoeMaleCameraHeight
-  - name: RoeFemaleCameraHeight
-  - name: AuRaMaleCameraHeight
-  - name: AuRaFemaleCameraHeight
-  - name: HrothgarMaleCameraHeight
-  - name: HrothgarFemaleCameraHeight
-  - name: VieraMaleCameraHeight
-  - name: VieraFemaleCameraHeight
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown_70_1
-  - name: Unknown_70_2
-  - name: Unknown2
-  - name: Unknown3
+  - name: Scale
+    type: array
+    count: 21
+  - name: CameraHeight
+    type: array
+    count: 21
   - name: Unknown4
