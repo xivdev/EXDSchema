@@ -17,6 +17,8 @@ fields:
     type: icon
   - name: Transient
   - name: Order
-  - name: AttachmentPoint
+  - name: CustomizeGroup
+    type: link
+    targets: [OrnamentCustomizeGroup]
   - name: Unknown3
   - name: Unknown4
