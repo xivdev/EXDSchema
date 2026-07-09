@@ -2,10 +2,8 @@ name: OrnamentCustomizeGroup
 fields:
   - name: Customize
     type: array
-    count: 19
+    count: 21
     fields:
       - type: link
         targets: [OrnamentCustomize]
-  - name: Unknown19
-  - name: Unknown20
-  - name: Unknown18
+  - name: AttachmentPoint
