@@ -1,5 +1,5 @@
 # EXDSchema
-<a href="https://thaliak.xiv.dev/repository/4e9a232b"><img align="right" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fexd.camora.dev%2Fapi%2Fversions&query=latest&style=for-the-badge&label=Latest%20XIV%20Version"></a>
+<a href="https://thaliak.xiv.dev/repository/4e9a232b"><img align="right" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fexd.camora.dev%2Fapi%2F4e9a232b%2Fversions&query=latest&style=for-the-badge&label=Latest%20XIV%20Version"></a>
 
 This is the schema repository for FFXIV's [Excel files](https://xiv.dev/game-data/file-formats/excel). It's recommended to use [EXDViewer](https://exd.camora.dev) for exploring this data and to help with providing contributions to EXDSchema.
 
