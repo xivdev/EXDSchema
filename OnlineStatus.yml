@@ -8,6 +8,6 @@ fields:
     type: link
     targets: [Addon]
   - name: Priority
-  - name: ForceIconOnNameplate
+  - name: Unknown1
   - name: List
   - name: Unknown2
