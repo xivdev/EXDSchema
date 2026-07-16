@@ -20,8 +20,6 @@ fields:
     fields:
       - type: link
         targets: [Action]
-    type: link
-    targets: [Action]
   - name: RemoveAction
     type: link
     targets: [Action]
