@@ -1,9 +1,10 @@
 name: Omikuji
+displayField: Fortune
 fields:
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown5
-  - name: Unknown6
+  - name: Fortune
+  - name: Description
+  - name: GuidanceAdventure
+  - name: GuidanceRelationships
+  - name: GuidanceProsperity
+  - name: GuidanceConflict
+  - name: GuidanceFavor

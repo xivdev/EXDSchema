@@ -23,8 +23,10 @@ fields:
   - name: MinTime
   - name: MaxTime
   - name: MaxLevel
-  - name: IsInitial
+  - name: WeatherCategory
+    type: link
+    targets: [ WeatherCategory ]
   - name: Weather
     type: link
     targets: [ Weather ]
-  - name: Unknown1
+  - name: IsInitial
