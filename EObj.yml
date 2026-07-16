@@ -9,8 +9,10 @@ fields:
   - name: PopType
   - name: Invisibility
   - name: Unknown0
-  - name: Unknown11
-  - name: Unknown12
+  - name: AdditionalInteractRangeX
+    comment: Used in EventFramework.CheckInteractRangeEx.
+  - name: AdditionalInteractRangeY
+    comment: Used in EventFramework.CheckInteractRangeEx.
   - name: Unknown1
   - name: Unknown2
   - name: Unknown3
@@ -19,9 +21,11 @@ fields:
   - name: Unknown6
   - name: Unknown7
   - name: Unknown8
-  - name: EyeCollision
-  - name: DirectorControl
-  - name: Target
+  - name: Targetable
   - name: Unknown9
-  - name: AddedIn53
   - name: Unknown10
+  - name: Unknown11
+  - name: LuaSetup
+    comment: If set, EObjs managed by a QuestEventHandler calls into Lua first to set up initial shared group timeline state. This can be used by Quest scripting to animate an SGB during a specific sequence of the quest.
+  - name: SharedTimelineStateUnknown
+    comment: Not sure what the true meaning of this field means, but its checked within EventObject.UpdateSharedTimelineState.
