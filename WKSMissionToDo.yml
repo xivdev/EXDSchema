@@ -3,7 +3,7 @@ fields:
   - name: TemporaryAction
     type: link
     targets: [Action, ActionTransient]
-  - name: Unknown2
+  - name: BronzeScore
   - name: Unknown1
   - name: RequiredItem
     type: array
@@ -14,7 +14,7 @@ fields:
   - name: RequiredItemQuantity
     type: array
     count: 3
-  - name: Unknown9
+  - name: RequiredFishVariety
   - name: Unknown10
   - name: Unknown11
   - name: Unknown12
@@ -26,8 +26,8 @@ fields:
   - name: WKSMissionText
     type: link
     targets: [WKSMissionText]
-  - name: Unknown14
+  - name: TemporaryActionCount
   - name: Unknown15
   - name: Unknown16
-  - name: Unknown17
+  - name: RequiredFishQuantity
   - name: MissionType

@@ -10,12 +10,15 @@ fields:
         targets: [IKDSpot]
   - name: Image
     type: icon
-  - name: Unknown0
+  - name: AltImage
+    type: icon
   - name: Unknown1
   - name: Instance
     type: link
     targets: [ContentFinderCondition]
-  - name: Unknown2
+  - name: PrerequisiteQuest
+    type: link
+    targets: [Quest]
   - name: Time
     type: array
     count: 3
