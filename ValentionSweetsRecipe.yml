@@ -12,6 +12,6 @@ fields:
     type: array
     count: 8
 relations:
-  Params:
+  Ingredients:
     - Material
     - Quantity
