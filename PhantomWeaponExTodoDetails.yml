@@ -14,5 +14,5 @@ fields:
   targets: [ContentFinderCondition]
 - name: TerritoryType
   type: link
-  targets: [ContentFinderCondition]
+  targets: [TerritoryType]
 - name: Unknown5
