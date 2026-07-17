@@ -1,5 +1,5 @@
 name: OmikujiGuidance
 fields:
-  - name: Unknown0
-  - name: Unknown1
+  - name: Type
+  - name: Outcome
   - name: Unknown2

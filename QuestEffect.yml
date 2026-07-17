@@ -1,12 +1,16 @@
 name: QuestEffect
 fields:
-  - name: UnknownStruct
+  - name: Effects
     type: array
     count: 4
     fields:
-      - name: Unknown1
-      - name: Unknown_70
-      - name: Unknown2
-  - name: Unknown8
-  - name: Unknown9
+      - name: Param1
+      - name: Param2
+      - name: Type
+  - name: OutOfRangeWarningMessage
+    type: link
+    targets: [LogMessage]
+  - name: OutOfRangeMessage
+    type: link
+    targets: [LogMessage]
   - name: Unknown_70

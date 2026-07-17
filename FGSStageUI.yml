@@ -1,7 +1,9 @@
 name: FGSStageUI
 fields:
   - name: Unknown0
+    type: icon
   - name: Unknown1
+    type: icon
   - name: Unknown2
   - name: Unknown3
   - name: Unknown4

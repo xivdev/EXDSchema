@@ -1,4 +1,5 @@
 name: NotoriousMonster
+displayField: BNpcName
 fields:
   - name: BNpcName
     type: link

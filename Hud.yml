@@ -1,5 +1,6 @@
 name: Hud
+displayField: DisplayName
 fields:
-  - name: Unknown0
-  - name: Unknown1
+  - name: DisplayName
+  - name: AddonName
   - name: Unknown2
