@@ -3,5 +3,5 @@ displayField: Name
 fields:
   - name: Name
   - name: Description
-  - name: Score
+  - name: Scores
   - name: IsVisible
