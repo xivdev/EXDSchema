@@ -1,6 +1,6 @@
 name: WeatherCategory
 fields:
-- name: Weather
+- name: Weathers
   type: array
   count: 5
   fields:
