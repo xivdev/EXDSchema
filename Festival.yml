@@ -2,5 +2,7 @@ name: Festival
 displayField: Name
 fields:
   - name: Name
-  - name: Unknown1
-  - name: Unknown0
+  - name: IsAllSaintsWake
+  - name: WeatherRate
+    type: link
+    targets: [WeatherRate]
