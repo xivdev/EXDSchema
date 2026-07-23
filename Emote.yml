@@ -14,6 +14,14 @@ fields:
     fields:
       - type: link
         targets: [ActionTimeline]
+    comment: |
+      0 = Standing
+      1 = Start animation
+      2 = Ground sit
+      3 = Chair sit
+      4 = Mounted (when HasMountedAnimation) / Swimming (when HasSwimmingAnimation) / Diving (when HasDivingAnimation)
+      5 = Dozing
+      6 = Unused
   - name: Order
   - name: LogMessageTargeted
     type: link
@@ -28,11 +36,12 @@ fields:
   - name: EmoteMode
     type: link
     targets: [EmoteMode]
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
+  - name: HasMountedAnimation
+  - name: HasSwimmingAnimation
+  - name: HasDivingAnimation
+  - name: DontSetEmoteMode
   - name: Unknown5
-  - name: HasCancelEmote
+    comment: Maybe controls whether or not the emote can be synced in GPose?!
+  - name: UsableWhenFishing
   - name: DrawsWeapon
-  - name: Unknown6
+  - name: SheathesWeapon
