@@ -2,13 +2,18 @@ name: HalloweenNpcSelect
 fields:
   - name: Description
   - name: Unknown1
-  - name: Unknown2
+  - name: RequiredQuest
+    type: link
+    targets: [Quest]
   - name: PreviewIcon
     type: icon
   - name: Transformation
     type: link
     targets: [Transformation]
-  - name: Unknown5
+  - name: Festival
+    type: link
+    targets: [Festival]
+    comment: The Festival where this option became available.
   - name: Expansion
     type: link
     targets: [ExVersion]
