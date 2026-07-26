@@ -1,4 +1,5 @@
 name: PublicContentCutscene
+displayField: Cutscene
 fields:
   - name: Cutscene
     type: link

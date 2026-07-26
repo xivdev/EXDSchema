@@ -1,3 +1,4 @@
 name: UIConst
+displayField: Value
 fields:
   - name: Value

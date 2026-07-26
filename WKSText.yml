@@ -1,3 +1,4 @@
 name: WKSText
+displayField: Text
 fields:
   - name: Text

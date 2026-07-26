@@ -1,3 +1,4 @@
 name: TreasureHuntTexture
+displayField: Texture
 fields:
-  - name: Unknown0
+  - name: Texture

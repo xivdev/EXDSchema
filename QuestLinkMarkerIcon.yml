@@ -1,4 +1,5 @@
 name: QuestLinkMarkerIcon
+displayField: Icon
 fields:
   - name: Icon
     type: icon

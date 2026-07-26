@@ -1,4 +1,5 @@
 name: AnimaWeaponIcon
+displayField: ZodiacLux
 fields:
   - name: Hyperconductive
     type: icon
