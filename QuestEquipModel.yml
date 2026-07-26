@@ -1,4 +1,5 @@
 name: QuestEquipModel
 fields:
-  - name: Unknown0
-  - name: Unknown1
+  - name: Model
+    type: modelId
+  - name: Slot
