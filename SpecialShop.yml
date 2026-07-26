@@ -1,4 +1,5 @@
 name: SpecialShop
+displayField: Name
 fields:
   - name: Name
   - name: Item

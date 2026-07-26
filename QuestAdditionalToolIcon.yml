@@ -1,3 +1,5 @@
 name: QuestAdditionalToolIcon
+displayField: Icon
 fields:
-  - name: Unknown0
+  - name: Icon
+    type: icon

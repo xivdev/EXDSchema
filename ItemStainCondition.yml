@@ -1,4 +1,5 @@
 name: ItemStainCondition
+displayField: UnlockQuest
 fields:
   - name: UnlockQuest
     type: link

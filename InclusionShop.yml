@@ -1,4 +1,5 @@
 name: InclusionShop
+displayField: InclusionShopWelcom
 fields:
   - name: ShopName
   - name: Category

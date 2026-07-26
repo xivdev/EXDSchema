@@ -1,4 +1,5 @@
 name: InstanceContent
+displayField: ContentFinderCondition
 fields:
   - name: NewPlayerBonusGil
   - name: NewPlayerBonusExp

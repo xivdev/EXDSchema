@@ -1,4 +1,5 @@
 name: EventIconPriorityPair
+displayField: Icon
 fields:
   - name: Icon
     type: icon

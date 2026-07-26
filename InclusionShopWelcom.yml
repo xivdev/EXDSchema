@@ -1,4 +1,5 @@
 name: InclusionShopWelcom
+displayField: ShopName
 fields:
   - name: Unknown0
   - name: ShopName
