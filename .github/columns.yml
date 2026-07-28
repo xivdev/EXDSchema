@@ -29257,6 +29257,8 @@ PhantomWeaponExTodoDetails@Subrow:
 PhantomWeaponExTodoDetailTxt:
   - type: string
     offset: 0
+  - type: string
+    offset: 4
 PhysicsGroup:
   - type: float32
     offset: 0
