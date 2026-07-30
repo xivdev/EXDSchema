@@ -4,4 +4,6 @@ fields:
   - name: Status
     type: link
     targets: [Status]
-  - name: Unknown0
+  - name: VFX
+    type: link
+    targets: [VFX]
