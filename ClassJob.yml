@@ -18,8 +18,12 @@ fields:
   - name: Prerequisite
     type: link
     targets: [Quest]
-  - name: Unknown_70_1
-  - name: Unknown_70_2
+  - name: ReplaceAction
+    type: link
+    targets: [ReplaceAction]
+  - name: ReplaceActionPvP
+    type: link
+    targets: [ReplaceAction]
   - name: Unknown9
   - name: ItemStartingWeaponMainHand
     type: link
@@ -88,4 +92,4 @@ fields:
     type: link
     targets: [MonsterNote]
   - name: IsLimitedJob
-  - name: Unknown10
+  - name: CanWearShield
