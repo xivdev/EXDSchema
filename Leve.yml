@@ -53,7 +53,9 @@ fields:
   - name: Unknown1
   - name: TimeLimit
   - name: AllowanceCost
-  - name: Unknown2
+  - name: SpearfishingNotebook
+    type: link
+    targets: [SpearfishingNotebook]
   - name: ClassJobCategory
     type: link
     targets: [ClassJobCategory]
