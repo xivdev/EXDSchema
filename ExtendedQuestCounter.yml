@@ -3,7 +3,13 @@ fields:
 - name: Quest
   type: link
   targets: [Quest]
-- name: Unknown1
-- name: Unknown2
+- name: CounterValue
+- name: Mode
+  comment: |
+    1 = 8-bit bitflag check on current value using CounterValue
+    2 = 16-bit bitflag check on current value using CounterValue
+    3/4 = full 32 bit current value
+    5 = upper 8 bits of current value
+    6 = lower 8 bits of current value
 - name: QuestCustomTodoIndex
 - name: Unknown4
