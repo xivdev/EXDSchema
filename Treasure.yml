@@ -1,14 +1,14 @@
 name: Treasure
 displayField: SGB
 fields:
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown5
-  - name: Unknown6
-  - name: Unknown7
+  - name: Singular
+  - name: Plural
+  - name: Adjective
+  - name: PossessivePronoun
+  - name: StartsWithVowel
+  - name: Countability
+  - name: Pronoun
+  - name: Article
   - name: SGB
     type: link
     targets: [ExportedSG]
