@@ -8,6 +8,6 @@ fields:
   - name: Adjective
   - name: PossessivePronoun
   - name: StartsWithVowel
-  - name: Unknown1
+  - name: Countability
   - name: Pronoun
   - name: Article

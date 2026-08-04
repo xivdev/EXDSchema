@@ -7,7 +7,7 @@ fields:
   - name: Adjective
   - name: PossessivePronoun
   - name: StartsWithVowel
-  - name: Unknown_70_4
+  - name: Countability
   - name: Pronoun
   - name: Article
   - name: Icon
