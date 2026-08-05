@@ -1,13 +1,13 @@
 name: Attributive
 fields:
-  - name: JapaneseSingularDemonstrative
-  - name: JapanesePluralDemonstrative
-  - name: EnglishSingularConsonant
-  - name: EnglishGenericConsonant
-  - name: EnglishPluralConsonant
-  - name: EnglishSingularVowel
-  - name: EnglishGenericVowel
-  - name: EnglishPluralVowel
+  - name: JapaneseDemonstrative
+  - name: JapaneseDemonstrativePlural
+  - name: EnglishConsonantSingular
+  - name: EnglishConsonantGeneric
+  - name: EnglishConsonantPlural
+  - name: EnglishVowelSingular
+  - name: EnglishVowelGeneric
+  - name: EnglishVowelPlural
   - name: GermanNominativeMasculine
   - name: GermanNominativeFeminine
   - name: GermanNominativeNeutral
