@@ -1,9 +1,15 @@
 name: QuestCustomTodo
 fields:
-  - name: Unknown0
+  - name: Index
     type: array
     count: 7
-  - name: Unknown1
+    comment: 65535 if unused. Index in the CustomTodoManager.
+  - name: MaxValue
     type: array
     count: 7
-  - name: Unknown8
+  - name: DataType
+    comment: Which array to choose in the CustomTodoManager and how big the values can be. 0 = Byte, 1 = UShort
+relations:
+  Entry:
+    - Index
+    - MaxValue
