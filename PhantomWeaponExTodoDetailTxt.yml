@@ -2,3 +2,4 @@ name: PhantomWeaponExTodoDetailTxt
 displayField: Text
 fields:
 - name: Text
+- name: Description
