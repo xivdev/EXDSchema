@@ -1,12 +1,19 @@
 name: CharaMakeClassEquip
 fields:
   - name: Helmet
+    type: modelId
   - name: Top
+    type: modelId
   - name: Glove
+    type: modelId
   - name: Down
+    type: modelId
   - name: Shoes
+    type: modelId
   - name: Weapon
+    type: modelId
   - name: SubWeapon
+    type: modelId
   - name: Class
     type: link
     targets: [ClassJob]
