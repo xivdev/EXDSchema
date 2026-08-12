@@ -1,3 +1,5 @@
 name: ChocoboRaceRanking
 fields:
-  - name: Unknown0
+  - name: BGM
+    type: link
+    targets: [BGM]
