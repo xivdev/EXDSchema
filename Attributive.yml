@@ -1,13 +1,13 @@
 name: Attributive
 fields:
-  - name: JapaneseSingularDemonstrative
-  - name: JapanesePluralDemonstrative
-  - name: EnglishArticleSingularConsonant
-  - name: EnglishArticleGenericConsonant
-  - name: EnglishArticlePluralConsonant
-  - name: EnglishArticleSingularVowel
-  - name: EnglishArticleGenericVowel
-  - name: EnglishArticlePluralVowel
+  - name: JapaneseDemonstrative
+  - name: JapaneseDemonstrativePlural
+  - name: EnglishConsonantSingular
+  - name: EnglishConsonantGeneric
+  - name: EnglishConsonantPlural
+  - name: EnglishVowelSingular
+  - name: EnglishVowelGeneric
+  - name: EnglishVowelPlural
   - name: GermanNominativeMasculine
   - name: GermanNominativeFeminine
   - name: GermanNominativeNeutral
@@ -24,20 +24,20 @@ fields:
   - name: GermanAccusativeFeminine
   - name: GermanAccusativeNeutral
   - name: GermanAccusativePlural
-  - name: FrenchArticleSingular
-  - name: FrenchArticleSingularMasculine
-  - name: FrenchArticlePluralMasculine
-  - name: FrenchArticleSingularMasculineElided
-  - name: FrenchArticlePluralMasculineElided
-  - name: FrenchArticleSingularElided
-  - name: FrenchArticlePluralElided
-  - name: FrenchArticleSingularMasculineContracted
-  - name: FrenchArticlePluralMasculineContracted
-  - name: FrenchArticleSingularFeminine
-  - name: FrenchArticlePluralFeminine
-  - name: FrenchArticleSingularFeminineElided
-  - name: FrenchArticlePluralFeminineElided
-  - name: FrenchArticleSingularElidedAlt
-  - name: FrenchArticlePluralElidedAlt
-  - name: FrenchArticleSingularNeutral
-  - name: FrenchArticlePluralNeutral
+  - name: FrenchMasculineConsonantBase
+  - name: FrenchMasculineConsonantSingular
+  - name: FrenchMasculineConsonantPlural
+  - name: FrenchMasculineConsonantMass
+  - name: FrenchMasculineVowelBase
+  - name: FrenchMasculineVowelSingular
+  - name: FrenchMasculineVowelPlural
+  - name: FrenchMasculineVowelMass
+  - name: FrenchFeminineConsonantBase
+  - name: FrenchFeminineConsonantSingular
+  - name: FrenchFeminineConsonantPlural
+  - name: FrenchFeminineConsonantMass
+  - name: FrenchFeminineVowelBase
+  - name: FrenchFeminineVowelSingular
+  - name: FrenchFeminineVowelPlural
+  - name: FrenchFeminineVowelMass
+  - name: Unknown40
