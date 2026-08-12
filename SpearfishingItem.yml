@@ -9,12 +9,14 @@ fields:
     type: link
     targets: [GatheringItemLevelConvertTable]
   - name: Unknown2
-  - name: TerritoryType
+  - name: SpearfishingNotebook
     type: link
-    targets: [TerritoryType]
-  - name: Unknown0
+    targets: [SpearfishingNotebook]
+  - name: GatheringSubCategory
+    type: link
+    targets: [GatheringSubCategory]
   - name: FishingRecordType
     type: link
     targets: [FishingRecordType]
-  - name: Unknown1
-  - name: IsVisible
+  - name: IsHidden
+  - name: IsInLog
