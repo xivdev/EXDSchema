@@ -1,6 +1,12 @@
 name: HudTransient
 fields:
-  - name: Unknown0
+  - name: EditCategory
+    comment: "System = 0, Hotbars = 1, Duty = 2"
   - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
+    comment: "Job gauge = 1, Non-cross hotbar = 2, Party list = 3"
+  - name: Size
+    type: link
+    targets: [AddonHudSize]
+  - name: SimpleModeSize
+    type: link
+    targets: [AddonHudSize]
