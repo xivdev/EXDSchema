@@ -7,7 +7,9 @@ fields:
   - name: StatusText
     type: array
     count: 3
-  - name: Unknown0
+  - name: ArrayEventHandler
+    type: link
+    targets: [ArrayEventHandler]
   - name: Unknown1
   - name: Unknown14
   - name: ReqEventItem
@@ -45,7 +47,10 @@ fields:
     type: link
     targets: [Quest]
   - name: FATEChain
-  - name: Unknown13
+  - name: RequiredQuest2
+    type: link
+    targets: [Quest]
+    comment: Used when Unknown6 is 3
   - name: FateRuleEx
     type: link
     targets: [FateRuleEx]
@@ -65,8 +70,12 @@ fields:
     type: link
     targets: [Status]
   - name: Unknown4
-  - name: Unknown5
-  - name: EurekaFate
+  - name: OccupiedPermission
+    type: link
+    targets: [Permission]
+  - name: FateMode
+    type: link
+    targets: [FateMode]
   - name: Rule
   - name: ClassJobLevel
   - name: ClassJobLevelMax
@@ -74,7 +83,9 @@ fields:
     type: array
     count: 3
   - name: Unknown6
-  - name: Unknown7
+  - name: RequiredClassJobCategory
+    type: link
+    targets: [ClassJobCategory]
   - name: SpecialFate
   - name: Unknown8
   - name: Unknown15

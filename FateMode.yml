@@ -1,6 +1,8 @@
 name: FateMode
 fields:
-  - name: Unknown0
+  - name: LogMessage
+    type: link
+    targets: [LogMessage]
   - name: MotivationIcon
     type: icon
   - name: MotivationMapMarker
