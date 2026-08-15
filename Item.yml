@@ -46,7 +46,11 @@ fields:
   - name: ClassJobUse
     type: link
     targets: [ClassJob]
-  - name: Unknown2
+  - name: DamagePhysType
+    comment: |
+      1 = slashing (GLA/PLD, MRD/WAR, ROG/NIN, DRK, SAM, GNB, RPR, VPR, AST; CRP saw, LTW knife, BTN hatchet)
+      2 = piercing (LNC/DRG, ARC/BRD, MCH, DNC, RDM; WVR needle)
+      3 = blunt (PGL/MNK, CNJ/WHM, THM/BLM, ACN/SMN, SCH, SGE, BLU, PCT; BSM/ARM/GSM hammers, ALC, CUL, MIN pick, FSH rod)
   - name: DefaultActionRange
   - name: BaseParam
     type: array
