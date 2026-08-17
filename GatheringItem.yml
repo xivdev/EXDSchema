@@ -1,7 +1,9 @@
 name: GatheringItem
 displayField: Item
 fields:
-  - name: Unknown0
+  - name: RequiredQuest
+    type: link
+    targets: [Quest]
   - name: SublimeVariant
     type: link
     targets: [GatheringItem]
