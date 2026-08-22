@@ -1,4 +1,6 @@
 name: ReactionEventObject
 fields:
-  - name: Unknown0
-  - name: Unknown1
+  - name: ObjectInfo
+    type: link
+    targets: [ReactionEventObjectInfo]
+  - name: SharedGroup

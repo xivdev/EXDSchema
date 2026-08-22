@@ -1,3 +1,5 @@
 name: ReactionEventObjectInfo
 fields:
-  - name: Unknown0
+  - name: EObj
+    type: link
+    targets: [EObj, EObjName]
