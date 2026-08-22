@@ -1,12 +1,8 @@
 name: LiveMinigamesObjectEvent
 fields:
   - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown5
-  - name: Unknown6
+    type: array
+    count: 7
   - name: Unknown7
   - name: Unknown8
   - name: Unknown9
@@ -19,26 +15,15 @@ fields:
   - name: Unknown16
   - name: Unknown17
   - name: Unknown18
-  - name: Unknown19
-  - name: Unknown20
-  - name: Unknown21
-  - name: Unknown22
-  - name: Unknown23
-  - name: Unknown24
+    type: array
+    count: 7
   - name: Unknown25
-  - name: Unknown26
-  - name: Unknown27
-  - name: Unknown28
-  - name: Unknown29
-  - name: Unknown30
-  - name: Unknown31
+    type: array
+    count: 7
+    comment: Meaning of the value depends on Unknown18
   - name: Unknown32
-  - name: Unknown33
-  - name: Unknown34
-  - name: Unknown35
-  - name: Unknown36
-  - name: Unknown37
-  - name: Unknown38
+    type: array
+    count: 7
   - name: Unknown39
   - name: Unknown40
   - name: Unknown41
@@ -46,10 +31,6 @@ fields:
   - name: Unknown43
   - name: Unknown44
   - name: Unknown45
-  - name: Unknown46
-  - name: Unknown47
-  - name: Unknown48
-  - name: Unknown49
-  - name: Unknown50
-  - name: Unknown51
+    type: array
+    count: 7
   - name: Unknown52

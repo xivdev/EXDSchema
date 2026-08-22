@@ -1,13 +1,22 @@
 name: CuttingGrass
 fields:
   - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
+  - name: PopRange
+    comment: Center of the playing area.
+  - name: Duration
+    comment: How much time the player has at the start of the game, in seconds.
   - name: Unknown3
   - name: Unknown4
-  - name: Unknown5
-  - name: Unknown6
-  - name: Unknown7
-  - name: Unknown8
-  - name: Unknown9
+  - name: ScreenImageStart
+    type: link
+    targets: [ScreenImage]
+  - name: ScreenImageEnd
+    type: link
+    targets: [ScreenImage]
+  - name: Action
+    type: array
+    count: 3
+    fields:
+      - type: link
+        targets: [Action]
   - name: Unknown10

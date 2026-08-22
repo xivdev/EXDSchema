@@ -1,6 +1,8 @@
 name: LiveMinigamesTerritoryType
 fields:
-  - name: Unknown0
+  - name: TerritoryType
+    type: link
+    targets: [TerritoryType]
   - name: Unknown1
   - name: Unknown2
   - name: Unknown3
