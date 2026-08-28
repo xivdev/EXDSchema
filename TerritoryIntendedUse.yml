@@ -22,10 +22,12 @@ fields:
   - name: DisableLogoutTimer
   - name: EnableTeleport
   - name: EnableReturn
-  - name: Unknown16
-  - name: Unknown17
-  - name: EnableRecommendList
-  - name: Unknown19
+  - name: EnableMinions
+  - name: EnableOrnaments
+  - name: EnableRevive
+    comment: Can return to the starting point when dead. Do not confuse with Raise.
+  - name: EnableRecommendedDuties
+    comment: Opens the Recommended Duties window upon login or area change
   - name: Unknown20
   - name: DisableMapDiscovery
   - name: DisableFieldMarkers
@@ -37,13 +39,13 @@ fields:
   - name: EnableTripleTriadMatchesAnywhere
   - name: Unknown29
   - name: Unknown30
-  - name: Unknown31
-    comment: Related to Idle Cam
+  - name: EnableIdleCamLineOfSightCheck
+    comment: Only entities in line of sight will be shown.
   - name: CanPauseTimeWeather
   - name: Unknown33
   - name: EnablePvPQuickChat
   - name: Unknown35
-  - name: Unknown36
+  - name: EnablePerform
   - name: CanApplyGlamourPlatesAnywhere
   - name: Unknown38
     comment: Related to idle timer
