@@ -11,7 +11,7 @@ fields:
       - type: link
         targets: [Quest]
   - name: Unknown0
-  - name: Unknown1
+  - name: RequiredGrandCompanyRank
   - name: Unknown2
   - name: Unknown3
   - name: Unknown4
