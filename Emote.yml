@@ -19,7 +19,7 @@ fields:
       1 = Start animation
       2 = Ground sit
       3 = Chair sit
-      4 = Mounted (when HasMountedAnimation) / Swimming (when HasSwimmingAnimation) / Diving (when HasDivingAnimation)
+      4 = Mounted / Swimming / Diving
       5 = Dozing
       6 = Unused
   - name: Order
@@ -33,12 +33,14 @@ fields:
   - name: EmoteCategory
     type: link
     targets: [EmoteCategory]
+    comment: |
+      3 (Expressions) = Usable everywhere (other columns are overridden)
   - name: EmoteMode
     type: link
     targets: [EmoteMode]
-  - name: HasMountedAnimation
-  - name: HasSwimmingAnimation
-  - name: HasDivingAnimation
+  - name: UsableWhenMounted
+  - name: UsableWhenSwimming
+  - name: UsableWhenDiving
   - name: DontSetEmoteMode
   - name: Unknown5
     comment: Maybe controls whether or not the emote can be synced in GPose?!
