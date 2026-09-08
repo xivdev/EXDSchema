@@ -21,6 +21,11 @@ fields:
 - name: Unknown8
 - name: Unknown9
 - name: LocationKey
+- name: Unknown12
+- name: Unknown13
+- name: Unknown14
+- name: Unknown15
+- name: Unknown16
 - name: Unknown11 # uses the same indexer as BNpcResist.Unknown0
   type: array
   count: 11
