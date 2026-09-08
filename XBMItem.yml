@@ -1,18 +1,19 @@
 name: XBMItem
 fields:
-- name: Unknown0
-- name: Unknown1
-- name: Unknown2
-- name: Unknown3
-- name: Unknown4
-- name: Unknown5
-- name: Unknown6
-- name: Unknown7
-- name: Unknown8
-- name: Unknown9
-- name: Unknown10
-- name: Unknown11
-- name: Unknown12
-- name: Type
-  type: link
-  targets: [XBMItemType]
+  - name: Singular
+  - name: Plural
+  - name: Name
+  - name: Description
+  - name: ShortDescription
+  - name: Adjective
+  - name: PossessivePronoun
+  - name: StartsWithVowel
+  - name: Countability
+  - name: Pronoun
+  - name: Article
+  - name: Icon
+    type: icon
+  - name: SellPrice # in territory tokens
+  - name: Type
+    type: link
+    targets: [XBMItemType]
