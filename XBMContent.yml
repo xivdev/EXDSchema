@@ -2,8 +2,7 @@ name: XBMContent
 fields:
 - name: BonusPoints
   type: array
-  count: 32
-- name: Unknown32
+  count: 33
 - name: ContentFinderCondition
   type: link
   targets: [ContentFinderCondition]
