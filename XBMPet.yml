@@ -20,10 +20,11 @@ fields:
       2: [ContentFinderCondition]
 - name: Classification
   comment: Lookup from Addon#R17741 through Addon#R17748 through array in exe .rdata section
-- name: Unknown8
+- name: ParamGrow
+  comment: Main RowId for XBMPetParamGrow where subrow is Rank - 1 
 - name: SatietyMax
 - name: LocationKey
-- name: Unknown12 # Looks to be possible stats base
+- name: Unknown12
   type: array
   count: 5
 - name: InflictsStatus # uses the same indexer as BNpcResist.Unknown0
