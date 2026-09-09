@@ -1,3 +1,4 @@
 name: XBMContentCamp
 fields:
-- name: Unknown0
+- name: FamiliarRecoverCount
+  comment: Based on how they appear from bottom to top
