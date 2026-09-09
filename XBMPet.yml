@@ -18,7 +18,8 @@ fields:
     cases:
       1: [PlaceName]
       2: [ContentFinderCondition]
-- name: Unknown7
+- name: Classification
+  comment: Lookup from Addon#R17741 through Addon#R17748 through array in exe .rdata section
 - name: Unknown8
 - name: SatietyMax
 - name: LocationKey
