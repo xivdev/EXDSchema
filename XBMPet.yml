@@ -1,9 +1,10 @@
 name: XBMPet
 fields:
-- name: Unknown0
-- name: Unknown1
-- name: Unknown2
-- name: Unknown3
+- name: Description
+- name: TrickDescription
+- name: TemperedDescription
+- name: Icon
+  type: icon
 - name: Pet
   type: link
   targets: [Pet]
@@ -17,10 +18,15 @@ fields:
     cases:
       1: [PlaceName]
       2: [ContentFinderCondition]
-- name: Unknown7
-- name: Unknown8
-- name: Unknown9
+- name: Classification
+  comment: Lookup from Addon#R17741 through Addon#R17748 through array in exe .rdata section
+- name: ParamGrow
+  comment: Main RowId for XBMPetParamGrow where subrow is Rank - 1 
+- name: SatietyMax
 - name: LocationKey
-- name: Unknown11 # uses the same indexer as BNpcResist.Unknown0
+- name: Unknown12
+  type: array
+  count: 5
+- name: InflictsStatus # uses the same indexer as BNpcResist.Unknown0
   type: array
   count: 11
