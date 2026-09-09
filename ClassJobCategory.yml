@@ -45,6 +45,6 @@ fields:
   - name: SGE
   - name: VPR
   - name: PCT
+  - name: BST
   - name: Unknown0
   - name: Unknown1
-  - name: Unknown2
