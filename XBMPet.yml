@@ -1,9 +1,10 @@
 name: XBMPet
 fields:
-- name: Unknown0
-- name: Unknown1
-- name: Unknown2
-- name: Unknown3
+- name: BestiaryDescription
+- name: TrickDescription
+- name: TemperedReleaseDescription
+- name: BeastIcon
+  type: icon
 - name: Pet
   type: link
   targets: [Pet]
@@ -19,7 +20,7 @@ fields:
       2: [ContentFinderCondition]
 - name: Unknown7
 - name: Unknown8
-- name: Unknown9
+- name: Satiety
 - name: LocationKey
 - name: Unknown11 # uses the same indexer as BNpcResist.Unknown0
   type: array
