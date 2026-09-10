@@ -20,7 +20,9 @@ fields:
     fields:
       - type: link
         targets: [PetMirage]
-  - name: Unknown18
+  - name: XBMPet
+    type: link
+    targets: [XBMPet]
   - name: Unknown14
   - name: AutoDespawn
   - name: NonCombatSummon
