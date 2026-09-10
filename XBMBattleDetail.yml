@@ -1,4 +1,5 @@
 name: XBMBattleDetail
+displayField: Name
 fields:
 - name: Name
   type: link
