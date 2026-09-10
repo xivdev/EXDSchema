@@ -1,24 +1,25 @@
 name: XBMBattleDetail
+displayField: Name
 fields:
 - name: Name
   type: link
   targets: [BNpcName]
-- name: Unknown1
+- name: Icon
   type: icon
-- name: Unknown2
+- name: Action1
   type: link
   targets: [XBMBattleDetailAction]
-- name: Unknown3
+- name: Action2
   type: link
   targets: [XBMBattleDetailAction]
 - name: Resist
   type: link
   targets: [BNpcResist]
-- name: Unknown5
-- name: Unknown6
-- name: Unknown7
-- name: Unknown8
-- name: Unknown9
+- name: Strength
+- name: Intelligence
+- name: PhysResistance
+- name: MagResistance
+- name: Constitution
 - name: Element
   type: link
   targets: [XBMElement]
