@@ -1,5 +1,13 @@
 name: BNpcResist
 fields:
-- name: Unknown0
-  type: array
-  count: 11
+- name: ResistsSlow
+- name: ResistsPetrify
+- name: ResistsParalysis
+- name: ResistsInterrupt
+- name: ResistsBlind
+- name: ResistsPoison
+- name: ResistsStun
+- name: ResistsSleep
+- name: ResistsBind
+- name: ResistsHeavy
+- name: ResistsDeath

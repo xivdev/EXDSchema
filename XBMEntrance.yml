@@ -1,5 +1,7 @@
 name: XBMEntrance
 fields:
-- name: Unknown0
+- name: UnlockRequirement
+  type: link
+  targets: [Quest]
 - name: Unknown1
 - name: Unknown2

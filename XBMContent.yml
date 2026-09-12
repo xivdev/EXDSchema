@@ -3,6 +3,7 @@ fields:
 - name: BonusPoints
   type: array
   count: 33
+  comment: The array indices map to the rows in XBMScoreBonus 
 - name: ContentFinderCondition
   type: link
   targets: [ContentFinderCondition]

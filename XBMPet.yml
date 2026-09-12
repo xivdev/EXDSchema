@@ -21,12 +21,22 @@ fields:
 - name: Classification
   comment: Lookup from Addon#R17741 through Addon#R17748 through array in exe .rdata section
 - name: ParamGrow
+  type: link
+  targets: [XBMPetParamGrow]
   comment: Main RowId for XBMPetParamGrow where subrow is Rank - 1 
 - name: SatietyMax
 - name: LocationKey
 - name: Unknown12
   type: array
   count: 5
-- name: InflictsStatus # uses the same indexer as BNpcResist.Unknown0
-  type: array
-  count: 11
+- name: InflictsSlow # next 11 use the same indexer as BNpcResist
+- name: InflictsPetrify
+- name: InflictsParalysis
+- name: InflictsInterrupt
+- name: InflictsBlind
+- name: InflictsPoison
+- name: InflictsStun
+- name: InflictsSleep
+- name: InflictsBind
+- name: InflictsHeavy
+- name: InflictsDeath
