@@ -19,6 +19,6 @@ fields:
 - name: Unknown7
 - name: Unknown8
 - name: Unknown9
-- name: Element
+- name: Weakness
   type: link
   targets: [XBMElement]
