@@ -34,7 +34,6 @@ fields:
 - name: InflictsParalysis
 - name: InflictsInterrupt
 - name: InflictsBlind
-  comment: Accuracy Down is considered a Blind in the Beastiary filters but not here
 - name: InflictsPoison
 - name: InflictsStun
 - name: InflictsSleep
