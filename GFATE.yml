@@ -3,7 +3,7 @@ displayField: Type
 fields:
   - name: GFATEParams
     type: array
-    count: 15
+    count: 16
     fields:
       - name: LGBPopRange
         type: link
@@ -13,12 +13,9 @@ fields:
       - name: Unknown0
       - name: Unknown1
       - name: Unknown2
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
-  - name: Unknown3
-  - name: Unknown4
-  - name: Unknown5
+  - name: BGM
+    type: link
+    targets: [BGM]
   - name: Unknown6
   - name: Unknown7
   - name: Unknown8
@@ -26,4 +23,8 @@ fields:
   - name: Type
     type: link
     targets: [GFateType]
-  - name: Unknown11
+  - name: Location
+    comment: |
+      1 = Wonder Square East
+      2 = Event Square
+      3 = Round Square
