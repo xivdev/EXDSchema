@@ -9,5 +9,11 @@ fields:
   - name: UserType
   - name: Unknown1
   - name: Region
-  - name: Unknown2
+    comment: |
+      0 = N/A
+      1 = Global
+      2 = China
+      3 = Korea
+  - name: IsContent
+    comment: For cross-world duties only
   - name: IsPublic
