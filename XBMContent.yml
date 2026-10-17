@@ -9,4 +9,4 @@ fields:
 - name: TeamSize
 - name: RecommendedRank
   comment: Take this value subtract 2. It is how the exe is doing it.
-- name: SynkRank
+- name: SyncRank
