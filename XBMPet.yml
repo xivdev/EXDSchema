@@ -29,6 +29,15 @@ fields:
 - name: Unknown12
   type: array
   count: 5
-- name: InflictsStatus # uses the same indexer as BNpcResist.Unknown0
-  type: array
-  count: 11
+- name: InflictsSlow # next 11 use the same indexer as BNpcResist
+- name: InflictsPetrify
+- name: InflictsParalysis
+- name: InflictsInterrupt
+- name: InflictsBlind
+- name: InflictsPoison
+- name: InflictsStun
+- name: InflictsSleep
+- name: InflictsBind
+- name: InflictsHeavy
+- name: InflictsDeath
+  comment: includes actions that inflict flat damage or cause death
