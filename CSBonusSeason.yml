@@ -1,9 +1,11 @@
 name: CSBonusSeason
 fields:
-  - name: Item
+  - name: Currency1
     type: link
     targets: [Item]
-  - name: Unknown13
+  - name: Currency2
+    type: link
+    targets: [Item]
   - name: Unknown1
   - name: Unknown2
   - name: Category0
