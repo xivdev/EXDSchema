@@ -1,3 +1,4 @@
 name: SEBattle
+displayField: File
 fields:
-  - name: Unknown0
+  - name: File
