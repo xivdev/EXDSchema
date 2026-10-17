@@ -1,24 +1,36 @@
 name: GimmickAccessor
 fields:
-  - name: Param1
+  - name: Param0
     type: link
     condition:
-      switch: Param0
+      switch: Type
       cases:
         2: [GimmickYesNo]
         3: [GimmickYesNo]
+        4: [LogMessage]
         5: [GimmickYesNo]
         6: [GimmickYesNo]
+        7: [LogMessage]
         10: [GimmickYesNo]
         14: [GimmickYesNo]
         17: [GimmickTalk]
         22: [GimmickYesNo]
+  - name: Param1
+    type: link
+    condition:
+      switch: Type
+      cases:
+        3: [LogMessage]
   - name: Param2
+    type: link
+    condition:
+       switch: Type
+       cases:
+         5: [LogMessage]
+  - name: Param3
+  - name: Param4
+  - name: Param5
   - name: Type
-  - name: Unknown0
-  - name: Unknown1
-  - name: Unknown2
-  - name: Param0
   - name: Unknown6
   - name: Unknown3
   - name: Unknown4

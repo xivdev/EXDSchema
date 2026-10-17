@@ -1,4 +1,5 @@
 name: MotionTimeline
+displayField: Filename
 fields:
   - name: Filename
   - name: BlendGroup

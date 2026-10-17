@@ -5,7 +5,8 @@ fields:
     targets: [LogMessage]
   - name: LookupIndex
     comment: Used for certain duties. If not 0, then the client reads from a special unlock/completed array in PlayerState.
-  - name: Unknown2
+  - name: IsCompletable
+    comment: If false, the duty always reports itself as not completed. If LookupIndex != 0, that is used still.
   - name: Unknown3
   - name: Unknown4
   - name: Unknown5

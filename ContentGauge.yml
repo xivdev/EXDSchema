@@ -1,4 +1,5 @@
 name: ContentGauge
+displayField: Name
 fields:
   - name: Name
   - name: TextString
