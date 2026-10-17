@@ -8,7 +8,7 @@ fields:
   - name: GatheringItemLevel
     type: link
     targets: [GatheringItemLevelConvertTable]
-  - name: Unknown2
+  - name: Expansion
   - name: SpearfishingNotebook
     type: link
     targets: [SpearfishingNotebook]
