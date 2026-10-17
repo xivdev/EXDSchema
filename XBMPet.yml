@@ -21,6 +21,8 @@ fields:
 - name: Classification
   comment: Lookup from Addon#R17741 through Addon#R17748 through array in exe .rdata section
 - name: ParamGrow
+  type: link
+  targets: [XBMPetParamGrow]
   comment: Main RowId for XBMPetParamGrow where subrow is Rank - 1 
 - name: SatietyMax
 - name: LocationKey
