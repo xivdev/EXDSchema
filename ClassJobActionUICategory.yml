@@ -1,5 +1,5 @@
 name: ClassJobActionUICategory
-displayName: Name
+displayField: Name
 fields:
   - name: Name
   - name: Description
