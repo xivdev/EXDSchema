@@ -28,7 +28,8 @@ fields:
     comment: Can return to the starting point when dead. Do not confuse with Raise.
   - name: EnableRecommendedDuties
     comment: Opens the Recommended Duties window upon login or area change
-  - name: Unknown20
+  - name: LogNewLocationDiscovered
+    comment: Shows LogMessage#88 when discovering new regions on the map
   - name: DisableMapDiscovery
   - name: DisableFieldMarkers
   - name: Unknown23
@@ -43,14 +44,16 @@ fields:
     comment: Only entities in line of sight will be shown.
   - name: CanPauseTimeWeather
   - name: Unknown33
+    comment: Only inn, private housing, and Island Sanctuary, so something about personal instances.
   - name: EnablePvPQuickChat
   - name: Unknown35
+    comment: Adds some things to the context menu while BoundByDuty56
   - name: EnablePerform
   - name: CanApplyGlamourPlatesAnywhere
-  - name: Unknown38
+  - name: EnableAfkTimer
     comment: Related to idle timer
   - name: EnableFieldMarkerPresets
   - name: IgnoreCombatFlagForMarkers
-  - name: Unknown41
+  - name: EnableBlacklistedChatMessages
     comment: Related to blocking Say/Yell/Shout of a muted player in Eureka/Bozja/OccultCrescent
   - name: Unknown42

@@ -69,19 +69,25 @@ fields:
     targets: [IndividualWeather]
   - name: AchievementIndex
   - name: Unknown6
-  - name: Unknown7
+    comment: In BattleLog.Add, skip the distance/height checks
+  - name: FestivalOverridesWeather
+    comment: Starter cities + housing zones
   - name: PCSearch
   - name: Stealth
   - name: Mount
-  - name: Unknown8
+  - name: IsLargePvpZone
+    comment: Rival Wings and Frontlines
   - name: IsPvpZone
   - name: Unknown9
   - name: IsInUse
   - name: Unknown11
   - name: Unknown12
   - name: Unknown13
+    comment: BattleNPCs use a different sound
   - name: Unknown14
+    comment: Skips vertical distance check for GetActionInRangeOrLoS
   - name: Unknown15
   - name: Unknown16
   - name: Unknown17
   - name: Unknown18
+    comment: Another BattleNPCs use a different sound
